@@ -1,0 +1,680 @@
+asplanviak.no
+1
+Oppdragsgiver:
+Kræmer Eiendom AS
+Oppdragsnavn:
+Detaljregulering Kræmer Nord
+Oppdragsnummer:
+626251-01
+Utarbeidet av:
+Sigrid Rasmussen
+Oppdragsleder:
+Sigrid Rasmussen
+Dato:
+30.09.2022
+Tilgjengelighet:
+Åpent
+Notat fjernvirkning og solforhold Kræmer Nord
+Bakgrunn
+1. De to alternativene
+1.1. Generelt:
+1.2. Alternativ 1, innlevert versjon i plan:
+1.3. Alternativ 2, lavere i nord og høyere i sør
+2. Fjernvirkning i to alternativer
+2.1. Sett fra midten av Tromsøbrua i sør
+2.2. Sett fra småbåthavna i Tromsdalen i sørøst
+2.3. Sett fra Tomasjordnes i øst
+2.4. Sett fra Breivika havn i nord
+2.5. Sett fra Doktordalen/ lekeplass i Dramsvegen i vest
+2.6. Sett fra Valhall idrettsplass i sørvest
+2.7. Samlet vurdering fjernvirkning
+3. Solforhold i to alternativer
+3.1. Sol og skygge 20. april
+3.2. Sol og skygge 20. juni
+3.3. Samlet vurdering solforhold
+4. Samlet vurdering to alternativer
+Versjonslogg:
+01
+30.09.22
+Nytt dokument
+SR
+EK
+VER.
+DATO
+BESKRIVELSE
+AV
+KS
+asplan
+viak
+Oppdragsgiver:
+Oppdragsnavn:
+Oppdragsnummer:
+Utarbeidet av:
+Oppdragsleder:
+Dato:
+Tilgjengelighet:
+Kræmer Eiendom AS
+Detaljregulering Kræmer Nord
+626251-01
+Sigrid Rasmussen
+Sigrid Rasmussen
+30.09.2022
+Åpent
+Notat fjernvirkning og solforhold Kræmer Nord
+Bakgrunn
+1. De to alternativene
+1.1. Generelt:
+1.2. Alternativ 1, innlevert versjon i plan:
+1.3. Alternativ 2, lavere i nord og høyere i sør
+2. Fjernvirkning i to alternativer
+2.1. Sett fra midten av Tromsøbrua i sør
+2.2. Sett fra småbåthavna i Tromsdalen i sørøst
+2.3. Sett fra Tomasjordnes i øst
+2.4. Sett fra Breivika havn i nord
+2.5. Sett fra Doktordalen/ lekeplass i Dramsvegen i vest
+2.6. Sett fra Valhall idrettsplass i sørvest
+2.7. Samlet vurdering fjernvirkning
+3. Solforhold i to alternativer
+3.1. Sol og skygge 20. april
+3.2. Sol og skygge 20. juni
+3.3. Samlet vurdering solforhold
+4. Samlet vurdering to alternativer
+Versjonslogg:
+01
+30.09.22
+Nytt dokument
+SR
+EK
+VER.
+DATO
+BESKRIVELSE
+AV
+KS
+asplanviak.no
+asplanviak.no
+2
+Bakgrunn
+Komplett planmateriale for detaljregulering for Kræmer Brygge Nordøst, plan 1929, ble 
+levert til kommunal behandling den 29.04.21.  Saken ble lagt fram for Kommune- og 
+byutviklingsutvalget den 15.09.22. 
+Det ble gjort følgende vedtak:
+«Saken returneres til administrasjonen. Det legges frem 3D-tegninger, særlig med tanke 
+på å få frem fjernvirkningene av prosjektet. Om mulig legges også frem 3D-tegninger som 
+viser prosjektet med en lavere høyde på BBB6.»
+I dette notatet ønsker vi å imøtekomme dette vedtaket, og har gjort en vurdering av 
+fjernvirkning fra aktuelle ståsteder samt konsekvenser for solforhold for to alternative 
+utforminger av de østligste leilighetsbyggene innen områdene BBB4 og BBB6 jfr. utsnitt 
+av plankart under. 
+Utsnitt av plankart, røde sirkler viser områder med omfordelt volum i de to alternativene
+asplan
+viak
+Bakgrunn
+Komplett planmateriale for detaljregulering for Kræmer Brygge Nordøst, plan 1929, ble
+levert til kommunal behandling den 29.04.21. Saken ble lagt fram for Kommune- og
+byutviklingsutvalget den 15.09.22.
+Det ble gjort følgende vedtak:
+«Saken returneres til administrasjonen. Det legges frem JD-tegninger,særlig med tanke
+på å få frem fjernvirkningene av prosjektet. Om mulig legges også frem JD-tegninger som
+viser prosjektet med en lavere høyde på B8B6.»
+I dette notatet ønsker vi å imøtekomme dette vedtaket, og har gjort en vurdering av
+fjernvirkning fra aktuelle ståsteder samt konsekvenser for solforhold for to alternative
+utforminger av de østligste leilighetsbyggene innen områdene 8884 og 8886 jfr. utsnitt
+av plankart under.
+Utsnitt av plankart, røde sirkler viser områder med omfordelt volum i de to alternativene
+asplanviak.no
+2
+asplanviak.no
+3
+1. De to alternativene
+1.1. Generelt:
+Volum: 
+For å vise to realistiske utbyggingsmuligheter har vi opprettholdt samme volum/ utnyttelse 
+i begge alternativer. Samlet utnyttelse for BBB4-6 er 14 100 BRA. 
+Struktur:
+Et viktig prinsipp i foreslått bebyggelsesstruktur på Kræmer er at de høyeste byggene er 
+trukket noe ut fra det sentrale uterommet, og at man i disse byggene fokuserer på kontakt 
+med sjøen og utsikt. En slik lokalisering av volumene gir optimale forhold når det gjelder 
+dagslys, sol/ skygge, utsikt, opplevelsen av uterommet oppå parkeringsdekket samt 
+generell bokvalitet for alle boligene i området. Det høyeste bygget er i innlevert forslag 
+lagt mot nordøst for å markere starten av området samt skape en dynamikk i området med 
+vareierende høyder. Det nordøstligste bygget vil i tillegg i hovedsak kaste skygge på 
+vannareal. De lavere byggene er trukket helt inn mot felles uterom oppå 
+parkeringsdekket. Disse byggene får en tettere forbindelse mot felles uterom, og skaper 
+en lavere og mer intim situasjon rundt dette.    
+For å være trofast mot dette grunnprinsippet, med høyeste bygg i «hjørnene», har vi i nytt 
+alternativ valgt å flytte planlagt volum fra det nordøstre hjørnet til det sørøstre hjørnet. 
+Den midterste blokka, blokk E/ BBB5, er ikke justert i de to alternativene. Dette fordi en 
+justering av blokk E vil ha negative konsekvenser for felles uterom og daglysforhold i 
+bygningene. 
+Næringbygg Kanal Nord:
+Næringsbygget «Kanal Nord» ligger vest for planområdet i detaljregulering for Kræmer 
+Brygge nordøst, men er en del av Kræmer området. Det foreligger godkjent byggesøknad 
+for dette bygget, og bygging er igangsatt. Bygget vil utgjøre en del av Kræmer bydel, og 
+vi har derfor tatt det med på illustrasjoner i dette notatet.
+Kræmer som del av en helhet:
+På modellbildene under vises planlagt bebyggelse for Kræmer nordøst i sammenheng 
+med dagens situasjon. Når man vurderer illustrasjonene er det derfor viktig å være klar 
+over at Kræmer er det første området som detaljplanlegges i tråd med gjeldende 
+kommunedelplan. Kommunedelplanen legger opp til tett utvikling langs Stakkevollvegen 
+asplan
+viak
+1. De to alternativene
+1.1. Generelt:
+Volum:
+For å vise to realistiske utbyggingsmuligheter har vi opprettholdt samme volum/ utnyttelse
+i begge alternativer. Samlet utnyttelse for BBB4-6 er 14 100 BRA.
+Struktur:
+Et viktig prinsipp i foreslått bebyggelsesstruktur på Kræmer er at de høyeste byggene er
+trukket noe ut fra det sentrale uterommet, og at man i disse byggene fokuserer på kontakt
+med sjøen og utsikt. En slik lokalisering av volumene gir optimale forhold når det gjelder
+dagslys, sol/ skygge, utsikt, opplevelsen av uterommet oppå parkeringsdekket samt
+generell bokvalitet for alle boligene i området. Det høyeste bygget er i innlevert forslag
+lagt mot nordøst for å markere starten av området samt skape en dynamikk i området med
+vareierende høyder. Det nordøstligste bygget vil i tillegg i hovedsak kaste skygge på
+vannareal. De lavere byggene er trukket helt inn mot felles uterom oppå
+parkeringsdekket. Disse byggene får en tettere forbindelse mot felles uterom, og skaper
+en lavere og mer intim situasjon rundt dette.
+For å være trofast mot dette grunnprinsippet, med høyeste bygg i «hjørnene», har vi i nytt
+alternativ valgt å flytte planlagt volum fra det nordøstre hjørnet til det sørøstre hjørnet.
+Den midterste blokka, blokk E/ BBBS, er ikke justert i de to alternativene. Dette fordi en
+justering av blokk E vil ha negative konsekvenser for felles uterom og daglysforhold i
+bygningene.
+Næringbygg Kanal Nord:
+Næringsbygget «Kanal Nord» ligger vest for planområdet i detaljregulering for Kræmer
+Brygge nordøst, men er en del av Kræmer området. Det foreligger godkjent byggesøknad
+for dette bygget, og bygging er igangsatt. Bygget vil utgjøre en del av Kræmer bydel, og
+vi har derfor tatt det med på illustrasjoner i dette notatet.
+Kræmer som del av en helhet:
+På modellbildene under vises planlagt bebyggelse for Kræmer nordøst i sammenheng
+med dagens situasjon. Når man vurderer illustrasjonene er det derfor viktig å være klar
+over at Kræmer er det første området som detaljplanlegges i tråd med gjeldende
+kommunedelplan. Kommunedelplanen legger opp til tett utvikling langs Stakkevollvegen
+asplanviak.no
+3
+asplanviak.no
+4
+generelt, og Midtbyen spesielt. Framtidsbilder for framtidig utvikling av denne bydelen er 
+vist i dokumentet «Storyboard» som kommunen utarbeidet i 2017 som del av 
+kommunedelplanen. Kræmer vil, etter planen, bli det første byggetrinnet i tråd med dette 
+framtidsbildet. 
+Framtidbilde Stakkevollvegen/ Kræmer «Spekulasjoner versjon 1» fra Storyboard 2017 (Tromsø kommune)
+Framtidsbilde Stakkevollvegen sør «Spekulasjoner versjon 1» fra Storyboard 2017 (Tromsø kommune)
+asplan
+viak
+generelt, og Midtbyen spesielt. Framtidsbilder for framtidig utvikling av denne bydelen er
+vist i dokumentet «Storyboard» som kommunen utarbeidet i 2017 som del av
+kommunedelplanen. Kræmer vil, etter planen, bli det første byggetrinnet i tråd med dette
+framtidsbildet.
+Framtidbilde Stakkevollvegen/ Kræmer «Spekulasjoner versjon 1» fra Storyboard 2017 (Tromsø kommune)
+Framtidsbilde Stakkevollvegen sør «Spekulasjoner versjon 1» fra Storyboard 2017 (Tromsø kommune)
+asplanviak.no
+4
+asplanviak.no
+5
+1.2. Alternativ 1, innlevert versjon i plan:
+Bygg D: 9 etg
+Bygg E: 6 etg
+Bygg F: 13 etg 
+1.3. Alternativ 2, lavere i nord og høyere i sør
+Bygg D: 11 etg
+Bygg E: 6 etg
+Bygg F: 11 etg 
+asplan
+viak
+1.2. Alternativ 1, innlevert versjon i plan:
+Bygg D: 9 etg
+Bygg E: 6 etg
+Bygg F: 13 etg
+1.3. Alternativ 2, lavere i nord og høyere i sør
+Bygg D: 11 etg
+Bygg E: 6 etg
+Bygg F: 11 etg
+asplanviak.no
+5
+asplanviak.no
+6
+2. Fjernvirkning i to alternativer 
+Vi har valgt å vurdere fjernvirkning av Kræmer fra et utvalg av ståsteder som vi vurderer 
+som aktuelle. Det blir innlevert 3D modeller av begge alternativene, slik at kommunen selv 
+kan se prosjektet i overordnet modell av byen, og selv kan vurdere fra ønsket standpunkt.
+2.1. Sett fra midten av Tromsøbrua i sør
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør:
+Kommentar/ vurdering:
+Det er liten forskjell på fjernvirkning sett fra brua. Innlevert versjon ser mer variert og 
+spennende ut. Med to like høye bygg, i alternativ to, framstår bebyggelsen som en portal. 
+Byggene bryter ikke silhuetten mot himmelen fra denne vinkelen. Byggene inngår i variert 
+og tett bebyggelse langs Stakkevollvegen. Dette vil bli ytterligere forsterket når 
+omkringliggende områder bygges ut i tråd med KDP.
+asplan
+viak
+2. Fjernvirkning i to alternativer
+Vi har valgt å vurdere fjernvirkning av Kræmer fra et utvalg av ståsteder som vi vurderer
+som aktuelle. Det blir innlevert 3D modeller av begge alternativene, slik at kommunen selv
+kan se prosjektet i overordnet modell av byen, og selv kan vurdere fra ønsket standpunkt.
+2.1. Sett fra midten av Tromsøbrua i sør
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør:
+Kommentar/ vurdering:
+Det er liten forskjell på fjernvirkning sett fra brua. Innlevert versjon ser mer variert og
+spennende ut. Med to like høye bygg, i alternativ to, framstår bebyggelsen som en portal.
+Byggene bryter ikke silhuetten mot himmelen fra denne vinkelen. Byggene inngår i variert
+og tett bebyggelse langs Stakkevollvegen. Dette vil bli ytterligere forsterket når
+omkringliggende områder bygges ut i tråd med KDP.
+asplanviak.no
+6
+asplanviak.no
+7
+2.2. Sett fra småbåthavna i Tromsdalen i sørøst
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Innlevert versjon ser mer variert og spennende ut enn alternativ to. Med to like høye bygg, 
+som i alternativ to, framstår bebyggelsen som en portal. Byggene bryter ikke silhuetten 
+mot himmelen fra denne vinkelen. Byggene inngår i variert og tett bebyggelse langs 
+Stakkevollvegen. Også studentblokkene i Dramsvegen blir en del av det urbane bildet fra 
+denne vinkelen. Byggene vil i enda større grad bli en del av en sammensatt bydel når 
+omkringliggende områder bygges ut i tråd med KDP.
+asplan
+viak
+2.2. Sett fra småbåthavna i Tromsdalen i sørøst
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Innlevert versjon ser mer variert og spennende ut enn alternativ to. Med to like høye bygg,
+som i alternativ to, framstår bebyggelsen som en portal. Byggene bryter ikke silhuetten
+mot himmelen fra denne vinkelen. Byggene inngår i variert og tett bebyggelse langs
+Stakkevollvegen. Også studentblokkene i Dramsvegen blir en del av det urbane bildet fra
+denne vinkelen. Byggene vil i enda større grad bli en del av en sammensatt bydel når
+omkringliggende områder bygges ut i tråd med KDP.
+asplanviak.no
+7
+asplanviak.no
+8
+2.3. Sett fra Tomasjordnes i øst 
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Innlevert versjon ser mer variert og spennende ut. I alternativ to framstår de tre høye 
+byggene, inkludert næringsbygg i sør BKB/ Kanal Sør, som en monoton rekke av like 
+bygg. Byggene bryter ikke silhuetten mot himmelen fra denne vinkelen. Byggene inngår i 
+variert og tett bebyggelse langs Stakkevollvegen. Også studentblokkene i Dramsvegen og 
+høybygg sør på Stakkevollvegen blir en del av det urbane bildet fra denne vinkelen. 
+Byggene vil i enda større grad bli en del av en sammensatt bydel når omkringliggende 
+områder bygges ut i tråd med KDP.
+asplan
+viak
+2.3. Sett fra Tomasjordnes i øst
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Innlevert versjon ser mer variert og spennende ut. I alternativ to framstår de tre høye
+byggene, inkludert næringsbygg i sør BKB/ Kanal Sør, som en monoton rekke av like
+bygg. Byggene bryter ikke silhuetten mot himmelen fra denne vinkelen. Byggene inngår i
+variert og tett bebyggelse langs Stakkevollvegen. Også studentblokkene i Dramsvegen og
+høybygg sør på Stakkevollvegen blir en del av det urbane bildet fra denne vinkelen.
+Byggene vil i enda større grad bli en del av en sammensatt bydel når omkringliggende
+områder bygges ut i tråd med KDP.
+asplanviak.no
+8
+asplanviak.no
+9
+2.4. Sett fra Breivika havn i nord
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Det er liten forskjell på fjernvirkning sett fra Tromsø Havn i Breivika . Innlevert versjon ser 
+mer variert og spennende ut. Byggene bryter ikke silhuetten mot himmelen fra denne 
+vinkelen. Byggene inngår i variert og tett bebyggelse langs Stakkevollvegen. Også 
+studentblokkene i Dramsvegen og høybygg sør på Stakkevollvegen blir en del av det 
+urbane bildet fra denne vinkelen. Byggene vil i enda større grad bli en del av en 
+sammensatt bydel når omkringliggende områder bygges ut i tråd med KDP.
+asplan
+viak
+2.4. Sett fra Breivika havn i nord
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Det er liten forskjell på fjernvirkning sett fra Tromsø Havn i Breivika. Innlevert versjon ser
+mer variert og spennende ut. Byggene bryter ikke silhuetten mot himmelen fra denne
+vinkelen. Byggene inngår i variert og tett bebyggelse langs Stakkevollvegen. Også
+studentblokkene i Dramsvegen og høybygg sør på Stakkevollvegen blir en del av det
+urbane bildet fra denne vinkelen. Byggene vil i enda større grad bli en del av en
+sammensatt bydel når omkringliggende områder bygges ut i tråd med KDP.
+asplanviak.no
+9
+asplanviak.no
+10
+2.5. Sett fra Doktordalen/ lekeplass i Dramsvegen i vest 
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Fra Doktordalen er det ganske stor forskjell på fjernvirkning i de to alternativene. Innlevert 
+versjon ser betydelig mer variert og spennende ut. I alternativ to er det jevnere høyde, og 
+de to byggene framstår som en portal mot fastlandet. Samlet inntrykk er at alternativ to har 
+større volum enn alternativ en, selv om dette ikke er tilfellet. Byggene bryter ikke 
+silhuetten mot himmelen fra denne vinkelen. Byggene inngår i variert og tett bebyggelse 
+langs Stakkevollvegen. Byggene vil i enda større grad bli en del av en sammensatt bydel 
+når omkringliggende områder bygges ut i tråd med KDP.
+asplan
+viak
+2.5. Sett fra Doktordalen/ lekeplass i Dramsvegen i vest
+Alternativ 1, innlevert versjon i plan:
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+Fra Doktordalen er det ganske stor forskjell på fjernvirkning i de to alternativene. Innlevert
+versjon ser betydelig mer variert og spennende ut. I alternativ to er det jevnere høyde, og
+de to byggene framstår som en portal mot fastlandet. Samlet inntrykk er at alternativ to har
+større volum enn alternativ en, selv om dette ikke er tilfellet. Byggene bryter ikke
+silhuetten mot himmelen fra denne vinkelen. Byggene inngår i variert og tett bebyggelse
+langs Stakkevollvegen. Byggene vil i enda større grad bli en del av en sammensatt bydel
+når omkringliggende områder bygges ut i tråd med KDP.
+asplanviak.no
+10
+asplanviak.no
+11
+2.6. Sett fra Valhall idrettsplass i sørvest
+Alternativ 1, innlevert versjon i plan
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+asplan
+viak
+2.6. Sett fra Valhall idrettsplass i sørvest
+Alternativ 1, innlevert versjon i plan
+Alternativ 2, lavere i nord og høyere i sør
+•----"·""'- '.
+-eo-. -·
+-
+.-..,.
+.. -
+-
+-
+in
+-
+- . ,
+·-
+¥
+-
+-
+-
+- " ' " " - . ; < " ' ? _
+.. · -
+.
+•
+,.,.-
+'""""·.·,,.:·.wn,.., ; ; . _ • ( ~ { , _ \ - ; -
+.
+.
+.
+'
+.
+.
+.
+.
+.
+'
+, . , . , .
+•..
+' . · , . · ·
+, , , , . , .
+1 : ; • · '
+.
+•• •
+' -,
+•
+··..-......
+,,.
+.. ,
+. ·...
+...
+•
+•
+•
+.
+1'
+"
+·'>-bf
+.
+' # .
+,_..... --.
+1
+:,•• _•
+•_
+:.
+, - . · . ,
+-
+•
+· : •••
+_ .•.
+, ø . : ; ' P a .
+·..
+,·;. __)
+•
+'
+.
+- - ' : ' .
+"
+••
+'
+•'4
+.. -'->
+·.·
+' .
+• ij
+.):
+•
+'..• i.c
+:
+111111111
+•
+-
+-. -
+· · -
+• --
+'
+_...._
+Kommentar/ vurdering:
+asplanviak.no
+11
+asplanviak.no
+12
+Fra Valhall er det også ganske stor forskjell på fjernvirkning i de to alternativene. Innlevert 
+versjon ser betydelig mer variert og spennende ut. I alternativ to er det jevnere høyde, og 
+de to byggene framstår som en portal mot Tromsøsundet. Samlet inntrykk er at alternativ 
+to har større volum enn alternativ en, selv om dette ikke er tilfellet. Byggene bryter ikke 
+silhuetten mot himmelen fra denne vinkelen. Byggene inngår i variert og tett bebyggelse 
+langs Stakkevollvegen. Byggene vil i enda større grad bli en del av en sammensatt bydel 
+når omkringliggende områder bygges ut i tråd med KDP.
+2.7. Samlet vurdering fjernvirkning
+De to alternativene ser relativt like ut sett fra nord og sør. Sett fra øst og vest er forskjellen 
+større. Det blir her tydeligere at alternativ 1 har en mer dynamisk og variert utforming enn 
+alternativ to. Alternativ to framstår som mer massiv, og de høye byggene blir en mer 
+monoton rekke. De to høye boligbyggene får effekt som en portal fordi de har samme 
+høyde.
+Uansett alternativ vil Kræmer på sikt bli en del av den tette bystrukturen langs 
+Stakkevollvegen, i tråd med intensjonene i KDP. Byggene må derfor sees som en del av en 
+kompleks, helhetlig og urban struktur.
+asplan
+viak
+Fra Valhall er det også ganske stor forskjell på fjernvirkning i de to alternativene. Innlevert
+versjon ser betydelig mer variert og spennende ut. I alternativ to er det jevnere høyde, og
+de to byggene framstår som en portal mot Tromsøsundet. Samlet inntrykk er at alternativ
+to har større volum enn alternativ en, selv om dette ikke er tilfellet. Byggene bryter ikke
+silhuetten mot himmelen fra denne vinkelen. Byggene inngår i variert og tett bebyggelse
+langs Stakkevollvegen. Byggene vil i enda større grad bli en del av en sammensatt bydel
+når omkringliggende områder bygges ut i tråd med KDP.
+2.7. Samlet vurdering fjernvirkning
+De to alternativene ser relativt like ut sett fra nord og sør. Sett fra øst og vest er forskjellen
+større. Det blir her tydeligere at alternativ 1 har en mer dynamisk og variert utforming enn
+alternativ to. Alternativ to framstår som mer massiv, og de høye byggene blir en mer
+monoton rekke. De to høye boligbyggene får effekt som en portal fordi de har samme
+høyde.
+Uansett alternativ vil Kræmer på sikt bli en del av den tette bystrukturen langs
+Stakkevollvegen, i tråd med intensjonene i KDP. Byggene må derfor sees som en del av en
+kompleks, helhetlig og urban struktur.
+asplanviak.no
+12
+asplanviak.no
+13
+3. Solforhold i to alternativer
+De to alternativene vil i ulik grad kaste skygge på uterom om formiddagen og fram til kl 
+15:00. Vi fokuserer derfor på situasjonen i dette tidsrommet.  Etter kl 15 vil skyggen kastes 
+på vannet. For å lett kunne sammenligne har vi stilt alternativene ved siden av hverandre 
+for samme tidspunkt.
+3.1. Sol og skygge 20. april
+20. april kl 9:00:
+ 
+Alternativ 1, innlevert forslag
+    Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering: 
+
+Alternativ to kaster litt mer skygge på regulert nærlek oppå p-dekket
+
+Alternativ en kaster litt mer skygge på Essotomta
+  
+asplan
+viak
+3. Solforhold i to alternativer
+De to alternativene vil i ulik grad kaste skygge på uterom om formiddagen og fram til kl
+15:00. Vi fokuserer derfor på situasjonen i dette tidsrommet. Etter kl 15 vil skyggen kastes
+på vannet. For å lett kunne sammenligne har vi stilt alternativene ved siden av hverandre
+for samme tidspunkt.
+3.1. Sol og skygge 20. april
+20. april kl 9:00:
+Alternativ 1,innlevert forslag
+Alternativ2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+•
+Alternativ to kaster litt mer skygge på regulert nærlek oppå p-dekket
+•
+Alternativ en kaster litt mer skygge på Essotomta
+asplanviak.no
+13
+asplanviak.no
+14
+20.  april kl 10:30
+  
+Alternativ 1, innlevert forslag                                        Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering: 
+
+Ingen forskjell
+20 april kl 12:00:
+  
+Alternativ 1, innlevert alternativ                                Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+asplan
+viak
+20. april kl 10:30
+Alternativ 1,innlevert forslag
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+•
+Ingen forskjell
+20 april kl 12:00:
+Alternativ 1,innlevert alternativ
+Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+asplanviak.no
+14
+asplanviak.no
+15
+20 april kl 15:00
+   
+Alternativ 1, innlevert forslag                                          Alternativ 2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+3.2. Sol og skygge 20. juni
+20 juni kl 9:00:
+  
+Alternativ 1, innlevert forslag                                  Alternativ 2, lavere i nord og høyere i sør                              
+Kommentar/ vurdering: 
+
+Alternativ to kaster litt mer skygge på regulert nærlek oppå p-dekket
+
+Alternativ en kaster litt mer skygge på Essotomta
+asplan
+viak
+20 april kl 15:00
+Alternativ 1,innlevert forslag
+Alternativ2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+3.2. Sol og skygge 20. juni
+20 juni kl 9:00:
+Alternativ 1,innlevert forslag
+Alternativ2, lavere i nord og høyere i sør
+Kommentar/ vurdering:
+•
+Alternativ to kaster litt mer skygge på regulert nærlek oppå p-dekket
+•
+Alternativ en kaster litt mer skygge på Essotomta
+asplanviak.no
+15
+asplanviak.no
+16
+20 juni kl 10:30:
+  
+Alternativ 1, innlevert forslag                                  Alternativ 2, lavere i nord og høyere i sør    
+Kommentar/ vurdering: Ingen forskjell
+                          
+20 juni kl 12:00
+  
+Alternativ 1, innlevert forslag                                  Alternativ 2, lavere i nord og høyere i sør    
+Kommentar/ vurdering: Ingen forskjell
+asplan
+viak
+20 juni kl 10:30:
+Alternativ 1,innlevert forslag
+Alternativ2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+20 juni kl 12:00
+Alternativ 1,innlevert forslag
+Alternativ2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+asplanviak.no
+16
+asplanviak.no
+17
+20 juni kl 15:00
+   
+Alternativ 1, innlevert forslag                                  Alternativ 2, lavere i nord og høyere i sør    
+Kommentar/ vurdering: Ingen forskjell
+                                             
+3.3. Samlet vurdering solforhold
+Kommentar/ vurdering: 
+
+Alternativ en, innlevert forslag, gir noe bedre solforhold om morgenen på 
+nærlekeplass enn alternativ to
+
+Alternativ to, lavere i nord og høyere i sør, gir noe bedre solforhold om morgenen 
+på Esso tomta.
+
+Ellers gir begge alternativene gode solforhold, og det er ingen forskjell på de to.
+4. Samlet vurdering to alternativer
+Alternativ en vurderes å være det beste alternativet fordi det gir den mest spennende, 
+varierte og dynamiske volumoppbyggingen både i nær- og fjernvirkning. Alternativ to 
+framstår som mer massivt og monotont, og de to høye byggene framstår som en portal 
+sett fra øst og vest.
+Solforhold er nesten likt for de to alternativene. 
+asplan
+viak
+20 juni kl 15:00
+Alternativ 1,innlevert forslag
+Alternativ2, lavere i nord og høyere i sør
+Kommentar/ vurdering: Ingen forskjell
+3.3. Samlet vurdering solforhold
+Kommentar/ vurdering:
+•
+Alternativ en, innlevert forslag, gir noe bedre solforhold om morgenen på
+nærlekeplass enn alternativ to
+•
+Alternativ to, lavere i nord og høyere i sør, gir noe bedre solforhold om morgenen
+på Esso tomta.
+•
+Ellers gir begge alternativene gode solforhold, og det er ingen forskjell på de to.
+4. Samlet vurdering to alternativer
+Alternativ en vurderes å være det beste alternativet fordi det gir den mest spennende,
+varierte og dynamiske volumoppbyggingen både i nær- og fjernvirkning. Alternativ to
+framstår som mer massivt og monotont, og de to høye byggene framstår som en portal
+sett fra øst og vest.
+Solforhold er nesten likt for de to alternativene.
+asplanviak.no
+17

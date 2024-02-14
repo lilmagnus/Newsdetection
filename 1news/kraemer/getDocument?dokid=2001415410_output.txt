@@ -1,0 +1,10264 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+01 
+7.juni 2023 
+Revisjon etter kommentarer fra NVE 
+Tone Skogholt  
+Silje R. Ramberg 
+Tone Skogholt  
+00 
+30.mai 2023 
+Vurdering av områdeskredfare 
+Tone Skogholt  
+Silje R. Ramberg 
+Tone Skogholt  
+REV. 
+DATO 
+BESKRIVELSE 
+UTARBEIDET AV 
+KONTROLLERT AV 
+GODKJENT AV 
+ 
+MULTICONSULT | Kvaløyvegen 156 | Postboks 2274, 9269 TROMSØ | Tlf 77 62 26 00 | multiconsult.no 
+NO 910 253 158 MVA 
+ 
+  
+ NOTAT 
+ 
+OPPDRAG 
+Kræmer Alfon DEF 
+DOKUMENTKODE 
+711607‐RIG‐NOT‐015 
+EMNE 
+Geoteknisk vurdering – utredning av 
+områdeskredfare 
+GRADERING 
+Åpen 
+OPPDRAGSGIVER 
+Kræmer Eiendom AS 
+OPPDRAGSLEDER 
+Tone Skogholt  
+KONTAKTPERSON 
+Petter Daae 
+SAKSBEHANDLER 
+Tone Skogholt 
+KOPI: 
+Chinma Rådgivning v/Jan Kåre Gundegjerde 
+ANSVARLIG ENHET  10235011 Geoteknikk nord 
+ 
+SAMMENDRAG 
+Kræmer Eiendom AS planlegger utbygging av boligblokkene Alfon D, E og F. Ny fyllingsfront planlegges 30‐35 m 
+utenfor eksisterende fyllingsfront. 
+Kræmer Eiendom har startet detaljregulering av Alfon DEF. Planen har vært til offentlig høring. NVE har kommet med 
+kommentarer til høringen, der de ber Multiconsult bekrefte at beliggenhet og egenskapene til sprøbruddmaterialet 
+gjør at det ikke er relevant å avgrense og utrede en kvikkleiresone iht. NVE 1/2019 i forbindelse med reguleringsplan. 
+Foreliggende notat er svar på merknaden. 
+Området ved Kræmer er fylt ut og opprinnelig strandsone ligger ca. 200 m innenfor eksisterende fyllingsfront. 
+Opprinnelige masser består av skjellsand/korallsilt over bløt leire. Stedvis er det et morenelag over berg. Leira i sjøen 
+defineres som sprøbruddsmateriale. Fyllmasser er friksjonsmasser iblandet diverse bygningsavfall. 
+Grunnforholdene på denne tomta er typisk for hele østsiden av Tromsøya nord for brua. Langs hele strekningen er det 
+et bløtt leirlag der deler av laget er sprøbruddsmateriale. Det er også registrert lommer av kvikkleire. De siste 40 årene 
+har det vært over 20 grunnbrudd ved utfylling fra land. Ved denne tomta har det vært 2 grunnbrudd. Felles for alle 
+grunnbruddene er at de har vært lokale (rotasjonsskred). Det er ingen grunnbrudd som har bredd seg innover land og 
+berørt tidligere oppfylte områder eller anlegg. Alle inntrufne grunnbrudd kan forklares ved at fyllingen har skjedd for 
+raskt, for høyt eller ved annet avvik fra geoteknisk fyllingsprosedyre. 
+Selv om massetypen klassifiseres som sprøbruddsmateriale, har grunnbruddene vist at massene ikke har typisk 
+sprøbruddoppførsel. I tidligere vurderinger er bruddmekanismen vurdert til nøytralt brudd. 
+Det anbefales derfor at det ikke etableres en faresone i området. Men det anbefales, som NVE har kommentert i den 
+offentlige høringen, at området har tiltaksklasse 3 slik at det blir utført utvidet kontroll av geoteknisk prosjektering.  
+Tiltak medfører større tilflytting av mennesker/personopphold og plasseres i tiltakskategori K4 iht NVE 1/2019. Det 
+anbefales også at kvalitetssikringen av foreliggende notat utføres av uavhengig foretak iht krav for tiltakskategori K4. 
+REV01: Det er sendt forespørsel til NVE om det må utføres kvalitetssikringen av uavhengig foretak for foreliggende 
+notat. NVE mener dette ikke er nødvendig da sprøbruddmaterialet i sjøen ikke berører et større område på land. NVE 
+er også enig i at det ikke er relevant å melde inn en faresone, og lokalstabilitet kan løses i forbindelse med 
+prosjektering. Prosjektering av lokalstabilitet og tiltak må ha tiltaksklasse 3. 
+ 
+ 
+ 
+NOTAT
+OPPDRAG
+Kræmer Alton DEF
+DOKUMENTKODE
+711607-RIG-NOT-015
+EMNE
+Geoteknisk vurdering - utredning av
+områdeskredfare
+GRADERING
+Åpen
+OPPDRAGSGIVER
+Kræmer Eiendom AS
+OPPDRAGSLEDER
+Tone Skogholt
+KONTAKTPERSON
+Petter Daae
+SAKSBEHANDLER
+Tone Skogholt
+KOPI:
+Chinma Rådgivning v/Jan Kåre Gundegjerde
+ANSVARLIG ENHET
+10235011 Geoteknikk nord
+SAMMENDRAG
+Kræmer Eiendom ASplanlegger utbygging av boligblokkene Alfan D, E og F. Ny fyllingsfront planlegges 30-35 m
+utenfor eksisterende fyllingsfront.
+Kræmer Eiendom har startet detaljregulering av Alfan DEF. Planen har vært til offentlig høring. NVEhar kommet med
+kommentarer til høringen, der de ber Multiconsult bekrefte at beliggenhet og egenskapene til sprøbruddmaterialet
+gjør at det ikke er relevant å avgrense og utrede en kvikkleiresone iht. NVE 1/2019 i forbindelse med reguleringsplan.
+Foreliggende notat er svar på merknaden.
+Området ved Kræmer er fylt ut og opprinnelig strandsone ligger ca. 200 m innenfor eksisterende fyllingsfront.
+Opprinnelige masser består av skjellsand/korallsilt over bløt leire. Stedvis er det et morenelag over berg. Leira i sjøen
+defineres som sprøbruddsmateriale. Fyllmasser er friksjonsmasser iblandet diverse bygningsavfall.
+Grunnforholdene på denne tomta er typisk for hele østsiden av Tromsøya nord for brua. Langs hele strekningen er det
+et bløtt leirlag der deler av laget er sprøbruddsmateriale. Det er også registrert lommer av kvikkleire. De siste 40 årene
+har det vært over 20 grunnbrudd ved utfylling fra land. Ved denne tomta har det vært 2 grunnbrudd. Felles for alle
+grunnbruddene er at de har vært lokale (rotasjonsskred). Det er ingen grunnbrudd som har bredd seg innover land og
+berørt tidligere oppfylte områder eller anlegg. AIie inntrufne grunnbrudd kan forklares ved at fyllingen har skjedd for
+raskt, for høyt eller ved annet avvik fra geoteknisk fyllingsprosedyre.
+Selv om massetypen klassifiseres som sprøbruddsmateriale, har grunnbruddene vist at massene ikke har typisk
+sprøbruddoppførsel. I tidligere vurderinger er bruddmekanismen vurdert til nøytralt brudd.
+Det anbefales derfor at det ikke etableres en faresone i området. Men det anbefales, som NVEhar kommentert i den
+offentlige høringen, at området har tiltaksklasse 3 slik at det blir utført utvidet kontroll av geoteknisk prosjektering.
+Tiltak medfører større tilflytting av mennesker/personopphold og plasseres i tiltakskategori K4 iht NVE1/2019. Det
+anbefales også at kvalitetssikringen av foreliggende notat utføres av uavhengig foretak iht krav for tiltakskategori K4.
+REV0l: Det er sendt forespørsel til NVE om det må utføres kvalitetssikringen av uavhengig foretak for foreliggende
+notat. NVE mener dette ikke er nødvendig da sprøbruddmaterialet i sjøen ikke berører et større område på land. NVE
+er også enig i at det ikke er relevant å melde inn en faresone, og lokalstabilitet kan løses i forbindelse med
+prosjektering. Prosjektering av lokalstabilitet og tiltak må ha tiltaksklasse 3.
+01
+7.juni 2023
+Revisjon etter kommentarer fra NVE
+Tone Skogholt
+Silje R. Ramberg
+Tone Skogholt
+00
+30.mai 2023
+Vurdering av områdeskredfare
+Tone Skogholt
+Silje R. Ramberg
+Tone Skogholt
+REV.
+DATO
+BESKRIVELSE
+UTARBEIDET AV
+KONTROLLERT AV
+GODKJENT AV
+MULTICONSULT I Kvaløyvegen 156 I Postboks 2274, 9269 TROMSØ I Tlf 77 62 26 00 I multiconsult.no
+NO 910 253 158 MVA
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 2 av 19 
+Innhold 
+1 
+Innledning ..................................................................................................................................... 4 
+2 
+Grunnlag ....................................................................................................................................... 4 
+ 
+Grunnundersøkelser ............................................................................................................. 4 
+ 
+Tidligere utførte vurderinger ................................................................................................ 5 
+ 
+Kvartærgeologisk kart ........................................................................................................... 6 
+3 
+Områdebeskrivelse ....................................................................................................................... 7 
+4 
+Grunnforhold ................................................................................................................................ 9 
+5 
+Fyllingsaktivitet, grunnbrudd og tidligere vurderinger ............................................................... 11 
+ 
+Bruddmekanismer i tidligere grunnbrudd .......................................................................... 11 
+ 
+Materialparametere ........................................................................................................... 12 
+5.2.1 
+Prøveserie rapport 200402‐002 fra 2005 [2] .............................................................. 12 
+5.2.2 
+Prøveserie rapport 711948‐RIG‐RAP‐002 fra 2013 [4] ............................................... 12 
+5.2.3 
+Prøveserier rapport 711607‐RIG‐RAP‐001 fra 2014 [5] .............................................. 12 
+5.2.4 
+Prøveserie rapport 711607‐RIG‐RAP‐003 fra 2015 [6] ............................................... 13 
+5.2.5 
+Prøveserie rapport 10037‐1 fra 1983 ved Bjørnstrand [1] ......................................... 13 
+5.2.6 
+Prøveserie rapport 6060078‐1 (Rambøll) 2006 ved Stakkevollveien 25 [19] ............. 14 
+5.2.7 
+Oppsummering materialparametere fra CPTU og prøveserier .................................. 14 
+6 
+Utredning av områdeskredfare .................................................................................................. 15 
+ 
+Nøyaktighet av utredningen ............................................................................................... 15 
+ 
+Eksisterende faresoner ....................................................................................................... 15 
+ 
+Marin grense ....................................................................................................................... 16 
+ 
+Aktsomhetsområde ............................................................................................................ 16 
+ 
+Tiltakskategori .................................................................................................................... 17 
+ 
+Gjennomgang av grunnlag .................................................................................................. 17 
+ 
+Befaring og gjennomføring av grunnundersøkelser ........................................................... 18 
+ 
+Skredmekanisme og løsne‐ og utløpsområde .................................................................... 18 
+ 
+Stabilitetsvurdering ............................................................................................................ 18 
+ 
+Kristiske momenter ............................................................................................................ 18 
+7 
+Referanser .................................................................................................................................. 19 
+ 
+Tegninger 
+711607‐RIG‐TEG‐008rev01  
+Borplan (hele området ved Kræmer) 
+ 
+‐703 
+ 
+Sonderingsutskrift boringer på land ved Alfon ABC 
+‐704 
+ 
+Sonderingsutskrift boringer på land ved Alfon ABC 
+‐923rev03  
+Situasjonsplan forkortet rørvegg  
+‐925  
+ 
+Tolking av grunnundersøkelser ‐ sprøbruddsmateriale 
+‐926  
+ 
+Profil: Utstrekning av aktsomhetsområde iht NVE 1/2019 og 9/2020  
+ 
+Prøveserier, Geotekniske data 
+200402  
+‐10 
+ 
+Borhull 3 ‐ 2005 (sjø) 
+ 
+ 
+‐11 
+ 
+Borhull 11 ‐2005 (sjø) 
+711948    
+‐10 
+ 
+Borhull 6 ‐2013 (sjø) 
+‐11 
+ 
+Borhull 21 ‐2013 (sjø) 
+711607‐RIG‐TEG‐10 
+ 
+Borhull 5 ‐2014 (sjø) 
+‐11 
+ 
+Borhull 18 ‐2014 (sjø) 
+‐12 
+ 
+Borhull 21 ‐2014 (sjø) 
+‐13 
+ 
+Borhull 1 – 2015 (land) 
+‐200 
+ 
+Borhull 109 ‐2022 (sjø) 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+Innhold
+l
+Innledning
+4
+2
+Grunnlag
+4
+2.1
+Grunnundersøkelser
+4
+2.2
+Tidligere utførte vurderinger
+5
+2.3
+Kvartærgeologisk kart
+6
+3
+Områdebeskrivelse
+7
+4
+Grunnforhold
+9
+5
+Fyllingsaktivitet, grunnbrudd og tidligere vurderinger
+11
+5.1
+Bruddmekanismer i tidligere grunnbrudd
+11
+5.2
+Materialparametere
+12
+5.2.1
+Prøveserie rapport 200402-002 fra 2005 [2]
+12
+5.2.2
+Prøveserie rapport 711948-RIG-RAP-002 fra 2013 [4]
+12
+5.2.3
+Prøveserier rapport 711607-RIG-RAP-001 fra 2014 [5]
+12
+5.2.4
+Prøveserie rapport 711607-RIG-RAP-003 fra 2015 [6]
+13
+5.2.5
+Prøveserie rapport 10037-1 fra 1983 ved Bjørnstrand [ l ]
+13
+5.2.6
+Prøveserie rapport 6060078-1 (Rambøll) 2006 ved Stakkevollveien 25 [19]
+14
+5.2.7
+Oppsummering materialparametere fra CPTU og prøveserier
+14
+6
+Utredning av områdeskredfare
+15
+6.1
+Nøyaktighet av utredningen
+15
+6.2
+Eksisterende faresoner
+15
+6.3
+Marin grense
+16
+6.4
+Aktsomhetsområde
+16
+6.5
+Tiltakskategori
+17
+6.6
+Gjennomgang av grunnlag
+17
+6.7
+Befaring og gjennomføring av grunnundersøkelser
+18
+6.8
+Skredmekanisme og løsne- og utløpsområde
+18
+6.9
+Stabilitetsvurdering
+18
+6.10
+Kristiske momenter
+18
+7
+Referanser
+19
+Tegninger
+711607-RIG-TEG-008rev01
+-703
+-704
+-923rev03
+-925
+-926
+Borplan (hele området ved Kræmer)
+Sonderingsutskrift boringer på land ved Alfan ABC
+Sonderingsutskrift boringer på land ved Alfan ABC
+Situasjonsplan forkortet rørvegg
+Tolking av grunnundersøkelser - sprøbruddsmateriale
+Profil: Utstrekning av aktsomhetsområde iht NVE1/2019 og 9/2020
+Prøveserier, Geotekniske data
+200402
+-10
+-11
+711948
+-10
+-11
+711607-RIG-TEG-10
+-11
+-12
+-13
+-200
+Borhull 3 - 2005 (sjø)
+Borhull 11 -2005 (sjø)
+Borhull 6 -2013 (sjø)
+Borhull 21 -2013 (sjø)
+Borhull 5 -2014 (sjø)
+Borhull 18 -2014 (sjø)
+Borhull 21 -2014 (sjø)
+Borhull l - 2015 (land)
+Borhull 109 -2022 (sjø)
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 2 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 3 av 19 
+CPTU‐sonderinger, BH 1, 5, 18, 21 og 25 (2014): 
+711607‐RIG‐TEG 
+‐40.10 t.o.m. ‐44.10 
+Udrenert skjærfasthet (Bq korr.) 
+  
+ 
+ 
+‐40.11 t.o.m. ‐44.11 
+Udrenert skjærfasthet (St korr.) 
+  
+ 
+ 
+‐40.12 t.o.m. ‐44.12 
+Udrenert skjærfasthet (SHANSEP) 
+ 
+Tolkning av spesialforsøk (2014): 
+711607‐RIG‐TEG 
+‐75.3 
+ 
+Tolkning av ødometerforsøk BH 
+ 
+ 
+ 
+‐92 
+ 
+Tolkning av treaksialforsøk 
+ 
+10240087‐RIG‐TEG 
+‐900  
+ 
+Situasjonsplan spunt sør for Alfon B og C 
+ 
+ 
+ 
+Vedlegg: 
+Epost fra Tromsø kommune angående merknadene fra NVE.  
+Epost korrespondanse med NVE angående behov for å utføre uavhengig kvalitetssikring av 
+foreliggende notat (områdestabilitet). 
+ 
+ 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+CPTU-sonderinger, BH l, 5, 18, 21 og 25 (2014):
+711607-RIG-TEG
+-40.10 t.o.m. -44.10
+Udrenert skjærfasthet (B, korr.)
+-40.11 t.o.m. -44.11
+Udrenert skjærfasthet (St korr.)
+-40.12 t.o.m. -44.12
+Udrenert skjærfasthet (SHANSEP)
+Tolkning av spesialforsøk (2014):
+711607-RIG-TEG
+-75.3
+-92
+Tolkning av ødometerforsøk BH
+Tolkning av treaksialforsøk
+10240087-RIG-TEG
+-900
+Situasjonsplan spunt sør for Alfan B og C
+Vedlegg:
+Epost fra Tromsø kommune angående merknadene fra NVE.
+Epost korrespondanse med NVE angående behov for å utføre uavhengig kvalitetssikring av
+foreliggende notat (områdestabilitet).
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 3 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 4 av 19 
+1 
+Innledning 
+Kræmer Eiendom AS planlegger utbygging av boligblokkene Alfon D, E og F. Boligblokkene 
+planlegges utenfor eksisterende utfylling ved Kræmer og boligblokkene A, B og C som er 
+oppført/under oppføring. Skisse av planlagt tiltak er vist i Figur 1‐1. 
+ 
+Figur 1‐1: Skisse av planlagte boligblokker Alfon DEF. Boligblokk A er oppført og B og C under oppføring. 
+Ny fyllingsfront for Alfon DEF planlegges 30‐35 m utenfor eksisterende fyllingsfront. I tillegg 
+planlegges det en kaifront med bredde 5‐10 m utenfor den nye fyllingen. 
+Det er sprøbruddmateriale i området og lommer av kvikkleire kan påtreffes.  
+I forbindelse med innsendelse av reguleringsplanen ble det utarbeidet et notat angående 
+byggbarhet for boligblokkene. Det vises til notat 711607‐RIG‐NOT‐011 [12]. Reguleringsplanen har 
+vært ute til offentlig høring. NVE har kommet med merknader angående områdestabilitet.  
+Foreliggende notat omhandler utredning av kvikkleiresone iht. NVEs kvikkleireveileder 1/2019.  
+REV01: Revisjon etter kommentarer fra NVE. 
+2 
+Grunnlag 
+ 
+Grunnundersøkelser 
+Det er utført grunnundersøkelser på området både på sjø og land i flere omganger i forbindelse 
+med det aktuelle utbyggingsprosjekt. Aktuelle grunnundersøkelser er listet opp i Tabell 2‐1. Utførte 
+undersøkelser er vist på borplan tegning nr. 711607‐RIG‐TEG‐008.  
+ 
+ 
+ 
+ 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+l
+Innledning
+Kræmer Eiendom ASplanlegger utbygging av boligblokkene Alfan D, Eog F. Boligblokkene
+planlegges utenfor eksisterende utfylling ved Kræmer og boligblokkene A, B og C som er
+oppført/under oppføring. Skisse av planlagt tiltak er vist i Figur 1-1.
+Figur 1-1: Skisse av planlagte boligblokker A/fon DEF.Boligblokk A er oppført og B og Cunder oppføring.
+Ny fyllingsfront for Alfan DEFplanlegges 30-35 m utenfor eksisterende fyllingsfront. I tillegg
+planlegges det en kaifront med bredde 5-10 m utenfor den nye fyllingen.
+Det er sprøbruddmateriale i området og lommer av kvikkleire kan påtreffes.
+I forbindelse med innsendelse av reguleringsplanen ble det utarbeidet et notat angående
+byggbarhet for boligblokkene. Det vises til notat 711607-RIG-NOT-011 [12]. Reguleringsplanen har
+vært ute til offentlig høring. NVEhar kommet med merknader angående områdestabilitet.
+Foreliggende notat omhandler utredning av kvikkleiresone iht. NVEs kvikkleireveileder 1/2019.
+REV0l: Revisjon etter kommentarer fra NVE.
+2
+Grunnlag
+2.1
+Grunnundersøkelser
+Det er utført grunnundersøkelser på området både på sjø og land i flere omganger i forbindelse
+med det aktuelle utbyggingsprosjekt. Aktuelle grunnundersøkelser er listet opp i Tabell 2-1. Utførte
+undersøkelser er vist på borplan tegning nr. 711607-RIG-TEG-008.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 4 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 5 av 19 
+Tabell 2‐1: Utførte grunnundersøkelser 
+Rapport‐nummer 
+År 
+Oppdragsgiver 
+Prosjekt 
+200402‐2 
+2005 
+Kræmer Eiendom AS 
+Spredte borpunkt på sjø for å få en orientering om 
+grunnforholdene. 
+711109‐1 
+2011 
+Consto AS 
+Eurosparbygget, Stakkevollveien 41 
+711948‐1 og ‐2* 
+2013 
+Consto AS 
+Grunnundersøkelser på sjø og land for Kræmer 
+Brygge 
+711607‐RIG‐RAP‐001 
+2014 
+Kræmer Brygge AS 
+Grunnundersøkelser på sjø som grunnlag for å kunne 
+prosjektere utfylling i sjø langs hele området. 
+711607‐RIG‐RAP‐003 
+2015 
+Kræmer Brygge AS 
+Grunnundersøkelser på land nord for Jan Mayen kaia 
+713754‐1* 
+2017 
+Econor AS 
+Nytt bygg til Statens Vegvesen, Stakkevollveien 37 
+10220533‐RIG‐RAP‐001 
+2020 
+Tromsø kommune 
+Borpunkt langs Stakkevollveien i forbindelse med 
+planlagt 4‐felts vei. 
+711607‐RIG‐RAP‐007 
+2022 
+Kræmer Eiendom AS 
+Grunnundersøkelser på sjø nord for Esso‐kaia 
+*Undersøkelsene ligger utenfor området som er relevant for Alfon DEF. 
+ 
+ 
+Tidligere utførte vurderinger 
+Multiconsult har utført geotekniske vurderinger og geoteknisk prosjektering for mange tiltak på 
+området. Tidligere vurderinger som er aktuell for Alfon DEF er vist i  
+Tabell 2‐2: 
+ 
+Dokument kode 
+År 
+Oppdragsgiver 
+Vurdering/prosjektering 
+711607‐RIG‐RAP‐002 
+2015 
+Kræmer Brygge AS 
+Skisseprosjekt angående utfyllingsplanene for 
+reguleringsplanen som var gjeldende i 2014 
+711607‐RIG‐RAP‐004 
+2018 
+Kræmer Eiendom AS 
+Geoteknisk prosjektering og prosjekteringsforutsetninger 
+utfylling i sjø mellom Stakkevollveien 35‐39 samt forbedring og 
+heving av terrenget ved Alfon A 
+711607‐RIG‐RAP‐005 
+2020 
+Kræmer Eiendom AS 
+Geoteknisk prosjektering og prosjekteringsforutsetninger for 
+utfylling i sjø ved Alfon B og C 
+711607‐RIG‐NOT‐004 
+2014 
+Kræmer Brygge AS 
+Tolking av materialparametre 
+711607‐RIG‐NOT‐006 
+2019 
+Kræmer Eiendom AS 
+Vurdering av grunnbrudd ved Esso‐ kaia 
+711607‐RIG‐NOT‐008 
+2022 
+Kræmer Eiendom AS 
+Utfylling og motfylling sør for Esso‐kaia 
+711607‐RIG‐NOT‐009 
+2022 
+Kræmer Eiendom AS 
+Undersjøisk grunnbrudd nord for Esso kaia 
+711607‐RIG‐NOT‐011 
+2022 
+Kræmer Eiendom AS 
+Byggbarhet Alfon D, E og F 
+711607‐RIG‐NOT‐012 
+2022 
+Kræmer Eiendom AS 
+Detaljprosjektering rørvegg 
+711607‐RIG‐NOT‐013 
+2022 
+Kræmer Eiendom AS 
+Stabilitet utenfor Alfon A og C 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+Tabe/12-1: Utførte grunnundersøke/ser
+Rapport-nummer
+År
+Oppdragsgiver
+Prosjekt
+200402-2
+2005
+Kræmer Eiendom AS
+Spredte borpunkt på sjø for å få en orientering om
+grunnforholdene.
+711109-1
+2011
+Consto AS
+Eurosparbygget, Stakkevollveien 41
+711948-1 og -2*
+2013
+Consto AS
+Grunnundersøkelser på sjø og land for Kræmer
+Brygge
+711607-RIG-RAP-001
+2014
+Kræmer Brygge AS
+Grunnundersøkelser på sjø som grunnlag for å kunne
+prosjektere utfylling i sjø langs hele området.
+711607-RIG-RAP-003
+2015
+Kræmer Brygge AS
+Grunnundersøkelser på land nord for Jan Mayen kaia
+713754-1*
+2017
+Econor AS
+Nytt bygg til Statens Vegvesen, Stakkevollveien 37
+10220533-RIG-RAP-001
+2020
+Tromsø kommune
+Borpunkt langs Stakkevollveien i forbindelse med
+planlagt 4-felts vei.
+711607-RIG-RAP-007
+2022
+Kræmer Eiendom AS
+Grunnundersøkelser på sjø nord for Esso-kaia
+*Undersøkelsene ligger utenfor området som er relevant for Alfan DEF.
+2.2
+Tidligere utførte vurderinger
+Multiconsult har utført geotekniske vurderinger og geoteknisk prosjektering for mange tiltak på
+området. Tidligere vurderinger som er aktuell for Alfan DEF er vist i
+Tabell 2-2:
+År
+Oppdragsgiver
+Vurdering/prosjektering
+Dokument kode
+711607-RIG-RAP-002
+2015
+Kræmer Brygge AS
+Skisseprosjekt angående utfyllingsplanene for
+reguleringsplanen som var gjeldende i 2014
+Geoteknisk prosjektering og prosjekteringsforutsetninger
+711607-RIG-RAP-004
+2018
+Kræmer Eiendom AS
+utfylling i sjø mellom Stakkevollveien 35-39 samt forbedring og
+heving av terrenget ved Alton A
+711607-RIG-RAP-005
+2020
+Kræmer Eiendom AS
+Geoteknisk prosjektering og prosjekteringsforutsetninger for
+utfylling i sjø ved Alton B og C
+711607-RIG-NOT-004
+2014
+Kræmer Brygge AS
+Tolking av materialparametre
+711607-RIG-NOT-006
+2019
+Kræmer Eiendom AS
+Vurdering av grunnbrudd ved Esso- kaia
+711607-RIG-NOT-008
+2022
+Kræmer Eiendom AS
+Utfylling og motfylling sør for Esso-kaia
+711607-RIG-NOT-009
+2022
+Kræmer Eiendom AS
+Undersjøisk grunnbrudd nord for Esso kaia
+711607-RIG-NOT-011
+2022
+Kræmer Eiendom AS
+Byggbarhet Alton D, Eog F
+711607-RIG-NOT-012
+2022
+Kræmer Eiendom AS
+Detaljprosjektering rørvegg
+711607-RIG-NOT-013
+2022
+Kræmer Eiendom AS
+Stabilitet utenfor Alton A og C
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 5 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 6 av 19 
+Tabell 2‐2: Oppsummering geotekniske vurderinger/prosjekteringer som er relevant for Alfon DEF 
+ 
+ 
+Kvartærgeologisk kart 
+Figur 2‐1 viser kvartærgeologisk kart over østre del av Tromsøya. Område for Alfon DEF er markert 
+med rød sirkel. Kartet viser at massene på land er fyllmasser. Marin grense går ved ca. kote 50 på 
+Tromsøya. 
+  
+Figur 2‐1: Kvartærgeologisk kart [15]  
+ 
+ 
+Dokument kode 
+År 
+Oppdragsgiver 
+Vurdering/prosjektering 
+711607‐RIG‐RAP‐002 
+2015 
+Kræmer Brygge AS 
+Skisseprosjekt angående utfyllingsplanene for 
+reguleringsplanen som var gjeldende i 2014 
+711607‐RIG‐RAP‐004 
+2018 
+Kræmer Eiendom AS 
+Geoteknisk prosjektering og prosjekteringsforutsetninger 
+utfylling i sjø mellom Stakkevollveien 35‐39 samt forbedring og 
+heving av terrenget ved Alfon A 
+711607‐RIG‐RAP‐005 
+2020 
+Kræmer Eiendom AS 
+Geoteknisk prosjektering og prosjekteringsforutsetninger for 
+utfylling i sjø ved Alfon B og C 
+711607‐RIG‐NOT‐004 
+2014 
+Kræmer Brygge AS 
+Tolking av materialparametre 
+711607‐RIG‐NOT‐006 
+2019 
+Kræmer Eiendom AS 
+Vurdering av grunnbrudd ved Esso‐ kaia 
+711607‐RIG‐NOT‐008 
+2022 
+Kræmer Eiendom AS 
+Utfylling og motfylling sør for Esso‐kaia 
+711607‐RIG‐NOT‐009 
+2022 
+Kræmer Eiendom AS 
+Undersjøisk grunnbrudd nord for Esso kaia 
+711607‐RIG‐NOT‐011 
+2022 
+Kræmer Eiendom AS 
+Byggbarhet Alfon D, E og F 
+711607‐RIG‐NOT‐012 
+2022 
+Kræmer Eiendom AS 
+Detaljprosjektering rørvegg 
+711607‐RIG‐NOT‐013 
+2022 
+Kræmer Eiendom AS 
+Stabilitet utenfor Alfon A og C 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+Tabe/12-2: Oppsummering geotekniske vurderinger/prosjekteringer som er relevant for A/fon DEF
+År
+Oppdragsgiver
+Vurdering/prosjektering
+Dokument kode
+711607-RIG-RAP-002
+2015
+Kræmer Brygge AS
+Skisseprosjekt angående utfyllingsplanene for
+reguleringsplanen som var gjeldende i 2014
+Geoteknisk prosjektering og prosjekteringsforutsetninger
+711607-RIG-RAP-004
+2018
+Kræmer Eiendom AS
+utfylling i sjø mellom Stakkevollveien 35-39 samt forbedring og
+heving av terrenget ved Alton A
+711607-RIG-RAP-005
+2020
+Kræmer Eiendom AS
+Geoteknisk prosjektering og prosjekteringsforutsetninger for
+utfylling i sjø ved Alton B og C
+711607-RIG-NOT-004
+2014
+Kræmer Brygge AS
+Tolking av materialparametre
+711607-RIG-NOT-006
+2019
+Kræmer Eiendom AS
+Vurdering av grunnbrudd ved Esso- kaia
+711607-RIG-NOT-008
+2022
+Kræmer Eiendom AS
+Utfylling og motfylling sør for Esso-kaia
+711607-RIG-NOT-009
+2022
+Kræmer Eiendom AS
+Undersjøisk grunnbrudd nord for Esso kaia
+711607-RIG-NOT-011
+2022
+Kræmer Eiendom AS
+Byggbarhet Alton D, Eog F
+711607-RIG-NOT-012
+2022
+Kræmer Eiendom AS
+Detaljprosjektering rørvegg
+711607-RIG-NOT-013
+2022
+Kræmer Eiendom AS
+Stabilitet utenfor Alton A og C
+2.3
+Kvartærgeologisk kart
+Figur 2-1 viser kvartærgeologisk kart over østre del av Tromsova. Område for Alfan DEF er markert
+med rød sirkel. Kartet viser at massene på land er fyllmasser. Marin grense går ved ca. kote 50 på
+Tromsova.
+Breivika
+,a
+nklet kartografi
+'I
+)\
+'
+ljq,'
+\
+§
+,
+'?
+<.: ,
+',
+§,
+'
+<:fl
+,:;;- ,
+' l '
+4','
+t::-'
+'o f?,
+,
+'Tromsoysund·
+,
+',
+tunnelen
+,
+''
+Tornasjcr
+neset
+••
+,
+42
+Storstein-/
+Figur 2-1: Kvartærgeologisk kart (15]
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 6 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 7 av 19 
+3 
+Områdebeskrivelse 
+Området ved Kræmer er fylt ut og opprinnelig strandsone ligger ca. 200 m innenfor eksisterende 
+fyllingsfront. Terrenget ligger nå på kote 2‐3. Innvinning av landareal ble utført i hovedsak på 
+1960/1970. Flyfoto av tomten fra 1950 og 1970‐tallet er vist i Figur 3‐1. Ortofoto av tomten fra 
+1952 og 2021 er vist i Figur 3‐2. 
+ 
+ 
+Figur 3‐1: Kræmertomta på 1950‐tallet (øverst) og 1970‐tallet (nederst). Kilde https://kramer.no/historie 
+ 
+ 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+3
+Områdebeskrivelse
+Området ved Kræmer er fylt ut og opprinnelig strandsone ligger ca. 200 m innenfor eksisterende
+fyllingsfront. Terrenget ligger nå på kote 2-3. Innvinning av landareal ble utført i hovedsak på
+1960/1970. Flyfoto av tomten fra 1950 og 1970-tallet er vist i Figur 3-1. Ortofoto av tomten fra
+1952 og 2021 er vist i Figur 3-2.
+Figur 3-1: Kræmertomta på 1950-tallet (øverst) og 1970-tallet (nederst). Kilde https://kramer.no/historie
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 7 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 8 av 19 
+ 
+ 
+Figur 3‐2: Ortofoto av området fra 1952 og 2021. Blå linje viser omtrentlig dagens fyllingsfront/kaifront. 
+Utenfor Alfon A viser ortofoto at det har vært samme fyllingsfront siden 1999. Utenfor Alfon C er 
+det innvunnet landareal med opptil 20 m.  
+Mot bukta i sør var det først prosjektert motfylling langs dette området for å ha tilfredsstillende 
+stabilitet. Men byggherre ønsket en vertikal front for å hensynta vanntilførsel til kollektorer og det 
+ble derfor etablert en spuntvegg, ref. 10240087‐RIG‐TEG‐900 som er vedlagt.  
+  
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+f'
+. ; j
+.j
+!J
+.•.
+Figur 3-2: Ortofoto av området fra 1952 og 2021. Blå linje viser omtrentlig dagensfy/Jingsfront/kaifront.
+Utenfor Alfan A viser ortofoto at det har vært samme fyllingsfront siden 1999. Utenfor Alfan C er
+det innvunnet landareal med opptil 20 m.
+Mot bukta i sør var det først prosjektert motfylling langs dette området for å ha tilfredsstillende
+stabilitet. Men byggherre ønsket en vertikal front for å hensynta vanntilførsel til kollektorer og det
+ble derfor etablert en spuntvegg, ref. 10240087-RIG-TEG-900 som er vedlagt.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 8 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 9 av 19 
+4 
+Grunnforhold 
+Langs østsiden av Tromsøya, fra Hansjordnesbukta til Skattøra, er det bløt leire i sjøen, og dette 
+leirlaget strekker seg flere steder innover marbakken. Stedvis er det lommer av kvikkleire. 
+Langs området på Kræmer finnes dette leirlaget under fyllingen og kanskje helt inn mot opprinnelig 
+strandlinje, som er opp til 200 m fra dagens fyllingsfront. 
+Løsmassetykkelsen var opprinnelig mellom 4 og 8 m i sjøen. Massene består av et øvre lag med 
+korallsilt/‐skjellsand og et underliggende lag av bløt leire. Sonderingsmotstanden er liten i disse 
+lagene og overgangen mellom lagene er kun mulig å se på prøveserier/CPTU.  
+Over berg er det flere steder et morenelag med tykkelse 0‐2 m.  
+Leirlaget i sjøen består av bløt leire med udrenert skjærfasthet mellom 10 og 20 kPa. Omrørt 
+skjærstyrke er mellom 1 og 2 kPa og vil si at leiren er å betrakte som sprøbruddmateriale, men den 
+er ikke kvikk. Det er imidlertid påvist kvikkleire i sjøen andre steder i nærområdet (ved nabotomta 
+Bjørnstrand og utenfor Politihuset, Stakkevollveien nr.9).  
+På land er skjærfastheten til leira økt, som følge av økt belasting på leira på grunn av opp fyllingen 
+utført for flere tiår siden. I tillegg til dagens fylling har det vært lagret masser samt andre ting på 
+tomten, som også har medført økt konsolidering av leira. Det er tatt opp en prøve av leirlaget på 
+land, borpunkt 1‐2015. Geotekniske data og sonderingsutskrift samt plassering er vist i Figur 4‐1. 
+Udrenert skjærfasthet, SuD, fra konus og enaks varierer mellom 15‐50 kPa, som tilsvarer SuA mellom 
+22‐75kPa.  
+ 
+Figur 4‐1: Geotekniske data og sonderingsutskrift av borpunkt 1‐2015 som er utført på land  
+Skjærfastheten til leira som har vært påvirket av opplasting (fylling/motfylling), antas noe økt i 
+forhold til leirlaget i sjøen som ikke har vært påvirket av fyllinger. Økning i sonderingsmotstand fra 
+borpunkt inn mot land (påvirket av oppfylling) er vist i Figur 4‐2. 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+4
+Grunnforhold
+Langs østsiden av Tromsøya, fra Hansjordnesbukta til Skattøra, er det bløt leire i sjøen, og dette
+leirlaget strekker seg flere steder innover marbakken. Stedvis er det lommer av kvikkleire.
+Langs området på Kræmer finnes dette leirlaget under fyllingen og kanskje helt inn mot opprinnelig
+strandlinje, som er opp til 200 m fra dagens fyllingsfront.
+Løsmassetykkelsen var opprinnelig mellom 4 og 8 m i sjøen. Massene består av et øvre lag med
+korallsilt/-skjellsand og et underliggende lag av bløt leire. Sonderingsmotstanden er liten i disse
+lagene og overgangen mellom lagene er kun mulig å se på prøveserier/CPTU.
+Over berg er det flere steder et morenelag med tykkelse 0-2 m.
+Leirlaget i sjøen består av bløt leire med udrenert skjærfasthet mellom 10 og 20 kPa. Omrørt
+skjærstyrke er mellom l og 2 kPa og vil si at leiren er å betrakte som sprøbruddmateriale, men den
+er ikke kvikk. Det er imidlertid påvist kvikkleire i sjøen andre steder i nærområdet (ved nabotomta
+Bjørnstrand og utenfor Politihuset, Stakkevollveien nr.9).
+På land er skjærfastheten til leira økt, som følge av økt belasting på leira på grunn av opp fyllingen
+utført for flere tiår siden. I tillegg til dagens fylling har det vært lagret masser samt andre ting på
+tomten, som også har medført økt konsolidering av leira. Det er tatt opp en prøve av leirlaget på
+land, borpunkt 1-2015. Geotekniske data og sonderingsutskrift samt plassering er vist i Figur 4-1.
+Udrenert skjærfasthet, Suo, fra konus og enaks varierer mellom 15-50 kPa, som tilsvarer SuAmellom
+22-75kPa.
+§
+Beskrivelse
+iii
+£
+Vanninnhold(%)
+og konsistensgrenser
+10
+20
+30
+40
+50
+....
+J ( ; !
+i j j
+Udrenen skjærfasthet (kPa) 51
+Ö: £ å.
+10
+20
+30
+40
+50
+(-)
+GRUS. sandig. slitig
+I
+metallbiter.trebiter
+s
+i
+g
+.
+. s a . l e l 1 A T A L -
+1--
+_
+_
+pl!ru!tr.td_!!
+D
+p
+slltlg. grusig. sandlg. lelrlg. MATERIAL I
+1--
+-
+-
+k o g s k j l r e s
+I
+LEIRE
+I
+t--
+_
+_
+_
+1'5J!,llrestit:
+K
+LEIRE. siltig
+I
+K t - + - + - - + - h l c ! r + + - + - a r - +
+enk.gruskom.skjellrester
+1--
+_
+_
+_____D08llU!!lrestif •
+K ,-,r1,fl=ffil'-i-t-
+,o
+D
+C
+1.87
+1.92
+48
+J
+I
+H
+P- v
+6
+4
+(
+12.02
+43
+0-
+'
+-5
+'
+· - .
+2
+I
+-10
+1-2015
+@)
+7
+.,.
+1..2::S.
+I.--
+=f:c:==--
+:;:=-
+1--5--
+t-
+j'.,.J
+H
+'l
+,)
+_;,.
+,__
+r
+:<
+v
+-
+...c-
+t
+?
+/\
+.s
+JOO
+200
+100
+-
+I
+10
+20
+JO
+ordMI Bortid, sim
+,t
+For
+kN
+I
+I
+I
+I
+2
+J
+Figur 4-1: Geotekniske data og sonderingsutskrift av borpunkt 1-2015 som er utført på land
+Skjærfastheten til leira som har vært påvirket av opplasting (fylling/motfylling), antas noe økt i
+forhold til leirlaget i sjøen som ikke har vært påvirket av fyllinger. Økning i sonderingsmotstand fra
+borpunkt inn mot land (påvirket av oppfylling) er vist i Figur 4-2.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 9 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 10 av 19 
+ 
+Figur 4‐2:Sonderingsutskrift av borpunkt på land 1‐2015, og borpunkt på sjø 107 (noe oppfylling over sonderingen) og 5 
+(utført i 2013 og ingen påvirkning av fyllmasser).   
+Ved dagens fyllingsfront indikerer boringer at det er en forhøyning på berghorisonten. Borpunkt 8‐
+2015 og 11‐2015 viser antatt berg på kote minus 5,6 og kote minus 6,9. Boringene ca. 20 meter 
+innenfor fyllingsfronten viser antatt berg under kote minus 10, ref Figur 4‐3. På land består utfylte 
+masser av friksjonsmasser iblandet diverse bygningsavfall.  
+Stedvis er sjøbunnen nå dekt av rester av motfyllingen, mest sprengstein, men også noe 
+sandmasser fra første del av motfyllingen. Sjøbunnen ligger lavere enn i 2019 som indikerer at øvre 
+lag av de opprinnelige massene er ført med skredet videre nedover sjøbunnen og ut i sundet. 
+For mer informasjon om grunnforhold vises det til rapport nr. 711607‐RIG‐RAP‐003 [6] som 
+omhandler grunnundersøkelser på land og rapport nr. 711607‐RIG‐RAP‐007 [7] som omhandler 
+grunnundersøkelser på sjø, nord for Essokaia utført etter grunnbrudd. 
+   
+Figur 4‐3: Utklipp av borplan som viser bergnivået ved og innenfor dagens fyllingsfront. 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+1-2015
+107
+e
+5
+i
+c
+10
+15
+300
+100
+100
+Bortid, sim
+';/
+/'
+10
+10
+30
+FDT
+kN
+300
+100
+100
+Bortid, sim
+10
+10
+FDT
+kN
+30
+5
+-5.B ©
+Spyletrykk, MPa
+300
+100
+100
+Bortid, sim
+f---1
+-
+-
++
+-
+-
+F
+Spyletrykk, MPa
+10
+10
+FDT
+kN
+30
+Spyletrykk, MPo
+Figur 4-2:Sonderingsutskrift av borpunkt på land 1-2015, og borpunkt på sjø 107 (noe oppfylling over sonderingen) og 5
+(utført i 2013 og ingen påvirkning avfyllmasser).
+Ved dagens fyllingsfront indikerer boringer at det er en forhøyning på berghorisonten. Borpunkt 8-
+2015 og 11-2015 viser antatt berg på kote minus 5,6 og kote minus 6,9. Boringene ca. 20 meter
+innenfor fyllingsfronten viser antatt berg under kote minus 10, ref Figur 4-3. På land består utfylte
+masser av friksjonsmasser iblandet diverse bygningsavfall.
+Stedvis er sjøbunnen nå dekt av rester av motfyllingen, mest sprengstein, men også noe
+sandmasser fra første del av motfyllingen. Sjøbunnen ligger lavere enn i 2019 som indikerer at øvre
+lag av de opprinnelige massene er ført med skredet videre nedover sjøbunnen og ut i sundet.
+For mer informasjon om grunnforhold vises det til rapport nr. 711607-RIG-RAP-003 [6] som
+omhandler grunnundersøkelser på land og rapport nr. 711607-RIG-RAP-007 [7] som omhandler
+grunnundersøkelser på sjø, nord for Essokaia utført etter grunnbrudd.
+1 3 - 1 0 1 5 1 5 . 0 • 1 . 1
+Alfon
+Figur 4-3: Utklipp av borplan som viser bergnivået ved og innenfor dagensfy/Jingsfront.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE10 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 11 av 19 
+5 
+Fyllingsaktivitet, grunnbrudd og tidligere vurderinger 
+Dagens fylling ved boligblokkene Alfon A og C ble i hovedsak lagt ut på 70‐tallet. Fyllingen har vært 
+der i over 50 år. Utenfor Alfon C er det utført en tilleggsutfylling i forbindelse med oppføring av 
+bygget, men langs resten av strekningen har det ikke vært utfyllingsaktiviteter på land siden 70/80‐
+tallet. 
+Fra 1970/80‐tallet har det vært varierende aktivitet på fyllingen, og stedvis har det vært lagret 
+masser og diverse andre ting på området.  
+Før etablering av boligblokken Alfon A ble det klart at skråningsstabiliteten ut mot sundet ikke var 
+tilfredsstillende. Det ble derfor prosjektert en motfylling for å få tilfredsstillende stabilitet, ref 
+Vedlegg 1A fra rapport 711607‐RIG‐RAP‐004, som viser stabilitetsberegningene. En liten del av 
+motfyllingen ble lagt ut med sandmasser i 2019. Deretter ble det fylt ut fra land forbi det som var 
+prosjektert og søkt utfyllingsgrense. Resultatet var at det gikk et grunnbrudd som tok med seg skalk 
+av nylagt fylling og halve Esso kaia. Grunnbruddet var lokalt. 
+I mars 2021 ble resten av motfyllingen lagt ut med steinmasser. Ved sjøbunnscanning utført i 
+desember 2021 ble det oppdaget at det hadde oppstått et undersjøisk grunnbrudd og at 
+motfyllingen var borte. Multiconsult sin teori er at grunnbruddet oppsto i sammenheng med 
+utleggingen av motfyllingen. Skredkant er tegnet inn på tegning ‐925. Det er også reelt å anta at et 
+noe grunnbrudd oppstå ved riving av Essokaia når tunge betongdekker traff sjøbunnen. Dette er 
+merket av som «skredkant skred nr. 2» på tegning ‐925. Grunnbruddene har vært lokale og det er 
+ikke merket noe på land. 
+Deler av de opprinnelige massene på sjøbunnen ble også tatt med i grunnbruddet, og sjøbunnen 
+ligger lavere enn før grunnbruddet. Dette har medført at skråningsstabiliteten er redusert. Det ble 
+anbefalt å ikke legge ut en ny motfylling da leirlaget i sjøbunnen fortsatt er til stede, og det kan 
+oppstå et nytt grunnbrudd med samme glideflate. 
+Et alternativ for å sikre skråningsstabiliteten var etablering av rørvegg ved eksisterende 
+fyllingsfront. Dette ble utført vinteren 2022/2023 i området utenfor Alfon A. Mellom Alfon A og C er 
+sjøbunnen slakere samt at noe av motfyllingen ligger igjen og her er stabiliteten oppnådd ved 
+nedgraving til kote 2,0 på land. Stabilitetsberegninger er vist i notat nr. 711607‐RIG‐NOT‐013. 
+Rørveggen vil ikke være en permanent løsning da den vil være utsatt for korrosjon. Ved utvidelse av 
+fyllingen, for å etablere boligblokkene Alfon DEF, kan ny fyllingsfot etableres på en ca. 20 m bred 
+mudret renne til fast grunn. I mudringsprosessen vil stabiliteten mot boligblokkene Alfon A og C bli 
+ytterliggere redusert. Det vurderes som stor risiko for at det går grunnbrudd inn mot 
+fyllingsfoten/rørveggen. Området hvor det er etablert rørvegg er sikret, og området mellom Alfon A 
+og C må sikres med eksempelvis rørvegg. 
+Når utfyllingen for Alfon DEF er etablert så vil rørveggen ikke ha noen funksjon lengre.  
+Dersom det oppstår et grunnbrudd inn mot rørveggen, blir det nødvendig med omgående tetting 
+av hullene mellom rørene for å hindre utvasking av masser bak rørveggen.  
+ 
+Bruddmekanismer i tidligere grunnbrudd 
+Grunnforholdene på denne tomta er typisk for hele østsiden av Tromsøya nord for brua. Langs hele 
+strekningen er det et bløtt leirlag der deler av laget er sprøbruddsmateriale. Det er også registrert 
+lommer av kvikkleire. De siste 40 årene har det vært over 20 grunnbrudd ved utfylling fra land. Ved 
+denne tomta har det vært 2 grunnbrudd. Felles for alle grunnbruddene er at de har vært lokale 
+(rotasjonsskred). Det er ingen grunnbrudd som har ført til omseggripende skredaktivitet slik at de 
+har bredd seg innover land og berørt tidligere oppfylte områder eller anlegg. Alle inntrufne 
+grunnbrudd kan forklares ved at fyllingen har skjedd for raskt, for høyt eller ved annet avvik fra 
+geoteknisk fyllingsprosedyre. 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+5
+Fyllingsaktivitet, grunnbrudd og tidligere vurderinger
+Dagens fylling ved boligblokkene Alfan A og Cble i hovedsak lagt ut på 70-tallet. Fyllingen har vært
+der i over 50 år. Utenfor Alfan C er det utført en tilleggsutfylling i forbindelse med oppføring av
+bygget, men langs resten av strekningen har det ikke vært utfyllingsaktiviteter på land siden 70/80-
+tallet.
+Fra 1970/80-tallet har det vært varierende aktivitet på fyllingen, og stedvis har det vært lagret
+masser og diverse andre ting på området.
+Før etablering av boligblokken Alfan A ble det klart at skråningsstabiliteten ut mot sundet ikke var
+tilfredsstillende. Det ble derfor prosjektert en motfylling for å få tilfredsstillende stabilitet, ref
+Vedlegg lA fra rapport 711607-RIG-RAP-004, som viser stabilitetsberegningene. En liten del av
+motfyllingen ble lagt ut med sandmasser i 2019. Deretter ble det fylt ut fra land forbi det som var
+prosjektert og søkt utfyllingsgrense. Resultatet var at det gikk et grunnbrudd som tok med seg skalk
+av nylagt fylling og halve Esso kaia. Grunnbruddet var lokalt.
+I mars 2021 ble resten av motfyllingen lagt ut med steinmasser. Ved sjøbunnscanning utført i
+desember 2021 ble det oppdaget at det hadde oppstått et undersjøisk grunnbrudd og at
+motfyllingen var borte. Multiconsult sin teori er at grunnbruddet oppsto i sammenheng med
+utleggingen av motfyllingen. Skredkant er tegnet inn på tegning -925. Det er også reelt å anta at et
+noe grunnbrudd oppstå ved riving av Essokaia når tunge betongdekker traff sjøbunnen. Dette er
+merket av som «skredkant skred nr. 2» på tegning -925. Grunnbruddene har vært lokale og det er
+ikke merket noe på land.
+Deler av de opprinnelige massene på sjøbunnen ble også tatt med i grunnbruddet, og sjøbunnen
+ligger lavere enn før grunnbruddet. Dette har medført at skråningsstabiliteten er redusert. Det ble
+anbefalt å ikke legge ut en ny motfylling da leirlaget i sjøbunnen fortsatt er til stede, og det kan
+oppstå et nytt grunnbrudd med samme glideflate.
+Et alternativ for å sikre skråningsstabiliteten var etablering av rørvegg ved eksisterende
+fyllingsfront. Dette ble utført vinteren 2022/2023 i området utenfor Alfan A. Mellom Alfan A og C er
+sjøbunnen slakere samt at noe av motfyllingen ligger igjen og her er stabiliteten oppnådd ved
+nedgraving til kote 2,0 på land. Stabilitetsberegninger er vist i notat nr. 711607-RIG-NOT-013.
+Rørveggen vil ikke være en permanent løsning da den vil være utsatt for korrosjon. Ved utvidelse av
+fyllingen, for å etablere boligblokkene Alfan DEF, kan ny fyllingsfot etableres på en ca. 20 m bred
+mudret renne til fast grunn. I mudringsprosessen vil stabiliteten mot boligblokkene Alfan A og C bli
+ytterliggere redusert. Det vurderes som stor risiko for at det går grunnbrudd inn mot
+fyllingsfoten/rørveggen. Området hvor det er etablert rørvegg er sikret, og området mellom Alfan A
+og C må sikres med eksempelvis rørvegg.
+Når utfyllingen for Alfan DEF er etablert så vil rørveggen ikke ha noen funksjon lengre.
+Dersom det oppstår et grunnbrudd inn mot rørveggen, blir det nødvendig med omgående tetting
+av hullene mellom rørene for å hindre utvasking av masser bak rørveggen.
+5.1
+Bruddmekanismer i tidligere grunnbrudd
+Grunnforholdene på denne tomta er typisk for hele østsiden av Tromsøya nord for brua. Langs hele
+strekningen er det et bløtt leirlag der deler av laget er sprøbruddsmateriale. Det er også registrert
+lommer av kvikkleire. De siste 40 årene har det vært over 20 grunnbrudd ved utfylling fra land. Ved
+denne tomta har det vært 2 grunnbrudd. Felles for alle grunnbruddene er at de har vært lokale
+(rotasjonsskred). Det er ingen grunnbrudd som har ført til omseggripende skredaktivitet slik at de
+har bredd seg innover land og berørt tidligere oppfylte områder eller anlegg. AIie inntrufne
+grunnbrudd kan forklares ved at fyllingen har skjedd for raskt, for høyt eller ved annet avvik fra
+geoteknisk fyllingsprosedyre.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE11 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 12 av 19 
+Selv om massetypen klassifiseres som sprøbruddsmateriale, har grunnbruddene vist at massene 
+ikke har typisk sprøbruddoppførsel. I tidligere vurderinger er bruddmekanismen vurdert til nøytralt 
+brudd. 
+ 
+Materialparametere  
+5.2.1 
+Prøveserie rapport 200402‐002 fra 2005 [2] 
+Prøveserie PR.1, tegning nr. 200402‐10, er tatt opp ved punkt 3. Prøveserien er avsluttet ca. 2,75 m 
+under sjøbunnen. Øverst viser prøveserien sandig, leirig silt ned til ca. 1,8 m. Massene har til dels 
+betydelig innhold av koraller og skjell, som gjenspeiles i høye vanninnhold (53,8% ‐ 66,7%). 
+Fra ca. 2,2 m dybde er det registrert siltig leire, med noe innslag av sand, samt koraller og 
+skjellrester. For den siltige leira er det registrert vanninnhold mellom 37,1% og 44,8%, som er over 
+flytegrensen. Leirmassene har uforstyrret skjærstyrke, suk på 6,8 kN/m2, og er middels plastiske og 
+middels sensitive. Omrørt skjærstyrke (s'uk) er 0,6 kN/m2, så leirmassene ligger nær klassifisering 
+som kvikkleire.  
+Prøveserie PR.2, tegning nr. 200402‐11, er tatt opp ved punkt 11. Prøveserien er avsluttet ca. 5,6 m 
+under sjøbunnen. Øverst i prøveserien er det hovedsakelig registrert grusig, leirig silt ned til ca. 2,2 
+m. Massene har betydelig innhold av koraller og skjell, og vanninnholdet varierer fra 42,5% til 
+60,1%. Fra ca. 2,2 m og til bunnen består prøveserien hovedsakelig av siltig og til dels sandig leire, 
+med enkelte innsalg av gruskorn, koraller og skjell. Leirmassene har uforstyrret skjærstyrke, suk fra 
+8,9 kN/m2 til 10 kN/m2, og kan karakteriseres som bløte. 
+5.2.2 
+Prøveserie rapport 711948‐RIG‐RAP‐002 fra 2013 [4] 
+Det er tatt opp to prøveserier av det bløte laget. Det er ved borhull 6 og 21. Prøveseriene er vist på 
+tegning nr. 711948‐RIG‐TEG‐10 og ‐11. Generelt er det 1‐4 meter med skjellsand og korallsilt over 2‐
+4 m med bløt leire.  
+Leira har udrenert skjærfasthet mellom 10‐20 kPa. Omrørt skjærfasthet ligger mellom 1 og 2. 
+Sensitiviteten er mellom 7 og 12, lite til middels sensitivt. Målt vanninnhold er i hovedsak mellom 
+25 og 45%. Naturlig vanninnhold er like over flytegrensen. 
+Typiske korngraderinger er vist i tegning nr. 711948‐RIG‐TEG‐60 og ‐61. 
+Ved borhull 21 er det utført CPTU‐sondering ned til 9 m dybde. Det vises til tegning nr. 711948‐RIG‐
+TEG‐40.1 t.o.m. ‐40.9. Udrenert skjærfasthet i leira er 10 kPa økende til 25 kPa med dybden. 
+Friksjonsvinkelen på leira er større enn φk= 29°. 
+5.2.3 
+Prøveserier rapport 711607‐RIG‐RAP‐001 fra 2014 [5] 
+Det er tatt opp prøveserier ved borehull 5, 18 og 21. Prøveseriene er avsluttet 7‐9m under 
+sjøbunnen. Målt vanninnhold er høyere enn flytegrensen. Omrørt skjærfasthet er i hovedsak 
+mellom 1 og 3 kPa.  
+Prøveserien ved borhull 5 består øverst av ca. 1m med silt med organisk materiale. Under er det et 
+lag med grusig, siltig, sandig, og leirig materiale med korall‐ og skjellrester. Vanninnholdet varierer 
+mellom 57% og 93%. Fra 5 meter dybde er det leire med siltlag/sjikt. Vanninnholdet varierer 
+mellom 25% og 50%. Skjærfasthet fra konus og enaks er mellom 7 kPa og 20 kPa. Omrørt 
+skjærfasthet er mellom 1,0 og 3,7 kPa. Sensitiviteten er mellom 6 og 14. 
+Prøveserien ved borhull 18 består øverst av ca. 1,5m med grusig, siltig, sandig, og leirig materiale 
+med korall‐ og skjellrester. Vanninnholdet varierer mellom 55% og 78%. Under dette er det leire 
+hvor enkelte skjellrester påtreffes. Vanninnholdet mellom 27% og 47%. Skjærfasthet fra konus og 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+Selv om massetypen klassifiseres som sprøbruddsmateriale, har grunnbruddene vist at massene
+ikke har typisk sprøbruddoppførsel. I tidligere vurderinger er bruddmekanismen vurdert til nøytralt
+brudd.
+5.2
+Materialparametere
+5.2.1
+Prøveserie rapport 200402-002 fra 2005 [2]
+Prøveserie PR.l, tegning nr. 200402-10, er tatt opp ved punkt 3. Prøveserien er avsluttet ca. 2,75 m
+under sjøbunnen. Øverst viser prøveserien sandig, leirig silt ned til ca. 1,8 m. Massene har til dels
+betydelig innhold av koraller og skjell, som gjenspeiles i høye vanninnhold (53,8% - 66,7%).
+Fra ca. 2,2 m dybde er det registrert siltig leire, med noe innslag av sand, samt koraller og
+skjellrester. For den siltige leira er det registrert vanninnhold mellom 37,1% og 44,8%, som er over
+flytegrensen. Leirmassene har uforstyrret skjærstyrke, Sukpå 6,8 kN/m2, og er middels plastiske og
+middels sensitive. Omrørt skjærstyrke (s'uk) er 0,6 kN/m2, så leirmassene ligger nær klassifisering
+som kvikkleire.
+Prøveserie PR.2, tegning nr. 200402-11, er tatt opp ved punkt 11. Prøveserien er avsluttet ca. 5,6 m
+under sjøbunnen. Øverst i prøveserien er det hovedsakelig registrert grusig, leirig silt ned til ca. 2,2
+m. Massene har betydelig innhold av koraller og skjell, og vanninnholdet varierer fra 42,5% til
+60,1%. Fra ca. 2,2 m og til bunnen består prøveserien hovedsakelig av siltig og til dels sandig leire,
+med enkelte innsalg av gruskorn, koraller og skjell. Leirmassene har uforstyrret skjærstyrke, Sukfra
+8,9 kN/m2til 10 kN/m2, og kan karakteriseres som bløte.
+5.2.2
+Prøveserie rapport 711948-RIG-RAP-002 fra 2013 [4)
+Det er tatt opp to prøveserier av det bløte laget. Det er ved borhull 6 og 21. Prøveseriene er vist på
+tegning nr. 711948-RIG-TEG-10 og -11. Generelt er det 1-4 meter med skjellsand og korallsilt over 2-
+4 m med bløt leire.
+Leira har udrenert skjærfasthet mellom 10-20 kPa. Omrørt skjærfasthet ligger mellom l og 2.
+Sensitiviteten er mellom 7 og 12, lite til middels sensitivt. Målt vanninnhold er i hovedsak mellom
+25 og 45%. Naturlig vanninnhold er like over flytegrensen.
+Typiske korngraderinger er vist i tegning nr. 711948-RIG-TEG-60 og -61.
+Ved borhull 21 er det utført CPTU-sondering ned til 9 m dybde. Det vises til tegning nr. 711948-RIG-
+TEG-40.l t.o.m. -40.9. Udrenert skjærfasthet i leira er 10 kPa økende til 25 kPa med dybden.
+Friksjonsvinkelen på leira er større enn cf>k= 29°.
+5.2.3
+Prøveserier rapport 711607-RIG-RAP-001 fra 2014 [5]
+Det er tatt opp prøveserier ved borehull 5, 18 og 21. Prøveseriene er avsluttet 7-9m under
+sjøbunnen. Målt vanninnhold er høyere enn flytegrensen. Omrørt skjærfasthet er i hovedsak
+mellom l og 3 kPa.
+Prøveserien ved borhull 5 består øverst av ca. lm med silt med organisk materiale. Under er det et
+lag med grusig, siltig, sandig, og leirig materiale med korall- og skjellrester. Vanninnholdet varierer
+mellom 57% og 93%. Fra 5 meter dybde er det leire med siltlag/sjikt. Vanninnholdet varierer
+mellom 25% og 50%. Skjærfasthet fra konus og enaks er mellom 7 kPa og 20 kPa. Omrørt
+skjærfasthet er mellom 1,0 og 3,7 kPa. Sensitiviteten er mellom 6 og 14.
+Prøveserien ved borhull 18 består øverst av ca. 1,5m med grusig, siltig, sandig, og leirig materiale
+med korall- og skjellrester. Vanninnholdet varierer mellom 55% og 78%. Under dette er det leire
+hvor enkelte skjellrester påtreffes. Vanninnholdet mellom 27% og 47%. Skjærfasthet fra konus og
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE12 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 13 av 19 
+enaks er mellom 7 kPa og 18 kPa. Omrørt skjærfasthet er mellom 0,6 og 2,5 kPa. Sensitiviteten er 
+mellom 6 og 14. 
+Prøveserien ved borhull 21 består øverst av ca. 5m med sandig, leirig silt med korall‐ og skjellrester. 
+Under dette er det 4m med leire med skjellrester. Vanninnholdet i det øverste laget varierer 
+mellom 45% og 70%. I leiren varierer vanninnholdet mellom 20% og 55%. Skjærfasthet fra konus og 
+enaks er mellom 9 kPa og 18 kPa. Omrørt skjærfasthet er mellom 0,8 og 3,5 kPa. Sensitiviteten er 
+mellom 6 og 13.  
+Ødometerforsøk 
+Det er utført ett ødometerforsøk. Resultat av ødometerforsøk er vist i tegning nr. 711607‐RIG‐TEG‐
+75.3. Forsøket er utført på bløt leire i 7,15 m dybde. Modultallet er 15 og konsolideringskoeffisient, 
+cv, er mindre enn 2. 
+Treaksialforsøk 
+Det er utført 2 aktive treaksialforsøk, CAUa. Resultat av treaksialforsøkene er vist i tegning nr. 
+711607‐RIG‐TEG‐92. 
+Forsøkene er utført med konsolideringsspenning lik insitu spenning. Tolkningen av forsøkene viser 
+at leiren i en dybde av 6,5m har en skjærfasthet på ca. 13 kPa. I en dybde av 7,2m har leiren 
+skjærfasthet på ca. 20 kPa. Ved en deformasjon på 0,5‐1% er karakteristisk friksjonsvinkel ϕk = 24° 
+og attraksjonen 5. 
+Volumtøyningen i konsolideringsfasen indikerer at prøvene har blitt forstyrret. Uforstyrrede prøver 
+ville trolig gitt større skjærfasthet på materialet. 
+5.2.4 
+Prøveserie rapport 711607‐RIG‐RAP‐003 fra 2015 [6] 
+Det er tatt opp prøveserie ved borhull 1. Det vises til tegning nr. 711607‐RIG‐TEG‐13. Prøveserien er 
+avsluttet ca. 8,2m under terreng. Grunnen består øverst av 5m med fyllmasser med sand/grus/stein 
+med noe silt og leire. Massene inneholder trevirke, metallbiter og torv. Fra 5 m til 6 m dybde er det 
+siltig, grusig, sandig, leiring materiale med korall‐ og skjellrester. Vanninnholdet er mellom 31 og 
+42%. Fra 6 til 8 m dybde er massene leire og siltig leire med vanninnhold mellom 20 og 35%. Leiren 
+er bløt til middels fast med en skjærstyrke på 15‐50kPa. Sensitiviteten er på mellom 2 og 6 som er 
+lite sensitivt.  
+5.2.5 
+Prøveserie rapport 10037‐1 fra 1983 ved Bjørnstrand [1] 
+ 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+enaks er mellom 7 kPa og 18 kPa. Omrørt skjærfasthet er mellom 0,6 og 2,5 kPa. Sensitiviteten er
+mellom 6 og 14.
+Prøveserien ved borhull 21 består øverst av ca. Sm med sandig, leirig silt med korall- og skjellrester.
+Under dette er det 4m med leire med skjellrester. Vanninnholdet i det øverste laget varierer
+mellom 45% og 70%. l leiren varierer vanninnholdet mellom 20% og 55%. Skjærfasthet fra konus og
+enaks er mellom 9 kPa og 18 kPa. Omrørt skjærfasthet er mellom 0,8 og 3,5 kPa. Sensitiviteten er
+mellom 6 og 13.
+Ødometerforsøk
+Det er utført ett ødometerforsøk. Resultat av ødometerforsøk er vist i tegning nr. 711607-RIG-TEG-
+75.3. Forsøket er utført på bløt leire i 7,15 m dybde. Modultallet er 15 og konsolideringskoeffisient,
+Cv, er mindre enn 2.
+Treaksialforsøk
+Det er utført 2 aktive treaksialforsøk, CAUa. Resultat av treaksialforsøkene er vist i tegning nr.
+711607-RIG-TEG-92.
+Forsøkene er utført med konsolideringsspenning lik insitu spenning. Tolkningen av forsøkene viser
+at leiren i en dybde av 6,Sm har en skjærfasthet på ca. 13 kPa. I en dybde av 7,2m har leiren
+skjærfasthet på ca. 20 kPa. Ved en deformasjon på 0,5-1% er karakteristisk friksjonsvinkel (f)k = 24°
+og attraksjonen 5.
+Volumtøyningen i konsolideringsfasen indikerer at prøvene har blitt forstyrret. Uforstyrrede prøver
+ville trolig gitt større skjærfasthet på materialet.
+5.2.4
+Prøveserie rapport 711607-RIG-RAP-003 fra 2015 [G]
+Det er tatt opp prøveserie ved borhull l. Det vises til tegning nr. 711607-RIG-TEG-13. Prøveserien er
+avsluttet ca. 8,2m under terreng. Grunnen består øverst av Sm med fyllmasser med sand/grus/stein
+med noe silt og leire. Massene inneholder trevirke, metallbiter og torv. Fra 5 m til 6 m dybde er det
+siltig, grusig, sandig, leiring materiale med korall- og skjellrester. Vanninnholdet er mellom 31 og
+42%. Fra 6 til 8 m dybde er massene leire og siltig leire med vanninnhold mellom 20 og 35%. Leiren
+er bløt til middels fast med en skjærstyrke på 15-S0kPa. Sensitiviteten er på mellom 2 og 6 som er
+lite sensitivt.
+5.2.5
+Prøveserie rapport 10037-1 fra 1983 ved Bjørnstrand [ l ]
+Prøveseriene viser at de øverste 4-5 m av grunnen består av
+korallrik silt (korallsilt) som tildels er leirig.
+Under
+denne ligger det siltig leire til leirig silt.
+Naturlig
+vanninnhold i korallsilten er meget høyt, "'"" 60%.
+I de
+underliggende silt-/leirmassene er w=ca. 40%.
+De hØye vann-
+innholdene sammen med meget lav sonderingsmotstand indikerer
+at massene er meget kompressible.
+Korallsilten må videre an-
+tas å være lett eroderbar ved strøm- og bØlgepåkjenning.
+Leiravsetningene i PR.I har en udrenert skjærstyrke su=10
+-20 kN/m2 og er lite til middels sensitiv.
+TreaksialforsØk
+på denne leira viser at materialens bruddtype kan vurderes
+som nøytral.
+Ved en aksial deformasjon på 2% mobiliseres
+skjærfasthetsparametre på =29,10 (friksjonsvinkel) og a=
+5 kN/m2 (attraksjon).
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 13 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 14 av 19 
+5.2.6 
+Prøveserie rapport 6060078‐1 (Rambøll) 2006 ved Stakkevollveien 25 [19] 
+ 
+5.2.7 
+Oppsummering materialparametere fra CPTU og prøveserier 
+For oppsummering av materialparametere fra CPTU og prøveserier vises det til Tabell 5‐1. 
+Tabell 5‐1 oppsummerer skjærfasthet og friksjonsvinkel på leira fra CTPU og prøveserier fra grunnundersøkelser ved og 
+utenfor Alfon ABC samt naboeiendommene Bjørnstrand og Stakkevollveien 25. 
+*Prøveserier som er ved og utenfor Alfon ABC 
+Grunnundersøkelser ved nabotomt i nord og sør 
+ 
+ 
+ 
+Borpunkt 
+Skjærstyrke, aktiv (SUA) kPa 
+Friksjonsvinkel, ϕ⁰ 
+ 
+Dybde 
+m 
+Konus, enaks, treaks 
+kPa 
+(SUD)         (SUA) 
+CPTU  
+kPa 
+CPTU 
+° 
+ Treaks 
+° 
+3‐2005* 
+2‐3 
+7 
+10 
+‐ 
+‐ 
+‐ 
+11‐2005 
+4‐6 
+7‐20 
+10‐30 
+‐ 
+‐ 
+‐ 
+6‐2013 
+1‐5 
+9‐22 
+14‐33 
+‐ 
+‐ 
+‐ 
+21‐2013 
+3,5‐7 
+7‐17 
+11‐25 
+10‐25 
+‐ 
+‐ 
+1‐2014* 
+3‐6,5 
+‐ 
+‐ 
+8‐20 
+‐ 
+‐ 
+5‐2014* 
+5‐9 
+8‐21 
+12‐32 
+14‐25 
+‐ 
+‐ 
+18‐2014 
+1,5‐6,5  6‐18 
+9‐27 
+12‐25 
+‐ 
+‐ 
+21‐2014 
+5‐9 
+7,5‐20 
+11‐29 
+10‐22 
+‐ 
+ϕ=24⁰, a=5 
+(0,5‐1% deformasjon) 
+25‐2014 
+4‐8 
+‐ 
+‐ 
+10‐22 
+‐ 
+‐ 
+1‐2015* 
+6‐8,2 
+16‐49 
+24‐74 
+‐ 
+‐ 
+‐ 
+Bjørnstrand 
+PR.1‐1983 
+4‐6 
+10‐17 
+15‐27 
+ 
+ 
+ϕ=29⁰, a=5 
+(2% deformasjon ‐
+brudd) 
+Stakkevollveien 
+25‐27 
+7‐2006 
+4‐6 
+7‐15 
+17‐25 
+ 
+ 
+ϕ=27⁰, a=5 
+(1% deformasjon) 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+5.2.6
+Prøveserie rapport 6060078-1 (Rambøll) 2006 ved Stakkevollveien 25 [19)
+Prøveserien tatt opp ved punkt 7 viser øverst et sandlag i tykkelse ca 0,5 m,
+over leire, silt og kalkkonkresjoner, til dybde ca 3 m. Videre i dybden er det
+noe sand/silt over leire, med enkelte gruskorn.
+Leira er meget bløt, med udrenert skjærstyrke ca 10 - 15 kPa.
+5.2.7
+Oppsummering materialparametere fra CPTU ogprøveserier
+For oppsummering av materialparametere fra CPTU og prøveserier vises det til Tabell 5-1.
+Tabe/15-1 oppsummerer skjærfasthet og friksjonsvinkel på leira fra CTPU og prøveserierfra grunnundersøke/ser ved og
+utenfor A/fon ABCsamt naboeiendommene Bjørnstrand og Stakkevollveien 25.
+Borpunkt
+Skjærstyrke, aktiv (SuA) kPa
+Friksjonsvinkel, q,0
+Dybde
+Konus, enaks, treaks
+CPTU
+CPTU
+Treaks
+kPa
+kPa
+0
+0
+m
+(Suo)
+(SuA)
+3-2005*
+2-3
+7
+10
+-
+-
+-
+11-2005
+4-6
+7-20
+10-30
+-
+-
+-
+6-2013
+1-5
+9-22
+14-33
+-
+-
+-
+21-2013
+3,5-7
+7-17
+11-25
+10-25
+-
+-
+1-2014*
+3-6,5
+-
+-
+8-20
+-
+-
+5-2014*
+5-9
+8-21
+12-32
+14-25
+-
+-
+18-2014
+1,5-6,5
+6-18
+9-27
+12-25
+-
+-
+21-2014
+5-9
+7,5-20
+11-29
+10-22
+-
+c.p=24°, a=5
+(0,5-1% deformasjon)
+25-2014
+4-8
+-
+-
+10-22
+-
+-
+1-2015*
+6-8,2
+16-49
+24-74
+-
+-
+-
+Bjørnstrand
+4-6
+10-17
+15-27
+c.p=29°, a=5
+PR.1-1983
+(2% deformasjon -
+brudd)
+Stakkevollveien
+4-6
+7-15
+17-25
+c.p=27°, a=5
+25-27
+(1% deformasjon)
+7-2006
+*Prøveserier som er ved og utenfor Alfan ABC
+Grunnundersøkelser ved nabotomt i nord og sør
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 14 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 15 av 19 
+6 
+Utredning av områdeskredfare 
+ 
+Nøyaktighet av utredningen 
+Kræmer Eiendom har startet detaljregulering av Alfon DEF. Planen har vært til offentlig høring og 
+NVE har kommet med kommentarer til høringen, ref Figur 6‐1.  
+ 
+Figur 6‐1: Merknader fra NVE etter offentlig høring av detaljregulering for Alfon DEF. Merknadene er kun kommet i epost 
+og denne er vedlagt. 
+Før innsending av detaljregulering utarbeidet Multiconsult er notat angående byggbarhet for Alfon 
+DEF, ref notat ‐011 [12]. Notatet omhandler stabiliserende tiltak for å få en trygg byggegrunn. Det 
+er ikke tidligere utført en soneutredning for området, da alle grunnbrudd har vært lokale og ikke 
+hatt sprøbruddsoppførsel. For alle tiltak som er utført etter 2013 (Kræmer Brygge, utfyllinger, Alfon 
+A og BC) er det vist til at grunnbruddene har vært lokale og bruddmekanismen er vurdert til nøytral 
+(ref avsnitt 5.1).  
+Da det er komment kommentarer fra NVE utarbeides det nå en utredningen av områdeskredfare 
+etter tabell 3.1 i kapittel 3.2 i NVEs veileder 1/2019 [16]. 
+ 
+Eksisterende faresoner 
+Det er kjent at det er like grunnforhold langs hele østsiden av Tromsøya fra brua og nordover. Det 
+er kun en registrert faresone i området og den er 2,4 km nordover (Nygård 1800) og er utarbeidet 
+av NGI med bakgrunn i ett borpunkt i forbindelse med kvikkeleirekartlegging i Tromsø i 2012 [18]. 
+Kart som viser nærmeste faresone, er vist i  Figur 6‐2. Sonen har faregrad lav, konsekvens alvorlig 
+og risikoklasse 3. 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+6
+Utredning av områdeskredfare
+6.1
+Nøyaktighet av utredningen
+Kræmer Eiendom har startet detaljregulering av Alfan DEF. Planen har vært til offentlig høring og
+NVEhar kommet med kommentarer til høringen, ref Figur 6-1.
+Merknader fra NVE:
+1.
+NVE ber Multiconsult bekrefte at beliggenhet og egenskapene til sprøbruddmaterialet gjør at det ikke er
+relevant å avgrense og utrede en kvikkleiresone iht. NVE1/2019 i forbindelse med reguleringsplan.
+2.
+Rapporten beskriver at det er nødvendig med oppstøttingstiltak og at det skal gjøres mudring og fylling i sjø i
+et område hvor det tidligere har vært lokale grunnbrudd under utfylling. Kommunen bør vurdere å plassere
+byggesaken i Tiltaksklasse 3, slik at det blir gjort en utvidet faglig kontroll av den geotekniske
+prosjekteringen og at det blir gjort nødvendig oppfølging i anleggsfasen.
+3.
+Minner om at eventuelle fareområder skal avmerkes som hensynssone (pbl § 12-6} med tilhørende
+bestemmelser (pbl § 12-7) i plankartet. Eventuelle nødvendige risikoreduserende tiltak (sikringstiltak) skal
+være beskrevet.
+Figur 6-1: Merknader fra NVEetter offentlig høring av detaljregulering for A/fon DEF. Merknadene er kun kommet i epost
+og denne er vedlagt.
+Før innsending av detaljregulering utarbeidet Multiconsult er notat angående byggbarhet for Alfan
+DEF, ref notat -011 [12]. Notatet omhandler stabiliserende tiltak for å få en trygg byggegrunn. Det
+er ikke tidligere utført en soneutredning for området, da alle grunnbrudd har vært lokale og ikke
+hatt sprøbruddsoppførsel. For alle tiltak som er utført etter 2013 (Kræmer Brygge, utfyllinger, Alfan
+A og BC)er det vist til at grunnbruddene har vært lokale og bruddmekanismen er vurdert til nøytral
+(ref avsnitt 5.1).
+Da det er komment kommentarer fra NVEutarbeides det nå en utredningen av områdeskredfare
+etter tabell 3.1 i kapittel 3.2 i NVEs veileder 1/2019 [16].
+6.2
+Eksisterende faresoner
+Det er kjent at det er like grunnforhold langs hele østsiden av Tromsøya fra brua og nordover. Det
+er kun en registrert faresone i området og den er 2,4 km nordover (Nygård 1800) og er utarbeidet
+av NGI med bakgrunn i ett borpunkt i forbindelse med kvikkeleirekartlegging i Tromsø i 2012 [18].
+Kart som viser nærmeste faresone, er vist i Figur 6-2. Sonen har faregrad lav, konsekvens alvorlig
+og risikoklasse 3.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE15 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 16 av 19 
+ 
+Figur 6‐2: Kart som viser nærmeste faresone Nygård 1800 (kilde NVE Atlas.no, mai 2023) 
+ 
+Marin grense  
+Området ligger i og ved sjøen og ligger under marin grense. 
+ 
+Aktsomhetsområde 
+Aktsomhetsområder begrenser seg til områder der terrenget tilsier at det kan gå områdeskred. 
+ 
+Følgende kriterier gjelder for områdeskred: 
+ 
+‐ Jevnt hellende terreng brattere enn 1:20 og total skråningshøyde større enn 5 meter 
+‐ Platåterreng med høydeforskjell mer enn 5 meter 
+‐ Maks bakovergripende skredutbredelse er 20 x skråningshøyden 
+‐ Aktsomhetsområdet kan avgrenses av berg i dagen 
+Aktsomhetsområder ligger innenfor 20xskråningshøyde H, der H er målt fra bunnen av 
+skråning.  
+Sjøbunnen flater ut ved kote minus 13‐15. Dersom det tar utgangspunkt i dette så vil 
+aktsomhetsområdet strekke seg mer enn 300m innover mot land som blir helt til 
+Stakkevollveien. Se rød linje i Figur 6‐3 samt rødt område i Figur 6‐4.  
+Da området er i sjøen kan ekstern rapport NVE 9/2020 [17] benyttes for å vurdere 
+aktsomhetsområdet. Det er benyttet helning 1:6 fra kote minus 15 og innover mot land og 
+deretter helning 1:15. Det vises til grønn linje i Figur 6‐3 samt rødt område i Figur 6‐4.   
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+Sor.Finnes
+,
+"Slg0<1tad
+område med like
+Jl.
+.
+grunnforhold
+Sk,elnan.
+Kvoloytlelta
+.
+• Fwviland
+0
+/,'jq'9.
+• Seine•
+1-Wsl,'.!!)ID
+•
+,110 Skarvegrunnen+
+Gammel{IAntne,er
+ROMSSASUOLU j
+Ålgård
+'
+b"''
+0
+.,
+0
+'I>
+., .,
+/
+/TotnHJOrå-
+.._,
+0
+,,...
+1801
+Q:-
+Tdma::.Joldre
+t
+0
+0.5
+1km
+Alton DEF
+Norct/)ellel
+,o<da
+Storstein
+?',/
+n,.
+< w ( ) J , _
+,,.110
+Trom1oy.
++'
+Tromsdq,en,•kstr(\
+Jli?2
+1
+1und
+KartJerket. Geovekst. kommuner og OSM - Geodata AS
+Blefavåm
+Figur 6-2: Kart som viser nærmestefaresone Nygård 1800 (kilde NVEAtlas.no, mai 2023}
+6.3
+Marin grense
+Området ligger i og ved sjøen og ligger under marin grense.
+6.4
+Aktsomhetsområde
+Aktsomhetsområder begrenser seg til områder der terrenget tilsier at det kan gå områdeskred.
+Følgende kriterier gjelder for områdeskred:
+- Jevnt hellende terreng brattere enn 1:20 og total skråningshøyde større enn 5 meter
+- Platåterreng med høydeforskjell mer enn 5 meter
+- Maks bakovergripende skredutbredelse er 20 x skråningshøyden
+- Aktsomhetsområdet kan avgrenses av berg i dagen
+Aktsomhetsområder ligger innenfor 20xskråningshøyde H, der H er målt fra bunnen av
+skråning.
+Sjøbunnen flater ut ved kote minus 13-15. Dersom det tar utgangspunkt i dette så vil
+aktsomhetsområdet strekke seg mer enn 300m innover mot land som blir helt til
+Stakkevollveien. Se rød linje i Figur 6-3 samt rødt område i Figur 6-4.
+Da området er i sjøen kan ekstern rapport NVE9/2020 [17] benyttes for å vurdere
+aktsomhetsområdet. Det er benyttet helning 1:6 fra kote minus 15 og innover mot land og
+deretter helning 1:15. Det vises til grønn linje i Figur 6-3 samt rødt område i Figur 6-4.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE16 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 17 av 19 
+ 
+Figur 6‐3: Utklipp fra tegning ‐926 som viser aktsomhetsområdet iht. Kvikkleireveilederen NVE 1/2019 vist i rødt og 
+ekstern rapport NVE 9/2020 vist med grønt. 
+ 
+Figur 6‐4: Aktsomhetsområdet iht. Kvikkleirevedlederen NVE 1/2019 vist i rødt og ekstern rapport NVE 9/2020 vist med 
+grønt. 
+Utløpsområdet blir i sjø og det gjøres da ikke vurderinger for størrelsen på dette området. Ved 
+planlegging av sjøbunnsinstallasjoner må skredtype og utløpsområde vurderes i detalj. 
+ 
+Tiltakskategori 
+Tiltakskategori (TEK17 § 7‐3) fastsettes ut fra konsekvens for tiltaket ved skred, jf. Tabell 3.2 i NVEs 
+Kvikkleireveileder [16].  
+Tiltak medfører større tilflytting av mennesker/personopphold og plasseres i tiltakskategori K4. 
+ 
+ 
+Gjennomgang av grunnlag 
+Det er utført grunnundersøkelser i flere omganger tidligere i området, ref kapittel 2.1. Det 
+foreligger 2 prøveserier på sjøen og denne viser at leira er sprøbruddsmateriale. Sonderinger i sjøen 
+er tolket til å være sprøbuddsmateriale. 
+Det foreligger 1 prøveserie på land og leira er ikke sprøbruddsmateriale. Hoveddelen av leira på 
+land er tolket til å ikke være sprøbruddsmateriale, foruten om sondering 14, 15 og 17 fra 2015 der 
+det laget med stor sonderingsmotstand er mer enn 6 m tykt.  
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+AKTSOMHETSOMRÅOE IHT 9/2020
+8-2015
+.,
+FRA KOTE 0
+4-2015
+.,
+©
+HELNING 1:15
+ii
+x
+.,
+=
+x
+- = ,
+..
+AKT OMHETSOMRÅOE IHT 1/2019 "'"
+::--
+? - -
+"-.._©
+., FRA-K0fE---1
+.,
+13*20=260M
+1'-, __
+v
+r,;,= ::{ H""t1
+<('-----j
+--
+..
+-
+""'
+I
+/ ..,..-
+.
+...
+·•
+A
+/ -
+'o,'"
+l -A I
+I
+"'
+,.
+1-2005
+s , . ,........
+HELNING no ........,.
+. ,...
+m
+1
+v
+-
+©
+..
+...
+. .
+'o,
+!r
+..
+""''',...'J.
+....
+s,,,,..,. ..,,
+.:
+. . I I +-fä I I WI II' I
+' 0 1 ' "
+I I I
+-.._,
+.,o
+.,o
+F-fA' l.li -%:f
+V\11
+1
+fyl"
+d . .
+-0
+__,,.
+. ...
+. .
+-0
+Profil T-T
+s,,,,tt,. ""'
+'o,'"
+Figur 6-3: Utklippfra tegning -926 som viser aktsomhetsområdet iht. Kvikk/eireveilederen NVE1/2019 vist i rødt og
+ekstern rapport NVE9/2020 vist med grønt.
+II
+I
+/1
+I I ; v-
+.,
+!/11
+< _ .
+111!1
+- - - - ' - : : : : : - : : _
+.
+Ji I I I
+·1 - - -
+-
+v I
+I
+-
+-
+-
+-
+-
+-
+=
+,
+,
+I
+u
+I.,
+--- --
+Figur 6-4: Aktsomhetsområdet iht. Kvikk/eireved/ederen NVE1/2019 vist i rødt og ekstern rapport NVE9/2020 vist med
+grønt.
+Utløpsområdet blir i sjø og det gjøres da ikke vurderinger for størrelsen på dette området. Ved
+planlegging av sjøbunnsinstallasjoner må skredtype og utløpsområde vurderes i detalj.
+6.5
+Tiltakskategori
+Tiltakskategori (TEK17 § 7-3) fastsettes ut fra konsekvens for tiltaket ved skred, jf. Tabell 3.2 i NVEs
+Kvikkleireveileder [16].
+Tiltak medfører større tilflytting av mennesker/personopphold og plasseres i tiltakskategori K4.
+6.6
+Gjennomgang av grunnlag
+Det er utført grunnundersøkelser i flere omganger tidligere i området, ref kapittel 2.1. Det
+foreligger 2 prøveserier på sjøen og denne viser at leira er sprøbruddsmateriale. Sonderinger i sjøen
+er tolket til å være sprøbuddsmateriale.
+Det foreligger l prøveserie på land og leira er ikke sprøbruddsmateriale. Hoveddelen av leira på
+land er tolket til å ikke være sprøbruddsmateriale, foruten om sondering 14, 15 og 17 fra 2015 der
+det laget med stor sonderingsmotstand er mer enn 6 m tykt.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE17 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 18 av 19 
+Utskrift av sonderingene på land er vist i tegning ‐703 og 704 og situasjonsplan med tolkingene er 
+vist i tegning ‐925. 
+ 
+Befaring og gjennomføring av grunnundersøkelser 
+Det er utført flere befaringer til tomten de siste årene. For å ha kontroll på hendelser under vann 
+(skred/erosjon mm) er det utført scanning av sjøbunnen ved utfyllingsarbeider i sjøen.  
+ 
+Skredmekanisme og løsne‐ og utløpsområde 
+Som beskrevet tidligere i notatet har det oppstått 2 grunnbrudd på området. Det første i 2019 ved 
+at utfyllingen fra land ble utført både for langt ut samt før tilstrekkelig motfylling var etablert. I 
+2021 antas grunnbruddet oppstått som følge av at motfylling med sprengstein ble lagt for ujevnt og 
+stedvis for høyt. Det vises til notat ‐006 [9] og 009 [11]. Skredene vurderes å ha vært 
+rotasjonsskred. Skredmassene fra 2021 er fraktet over 100 m ut i sundet, men fra skredet i 2019 så 
+indikerer sjøbunnscanning at massene stoppet opp ved kaikonstruksjonen (Essokaia).   
+Som nevnt i kapittel 5.1 så har grunnbruddene som har oppstått på Kræmer eller i nærliggende 
+områder ikke sprøbruddsoppførsel. Grunnbruddene er lokale, og de har ikke bredd seg bakover. 
+Årsaken til at grunnbrudd har oppstått er at oppfyllingen har skjedd for raskt, for høyt eller ved 
+annet avvik fra geoteknisk fyllingsprosedyre. 
+På grunnlag av foreliggende vurderinger anbefales det derfor at det ikke etableres en formell 
+faresone i området. Det anbefales slik som NVE har kommentert i den offentlige høringen, at 
+området har tiltaksklasse 3 slik at det blir utført utvidet kontroll av geoteknisk prosjektering. 
+ 
+Stabilitetsvurdering 
+Det er utført stabilitetsvurderinger og stabiliserende tiltak for det som er dagens landområde. Det 
+vises til notat ‐013 [14]. Notatet har vært gjennom utvidet kontroll, men kontrollen er ikke sluttført. 
+Kontrollen utføres av AFRY.  
+Området på land har tilfredsstillende stabilitet. For å oppnå dette er det satt ned en rørvegg 
+utenfor Alfon A samt at terrenget på land er senket ned til kote 2,0 ved fyllingsfront videre sørover, 
+ref tegning ‐923.  
+ 
+Kristiske momenter 
+For å etablere boligblokkene DEF vises det til notat 013 [14] som omhandler aktuelle tiltak for å 
+oppnå tilfredsstillende stabilitet av ny utfylling, samtidig som det opprettholdes tilfredsstillende 
+stabilitet i anleggstiden av eksisterende fylling. 
+Det er komplekse løsninger som er foreslått og det bør utarbeides et skisseprosjekt for å gå litt mer 
+i detalj på foreslåtte løsninger. 
+Videre prosjektering anbefales satt i tiltaksklasse 3. Kontrollinstans må involveres tidlig. Det er en 
+fordel om de er med allerede fra utarbeidelse av skisseprosjekt/forprosjekt. Detaljprosjekteringen 
+må være utført og godkjent før arbeider i området kan påbegynnes. 
+Kvalitetssikringen av foreliggende notat utføres av uavhengig foretak. 
+REV01: Det er sendt forespørsel til NVE om det må utføres kvalitetssikringen av uavhengig foretak 
+for foreliggende notat. NVE mener dette ikke er nødvendig da sprøbruddmaterialet i sjøen ikke 
+berører et større område på land. NVE er også enig i at det ikke er relevant å melde inn en 
+faresone, og lokalstabilitet kan løses i forbindelse med prosjektering. Prosjektering av lokalstabilitet 
+og tiltak må ha tiltaksklasse 3. Epost korrespondanse med NVE er vedlagt. 
+ 
+ 
+Kræmer Alton DEF
+multiconsult.no
+Geoteknisk vurdering - områdestabilitet
+Utskrift av sonderingene på land er vist i tegning -703 og 704 og situasjonsplan med tolkingene er
+vist i tegning -925.
+6.7
+Befaring oggjennomføring av grunnundersøkelser
+Det er utført flere befaringer til tomten de siste årene. For å ha kontroll på hendelser under vann
+(skred/erosjon mm) er det utført scanning av sjøbunnen ved utfyllingsarbeider i sjøen.
+6.8
+Skredmekanisme og løsne- og utløpsområde
+Som beskrevet tidligere i notatet har det oppstått 2 grunnbrudd på området. Det første i 2019 ved
+at utfyllingen fra land ble utført både for langt ut samt før tilstrekkelig motfylling var etablert. I
+2021 antas grunnbruddet oppstått som følge av at motfylling med sprengstein ble lagt for ujevnt og
+stedvis for høyt. Det vises til notat -006 [9] og 009 [11]. Skredene vurderes å ha vært
+rotasjonsskred. Skredmassene fra 2021 er fraktet over 100 m ut i sundet, men fra skredet i 2019 så
+indikerer sjøbunnscanning at massene stoppet opp ved kaikonstruksjonen (Essokaia).
+Som nevnt i kapittel 5.1 så har grunnbruddene som har oppstått på Kræmer eller i nærliggende
+områder ikke sprøbruddsoppførsel. Grunnbruddene er lokale, og de har ikke bredd seg bakover.
+Årsaken til at grunnbrudd har oppstått er at oppfyllingen har skjedd for raskt, for høyt eller ved
+annet avvik fra geoteknisk fyllingsprosedyre.
+Pågrunnlag av foreliggende vurderinger anbefales det derfor at det ikke etableres en formell
+faresone i området. Det anbefales slik som NVEhar kommentert i den offentlige høringen, at
+området har tiltaksklasse 3 slik at det blir utført utvidet kontroll av geoteknisk prosjektering.
+6.9
+Stabilitetsvurdering
+Det er utført stabilitetsvurderinger og stabiliserende tiltak for det som er dagens landområde. Det
+vises til notat -013 [14]. Notatet har vært gjennom utvidet kontroll, men kontrollen er ikke sluttført.
+Kontrollen utføres av AFRY.
+Området på land har tilfredsstillende stabilitet. For å oppnå dette er det satt ned en rørvegg
+utenfor Alfan A samt at terrenget på land er senket ned til kote 2,0 ved fyllingsfront videre sørover,
+ref tegning -923.
+6.10
+Kristiske momenter
+For å etablere boligblokkene DEF vises det til notat 013 [14] som omhandler aktuelle tiltak for å
+oppnå tilfredsstillende stabilitet av ny utfylling, samtidig som det opprettholdes tilfredsstillende
+stabilitet i anleggstiden av eksisterende fylling.
+Det er komplekse løsninger som er foreslått og det bør utarbeides et skisseprosjekt for å gå litt mer
+i detalj på foreslåtte løsninger.
+Videre prosjektering anbefales satt i tiltaksklasse 3. Kontrollinstans må involveres tidlig. Det er en
+fordel om de er med allerede fra utarbeidelse av skisseprosjekt/forprosjekt. Detaljprosjekteringen
+må være utført og godkjent før arbeider i området kan påbegynnes.
+Kvalitetssikringen av foreliggende notat utføres av uavhengig foretak.
+REV0l: Det er sendt forespørsel til NVEom det må utføres kvalitetssikringen av uavhengig foretak
+for foreliggende notat. NVEmener dette ikke er nødvendig da sprøbruddmaterialet i sjøen ikke
+berører et større område på land. NVEer også enig i at det ikke er relevant å melde inn en
+faresone, og lokalstabilitet kan løses i forbindelse med prosjektering. Prosjektering av lokalstabilitet
+og tiltak må ha tiltaksklasse 3. Epost korrespondanse med NVEer vedlagt.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE18 av 19
+Kræmer Alfon DEF 
+ 
+multiconsult.no 
+Geoteknisk vurdering ‐ områdestabilitet 
+ 
+711607‐RIG‐NOT‐015 
+07. juni 2023 / Revisjon 01 
+SIDE 19 av 19 
+7 
+Referanser 
+Grunnundersøkelser Multiconsult (Noteby): 
+[1] Rapport nr. 10037‐01, grunnundersøkelser ved Bjørnstrand, datert 23. september 1983. 
+[2] Rapport nr. 200402‐1, innledende grunnundersøkelser på sjø for hele området, datert 15. april 
+2005. 
+[3] Rapport nr. 711109‐RIG‐RAP‐001, grunnundersøkelser på land for Eurospar‐bygget, datert 11. 
+mars 2011. 
+[4] Rapport nr. 711948‐RIG‐RAP‐002, grunnundersøkelser på sjø for boligblokkene Kræmer Brygge, 
+datert 10. september 2013. 
+[5] Rapport nr. 711607‐RIG‐RAP‐001, grunnundersøkelser på sjø for hele området, datert 
+1.desember 2014. 
+[6] Rapport nr. 711607‐RIG‐RAP‐003rev01, grunnundersøkelser på land ved Alfon A, datert 
+19.01.2016. 
+[7] Rapport nr. 711607‐RIG‐RAP‐007, grunnundersøkelser sjø nord for Esso‐kaia, datert 18. januar 
+2022. 
+ 
+ 
+Geotekniske vurderinger (Multiconsult) 
+[8] Notat nr. 711607‐RIG‐NOT‐004 parametertolking, datert 19. desember 2014. 
+[9] Notat nr. 711607‐RIG‐NOT‐006rev01 Grunnbrudd ved Esso‐kaia, datert 27. november 2021. 
+[10] Notat nr. 711607‐RIG‐NOT‐008 Utfylling og motfylling sør for Esso‐kaia, datert 14. januar 2022. 
+[11] Notat nr. 711607‐RIG‐NOT‐009 Undersjøisk grunnbrudd nord for Esso kaia, datert 20. januar 
+2022. 
+[12]  Notat nr. 711607‐RIG‐NOT‐011 Byggbarhet boligblokk Alfon D, E og F datert 02. september 2022. 
+[13]  Notat nr. 711607‐RIG‐NOT‐012rev02 Detaljprosjektering rørvegg, datert 28. mars 2023. 
+[14]  Notat nr. 711607‐RIG‐NOT‐013rev05 Redusert lengde rørvegg, datert 28. mars 2023. 
+ 
+ 
+Andre referanser: 
+[15]  NGU, «Løsmasser ‐ Nasjonal løsmassedatabase ‐ kvartærgeologiske kart». 
+[16] Norges vassdrags‐ og energidirektorat (NVE), «Veileder nr.1/2019, Sikkerhet mot 
+kvikkleireskred,» 2019. 
+[17]  Norges vassdrags‐ og energidirektorat (NVE), «Ekstern rapport nr.9/2020, 
+Oversiktsskartlegging og klassifisering av faregrad, konsekvens og risiko for kvikkleireskred. 
+[18]  NGI, Kvikkleirekartlegging  ‐ Tromsø m/omland 20100613‐01‐R, 16.nob 2012 
+[19]  Rambøll, Grunnundersøkelser Stakkevollveien 11, 6060078‐1, datert 24.mars 2006.  
+ 
+ 
+ 
+ 
+ 
+Kræmer Alton DEF
+Geoteknisk vurdering - områdestabilitet
+multiconsuIt.no
+7
+Referanser
+Grunnundersøkelser Multiconsult Noteb
+:
+[l] Rapport nr. 10037-01, grunnundersøkelser ved Bjørnstrand, datert 23. september 1983.
+[2] Rapport nr. 200402-1, innledende grunnundersøkelser på sjø for hele området, datert 15. april
+2005.
+[3] Rapport nr. 711109-RIG-RAP-001, grunnundersøkelser på land for Eurospar-bygget, datert 11.
+mars 2011.
+[4] Rapport nr. 711948-RIG-RAP-002, grunnundersøkelser på sjø for boligblokkene Kræmer Brygge,
+datert 10. september 2013.
+[5] Rapport nr. 711607-RIG-RAP-001, grunnundersøkelser på sjø for hele området, datert
+l.desember 2014.
+[6] Rapport nr. 711607-RIG-RAP-003rev01, grunnundersøkelser på land ved Alfan A, datert
+19.01.2016.
+[7] Rapport nr. 711607-RIG-RAP-007, grunnundersøkelser sjø nord for Esso-kaia, datert 18. januar
+2022.
+Geotekniske vurderin er Multiconsult
+[8] Notat nr. 711607-RIG-NOT-004 parametertolking, datert 19. desember 2014.
+[9] Notat nr. 711607-RIG-NOT-006rev01 Grunnbrudd ved Esso-kaia, datert 27. november 2021.
+[lO]Notat nr. 711607-RIG-NOT-008 Utfylling og motfylling sør for Esso-kaia, datert 14. januar 2022.
+[ll]Notat nr. 711607-RIG-NOT-009 Undersjøisk grunnbrudd nord for Esso kaia, datert 20. januar
+2022.
+[12] Notat nr. 711607-RIG-NOT-011 Byggbarhet boligblokk Alfan D, Eog Fdatert 02. september 2022.
+[13] Notat nr. 711607-RIG-NOT-012rev02 Detaljprosjektering rørvegg, datert 28. mars 2023.
+[14] Notat nr. 711607-RIG-NOT-013rev05 Redusert lengde rørvegg, datert 28. mars 2023.
+Andre referanser:
+[15] NGU, «Løsmasser - Nasjonal løsmassedatabase - kvartærgeologiske kart».
+[16]Norges vassdrags- og energidirektorat (NVE), «Veileder nr.1/2019, Sikkerhet mot
+kvikkleireskred,» 2019.
+[17] Norges vassdrags- og energidirektorat (NVE), «Ekstern rapport nr.9/2020,
+Oversiktsskartlegging og klassifisering av faregrad, konsekvens og risiko for kvikkleireskred.
+[18] NGI, Kvikkleirekartlegging - Tromsø m/omland 20100613-01-R, 16.nob 2012
+[19] Rambøll, Grunnundersøkelser Stakkevollveien 11, 6060078-1, datert 24.mars 2006.
+711607-RIG-NOT-015
+07. juni 2023 / Revisjon 01
+SIDE 19 av 19
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+○
+1-711948
+4.6
+2.1
+2.5 +3.0
+10-948
+2.8
+-0.8
+3.7 +3.1
+12-948
+3.8
+0.4
+3.5 +3.0
+15-948
+-7.7
+-13.8 6.1 +3.0
+2-711948
+3.5
+1.1
+2.3 +3.0
+20-948
+-10.7
+-13.9 3.1 +3.0
+23-948
+-9.3
+-12.1 2.8 +2.9
+24-948
+-9.4
+-10.2 0.9 +2.6
+25-948
+-8.6
+-8.8
+0.2 +3.0
+26-948
+-8.4
+-11.4 3.0 +3.0
+27-948
+-10.6 4.7
+28-948
+-8.4
+-11.1
+2.7 +2.7
+29-948
+-7.3
+-10.9 3.6 +2.9
+3-711948
+2.9
+-0.7
+3.7 +3.0
+30-948
+-8.8
+-16.5 7.7 +3.0
+5-711948
+2.1
+-8.3
+10.4+3.0
+6-711948
+3.4
+-4.3
+7.7 +2.9
+7-711948
+3.4
+-3.4
+6.8 +3.0
+9-711948
+3.0
+-4.1
+7.1 +3.1
+13-948
+4.3
+1.8
+2.5 +3.0
+11-948
+2.9
+-1.0
+3.9 +3.0
+4-711948
+2.7
+-4.4 7.1 +3.0
+22-948
+-8.9
+-11.0 2.1 +2.8
+1-713754
+2.5
+-6.6
+9.1 +3.1
+2-713754
+2.5
+-2.9
+5.4 +3.0
+4-713754
+2.6
+-5.0
+7.6 +0.8
+3-713754
+2.6
+-4.3
+6.9 +2.7
+5-713754
+2.5
+-3.8
+6.3 +3.0
+A3
+2.7
+-4.2
+6.9 +4.0
+C6
+2.8
+-7.4
+10.2 +2.0
+F1
+2.6
+-2.9
+5.5 +3.6
+A7
+2.8
+-5.3
+8.1 +1.9
+F7
+2.8
+-9.4
+12.2 +2.8
+B4
+2.7
+-3.4
+6.1 +4.7
+E3
+2.6
+-3.9
+6.5 +3.0
+A1
+2.8
+-2.1
+4.9 +3.3
+E3-2
+2.6
+6.9
+E3-3
+2.6
+1.5
+PG1
+2.7
+3.0
+F5
+2.7
+-9.5
+12.2 +3.3
+D5
+2.7
+-8.7
+11.4 +5.7
+711607-RIG-RAP-001
+711109
+10220533
+711948
+2-2005
+-7.2
+-12.4 5.2 +1.5
+1-2005
+-14.7
+-21.5 6.8 +2.0
+4-2005
+-9.0
+-11.0 2.0 +1.5
+5-2005
+-8.8
+-14.3 5.5 +2.0
+3-2005
+-13.3
+-16.5 3.2 +2.0
+7-2005
+-11.3
+-20.2 8.9 +1.9
+10-2005
+-11.6
+-20.5 8.9 +1.9
+6-2005
+-15.5
+-22.2 6.7 +1.9
+9-2005
+-15.8
+-23.0 7.2 +2.2
+8-2005
+-6.6
+-13.4 6.8 +2.0
+11-2005
+-7.2
+-14.4 7.2 +2.0
+12-2005
+-3.5
+-5.8
+2.3 +3.0
+1
+-11.2
+-19.3 8.1 +3.0
+2
+-4.5
+-8.6
+4.1 +3.0 3
+-10.1
+-14.3 4.2 +3.0
+4
+-6.1
+-9.2
+3.1 +3.0
+5
+-5.8
+-14.8 9.0 +3.0
+6
+-10.2
+-13.9 3.7 +3.0
+7
+-5.5
+-10.4 4.8 +3.0
+8
+-9.0
+-12.1 3.1 +2.8
+9
+-9.6
+-10.8 1.1 +2.8
+10
+-7.8
+-15.9 8.1 +3.0
+11
+-9.3
+-16.5 7.2 +3.0
+12
+-8.5
+-19.9 11.4 +3.1
+13
+-8.5
+-16.4 7.8 +3.0
+14
+-8.9
+-14.8 5.9 +3.0
+15
+-10.4
+-18.3 7.9 +3.2
+16
+-14.3
+-19.3 5.0 +2.9
+17
+-6.5
+-10.3 3.8 +3.0
+18
+-6.7
+-14.8 8.1 +3.0
+19
+-9.2
+-17.5 8.3 +3.0
+20
+-11.8
+-22.3 10.5 +3.0
+21
+-13.0
+-22.4 9.4 +3.1
+22
+-12.7
+-22.6 9.9 +3.0
+23
+-14.1
+-25.7 11.6 +3.1
+24
+-15.9
+-27.3 11.4 +3.0
+25
+-14.2
+-25.6 11.5 +3.1
+1-2015
+2.3
+-8.2
+10.5 +3.0
+2-2015
+2.2
+-8.4
+10.6 +3.0
+3-2015
+5.8
+0.0
+4-2015
+2.4
+-10.3 12.7 +3.0
+5-2015
+2.1
+-7.5
+9.6 +3.4
+6-2015
+2.3
+-5.8
+8.1 +1.3
+7-2015
+3.2
+10.1
+8-2015
+3.2
+-5.6
+8.8 +2.9
+9-2015
+2.5
+-7.3
+9.8 +3.0
+10-2015
+2.3
+-10.4 12.7 +2.9
+11-2015
+2.2
+-6.9
+9.1 +3.0
+12-2015
+2.5
+-7.6
+10.1 +3.0
+13-2015
+2.3
+-12.7 15.0 +2.7
+14-2015
+1.7
+-12.2 13.9 +1.2
+15-2015
+2.6
+-7.3
+9.9 +3.0
+16-2015
+2.2
+-11.8 14.0+3.0
+17-2015
+2.5
+-12.1 14.6+3.0
+14-TP3
+2.8
+1.9
+1.0 +3.0
+17-TP3
+4.0
+1.7
+2.2 +3.0
+19-TP3
+6.9
+0.8
+6.1 +3.0
+16-TP3
+2.0
+-9.2
+11.2 +3.0
+18-TP3
+5.6
+2.0
+3.6 +3.0
+20-TP3
+8.0
+4.6
+3.3 +3.0
+21-TP3
+8.2
+7.5
+0.7 +3.1
+22-TP3
+6.9
+2.9
+4.0 +3.0
+15-TP3
+5.0
+-1.1
+6.1 +3.0
+23-TP3
+3.9
+1.8
+2.0 +3.0
+713754
+711607-RIG-RAP-003
+OG 200402-2
+19
+-10.7 4.2
+21
+-12.2 9.6
+711607-RIG-RAP-007
+K
+K
+L
+L
+M
+M
+N
+O
+O
+N
+N
+P
+Q
+Q
+R
+R
+P
+P
+A
+A
+C
+C
+D/
+D
+E
+E
+F
+/F
+I
+I
+B
+B
+G
+/G
+H
+/H
+/II
+I
+I
+II
+A
+A
+B
+B
+C
+C
+A
+A
+B
+B
+C
+C
+A
+B
+A
+B
+C
+C
+D
+D
+G
+G
+H
+H
+E
+E
+F
+F
+-10
+-15
+-20
+-25
+108
+-7.2
+-12.8 5.7 +2.8
+109
+-13.6
+-18.8 5.2 +3.0
+110
+-5.2
+-8.9
+3.7 +2.6
+111
+-10.5
+-14.2 3.7 +3.0
+112
+-4.1
+-9.3
+5.3 +3.1
+113
+-6.0
+-13.2 7.2 +3.0
+114
+-13.2
+-17.2 4.1 +3.0
+101
+-6.6
+-12.5 5.9 +1.8
+102
+-10.9
+-15.2 4.3 +3.0
+103
+-13.4
+-19.2 5.8 +3.0
+104
+-4.2
+-9.0
+4.8 +3.0
+105
+-11.1
+-12.6 1.5 +3.0
+106
+-14.6
+-19.4 4.8 +3.0
+107
+-1.9
+-8.0
+6.1 +3.0
+115
+-5.6
+-8.5
+2.9 +2.0
+www.multiconsult.no
+Tegningsnr.
+Rev.
+BORET DYBDE + BORET I BERG
+ANTATT BERGKOTE
+TERRENGKOTE/SJØBUNNKOTE
+SKRUPLATEFORSØK
+PORETRYKKMÅLING
+PRØVEGROP
+PRØVESERIE
+TOTALSONDERING
+RAMSONDERING
+BERG I DAGEN
+VINGEBORING
+TRYKKSONDERING
+FJELLKONTROLLBORING
+DREIETRYKKSONDERING
+DREIESONDERING
+ENKEL SONDERING
+TEGNFORKLARING:
+KJERNEBORING
+43.0
+28.2
+14.8+2.4
+EKSEMPEL
+BP 1
+LAB.BOK NR:
+BORBOK NR:
+KARTGRUNNLAG:
+UTGANGSPUNKT FOR NIVELLEMENT:  
+KOORDINATSYSTEM:
+HØYDEREFERANSE:
+Digitalt kart fra oppdragsgivere
+UTM Sone 33
+NN1954
+GPS GLONAS CPOS
+XXX
+XXX
+Godkj.
+Tegn.
+Kontr.
+Dato
+Rev.
+Beskrivelse
+01
+Grunnundersøkelse utført 2022 implementert
+01.09.2022 TONES IDE
+TONES
+02
+Rød ring viser området for ALFON DEF
+26.05.2023 MHM
+TONES TONES
+Kontrollert
+Fag
+Format/Målestokk:
+Tegningsnr.
+Oppdragsnr.
+Konstr./Tegnet
+Dato
+Godkjent
+Rev.
+Status
+Format
+KRÆMER EIENDOM AS
+SAMMENSTILLING GRUNNUNDERSØKELSER
+BORPLAN
+711607
+RIG-TEG-008
+MHM
+TONES
+TONES
+2021-04-06
+1:1000
+-
+02
+RIG
+A1
+KRÆMER EIENDOM AS
+711607-RIG-TEG-008
+BUNNKOTEKART: ENKELTSTRÅLE FRA 2005 + MULTISTRÅLE UTFØRT 2019 AV GEONOR
+BUNNKOTEKART: UTENFOR KRÆMER BRYGGER, MULTISTRÅLE UTFØRT 2013
+(
+X
+)
+7
+7
+/
+i
+l
+;
+\
+\
+)
+r
+;
+{
+T
+o
+/
+T
+T
+,
+h
+-
+-
+-
+-
+'
+T
+:
+;
+{
+:
+J
+l
+f
+/
+)
+l
+/
+-
+-
+-
+-
+-
+-
+-
+-
+-
+,
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+r
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+7
+rn
+FORKLARING:
+.
+0
+TEGNFORKLARING:
+e DREIESONDERING
+w
+O ENKEL SONDERING
+,.. RAMSONDERING
+___
+'v
+TRYKKSONDERING
+Ev TOTALSONDERING
+..,
+(X)
+{I]
+o.
+0
+I
+L'.:J
+w
+I-
+I
+L'.:J
+"
+0:::
+I
+-
+r;;Ja
+--0
+CX)
+,.,_
+0
+0
+I
+L'.:J
+w
+I-
+I
+wco
+0:::
+<(
+rn [D
+o"'
+Ir-
+o'°
+._...-
+._--r-
+/r-o'°
+._...-
+._--r-
+/
+._...-
+._...-
+16- TP3
+11.2
+KARTGRUNNLAG:
+Digitalt kart fra oppdragsgivere
+KOORDINATSYSTEM:
+UTM Sone 33
+HØYDEREFERANSE:
+NN1954
+UTGANGSPUNKT FOR NIVELLEMENT: GPS GLONAS CPOS
+BORBOK NR:
+XXX
+LAB.BOK NR:
+XXX
+BESTEMMELSER:
+HENVISNINGER:
+@ PRØVESERIE
+D PRØVEGROP
+,
+DREIETRYKKSONDERING
+SKRUPLATEFORSØK
++ VINGEBORING
+-0- PORETRYKKMÅLING
+-$-KJERNEBORING
+(X FJELLKONTROLLBORING
+BERGI DAGEN
+EKSEMPEL
+,.,)ERRENGKOTE/SJØBUNNKOTE
+BP1Eo--¥s-f-
+14.8 +2.4-BORET DYBDE+ BORETI BERG
+\ANTATT BERGKOTE
+BUNNKOTEKART: ENKELTSTRÅLE FRA 2005 + MULTISTRÅLE UTFØRT 2019 AV GEONOR
+BUNNKOTEKART: UTENFOR KRÆMER BRYGGER, MULTISTRÅLE UTFØRT 2013
+lu
+-
+-
+Rappon-nummer
+OppdMpliver
+Prosjekt
+I
+200402·2
+2.005
+Kræmer Eiendom Af,
+Spredte
+pa,;Jø for afå en orlen1erlng orn
+grunnfo1'10Idene.
+711109-l
+20n
+J s A S
+Eurosp.arbygget, Stakkevollveien 41
+7119<18·1 og •2
+2.0B
+.Q;I.Jill!.l..AS
+Grunnundenøk:elser p
+*1 <> le,ncl for Kræme,r
+Brygse
+711607·RIG·RAP-001
+2Qjl4
+Kræmer Brygge AS
+Grunnurnd ersøkelser på sjø som gru mmIag for.i, li(unne
+pro,jeklere utfyllin€ isjølang, hele omradet.
+711607-RIG,-RAP-003
+20:JLS
+Kræmer Brygge AS
+Grunnundersøkelser på lan•d nord for fan Mayen kaia
+713754-1
+2 0 ] 7
+. l , . A S
+Nytt oygg til Statens Vegvesen,Stald<:.evollVeien 37
+10220-53:lRIG.RA:P-001
+2020
+lifom,sø kommune
+!J.Jtl!O.is!:
+I ngsS.takkevelIveien i forblndebe med
+planlagt 4-fielt, vei.
+711607-RIG-RAP-007
+2022
+·Kræmer Eiendom Af>
+Grunnuodersøl<el,er på s)ø nord fo,rEsso-lala
+KRÆMER EIENDOM AS
+Tegningsnr.
+711601-RIG-TEG-008
+Rev.
+02
+Rød ring viser området for ALFON DEF
+01
+Grunnundersøkelse utført 2022 implementert
+Rev.
+Beskrivelse
+KRÆMER EIENDOM AS
+SAMMENSTILLINGGRUNNUNDERSØKELSER
+26.05.2023
+MHM
+TONES
+TONES
+01.09.2022
+TONES
+iDE
+TONES
+Dato
+Tegn.
+Kontr.
+Godkj.
+Fag
+Format
+RIG
+A1
+Dato
+2021-04-06
+Format/Målestokk:
+1:1000
+BORPLAN
+Status
+Konstr.ITegnet
+Kontrollert
+Godkjent
+MuIticOnsuIt t-::-p---;-pdr-ags-nr.---,::T-egn-,-ings.L.nr-.
+_M:...:.:._H:;_;_M _.,L__...:_T.:..:..:ON==ES:...__L..______:_T..::..:..DN:;.:..:ER::_v.-----l
+www.multiconsult.no
+711607
+RIG-TEG-008
+02
++2.3
+1-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+GRUS, sandig, siltig
+siltig, grusig, sandig, leirig MATERIAL
+LEIRE
+LEIRE, siltig
++2.2
+2-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+-9.0
+4-2005
+0
+5
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.4
+4-2015
+0
+5
+10
+15
+20
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.1
+5-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.3
+6-2015
+0
+5
+10
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++3.2
+8-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+Borpunkt 3 ikke utført da
+plassen ikke var tilgjengelig for
+borerigg
+Z:\O711\711607\711607-03 ARBEIDSOMRÅDE\711607-01 RIG\711607-04 TEGNINGER\2022\711607-RIG-TEG-703-704.dwg, - Layout: (703); - Plottet av: tones,  Dato:  2023.05.30  kl 15:59
+Godkj.
+Tegn.
+Kontr.
+Dato
+Rev.
+Beskrivelse
+-
+-
+-
+-
+-
+-
+Tegningsnr.
+Oppdragsnr.
+Kontrollert
+Dato
+Målestokk
+Rev.
+Status
+Fag
+Originalt format
+Godkjent
+Konstr./Tegnet
+www.multiconsult.no
+KRÆMER EIENDOM AS
+ENKELTSONDERINGER 
+BORPUNKT PÅ LAND VED ALFON ABC
+1-2015 TIL 8-2015
+711607
+RIG-TEG-703
+1:400
+2023-05-30
+MHM
+TONES
+TONES
+00
+-
+RIG
+A3
+7
+0
+(Y)
+1./l
+0
+er,
+N
+0
+N
+ö
+"'
+D
+ei,
+"'CJ_,.
+0,....
+I
+er,
+0,....
+I
+l.C)
+L.J
+t-
+l
+l.C)
+ei::
+I,....
+0
+;;::
+/
+N
+N
+0
+N
+/c::
+L.J
+l.C)zz
+l.C)
+L.J
+t-_,.
+0
+I,....
+0
+;;::
+/
+l.C)
+ei::
+;;
+I,....
+0
+;;::
+/
+L.J
+D
+•<tc::
+l::
+0
+l.Il
+Dw
+co
+c::
+<t
+er,
+0
+I,....
+0
+,....
+/,....
+0
+,....
+/
+;;::
+0--:-:L
+1-2015
+2-2015
+4-2005
+'""'·"""'•··""•I
+" " " "-·.•"' . . • • •
+LEIRE
+LEIRE,siltig
+E
+5
+10
+15
+300
+200
+100
+Bortid, s/m
+10
+20
+30
+FOT kN
+Spyletrykk, MPa
+Spyletrykk, MPa
+4-2015
+5-2015
+:g·
+b10
+15
+20
+E
+5
+E
+5
+10
+15
+300
+200
+100
+i_g
+Bortid.sim
+10
+15
+300
+200
+100
+Bortid, s/m
+300
+200
+100
+Bortid, s/m
+10
+20
+FOT kN
+10
+20
+30
+FOT kN
+10
+Borpunkt 3 ikke utført da
+plassen ikke var tilgjengelig for
+borerigg
+6-2015
+300
+200
+100
+ij
+Bortid,s/m
+Spyletrykk, MPa
+10
+20
+30
+FOT kN
+E
+0
+i
+E
+5
+i
+10
+15
+1JtCA•r
+300
+200
+100
+:?
+5
+10
+20
+30
+:.=-g,
+F
+kN
+Bortid, s/m
+OT
+Spyletrykk, MPa
+300
+200
+100
+Bortid, s/m
+8-2015
+10
+20
+30
+FOT kN
+10
+20
+30
+FOT kN
+Spyletrykk, MPa
+Spyletrykk, MPa
+Spyletrykk, MPa
+Status
+Fag
+RIG
+Original t format
+A3
+Dato
+2023-05-30
+Multiconsult
+Konstr./Tegnet
+MHM
+Kontrollert
+TONES
+Godkjent
+TONES
+Målestokk
+1:400
+Rev.
+Rev.
+Beskrivelse
+Dato
+Tegn.
+Kontr.
+Godkj.
+www.multiconsult.no
+KRÆMER EIENDOM AS
+ENKELTSONDERINGER
+BORPUNKT PÅ LAND VED ALFON ABC
+1-2015 TIL 8-2015
+Oppdragsnr.
+111601
+T e g n i n R T G - TEG-103
+00
+-6.1
+4
+0
+5
+10
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+-9.6
+9
+0
+5
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.5
+9-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.3
+10-2015
+0
+5
+10
+15
+20
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.2
+11-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.5
+12-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++1.7
+14-2015
+0
+5
+10
+15
+20
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.6
+15-2015
+0
+5
+10
+15
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.2
+16-2015
+0
+5
+10
+15
+20
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.5
+17-2015
+0
+5
+10
+15
+20
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+Området er fylt opp med ca. 4 m motfylling etter sonderingene er utført.
+-9.0
+4-2005
+0
+5
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
++2.3
+13-2015
+0
+5
+10
+15
+20
+Dybde, m
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+Det er fylt opp til kote 3 ved dette borpunkt.
+Z:\O711\711607\711607-03 ARBEIDSOMRÅDE\711607-01 RIG\711607-04 TEGNINGER\2022\711607-RIG-TEG-703-704.dwg, - Layout: (704); - Plottet av: tones,  Dato:  2023.05.30  kl 15:59
+Godkj.
+Tegn.
+Kontr.
+Dato
+Rev.
+Beskrivelse
+-
+-
+-
+-
+-
+-
+Tegningsnr.
+Oppdragsnr.
+Kontrollert
+Dato
+Målestokk
+Rev.
+Status
+Fag
+Originalt format
+Godkjent
+Konstr./Tegnet
+www.multiconsult.no
+KRÆMER EIENDOM AS
+ENKELTSONDERINGER 
+BORPUNKT PÅ SJØ OG LAND VED ALFON ABC
+9-2015 TIL 17-2015 OG 4-9
+711607
+RIG-TEG-704
+1:400
+2023-05-30
+MHM
+TONES
+TONES
+00
+-
+RIG
+A3
+0
+(Y)
+1./l
+0
+er,
+N
+0
+N
+<fl-.,
+c:
+.2
+ei,
+-0_,.
+0r-
+i
+er,
+0r-
+i
+l.C)
+L.J
+t-
+l
+l.C)
+ei::
+I
+r-o
+;;::
+/
+N
+N
+0
+N
+/c::
+L.J
+l.C)zz
+l.C)
+L.J
+t-_,.
+0
+I
+r-o
+;;::
+/
+l.C)
+ei::
+;;
+I
+r-o
+;;::
+/
+L.J
+D
+•<tc::
+l::
+0
+l.Il
+Dw
+co
+c::
+<t
+er,
+0
+I
+r-o
+r-
+/r-o
+r-
+/
+;;::
+0--:-:L
+,
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+7
+9-2015
+10-2015
+11-2015
+12-2015
+13-2015
++2.5
+E
+5
+i
+10
+15
+15
+20
+:g·
+i,;
+5
+10
+300
+200
+100
+Bortid, s/m
+Spyletrykk, MPa
+300
+200
+100
+Bortid, s/m
+14-2015
+Spyletrykk, MPa
+w
+300
+200
+100
+ij
+10
+20
+30
+Bortid, s/m
+FOT
+kN
+Spyletrykk, MPa
+10
+20
+30
+FOT kN
+10
+20
+30
+FOT kN
+:g·
+b 1 0
+E
+5
+Det er fylt opp til kote 3 ved dette borpunkt.
+4
+10
+15
+15
+20
+300
+200
+100
+i_g
+Bortid.sim
+Spyletrykk, MPa
+300
+200
+100
+Bortid, s/m
+15-2015
+10
+20
+30
+FOT kN
+Spyletrykk, MPa
+E
+0
+i
+10
+20
+30
+FOT kN
+E
+5
+i
+t:1m11
+300
+200
+100
+ij
+10
+20
+30
+Bortid, s/m
+FOT kN
+10
+15
+15
+20
+300
+200
+100
+Bortid, s/m
+Spyletrykk, MPa
+16-2015
+300
+200
+100
+ij
+Bortid,s/m
+10
+20
+30
+FOT kN
+10
+20
+30
+FOT kN
+E
+5
+i
+E
+0
+10
+15
+15
+20
+300
+200
+100
+Bortid, s/m
+Spyletrykk, MPa
++2.3
+300
+200
+100
+Bortid, s/m
+10
+20
+30
+FOT kN
+10
+20
+FOT kN
+:g·
+b10
+15
+20
+300
+200
+100
+Bortid, s/m
+10
+20
+30
+F OT kN
+Spyletrykk, MPa
+11-2015
+30
+Spyletrykk, MPa
+Spyletrykk, MPa
+Området er fylt opp med ca. 4 m motfylling etter sonderingene er utført.
+4-2005
+lkffTI r
+300
+200
+100
+ij
+10
+20
+30
+Bortid, s/m
+FDl
+kN
+Spyletrykk, MPa
+Spyletrykk, MPa
+Rev.
+Beskrivelse
+Dato
+Tegn.
+Kontr.
+Godkj.
+Multiconsult
+www.multiconsult.no
+KRÆMER EIENDOM AS
+Status
+Fag
+RIG
+Original t format
+A3
+Dato
+2023-05-30
+ENKELTSONDERINGER
+0
+BORPUNKT PA SJØ OGLAND VED ALFON ABC
+9-2015 TIL 11-2015 OG4-9
+Konstr./Tegnet
+MHM
+Kontrollert
+TONES
+Godkjent
+TONES
+Målestokk
+1:400
+Oppdragsnr.
+111601
+Tegningsnr.
+RIG- TEG-104
+Rev.
+00
+T
+W
+X
+Z
+REGULERINGSGRENSE
+MOTFYLLING TIL KOTE -5,0
+1:2
+SKREDKANT HOVEDSKRED
+EIENDOMSGRENSE
+ALFON A
+MOTFYLLING TIL KOTE -4,0/-5,0
+T
+37
+W
+X
+ADKOMSTVEI TIL GARASJEANLEGG
+Z
+RØRVEGG
+NEDGRAVING TIL KOTE 2,0
+KYSTKONTRUR FRA 2014
+TRAFIKKLAST OG OPPFYLLING TIL KOTE 3,0
+ALFON B
+ALFON C
+3,0
+2,5
+2,0
+1,5
+1,0
+2,5
+1,0
+10
+5
+10
+SKRÅNING NED MOT SJØEN SLAKES NED
+1
+2
+3
+4
+U
+2-2005
+-7.2
+-12.4 5.2 +1.5
+1-2
+4-2005
+-9.0
+-11.0 2.0 +1.5
+3-2005
+-13.3
+-16.5 3.2 +2.0
+1
+-11.2
+-19.3 8.1 +3.0
+2
+-4.5
+-8.6
+4.1 +3.0
+3
+-10.1
+-14.3 4.2 +3.0
+3.0
+5
+-5.8
+-14.8 9.0 +3.0
+6
+-10.2
+-13.9 3.7 +3.0
+1-2015
+2.3
+-8.2
+10.5 +3.0
+2-2015
+2.2
+-8.4
+10.6 +3.0
+3-2015
+5.8
+0.0
+4-2015
+2.4
+-10.3 12.7 +3.0
+5-2015
+2.1
+-7.5
+9.6 +3.4
+6-2015
+2.3
+-5.8
+8.1 +1.3
+7-2015
+3.2
+10.1
+8-2015
+3.2
+-5.6
+8.8 +2.9
+9-2015
+2.5
+-7.3
+9.8 +3.0
+10-2015
+2.3
+-10.4 12.7 +2.9
+11-2015
+2.2
+-6.9
+9.1 +3.0
+2-2015
+2.5
+-7.6
+10.1 +3.0
+13-2015
+2.3
+-12.7 15.0 +2.7
+14-2015
+1.7
+-12.2 13.9 +1.2
+2.6
+-7.3
+9.9 +3.0
+16-2015
+2.2
+-11.8 14.0+3.0
+17-2015
+2.5
+-12.1 14.6+3.0
+108
+-7.2
+-12.8 5.7 +2.8
+109
+-13.6
+-18.8 5.2 +3.0
+110
+-5.2
+-8.9
+3.7 +2.6
+111
+-10.5
+-14.2 3.7 +3.0
+112
+-4.1
+-9.3
+5.3 +3.1
+113
+-6.0
+-13.2 7.2 +3.0
+114
+-13.2
+-17.3 4.1 +3.0
+101
+-6.6
+-12.5 5.9 +1.8
+102
+-10.9
+-15.2 4.3 +3.0
+103
+-13.4
+-19.3 5.8 +3.0
+104
+-4.2
+-9.0
+4.8 +3.0
+105
+-11.1
+-12.6 1.5 +3.0
+106
+-14.6
+-19.4 4.8 +3.0
+107
+-1.9
+-8.0
+6.1 +3.0
+115
+-5.6
+-8.5
+2.9 +2.0
++3
+www.multiconsult.no
+Tegningsnr.
+Oppdragsnr.
+Kontrollert
+Dato
+Målestokk
+Rev.
+Status
+Fag
+Original format
+Godkjent
+Konstr./Tegnet
+KRÆMER EIENDOM AS
+RØRVEGG UTENFOR ALFON A OG C
+SITUASJONNSPLAN FORKORTET RØRVEGG
+711607
+RIG-TEG-923
+1:500
+2022-10-18
+MHM/TONES
+IDE
+TONES
+03
+PROSJEKTERING
+RIG
+A3
+EIENDOMSGRENSE
+Tegn. Kontr. Godkj.
+Dato
+Beskrivelse
+Endr.liste
+LANDKART FRA NORSURVEY - INNMÅLT NOV. 2022
+SJØKART FRA GEONORD - SJØBUNNSKANNING OKT. 2022
+Punktnavn
+X
+Y
+1
+7733736.627
+654066.928
+2
+7733716.484
+654066.781
+3
+7733700.298
+654063.505
+4
+7733681.769
+654062.415
+7-2015©-¥- 1 .1
+----------£$
+ADKOMSTVEI TIL GARASJEANLEG
+2-2015
+10.6+ .
+5-2015Ev-½9r
+15
+2.4
+-10
+NEDGRAVING TIL KOTE 2,0
+2-2015EiJ--½
+10.1 +3.0
+-i
+C)rri
+N
+C)
+N
+2
+2•6
+9.9 +3.0
+-7.3
+E-
+.c
+E
+ALFON B
+13-2015
+15.0+2.7
+x7 r ; - - - . : : : . : . : . _ _
+_
+_ 1 1 4 - 1 2 0 1 5 t t U L J
+I I
+/;
+I
+_J
+0
+Ir--
+C)
+;:::
+.,...
+L.LI
+0• < - - - - - - - - - - - - - - - - - - - -
+03
+Innvinningav landareal utenfor Allon Cfarget rosa
+11.04.2023
+MHM
+SRR TONES
+5 l l - - - - + - - - - - - - - - - - - - - - l - - - + - - - - - - + - - + - - + - - - - - l
+D
+02
+Nye innmålinger påland- påført område for redusert høyde
+27.02.2023
+ONES SRR TONES
+- - - - - - - - - - - - - - - - - l - - - + - - - - - - + - - + - - + - - - - - l
+01
+Påfart område for redusert høyde på terrenget
+07.11.2022
+ONES SRR TONES
+Endr.liste
+Dato
+Tegn.
+Kontr. Godkj.
+EIENDOMSGRENSE
+LANDKART FRA NORSURVEY - INNMÅLT NOV. 2022
+SJØKART FRA GEONORD - SJØBUNNSKANNING OKT. 2022
+Punktnavn
+x
+1133136.621
+654066.928
+1133716.484
+654066.781
+RØRVEGGUTENFOR ALFON A OGC
+SITUASJONNSPLAN FORKORTET RØRVEGG
+1133700.298
+654063.505
+m
+"j'
+Beskrivelse
+r--
+C)
+;:::
+.,...
+i Multiconsult
+;::::
+;:::
+www.multiconsult.no
+N.__
+_._
+__.,
+__._
+__.___
+_.
+KRÆMER EIENDOMAS
+4
+1133681.169
+654062.415
+Status
+Fag
+Original format
+PROSJEKTERING
+RIG
+A3
+Konstr.ITegnet
+Kontrollert
+Godkjent
+MHM/TONES
+iDE
+TONES
+Oppdragsnr.
+Tegningsnr.
+711607
+RIG-TEG-923
+Dato
+2022-10-18
+Målestokk
+1:500
+Rev.
+03
+SKREDKANT SKRED NR. 2
+T
+W
+X
+Z
+REGULERINGSGRENSE
+MOTFYLLING TIL KOTE -5,0
+1:2
+SKREDKANT HOVEDSKRED
+EIENDOMSGRENSE
+ALFON A
+MOTFYLLING TIL KOTE -4,0/-5,0
+T
+37
+W
+X
+ADKOMSTVEI TIL GARASJEANLEGG
+Z
+RØRVEGG
+NEDGRAVING TIL KOTE 2,0
+KYSTKONTRUR FRA 2014
+TRAFIKKLAST OG OPPFYLLING TIL KOTE 3,0
+ALFON B
+ALFON C
+3,0
+2,5
+2,0
+1,5
+1,0
+2,5
+1,0
+10
+5
+10
+SKRÅNING NED MOT SJØEN SLAKES NED
+1
+2
+3
+4
+U
+U
++3
+2-2005
+-7.2
+-12.4 5.2 +1.5
+1-2005
+-14.7
+-21.5 6.8 +2.0
+4-2005
+-9.0
+-11.0 2.0 +1.5
+3-2005
+-13.3
+-16.5 3.2 +2.0
+1
+-11.2
+-19.3 8.1 +3.0
+2
+-4.5
+-8.6
+4.1 +3.0
+3
+-10.1
+-14.3 4.2 +3.0
+4
+-6.1
+-9.2
+3.1 +3.0
+5
+-5.8
+-14.8 9.0 +3.0
+6
+-10.2
+-13.9 3.7 +3.0
+9
+-9.6
+-10.8 1.1 +2.8
+1-2015
+2.3
+-8.2
+10.5 +3.0
+2-2015
+2.2
+-8.4
+10.6 +3.0
+3-2015
+5.8
+0.0
+4-2015
+2.4
+-10.3 12.7 +3.0
+5-2015
+2.1
+-7.5
+9.6 +3.4
+6-2015
+2.3
+-5.8
+8.1 +1.3
+7-2015
+3.2
+10.1
+8-2015
+3.2
+-5.6
+8.8 +2.9
+9-2015
+2.5
+-7.3
+9.8 +3.0
+10-2015
+2.3
+-10.4 12.7 +2.9
+11-2015
+2.2
+-6.9
+9.1 +3.0
+12-2015
+2.5
+-7.6
+10.1 +3.0
+13-2015
+2.3
+-12.7 15.0 +2.7
+14-2015
+1.7
+-12.2 13.9 +1.2
+15-2015
+2.6
+-7.3
+9.9 +3.0
+16-2015
+2.2
+-11.8 14.0+3.0
+17-2015
+2.5
+-12.1 14.6+3.0
+108
+-7.2
+-12.8 5.7 +2.8
+109
+-13.6
+-18.8 5.2 +3.0
+110
+-5.2
+-8.9
+3.7 +2.6
+111
+-10.5
+-14.2 3.7 +3.0
+112
+-4.1
+-9.3
+5.3 +3.1
+113
+-6.0
+-13.2 7.2 +3.0
+114
+-13.2
+-17.3 4.1 +3.0
+101
+-6.6
+-12.5 5.9 +1.8
+102
+-10.9
+-15.2 4.3 +3.0
+103
+-13.4
+-19.3 5.8 +3.0
+104
+-4.2
+-9.0
+4.8 +3.0
+105
+-11.1
+-12.6 1.5 +3.0
+106
+-14.6
+-19.4 4.8 +3.0
+107
+-1.9
+-8.0
+6.1 +3.0
+115
+-5.6
+-8.5
+2.9 +2.0
+SPUNTFONT
+Kontrollert
+Fag
+Målestokk:
+Tegningsnr.
+Oppdragsnr.
+Konstr./Tegnet
+Dato
+Godkjent
+Rev.
+Status
+Format
+www.multiconsult.no
+KRÆMER EIENDOM AS
+RØRVEGG UTENFOR ALFON A OG C
+TOLKNING AV GRUNNUNDERSØKELSER
+711607
+RIG-TEG-925
+MHM
+TONES
+TONES
+2023-05-30
+1:500
+A2
+-
+00
+RIG
+A2
+Godkj.
+Tegn.
+Kontr.
+Dato
+Rev.
+Beskrivelse
+00
+-
+-
+-
+-
+BORET DYBDE + BORET I BERG
+ANTATT BERGKOTE
+TERRENGKOTE/SJØBUNNKOTE
+SKRUPLATEFORSØK
+PORETRYKKMÅLING
+PRØVEGROP
+PRØVESERIE
+TOTALSONDERING
+RAMSONDERING
+BERG I DAGEN
+VINGEBORING
+TRYKKSONDERING
+FJELLKONTROLLBORING
+DREIETRYKKSONDERING
+DREIESONDERING
+ENKEL SONDERING
+KJERNEBORING
+43.0
+28.2
+14.8+2.4
+EKSEMPEL
+BP 1
+KOORDINATSYSTEM:
+HØYDEREFERANSE:
+EUREF89, sone 33
+NN2000
+HENVISNINGER
+TEGNFORKLARING:
+FORKLARING
+KLASSIFISERING AV BORPUNKT:
+EIENDOMSGRENSE
+LANDKART FRA NORSURVEY - INNMÅLT NOV. 2022
+SJØKART FRA GEONORD - SJØBUNNSKANNING OKT. 2022
+•
+--------
+.
+-&ENiJfJ
+ADKOMSTVEI TIL GARASJEANLEG
+L.n
+N
+L.n
+..JC
+0m
+L.n
+0
+m
+N
+0
+N
+0......
+ro
+D
+E
+..c
+E
+>ro......
+QJ
+......
+......
+0
+a..
+0
+-,
+t_____ - J
+-
+--,
+-
+I
+5-2015--i.s 9r
++3. _
+_
+_ !
+-2015.
+16.3 1 -- +3.0
+- 2 0 1 5 - - . . . .
+NEDGRAVING TIL KOTE 2,0
+N
+<(
+12-2015.
+i . 6
+10.1 +3.0
+L.n
+N
+C'
+13-2015
+15.0 +2.7
+14-2O15m+
+C7l
+-0
+L.n
+N
+C'
+I
+l.!:1
+L.l.J
+I-
+I
+l.!:1
+0::
+oIr-
+'°
+......
+......
+r-
+/
+N
+N
+0
+N
+/
+0::
+L.l.J
+l.!:1
+z
+z
+l.!:1
+L.l.J
+1-
+-.:t
+0
+oIr-
+'°
+......
+......
+r-
+/
+l.!:1
+0::
+15-2015.
+763 9.9 +3.0
+ALFON B
+4.
+=:1 3.1 +3.0
++3
+......
+0
+oIr-
+'°
+......
+......
+r-
+/
+L.l.J
+D
+o<(
+0::
+:E
+0
+1./)
+D
+L.l.J
+ro
+0::
+<(
+m
+0
+oIr-
+'°
+......
+......
+r-
+/r-
+o
+'°
+......
+......
+r-
+/......
+......
+r-o
+/
+N
+7-2015.
+32
+1 .1
+TEGNFORKLARING:
+e DREIESONDERING
+0
+ENKEL SONDERING
+... RAMSONDERING
+'v
+TRYKKSONDERING
+@ PRØVESERIE
+D PRØVEGROP
+,
+DREIETRYKKSONDERING
+SKRUPLATEFORSØK
+Ei, TOTALSONDERING
++ VINGEBORING
+LANDKART FRA NORSURVEY - INNMÅLT NOV. 2022
+SJØKART FRA GEONORD - SJØBUNNSKANNING OKT. 2022
+KOORDINATSYSTEM:
+EUREF89, sone 33
+HØYDEREFERANSE:
+NN2000
+-
+-
+EIENDOMSGRENSE
+KLASSIFISERING AV BORPUNKT:
+0
+-0- PORETRYKKMALING
+/4)-KJERNEBORING
+J) FJELLKONTROLLBORING
+BERG I DAGEN
+EKSEMPEL
+/ TERRENGKOTE/SJØBUNNKOTE
+BP 1
+14.8 +2.4-BORET DYBDE+ BORET I BERG
+\ANTATT BERGKOTE
+KLASSIFIISERING AV B0RPUNKT:
+-
+PÅVIST SPRØBRUDDMATERIALE
+MULIG KVIKKLEIRE/SPIRØBRUDIOMATERIALE
+IKKE PÅVIST KVIKKLEIRE/SPRØBRUDDMATERIALE
+-
+IKKE ANTATT KVIKKLEIRE/SPRØBRUDDMATERIALE
+HENVISNINGER
+4-20
+o
+-Z-0-+
+O
+F Y L L K,!),T
+q
+C7
+J
+- -
+.2 +2.
+00
+Rev.
+Beskrivelse
+Dato
+Tegn.
+Kontr.
+Godkj.
+KRÆMER EIENDOM AS
+RØRVEGG UTENFOR ALFON A OGC
+Fag
+Format
+RIG
+A2
+Dato
+2023-05-30
+TOLKNING AV GRUNNUNDERSØKELSER
+Malestokk:
+1:500
+A2
+Status
+Konstr./Tegnet
+Kontrollert
+Godkjent
+M I .
+I
+MHM
+TONES
+TONES
+u ti c Ons
+u t '--pp-dr-ags-nr-.
+___1__Te-gning-sn-1_r.
+__J_
+__
+----,;R,-----ev-. ---t
+111601
+RIG- TEG-925
+00
+www.multiconsult.no
+1-2005
+5
+10
+20
+30
+  kN
+FDT
+01
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+4-2015
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+8-2015
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+104
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+105
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+106
+5
+10
+20
+30
+  kN
+FDT
+100
+200
+300
+Bortid, s/m
+Spyling
+Slagboring
+1
+2
+3
+Spyletrykk, MPa
+-25
+-25
+-20
+-20
+-15
+-15
+-10
+-10
+-5
+-5
++0
++0
++5
++5
+Profil T-T
+HELNING 1:20
+HELNING 1:6
+HELNING 1:15
+3M*15=45M
+FRA KOTE -10
+13*20=260M
+FRA KOTE 0
+AKTSOMHETSOMRÅDE IHT 1/2019
+AKTSOMHETSOMRÅDE IHT 9/2020
+Z:\O711\711607\711607-03 ARBEIDSOMRÅDE\711607-01 RIG\711607-04 TEGNINGER\2022\711607-RIG-TEG-926.dwg, - Layout: (926); - Plottet av: mhm,  Dato:  2023.05.30  kl 15:24
+KARTGRUNNLAG:
+KOORDINATSYSTEM:
+HØYDEREFERANSE:
+EUREF89, sone 33
+NN2000
+DIGITALT KART FRA KUNDEN
+Godkj.
+Tegn.
+Kontr.
+Dato
+Rev.
+Beskrivelse
+-
+-
+-
+-
+-
+-
+Tegningsnr.
+Oppdragsnr.
+Kontrollert
+Dato
+Målestokk
+Rev.
+Status
+Fag
+Originalt format
+Godkjent
+Konstr./Tegnet
+www.multiconsult.no
+KRÆMER EIENDOM AS
+AKTSOMHETSOMRÅDE
+UTSTREKNING IHT NVE 1/2019 OG 9/2020
+PROFIL T
+711607
+RIG-TEG-926
+1:400
+2023-05-30
+TONES
+SRR
+TONES
+00
+RIG
+A3
+SJØBUNN SCANNET DESMEBER 2021
+SJØBUNN SCANNET OKTOBER 2019
+LAND SCANNET NOVEMBER 2022
+7
+0
+C'")
+en
+0
+o-i
+N
+0
+N
+ö
+"'
+D
+E
+.r::
+E
+c:i,
+3'
+"'CJ
+._r,
+Nc,-
+'
+l.C)
+L.J
+t-
+l
+l.C)
+ei::
+I,...
+0
+;;::
+/
+N
+N
+0
+N
+/c::
+L.J
+l.C)zz
+l.C)
+L.J
+t-_,.
+0
+I,...
+0
+;;::
+/
+l.C)
+ei::
+AKTSOMHETSOMRÅDE IHT 9/2020
+8-2015
+FRA KOTE 0
+4-2015
++5
++5
+JM*15_:45M
+ål
+tv
+'-
+I
+l
+c
+E
+R
+HELNING 1:15
+-
+I=
+-
+=
+t
+-
++U
+s1
+-=--=
+104
++0
+_[L
+;
+\y
+-
+'--
+AKTSOMHETSOMRÅDE IHT 1/2019
+-=
+/7
+?
+ål
+l,
+L
+-=1
+-
+-
+-5
+en
+A
+1 / f ' \ T C
+.,,
+/
+-"
+>
+v
+L.
+IV
+J
+½
+=
+-5
+13*20-260M
+.
+I A
+,,v 0
+=cc--- h;;.;
+-:::::::-
+<
+I
+HE
+-------
+5
+"'
+g
+I\/
+=-
+i"---
+-10
+/ 3 0 0
+.,;c
+1:1
+-
+----------
+200
+100
+cS
+5
+10
+20
+0
+1
+r-.._
+F?,
+=
+'
+A /
+Bortid, s/m
+FOT kN
+r r---7L -----
+-10
+°"'
+i
+1-2005
+1
+2
+3
+'
+I/
+\
+I
+Spyletrykk, MPa
+'"
+mo
+5
+10
+20
+'
+HELNING 1:20
+}-
+30
+ål
+300
+200
+100
+ij
+5
+10
+20
+30
+Bortid, s/m
+FOT k,
+v
+-15
+,t
+oorn , s m
+OT '"
+'
+-
+-15
+I
+l
+r---
+1
+2
+3
+Spyletrykk, MPa
+300
+200
+100
+ij
+5
+10
+20
+30
+c===!
+Spyletrykk, MPa
+Bortid, s/m
+FOT kN
+-20
+1
+2
+3
+= : J -
+f-
+\ I
+-
+"n
+-20
+-
+--=
+;ae
+I\
+L
+'"-
+-
+Ä
+01
+....
+=
+r
+i-2
+,n
+300
+200
+100
+5
+10
+20
+-25
+Bortid, s/m
+E
+F n-r
+kN
+300
+200
+100
+;:
+5
+10
+20
+30
+co
+-25
+Profil T- T
+1
+2
+3
+Bortid, s/m
+FOT kN
+°"'
+Spyletrykk, MPa
+1
+2
+3
+KARTGRUNNLAG:
+DIGITALT KART FRA KUNDEN
+-
+-
+-
+LAND SCANNET NOVEMBER 2022
+KOORDINATSYSTEM:
+EUREF89, sone 33
+-
+-
+-
+SJØBUNN SCANNET DESMEBER 2021
+HØYDEREFERANSE:
+NN2000
+-
+-
+-
+SJØBUNN SCANNET OKTOBER 2019
+KRÆMER EIENDOM AS
+Status
+Fag
+Original t format
+Dato
+RIG
+A3
+2023-05-30
+Multiconsult
+0
+Konstr./Tegnet
+Kontrollert
+Godkjent
+Målestokk
+AKTSOMHETSOMRADE
+TONES
+SRR
+TONES
+1:400
+UTSTREKNING IHT NVE 1/2019 OG9/2020
+Oppdragsnr.
+Tegningsnr.
+Rev.
+-
+-
+-
+-
+-
+-
+Rev.
+Beskrivelse
+Dato
+Tegn.
+Kontr.
+Godkj.
+www.multiconsult.no
+PROFIL T
+111601
+RIG- TEG-926
+00
+L
+E
+VANNINNHOLD OG
+SKJ1rns TYRKE
+PR.I
+WW
+St
+-13 I 3
+O>
+KONSISTENSGRENSER % n
+ON, k1w
+Su
+(kN/m1 )
+BUNNKOTE
+\V
+C D 0
+>- a::
+20
+30
+40
+50
+%
+1/. rri1
+10
+20
+30
+40
+50
+OCL
+SILT, sandig,
+Ieir i g
+en del
+m
+ob
+koraller
+og Skjell
+noe kor aller ffl
+r, s
+og skjel!
+, 5, 91----1
+SAND, sil h g , leirig - koraller &. ;
+-;-
+11' D
+,
+......_..___..____..___.... _s_kJ_e!r_e_s_t_e_rJ :;a..
+I P"
+16,3to
+LEIRE UJ!9._-
+Ll.:-f_sJj_e! Lr_e_s_t_e_r_
+Wp!
+1\vf
+b ·
+v
+11
+0
+s d h g , sandig
+gruskorn
+..
+f-5
+.
+i·'
+I
+10
+15
+t-,-
+PR
+::: PRØVESERIE
+0
+NATURLIG VANN!NNHOLD
+PORØSITET
+V
+K U N U , U '.SK
+n
+c
+0
+TRYKKFORSØK
+SK
+::
+SKOVLEBORING
+-j
+V/l
+FLYTECRENSE
+ONa 0
+HUMUSINNHOLD
+1 5  5  % DEFORMASJON VED BRUDD
+PG
+:: PRØVEGROP
+wf
+- n K O N U S M E T O D E
+OgI c GLØDETAP
++
+VINGEBORING
+VB
+::
+VINGEBORING
+f-- Vip
+PLASTISi TETSGRENSE r
+c
+TYNGDETETTHET
+OMRØRT SKJÆRSTYHKE
+St SENS!TIVITET
+ø = ØOOMETERFORSØK
+p
+c PERMEABILI TETSFORSØK
+K
+c
+KORNGRADERING
+T = TREAKSIALFORSØK
+GEOTEKNISKE DATA
+Boring nr.
+Tegningens filnavn
+3
+200402-10.dgn
+KRÆMER EIENDOM AS
+Borplan nr.
+lill
+200402-1
+Borbok /
+Ieb.bok ,r
+STAKKEVOLLVEIEN 35 - 37
+18171 / 1802
+MUL T IcONSUL T
+AS
+Dato
+Tegner
+Kontrollert
+Godkjenw
+/ \Q
+12.04.05
+hf
+A v d
+N 0 T EB y
+Oppdraqsnr.
+Tegningsnr.
+Rev.
+Fiolveien 13, 9016
+TROMSØ
+200402
+10
+Tlf , 77 60 69 40 - Faks, 77 60 69 41
+E
+V ANNINNHOL D
+OG
+SKJÆHSTYRKE
+PR.2
+WW
+St
+- 7, 2
+0>
+KONSIS TENSGRENSER
+%
+n
+ON. kt
+Su
+( k N / m 2 )
+BUNNKOTE
+\V
+C D 0
+>- 0::
+20
+30
+40
+50
+1/.
+1/. 7'fi3
+10
+20
+30
+40
+50
+OCL
+(misr e t l I
+SILT
+g r u s i g
+le1rrg
+-m
+U.....J
+hø'yt innho(d av o r a l l e r J skie\(
+0
+XflRJ,_-iU1[g;
+sur;gi:1iICg; TeJffg:: To-r=a][i:r:rn:eJD
+7•;
+IF =
+(l
+tf
+·16)
+.vl -
+19,8
+4,2
+LEIRE,
+s i l t i g ,
+sandig
+(
+20, 4
+gruskorn
+koraller, skjell
+SILT, ··s·a·n-d1Cl ei-r'l i---·----1- - - - -k ·,-1: :I
+DIP= 16' oO
+1i,r
+0-
+--
+v/pl
+I
+4,5
+__________ID.L
+q_r_a___u , _
+J_e_' r·
+,
+LEIRE
+l .tlg L - !)_djg- - . - --·- - - • - -
+,_
+stl tig
+I
+p= 1%
+0
+18, 7
+o,
+Wp1
+:\,FOO
+'
+4,5
+LEIRE,
+s i l t i g
+,
+5
+17,3
+D
+-
+-
+LEIRE I
+sil t i g
+K
+-
+I - 1
+19,2
+(Öl
+Wi=-
+0
+(v
+8,9
+gruskorn
+koraller, skjeI I
+..
+!
+10
+-
+,
+15
+>--
+PR
+PRØVESERIE
+NATURLIG VANNINNHOLD
+PORØSITET
+V
+K O N U ) U
+K
+=
+0
+n
+:
+0
+TRYKKFORSØK
+SK
+=
+SKOVLEBORING
+-j
+Wl
+FLYTECRENSE
+ N a  :
+HUMUS!NNHOLD
+1 5  5  % DEFORMASJON VED BRUDD
+PG
+= PRØVEGROP
+WF "
+--KONUSMETODE
+Ogl = GLØDETAP
++
+VINGEBORING
+VB
+=
+VINGEBORING
+f-
+\Vp
+PLASTISi TETSGRENSE
+r
+= TYNGDETETTHET
+'
+OMRØRT SKJÆRSTYRKE
+S, SENSIT!VITET
+ø = ØDOMETERFORSØK
+p = PERMEABILITETSFORSØK
+K = KORNGRAOERING
+T = TREAKSIALFORSØK
+GE0TEKNJSKE DATA
+Boring nr.
+Tegningens filnavn
+11
+200402-11.dgn
+KR-ÆMER EIENDOM
+Borplan nr.
+Iii'
+AS
+200402-1
+';;
+Borbok /
+lab.bok
+( M U J . . T ) : < ) N S U L . T }
+STAKKEVOLLVEIEN 35 - 37
+18171 / 1802
+u
+A
+MUL T IcONSUL T
+As
+Dato
+Tegnet
+Kontrolle.rt
+Godkjet!J
+/ K_
+1204.05
+hf
+A v d
+N O T E B y
+Oppdr aqsnr.
+Tegningsnr.
+Rev.
+Fiolveien 13, 9016
+TROMSØ
+200402
+11
+Tlf.: 77 60 69 40 - Faks: 77 60 69 41
+Kræmer Brygge Bolig
+Consto AS
+RIG-TEG-10
+T = Treaksialforsøk
+Ø = Ødometerforsøk
+K = Korngradering
+Porøsitet (%)
+20
+15
+10
+5
+Dybde (m)
+LEIRE, siltig, sandig
+LEIRE, siltig
+LEIRE, siltig, sandig
+Beskrivelse
+skjellrester
+skjellrester, sand og gruskorn
+skjellrester, sand og gruskorn
+skjellrester
+Prøve
+K
+K
+Test
+10
+20
+30
+40
+50
+Vanninnhold (%)
+og konsistensgrenser
+1.88
+1.84
+1.82
+1.82
+(g/cm3)
+Organisk 
+innhold (%)
+10
+20
+30
+40
+50
+Udrenert skjærfasthet (kPa)
+7
+8
+8
+12
+8
+9
+12
+St
+(-)
+Vanninnhold
+Plastisitetsindeks, Ip
+Omrørt konus
+Uomrørt konus
+Symboler
+Enaksialforsøk (strek angir deformasjon (%) ved brudd)
+5
+10
+15
+0
+= Densitet
+St = Sensitivitet
+s:
+Grunnvannstand:
+Lab-bok:
+2.75 g/cm3
+3023
+-
+Vanninnhold (%)
+.s
+.,,~ -
+og konsistensgrenser
+E
+Cl)
+.!!l,,
+Udrenert skjærfasthet (kPa)
+Cl)
+Beskrivelse
+Cl) -
+.!:
+:t::
+c: -
+St
+,,
+>
+f/)
+f/)
+C'G0
+.0
+&
+Cl)
+&
+C l . C
+(-)
+>,
+kt. -5 65
+... I-
+10
+20
+30
+40
+50
+... ... c:
+10
+20
+30
+40
+50
+a..
+a.
+0
+0 ·=
+c
+n
+c?
+"
+v
+7
+LEIRE, siltig, sandig
+K
+-
+-
+-
+-
+skjellrester
+p
+l't'
+I-- 0
+"
+(
+8
+LEIRE, siltig
+CD
+1.88
+skjellrester, sand og gruskorn
+( I l
+1.84
+l'f'
+'<;;
+12
+,,
+... l
+8
+skjellrester, sand og gruskorn
+K
+::o
+1.82
+8
+-
+-
+-
+-
+-
+·
+1.82
+l't'
+·
+...
+J
+9
+LEIRE, siltig, sandig
+''--
+12
+5 -
+-
+-
+-
+l r e s t e r
+...
+'v
+10
+f--
+15
+f--
+20
+S)lmboler
+1 s - Q - s
+Enaksialforsøk (strek angir deformasjon(%) ved brudd)
+10
+T= Treaksialforsøk
+2.75 g/cm3
+0
+Vanninnhold
+...
+Omrørt konus
+p=
+Densitet
+Ø = Ødometerforsøk
+p.:
+Grunnvannstand:
+H
+Plastisitetsindeks, 10
+'v
+Uomrørt konus
+St = Sensitivitet
+K = Korngradering
+Lab-bok:
+3023
+Tegningens filnavn:
+PRØVESERIE
+,,
+Tegnet:
+Consto AS
+Rags
+Kontrollert:
+Kræmer Brygge Bolig
+Tones
+,--..m--,,MULTICONSULT
+Dato:
+Borhull:
+Godkjent:
+2013-09-10
+6
+Tones
+Oppdragsnummer:
+Tegningsnr..
+Rev nr.:
+711948
+RIG-TEG-10
+Kræmer Brygge Bolig
+Consto AS
+RIG-TEG-11
+T = Treaksialforsøk
+Ø = Ødometerforsøk
+K = Korngradering
+Porøsitet (%)
+20
+15
+10
+5
+Dybde (m)
+SILT, grusig
+SILT, sandig
+SILT, leirig
+LEIRE, siltig, sandig
+LEIRE, siltig
+LEIRE, siltig, sandig
+Beskrivelse
+skjellrester
+skjellrester
+skjellrester
+skjellrester, sand og gruskorn
+skjellrester
+skjellrester, sand og gruskorn
+sand og gruskorn
+Prøve
+K
+K
+Test
+10
+20
+30
+40
+50
+63
+58
+65
+70
+64
+67
+61
+59
+58
+65
+Vanninnhold (%)
+og konsistensgrenser
+1.62
+1.59
+1.63
+1.87
+1.82
+1.78
+1.82
+1.75
+1.73
+1.78
+1.84
+(g/cm3)
+Organisk 
+innhold (%)
+10
+20
+30
+40
+50
+Udrenert skjærfasthet (kPa)
+9
+8
+9
+9
+7
+10
+St
+(-)
+Vanninnhold
+Plastisitetsindeks, Ip
+Omrørt konus
+Uomrørt konus
+Symboler
+Enaksialforsøk (strek angir deformasjon (%) ved brudd)
+5
+10
+15
+0
+= Densitet
+St = Sensitivitet
+s:
+Grunnvannstand:
+Lab-bok:
+2.75 g/cm3
+3023
+-
+Vanninnhold (%)
+.s
+.,,~ -
+og konsistensgrenser
+E
+Cl)
+.!!l,,
+Udrenert skjærfasthet (kPa)
+Cl)
+Beskrivelse
+Cl) -
+.!:
+:t::
+c: -
+St
+,,
+>
+tii
+tii
+C'G0
+.0
+&
+Cl)
+&
+C l . C
+(-)
+>,
+kt. -12.2
+... I-
+10
+20
+30
+40
+50
+... ... c:
+10
+20
+30
+40
+50
+a..
+a.
+0
+0 ·=
+c
+n
+SILT, grusig
+1.62
+skjellrester
+,o
+1.59
+K
+14
+-
+-
+-
+-
+l r e s t e r
+17
+SILT, sandig
+I 1
+1.63
+'9
+-
+-
+-
+-
+l r e s t e r
+18
+SILT, leirig
+0
+1.87
+_
+skjellrester,__§_§_nd og_gr_uskorn
+l-H
+(D
+0
+1.82
+,
+'v
+9
+-
+LEIRE, siltig, sandig
+0
+1.78
+i.-
+5
+l r e s t e r
+r\D
+1.82
+i.- "9
+8
+-
+-
+-
+-
+v
+f--
+ib
+,.
+9
+LEIRE, siltig
+1.75
+_
+skjellrester,__§_§_nd og_gr_uskorn
+K
+I
+1.73
+i.-
+9
+-
+0
+i.-
+17
+7
+LEIRE, siltig, sandig
+1.78
+,s:.
+1.84
+0-
+10
+-
+-
+-
+__§_§_nd og_gr_uskorn
+,
+i.-
+'v
+10
+f--
+15
+f--
+20
+S)lmboler
+1 s - Q - s
+Enaksialforsøk (strek angir deformasjon(%) ved brudd)
+10
+T= Treaksialforsøk
+2.75 g/cm3
+0
+Vanninnhold
+...
+Omrør! konus
+p=
+Densitet
+Ø = Ødometerforsøk
+p.:
+Grunnvannstand:
+H
+Plastisitetsindeks, 10
+'v
+Uomrørt konus
+St = Sensitivitet
+K = Korngradering
+Lab-bok:
+3023
+Tegningens filnavn:
+PRØVESERIE
+.,,,.,..,,"'-c:.,rr
+·,· ,.-,ccraCTJ>-'1N"-<-<'.. 1;,,· . , . , - - , , 1
+Tegnet:
+Consto AS
+Rags
+Kontrollert:
+Kræmer Brygge Bolig
+Tones
+,--..m--,,MULTICONSULT
+Dato:
+Borhull:
+Godkjent:
+2013-09-10
+21
+Tones
+Oppdragsnummer:
+Tegningsnr..
+Rev nr.:
+711948
+RIG-TEG-11
+Utfylling Kræmer
+Kræmer AS
+RIG-TEG-10
+T = Treaksialforsøk
+Ø = Ødometerforsøk
+K = Korngradering
+41
+53
+57
+49
+Porøsitet (%)
+20
+15
+10
+5
+Dybde (m)
+SILT, organisk
+SILT
+grusig, siltig, sandig, leirig, MATERIAL
+SILT, sandig, leirig
+LEIRE
+Beskrivelse
+planterester
+korall- og skjellrester
+korall- og skjellrester
+korall- og skjellrester
+korall- og skjellrester
+korall- og skjellrester
+siltlag, sandkorn, skjellfragmenter
+siltlag, sandkorn, skjellfragmenter
+siltlag, enk. gruskorn
+siltlag, enk. gruskorn
+Prøve
+K
+K
+Test
+10
+20
+30
+40
+50
+93
+63
+68
+60
+59
+57
+59
+58
+57
+Vanninnhold (%)
+og konsistensgrenser
+1.64
+2.04
+1.85
+1.77
+1.92
+1.67
+1.95
+(g/cm3)
+Organisk 
+innhold (%)
+10
+20
+30
+40
+50
+Udrenert skjærfasthet (kPa)
+7
+12
+8
+8
+8
+6
+14
+St
+(-)
+Vanninnhold
+Plastisitetsindeks, Ip
+Omrørt konus
+Uomrørt konus
+Symboler
+Enaksialforsøk (strek angir deformasjon (%) ved brudd)
+5
+10
+15
+0
+-
+Vanninnhold (%)
+.s
+.,,~ -
+og konsistensgrenser
+E
+Cl)
+.!!l,,
+Udrenert skjærfasthet (kPa)
+Cl)
+Beskrivelse
+Cl) -
+.!:
+:t::
+c: -
+St
+,,
+>
+tii
+tii
+C'G0
+.0
+&
+Cl)
+&
+C l . C
+(-)
+>,
+kt. -5.76
+... I-
+10
+20
+30
+40
+50
+... ... c:
+10
+20
+30
+40
+50
+a..
+a.
+0
+0 ·=
+c
+n
+_§11=
+T, o i s k _
+pianterester
+b
+3
+.su.T
+-
+-
+koralf- og sl<]ellrester
+€3
+grusig, siltig, sandig, leirig, MATERIAL
+korall- og skjellrester
+0
+qu
+K
+'9
+1.64
+korall- og skjellrester
+17
+1::1 1.67
+(
+-
+-
+-
+korall- og l r e s t e r
+'7
+SILT, sandig, leirig
+,f
+2.04
+41
+,...
+0...
+5-
+-
+-
+korall- og l r e s t e r
+I...
+I"
+LEIRE
+1.95
+silllag, sandkorn, skjellfragmenter
+oC
+i.-
+b' '
+14
+0
+...
+v
+7
+silllag, sandkorn, skjellfragmenter
+K
+1.85
+53
+... <P-- v
+12
+"--
+P1
+...
+'Ild
+8
+1.77
+57
+silllag, enk. gruskorn
+0
+,. v
+8
+8
+f
+1.92
+49
+IT
+IV
+6
+siltl§g, enk_,_gr_uskorn
+p
+,.
+-
+-
+-
+10
+f--
+15
+f--
+20
+S)lmboler
+1 s - Q - s
+Enaksialforsøk (strek angir deformasjon(%) ved brudd)
+10
+p= Densitet
+T= Treaksialforsøk
+p.:
+2.75 g/cm3
+0
+Vanninnhold
+...
+Omrørt konus
+St = Sensitivitet
+Ø = Ødometerforsøk
+Borbok:
+H
+Plastisitetsindeks, 10
+v
+Uomrørt konus
+NP= Non plastisk
+K = Korngradering
+Lab-bok:
+3195
+Tegningens filnavn:
+PRØVESERIE
+.,,,.,..,,.... ,, ·,•,.-,.,,r,=-,,,w-•-•
+1 • 0 , . , . , - - , , .... ,
+Tegnet:
+Kræmer AS
+HANNEK
+Kontrollert:
+Utfylling Kræmer
+RAGS
+Dato:
+Borhull:
+Godkjent:
+Multiconsult
+2014-11-11
+5
+BGJ
+Oppdragsnummer:
+Tegningsnr..
+Rev nr.:
+711607
+RIG-TEG-10
+Utfylling Kræmer
+Kræmer AS
+RIG-TEG-11
+T = Treaksialforsøk
+Ø = Ødometerforsøk
+K = Korngradering
+45
+53
+54
+54
+53
+Porøsitet (%)
+20
+15
+10
+5
+Dybde (m)
+siltig, sandig, grusig, leirig, MATERIAL
+LEIRE
+Beskrivelse
+korall- og skjellrester
+korall- og skjellrester
+sandkorn
+enk. gruskorn
+enk. gruskorn
+skjellrester
+skjellrester, enk. gruskorn
+skjellrester, enk. gruskorn
+Prøve
+K
+K
+Test
+10
+20
+30
+40
+50
+78
+65
+Vanninnhold (%)
+og konsistensgrenser
+1.93
+1.98
+1.84
+1.83
+1.83
+1.85
+(g/cm3)
+Organisk 
+innhold (%)
+10
+20
+30
+40
+50
+Udrenert skjærfasthet (kPa)
+5
+9
+8
+10
+7
+14
+11
+12
+10
+10
+14
+St
+(-)
+Vanninnhold
+Plastisitetsindeks, Ip
+Omrørt konus
+Uomrørt konus
+Symboler
+Enaksialforsøk (strek angir deformasjon (%) ved brudd)
+5
+10
+15
+0
+-
+Vanninnhold (%)
+.s
+.,,~ -
+og konsistensgrenser
+E
+Cl)
+.!!l,,
+Udrenert skjærfasthet (kPa)
+Cl)
+Beskrivelse
+Cl) -
+.!:
+:t::
+c: -
+St
+,,
+>
+tii
+tii
+C'G0
+.0
+&
+Cl)
+&
+C l . C
+(-)
+>,
+kt. -8.09
+... I-
+10
+20
+30
+40
+50
+... ... c:
+10
+20
+30
+40
+50
+a..
+a.
+0
+0 ·=
+c
+n
+siltig, sandig, grusig, leirig, MATERIAL
+,;
+korall- og skjellrester
+korall- og skjellrester
+K
+µ
+1.93
+-
+-
+-
+-
+-
+5
+LEIRE
+sandkorn
+...
+'v
+9
+r:r
+,-- 1l
+a
+enk. gruskorn
+c
+1.98
+45
+...
+,17
+8
+14
+f-,-- -l 05
+1.84
+53
+,
+'v
+enk. gruskorn
+!'f" d
+,17
+10
+7
+K
+e
+1.83
+54
+ve
+14
+5
+skjellrester
+1D
+,. v
+0
+!'f"
+:y
+11
+skjellrester, enk. gruskorn
+1.83
+54
+!'f"
+c 'v
+12
+f:)
+bee}
+-:f'
+,17
+10
+skjellrester, enk. gruskorn
+1.85
+53
+'v
+10
+-
+-
+-
+-
+-
+10
+f--
+15
+f--
+20
+S)lmboler
+1 s - Q - s
+Enaksialforsøk (strek angir deformasjon(%) ved brudd)
+10
+p= Densitet
+T= Treaksialforsøk
+p.:
+2.75 g/cm3
+0
+Vanninnhold
+...
+Omrørt konus
+St = Sensitivitet
+Ø = Ødometerforsøk
+Borbok:
+H
+Plastisitetsindeks, 10
+'v
+Uomrørt konus
+NP= Non plastisk
+K = Korngradering
+Lab-bok:
+3195
+Tegningens filnavn:
+PRØVESERIE
+.,,,.,..,,....,,
+·,•,,.-r,r•=-•>tw,-<-a;• 1 • 0 , . , . , - - , , ,
+Tegnet:
+Kræmer AS
+HANNEK
+Kontrollert:
+Utfylling Kræmer
+RAGS
+Dato:
+Borhull:
+Godkjent:
+Multiconsult
+2014-11-11
+18
+BGJ
+Oppdragsnummer:
+Tegningsnr..
+Rev nr.:
+711607
+RIG-TEG-11
+Utfylling Kræmer
+Kræmer AS
+RIG-TEG-12
+T = Treaksialforsøk
+Ø = Ødometerforsøk
+K = Korngradering
+54
+52
+Porøsitet (%)
+20
+15
+10
+5
+Dybde (m)
+SILT, sandig, leirig
+LEIRE, siltig
+LEIRE
+Beskrivelse
+korall- og skjellrester
+korall- og skjellrester
+korall- og skjellrester
+korall- og skjellrester
+lagdelt, korall- og skjellrester
+skjellrester
+skjellrester
+skjellrester
+Prøve
+K
+K
+K
+Test
+10
+20
+30
+40
+50
+65
+64
+67
+62
+70
+67
+59
+65
+62
+62
+65
+62
+Vanninnhold (%)
+og konsistensgrenser
+1.61
+1.62
+1.61
+1.74
+1.84
+1.87
+1.77
+1.82
+(g/cm3)
+Organisk 
+innhold (%)
+10
+20
+30
+40
+50
+Udrenert skjærfasthet (kPa)
+8
+7
+11
+6
+9
+11
+13
+St
+(-)
+Vanninnhold
+Plastisitetsindeks, Ip
+Omrørt konus
+Uomrørt konus
+Symboler
+Enaksialforsøk (strek angir deformasjon (%) ved brudd)
+5
+10
+15
+0
+TK
+TKØ
+-
+Vanninnhold (%)
+.s
+.,,~ -
+og konsistensgrenser
+E
+Cl)
+.!!l,,
+Udrenert skjærfasthet (kPa)
+Cl)
+Beskrivelse
+Cl) -
+.!:
+:t::
+c: -
+St
+,,
+>
+f/)
+f/)
+C'G0
+.0
+&
+Cl)
+&
+C l . C
+(-)
+>,
+kt. -12.9
+... I-
+10
+20
+30
+40
+50
+... ... c:
+10
+20
+30
+40
+50
+a..
+a.
+0
+0 ·=
+c
+n
+SILT, sandig, leirig
+u !l
+T
+korall- og skjellrester
+,1u
+K
+17
+1.61
+korall- og skjellrester
+12
+Ill
+1.62
+...
+'9
+korall- og skjellrester
+€5
+tlL
+12
+1.61
+..
+korall- og skjellrester
+15
+lagdelt, korall- og skjellrester
+(D
+€2
+1.74
+...
+)
+5
+-
+-
+-
+-
+-
+u
+I"
+LEIRE, siltig
+rr,
+1.84
+54
+q
+8
+l r e s t e r
+"
+-
+-
+-
+-
+-
+...
+v
+6
+LEIRE
+TK
+1f6
+1.77
+9
+skjellrester
+...
+--<W
+11
+TK,
+-
+c
+1.82
+13
+skjellrester
+c
+7
+IU
+IT
+tv
+c'
+1.87
+52
+(j
+11
+i"
+w
+-
+-
+-
+-
+-
+10
+f--
+15
+f--
+20
+S)lmboler
+1 s - Q - s
+Enaksialforsøk (strek angir deformasjon(%) ved brudd)
+10
+p= Densitet
+T= Treaksialforsøk
+p.:
+2.75 g/cm3
+0
+Vanninnhold
+...
+Omrørt konus
+s1= Sensitivitet
+Ø = Ødometerforsøk
+Borbok:
+H
+Plastisitetsindeks, 10
+v
+Uomrørt konus
+NP= Non plastisk
+K = Korngradering
+Lab-bok:
+3195
+Tegningens filnavn:
+PRØVESERIE
+.,,,.,..,,.... ,, ·,•,.-,.,,r,=-,,,w-•-•
+1•0,.,.,--,,,,,
+Tegnet:
+Kræmer AS
+HANNEK
+Kontrollert:
+Utfylling Kræmer
+RAGS
+Dato:
+Borhull:
+Godkjent:
+Multiconsult
+2014-11-14
+21
+BGJ
+Oppdragsnummer:
+Tegningsnr..
+Rev nr.:
+711607
+RIG-TEG-12
+Kræmer Brygge, Tromsø
+Kræmer Brygge AS
+RIG-TEG-013
+T = Treaksialforsøk
+Ø = Ødometerforsøk
+K = Korngradering
+48
+43
+Porøsitet (%)
+20
+15
+10
+5
+Dybde (m)
+GRUS, sandig, siltig
+grusig, siltig, sandig, leirig, MATERIAL
+siltig, grusig, sandig, leirig, MATERIAL
+LEIRE
+LEIRE, siltig
+Beskrivelse
+metallbiter, trebiter
+noe plantetråder
+korall- og skjellrester
+skjellrester
+enk. gruskorn, skjellrester
+noe skjellrester
+Prøve
+K
+K
+K
+Test
+10
+20
+30
+40
+50
+Vanninnhold (%)
+og konsistensgrenser
+1.87
+1.92
+2.02
+(g/cm3)
+Organisk 
+innhold (%)
+10
+20
+30
+40
+50
+Udrenert skjærfasthet (kPa)
+3
+6
+4
+5
+2
+St
+(-)
+Vanninnhold
+Plastisitetsindeks, Ip
+Omrørt konus
+Uomrørt konus
+Symboler
+Enaksialforsøk (strek angir deformasjon (%) ved brudd)
+5
+10
+15
+0
+-
+Vanninnhold (%)
+c
+.s
+.,,~ -
+. i , :
+og konsistensgrenser
+E
+Cl)
+.!!! ,,
+Udrenert skjærfasthet (kPa)
+Cl)
+Beskrivelse
+Cl) -
+.!:
+c: -
+St
+,,
+>
+f/)
+f/)
+C'G0
+.0
+&
+Cl)
+&
+C l . C
+(-)
+>,
+kt. 2.27
+... I-
+10
+20
+30
+40
+50
+... ... c:
+10
+20
+30
+40
+50
+a..
+Q.
+0
+0 ·=
+c
+a..
+GRUS, sandig, siltig
+)
+-
+-
+-
+metallbirebiter
+grusig, siltig, sandig, leirig, MATERIAL
+p
+-
+-
+-
+__ripe plantetråder
+5-
+siltig, grusig, sandig, leirig, MATERIAL
+c.J
+1.87
+-
+-
+-
+korall- og l r e s t e r
+:)
+3
+LEIRE
+\.j
+1.92
+48
+I'
+fl
+l r e s t e r
+K
+k-
+·
+).._ v
+6
+-
+-
+-
+-
+4
+LEIRE, siltig
+c)
+tB : 1
+2.02
+43
+..
+\
+5
+K
+I,
+10-.
+'\
+enk. gruskorn, skjellrester
+2
+-
+-
+-
+_ n o e l r e s t e r
+K
+(r
+71
+l'I'
+\
+10-
+15-
+20
+S)lmboler
+1 s - Q - s
+Enaksialforsøk (strek angir deformasjon(%) ved brudd)
+10
+p= Densitet
+T= Treaksialforsøk
+p.:
+2.75 g/cm3
+0
+Vanninnhold
+...
+Omrør! konus
+St = Sensitivitet
+Ø = Ødometerforsøk
+Borbok:
+H
+Plastisitetsindeks, 10
+v
+Uomrørt konus
+NP= Non plastisk
+K = Korngradering
+Lab-bok:
+3197
+Tegningens filnavn:
+PRØVESERIE
+.,,,.,..,,.... ,, ·,•,.-,.,,r,=-,,,w-•-•
+1•0,.,.,--,,,.,,
+Tegnet:
+Kræmer Brygge AS
+RAGS
+Kontrollert:
+Kræmer Brygge, Tromsø
+HANNEK
+Dato:
+Borhull:
+Godkjent:
+Multiconsult
+2015-05-19
+1
+BGJ
+Oppdragsnummer:
+Tegningsnr..
+Rev nr.:
+711607
+RIG-TEG-013
+Nkt = (18,7-12,5·Bq)
+ac    valgt:
+NDu = (1,8+7,25·Bq)
+Nke = (13,8-12,5·Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, korrelert mot Bq.
+1
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+24.11.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+40.10
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp1.xlsx
+Referansemetode: Karlsrud et al (1996)
+0
+5
+10
+0
+10
+20
+30
+40
+50
+Dybde, z (m) 
+Udrenert skjærfasthet, suA (kN/m2) 
+suA, Nkt=f (Bq)
+suA, NDu=f(Bq)
+suA, Nke=f(Bq)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+Q)
+"O
+.0>.
+0
+- s u A , Nkt=f (Bq)
+- s u A , NDu=f(Bq)
+- s u A , Nke=f(Bq)
+- s u , NC, a(po'+a)
+t:,. suk, konus
+•
+sue, enaks
+sutc, treaks
+- s u A , designlinje
+Nkt = (18,7-12,S·Bq)
+NDu = (1,8+7,25-Bq)
+Nke = (13,8-12,S·Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfasthet SuA, korrelert mot Bq·
+CPTU id.:
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp1.xlsx
+Multiconsult
+MULTICONSULT AS
+Dato:
+24.11.2014
+Tegnet:
+BGJ
+Kontrollert:
+TONES
+Godkjent:
+TONES
+Oppdrag nr.:
+711607
+Tegning nr.:
+40.10
+Versjon:
+Revisjon:
+28.11.2013
+0
+Sensitivitetsvalg:
+ac    valgt:
+Oppdrag:
+Aktiv udrenert skjærfashet suA, korrelert mot St, OCR og Ip.
+1
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+24.11.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+40.11
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp1.xlsx
+Nkt = (7,8+2,5logOCR+0,082Ip)
+NDu = (6,9-4logOCR+0,07Ip)
+Nke = (11,5-9,05Bq)
+St < 15
+0
+3
+5
+8
+10
+0
+50
+100
+150
+200
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt=f(St,OCR,Ip)
+suA, NDu=f(St,OCR,Ip)
+suA, Nke=f(St,OCR,Ip)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+.-.
+E
+._.
+N
+Q)
+L()
+"'O
+.c>-
+0
+co
+- s u A , Nkt=f(St,OCR,lp)
+- s u A , Nke=f(St,OCR,lp)
+t::,. suk, konus
+sutc, treaks
+- s u A , NDu=f(St,OCR,lp)
+- s u , NC, a(po'+a)
+•
+sue, enaks
+- s u A , designlinje
+Sensitivitetsvalg:
+S t < 15
+Nkt = (7,8+2,5IogOCR+0,082Ip)
+NDu = (6,9-4IogOCR+0,07Ip)
+Nke = (11,5-9,0SBq)
+Uc
+valgt:
+0,25
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfashet SuA, korrelert mot S1, OCR og IP.
+CPTUid.:
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp1.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+24.11.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+40.11
+28.11.2013
+0
+Nkt:
+(18,7-12,5Bq)
+ac    valgt:
+NDu:
+(1,8+7,25Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, verdier fra SHANSEP-analyse. 
+1
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+24.11.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+40.12
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp1.xlsx
+Referansemetode: Karlsrud et al. (1996)
+0
+3
+5
+8
+10
+0
+10
+20
+30
+40
+50
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt= f(Bq)
+suA, Ndu= f(Bq)
+su, SHANSEP, Ds1='
+su, SHANSEP, Ds2'=
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+(l)
+-0
+.0>,
+0
+co
+- s u A , Nkt= f(Bq)
+- s u , SHANSEP, Ds2'= - s u , NC, a(po'+a)
+O
+sue, enaks
+- s u A , Ndu= f(Bq)
+sutc, treaks
+- s u , SHANSEP, Ds1='
+t:,. suk, konus
+- s u A , designlinje
+(18,7-12,SBq)
+(1,8+7,25Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al. (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfasthet SuA, verdier fra SHANSEP-analyse.
+CPTUid.:
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp1.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+24.11.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+40.12
+28.11.2013
+0
+Nkt = (18,7-12,5·Bq)
+ac    valgt:
+NDu = (1,8+7,25·Bq)
+Nke = (13,8-12,5·Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, korrelert mot Bq.
+5
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+41.10
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp5.xlsx
+Referansemetode: Karlsrud et al (1996)
+0
+5
+10
+0
+10
+20
+30
+40
+50
+Dybde, z (m) 
+Udrenert skjærfasthet, suA (kN/m2) 
+suA, Nkt=f (Bq)
+suA, NDu=f(Bq)
+suA, Nke=f(Bq)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+0
+N
+0
+0
+C")
+0
+L!)
+N
+Q)
+"O
+.0>.
+0
+- s u A , Nkt=f (Bq)
+- s u A , NDu=f(Bq)
+- s u A , Nke=f(Bq)
+- s u , NC, a(po'+a)
+t:,. suk, konus
+•
+sue, enaks
+sutc, treaks
+- s u A , designlinje
+Nkt = (18,7-12,S·Bq)
+NDu = (1,8+7,25-Bq)
+Nke = (13,8-12,S·Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Tegningens filnavn:
+CPTU_Bp5.xlsx
+Aktiv udrenert skjærfasthet SuA, korrelert mot Bq·
+Multiconsult
+CPTUid.:
+5
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+41.10
+28.11.2013
+0
+Sensitivitetsvalg:
+ac    valgt:
+Oppdrag:
+Aktiv udrenert skjærfashet suA, korrelert mot St, OCR og Ip.
+5
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+41.11
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp5.xlsx
+Nkt = (7,8+2,5logOCR+0,082Ip)
+NDu = (6,9-4logOCR+0,07Ip)
+Nke = (11,5-9,05Bq)
+St < 15
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+25
+50
+75
+100
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt=f(St,OCR,Ip)
+suA, NDu=f(St,OCR,Ip)
+suA, Nke=f(St,OCR,Ip)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+L!)
+N
+0
+L!)
+0
+N
+-.::f"
+.-.
+E
+._.
+N
+Q)
+L!)
+"'O
+.c>-
+0
+co
+co
+•
+0
+'\"""
+- s u A , Nkt=f(St,OCR,lp)
+- s u A , Nke=f(St,OCR,lp)
+t::,. suk, konus
+sutc, treaks
+- s u A , NDu=f(St,OCR,lp)
+- s u , NC, a(po'+a)
+•
+sue, enaks
+- s u A , designlinje
+Sensitivitetsvalg:
+S t < 15
+Nkt = (7,8+2,5IogOCR+0,082Ip)
+NDu = (6,9-4IogOCR+0,07Ip)
+Nke = (11,5-9,0SBq)
+Uc
+valgt:
+0,25
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfashet SuA, korrelert mot S1, OCR og IP.
+CPTUid.:
+5
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp5.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+41.11
+28.11.2013
+0
+Nkt:
+(18,7-12,5Bq)
+ac    valgt:
+NDu:
+(1,8+7,25Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, verdier fra SHANSEP-analyse. 
+5
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+41.12
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp5.xlsx
+Referansemetode: Karlsrud et al. (1996)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+25
+50
+75
+100
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt= f(Bq)
+suA, Ndu= f(Bq)
+su, SHANSEP, Ds1='
+su, SHANSEP, Ds2'=
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+L!)
+N
+0
+L!)
+0
+0
+T"""
+0
+N
+s:::t"
+,-..
+E
+.__..
+N
+(l)
+L!)
+-0
+.0>,
+0
+co
+co
+a
+0
+T"""
+- s u A , Nkt= f(Bq)
+- s u , SHANSEP, Ds2'= - s u , NC, a(po'+a)
+O
+sue, enaks
+- s u A , Ndu= f(Bq)
+sutc, treaks
+- s u , SHANSEP, Ds1='
+t:,. suk, konus
+- s u A , designlinje
+(18,7-12,SBq)
+(1,8+7,25Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al. (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfasthet SuA, verdier fra SHANSEP-analyse.
+CPTUid.:
+5
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp5.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+41.12
+28.11.2013
+0
+Nkt = (18,7-12,5·Bq)
+ac    valgt:
+NDu = (1,8+7,25·Bq)
+Nke = (13,8-12,5·Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, korrelert mot Bq.
+18
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+42.10
+28.11.2013
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp18.xlsx
+Referansemetode: Karlsrud et al (1996)
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0
+5
+10
+0
+10
+20
+30
+40
+50
+Dybde, z (m) 
+Udrenert skjærfasthet, suA (kN/m2) 
+suA, Nkt=f (Bq)
+suA, NDu=f(Bq)
+suA, Nke=f(Bq)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+Q)
+"O
+.0>.
+0
+- s u A , Nkt=f (Bq)
+- s u A , NDu=f(Bq)
+- s u A , Nke=f(Bq)
+- s u , NC, a(po'+a)
+t:,. suk, konus
+•
+sue, enaks
+sutc, treaks
+- s u A , designlinje
+Nkt = (18,7-12,S·Bq)
+NDu = (1,8+7,25-Bq)
+Nke = (13,8-12,S·Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Tegningens filnavn:
+CPTU_Bp18.xlsx
+Aktiv udrenert skjærfasthet SuA, korrelert mot Bq·
+Multiconsult
+CPTUid.:
+18
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+42.10
+28.11.2013
+0
+Sensitivitetsvalg:
+ac    valgt:
+Oppdrag:
+Aktiv udrenert skjærfashet suA, korrelert mot St, OCR og Ip.
+18
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+42.11
+28.11.2013
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp18.xlsx
+Nkt = (7,8+2,5logOCR+0,082Ip)
+NDu = (6,9-4logOCR+0,07Ip)
+Nke = (11,5-9,05Bq)
+St < 15
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+10
+20
+30
+40
+50
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt=f(St,OCR,Ip)
+suA, NDu=f(St,OCR,Ip)
+suA, Nke=f(St,OCR,Ip)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+0
+N
+0
+C")
+0
+L{)
+0
+N
+-.::f"
+.-.
+E
+._.
+N
+Q)
+L{)
+"'O
+.c>-
+0
+co
+co
+- \
+-
+==
+\
+-.
+_r-·\
+/',.,_
+-
+.
+.
+A
+Vt.,.1-
+'--'
+i::,
+I
+c : _ < : _
+I\
+,<c?
+/',.,_'· -
+\ '11\J'
+----...,,..
+A\
+/',.,_
+....
+\
+/',.,_
+"'
+\
+L l . ;
+/',.,_\
+'\.
+f'...
+i--
+- s u A , Nkt=f(St,OCR,lp)
+- s u A , Nke=f(St,OCR,lp)
+t::,. suk, konus
+sutc, treaks
+- s u A , NDu=f(St,OCR,lp)
+- s u , NC, a(po'+a)
+•
+sue, enaks
+- s u A , designlinje
+Sensitivitetsvalg:
+S t < 15
+Nkt = (7,8+2,5IogOCR+0,082Ip)
+NDu = (6,9-4IogOCR+0,07Ip)
+Nke = (11,5-9,0SBq)
+Uc
+valgt:
+0,25
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfashet SuA, korrelert mot S1, OCR og IP.
+CPTUid.:
+18
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp18.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+42.11
+28.11.2013
+0
+Nkt:
+(18,7-12,5Bq)
+ac    valgt:
+NDu:
+(1,8+7,25Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, verdier fra SHANSEP-analyse. 
+18
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+42.12
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp18.xlsx
+Referansemetode: Karlsrud et al. (1996)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+10
+20
+30
+40
+50
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt= f(Bq)
+suA, Ndu= f(Bq)
+su, SHANSEP, Ds1='
+su, SHANSEP, Ds2'=
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+s:::t"
+,-..
+E
+.__..
+N
+(l)
+L()
+-0
+.0>,
+0
+co
+co
+- s u A , Nkt= f(Bq)
+- s u , SHANSEP, Ds2'= - s u , NC, a(po'+a)
+O
+sue, enaks
+- s u A , Ndu= f(Bq)
+sutc, treaks
+- s u , SHANSEP, Ds1='
+t:,. suk, konus
+- s u A , designlinje
+(18,7-12,SBq)
+(1,8+7,25Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al. (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfasthet SuA, verdier fra SHANSEP-analyse.
+CPTUid.:
+18
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp18.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+42.12
+28.11.2013
+0
+Nkt = (18,7-12,5·Bq)
+ac    valgt:
+NDu = (1,8+7,25·Bq)
+Nke = (13,8-12,5·Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, korrelert mot Bq.
+21
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+43.10
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp21.xlsx
+Referansemetode: Karlsrud et al (1996)
+0
+5
+10
+0
+10
+20
+30
+40
+50
+Dybde, z (m) 
+Udrenert skjærfasthet, suA (kN/m2) 
+suA, Nkt=f (Bq)
+suA, NDu=f(Bq)
+suA, Nke=f(Bq)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+Q)
+"O
+.0>.
+0
+- s u A , Nkt=f (Bq)
+- s u A , NDu=f(Bq)
+- s u A , Nke=f(Bq)
+- s u , NC, a(po'+a)
+t:,. suk, konus
+•
+sue, enaks
+sutc, treaks
+- s u A , designlinje
+Nkt = (18,7-12,S·Bq)
+NDu = (1,8+7,25-Bq)
+Nke = (13,8-12,S·Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Tegningens filnavn:
+CPTU_Bp21.xlsx
+Aktiv udrenert skjærfasthet SuA, korrelert mot Bq·
+Multiconsult
+CPTUid.:
+21
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+43.10
+28.11.2013
+0
+Sensitivitetsvalg:
+ac    valgt:
+Oppdrag:
+Aktiv udrenert skjærfashet suA, korrelert mot St, OCR og Ip.
+21
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+43.11
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp21.xlsx
+Nkt = (7,8+2,5logOCR+0,082Ip)
+NDu = (6,9-4logOCR+0,07Ip)
+Nke = (11,5-9,05Bq)
+St < 15
+0
+2
+4
+6
+8
+10
+0
+50
+100
+150
+200
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt=f(St,OCR,Ip)
+suA, NDu=f(St,OCR,Ip)
+suA, Nke=f(St,OCR,Ip)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+-.::f"
+.-.
+E
+._.
+N
+Q)
+"'O
+.c>-
+0
+co
+co
+- s u A , Nkt=f(St,OCR,lp)
+- s u A , Nke=f(St,OCR,lp)
+t::,. suk, konus
+sutc, treaks
+- s u A , NDu=f(St,OCR,lp)
+- s u , NC, a(po'+a)
+•
+sue, enaks
+- s u A , designlinje
+Sensitivitetsvalg:
+S t < 15
+Nkt = (7,8+2,5IogOCR+0,082Ip)
+NDu = (6,9-4IogOCR+0,07Ip)
+Nke = (11,5-9,0SBq)
+Uc
+valgt:
+0,25
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfashet SuA, korrelert mot S1, OCR og IP.
+CPTUid.:
+21
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp21.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+43.11
+28.11.2013
+0
+Nkt:
+(18,7-12,5Bq)
+ac    valgt:
+NDu:
+(1,8+7,25Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, verdier fra SHANSEP-analyse. 
+21
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+43.12
+28.11.2013
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp21.xlsx
+Referansemetode: Karlsrud et al. (1996)
+0
+2
+4
+6
+8
+10
+0
+10
+20
+30
+40
+50
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt= f(Bq)
+suA, Ndu= f(Bq)
+su, SHANSEP, Ds1='
+su, SHANSEP, Ds2'=
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+0
+N
+0
+C")
+0
+N
+s:::t"
+,-..
+E
+.__..
+N
+(l)
+-0
+.0>,
+0
+co
+co
+0
+L()
+- s u A , Nkt= f(Bq)
+- s u A , Ndu= f(Bq)
+- s u , SHANSEP, Ds2'= - s u , NC, a(po'+a)
+O
+sue, enaks
+sutc, treaks
+- s u , SHANSEP, Ds1='
+t:,. suk, konus
+- s u A , designlinje
+(18,7-12,SBq)
+(1,8+7,25Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al. (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfasthet SuA, verdier fra SHANSEP-analyse.
+CPTUid.:
+21
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp21.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+43.12
+28.11.2013
+0
+Nkt = (18,7-12,5·Bq)
+ac    valgt:
+NDu = (1,8+7,25·Bq)
+Nke = (13,8-12,5·Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, korrelert mot Bq.
+25
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+44.10
+28.11.2013
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp25.xlsx
+Referansemetode: Karlsrud et al (1996)
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0
+5
+10
+0
+10
+20
+30
+40
+50
+Dybde, z (m) 
+Udrenert skjærfasthet, suA (kN/m2) 
+suA, Nkt=f (Bq)
+suA, NDu=f(Bq)
+suA, Nke=f(Bq)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+Q)
+"O
+.0>.
+0
+- s u A , Nkt=f (Bq)
+- s u A , NDu=f(Bq)
+- s u A , Nke=f(Bq)
+- s u , NC, a(po'+a)
+t:,. suk, konus
+•
+sue, enaks
+sutc, treaks
+- s u A , designlinje
+Nkt = (18,7-12,S·Bq)
+NDu = (1,8+7,25-Bq)
+Nke = (13,8-12,S·Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Tegningens filnavn:
+CPTU_Bp25.xlsx
+Aktiv udrenert skjærfasthet SuA, korrelert mot Bq·
+Multiconsult
+CPTUid.:
+25
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+44.10
+28.11.2013
+0
+Sensitivitetsvalg:
+ac    valgt:
+Oppdrag:
+Aktiv udrenert skjærfashet suA, korrelert mot St, OCR og Ip.
+25
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+44.11
+28.11.2013
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp25.xlsx
+Nkt = (7,8+2,5logOCR+0,082Ip)
+NDu = (6,9-4logOCR+0,07Ip)
+Nke = (11,5-9,05Bq)
+St < 15
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0
+2
+4
+6
+8
+10
+0
+10
+20
+30
+40
+50
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt=f(St,OCR,Ip)
+suA, NDu=f(St,OCR,Ip)
+suA, Nke=f(St,OCR,Ip)
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+-.::f"
+.-.
+E
+._.
+N
+Q)
+"'O
+.c>-
+0
+co
+co
+- s u A , Nkt=f(St,OCR,lp)
+- s u A , Nke=f(St,OCR,lp)
+t::,. suk, konus
+sutc, treaks
+- s u A , NDu=f(St,OCR,lp)
+- s u , NC, a(po'+a)
+•
+sue, enaks
+- s u A , designlinje
+Sensitivitetsvalg:
+S t < 15
+Nkt = (7,8+2,5IogOCR+0,082Ip)
+NDu = (6,9-4IogOCR+0,07Ip)
+Nke = (11,5-9,0SBq)
+Uc
+valgt:
+0,25
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfashet SuA, korrelert mot S1, OCR og IP.
+CPTUid.:
+25
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp25.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+44.11
+28.11.2013
+0
+Nkt:
+(18,7-12,5Bq)
+ac    valgt:
+NDu:
+(1,8+7,25Bq)
+Oppdrag:
+Aktiv udrenert skjærfasthet suA, verdier fra SHANSEP-analyse. 
+25
+Sonde:
+4639
+Dato:
+Tegnet:
+Kontrollert:
+29.10.2014
+BGJ
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+711607
+44.12
+28.11.2013
+0,25
+CPTU id.:
+Oppdragsgiver:
+Tegningens filnavn:
+Kræmer Brygge AS
+Kræmer Brygge
+CPTU_Bp25.xlsx
+Referansemetode: Karlsrud et al. (1996)
+MULTICONSULT AS
+Godkjent:
+TONES
+Revisjon:
+0
+0
+2
+4
+6
+8
+10
+0
+10
+20
+30
+40
+50
+Udrenert skjærfasthet, suA (kN/m2) 
+Dybde, z (m)  
+suA, Nkt= f(Bq)
+suA, Ndu= f(Bq)
+su, SHANSEP, Ds1='
+su, SHANSEP, Ds2'=
+su, NC, a(po'+a)
+suk, konus
+sue, enaks
+sutc, treaks
+suA, designlinje
+Udrenert skjærfasthet, suA(kN/m2)
+0
+N
+s:::t"
+,-..
+E
+.__..
+N
+(l)
+-0
+.0>,
+0
+co
+co
+- s u A , Nkt= f(Bq)
+- s u , SHANSEP, Ds2'= - s u , NC, a(po'+a)
+O
+sue, enaks
+- s u A , Ndu= f(Bq)
+sutc, treaks
+- s u , SHANSEP, Ds1='
+t:,. suk, konus
+- s u A , designlinje
+(18,7-12,SBq)
+(1,8+7,25Bq)
+Uc
+valgt:
+0,25
+Referansemetode: Karlsrud et al. (1996)
+Oppdragsgiver:
+Kræmer Brygge AS
+Oppdrag:
+Kræmer Brygge
+Aktiv udrenert skjærfasthet SuA, verdier fra SHANSEP-analyse.
+CPTUid.:
+25
+Sonde:
+4639
+Tegningens filnavn:
+CPTU_Bp25.xlsx
+Multiconsult
+Dato:
+Tegnet:
+Kontrollert:
+Godkjent:
+29.10.2014
+BGJ
+TONES
+TONES
+MULTICONSULT AS
+Oppdrag nr.:
+Tegning nr.:
+Versjon:
+Revisjon:
+711607
+44.12
+28.11.2013
+0
+Densitet r (g/cm3): 
+1,84
+Vanninnhold w (%):
+46,18
+Forsøksdato:
+Dybde, z (m):
+Borpunkt nr.:
+13.11.2014
+7,15
+21
+Forsøknr.:
+Tegnet av:
+Kontrollert:
+1
+bgj
+tones
+Oppdrag nr.:
+Tegning nr.:
+Prosedyre:
+711607
+RIG-TEG-075.3
+CRS
+Kræmer as
+Tegningens filnavn:
+Utfylling Kræmer
+711604-RIG-TEG-075-h21-d7.15m.xlsx
+Effektivt overlagringstrykk, svo' (kPa):
+57,20
+Kontinuerlig ødometerforsøk, CRS-rutine. Tolkning: sav' - ea, M og cv.
+Godkjent:
+tones
+Programrevisjon:
+07.01.2014
+0
+5
+10
+15
+20
+25
+30
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+Tøyning, e  [%] 
+Effektiv, gjennomsnittlig spenning, sav'  [kPa] 
+0
+10
+20
+30
+40
+50
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+Modul, M [MPa] 
+Effektiv, gjennomsnittlig spenning, s'av  [kPa] 
+0
+1
+2
+3
+4
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+Kons.koeffisient, cv [m2/år] 
+Effektiv, gjennomsnittlig spenning, s'av  [kPa] 
+ 
+Sluppenvegen 23,  
+7486  TRONDHEIM 
+ Tlf.:      73 10 62 00 
+Prekonsolideringsspenning:
+sc' [kPa] = 
+60
+Referansespenning:
+sr
+' [kPa] = 
+20,0
+Modultall NC-området: 
+m [-] = 
+16,0
+Modul OC-området:
+Moc [Mpa] =
+2,0
+Effektiv, gjennomsnittlig spenning, crav' [kPa]
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+N
+0
+N
+(")
+'<I"
+l{)
+(0
+I'-
+CX)
+a,
+0
+l{)
+0
+::!.....
+l{)
+w
+rn
+----
+r---
+.!:
+--
+c
+0
+>,
+N
+r--
+152
+-
+I-
+l{)
+N
+0
+(")
+0
+l{)
+Prekonsolideringsspenning:
+cr0' [kPa] =
+60
+0
+Referansespenning:
+cr; [kPa] =
+20,0
+ro
+'<I"
+a..
+Modultall NC-området:
+m[-]=
+16,0
+0
+Modul OG-området:
+M00[Mpa] =
+2,0
+(")
+:J
+"O
+0
+0
+N
+-
+-
+-
+_P- -
+0
+--
+-
+-
+v
+1v
+,
+--
+.
+0
+' '
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+N
+(")
+'<I"
+l{)
+(0
+I'-
+CX)
+a,
+0
+N
+Effektiv, gjennomsnittlig spenning, cr'av [kPa]
+'<I"
+"i::'
+vv
+o(I)
+r--..
+--
+(")
+rJ
+N
+i-...--
+.s
+lA
+>
+rJ
+(.)..,
+""
+c
+N
+' - . . I "
+v
+aJ
+rJ)
+aJ
+M
+Atw/'{'I'
+0
+I
+_l<'.
+'
+rJ)
+fl
+r
+·
+c
+0
+:::.::::
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+N
+(")
+'<I"
+l{)
+(0
+I'-
+CX)
+a,
+0
+N
+Effektiv, gjennomsnittlig spenning, a'av [kPa]
+Densitet p (g/cm\
+1,84
+Vanninnhold w (%):
+46,18
+Effektivt overlagringstrykk, CTva' (kPa):
+57,20
+Kræmer as
+Tegningens filnavn:
+Utfylling Kræmer
+711604-RIG-TEG-075-h21-d7.15m.xlsx
+Kontinuerlig ødometerforsøk, CRS-rutine. Tolkning: CTav' - Ea, M og Cv.
+Multi
+Forsøksdato:
+Dybde, z (m):
+Borpunkt nr.:
+Multiconsult
+13.11.2014
+7,15
+21
+consult
+Sluppenvegen 23,
+Forsøknr.:
+Tegnet av:
+Kontrollert:
+Godkjent:
+7486 TRONDHEIM
+1
+bgj
+tones
+tones
+Tlf.:
+73 1062 00
+Oppdrag nr.:
+Tegning nr.:
+Prosedyre:
+Programrevisjon:
+711607
+RIG-TEG-075.3
+CRS
+07.01.2014
+Konsolideringsspenning, aksial:
+σ'ac (kPa):
+45,6 / 56,38
+Konsolideringsspenning, radial:
+σ'rc (kPa):
+32,75 / 42,39
+Volumtøyning i konsolideringsfase:
+vol (%) = ΔV/V0:
+7,57 / 6,17
+Baktrykk ub (kPa):
+500
+B - verdi = u/c (-):
+0,94 / 0,96
+Vanninnhold wi (%):
+45,59 / 46,64
+Densitet i  (g/cm3):
+1,76 / 2,04
+Etter volumtøyning:
+Etter poretallsendring:
+Forsøksdato:
+Dybde, z (m):
+Borpunkt nr.:
+09.09.2014
+6,45 / 7,20
+21
+Forsøk nr.:
+Tegnet:
+Kontrollert:
+2
+BJG
+TONES
+Oppdrag nr.:
+Tegning nr.:
+Prosedyre:
+711607
+RIG-TEG-092
+CAUa
+Godkjent:
+Tegningens filnavn:
+416746-RIG-TEG-091-h21,d7,20m.xlsx
+Kræmer AS
+Utfylling Kræmer
+Treaksialforsøk. Tolkning av parametre. NTNU-plott.
+TONES
+Programrevisjon:
+05.01.2014
+Prøvekvalitet
+0.5%
+1%
+2% 1.5%
+6% 4%
+10%
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Effektiv radiell spenning,  'r [kPa]
+Maks. skjærspenning, max = ('a - 'r)/2  [kPa]
+0.5%
+0.5%
+Sluppenvegen 23, 
+7486  TRONDHEIM
+Tlf.:      73 10 62 00
+Faks:    73 10 62 30
+TOLKNING AV STYRKEPARAMETRE
+tan φ =
+0,44
+[-]
+Valgt styringsverdi - attraksjon:
+a =
+5
+kPa
+c = aꞏtan
+0
+kPa
+Valgt styringsverdi - friksjon:
+Valgt styringsverdi - kohesjon:
+1%
+1.5
+%
+2%
+4%
+6%
+10%
+   711607-RIG-TEG-090.4.xlsx / Tolkning av parametre NTNU
+'cf?.
+l{)
+0
+ei
+\
+I.()
+'
+I.()
+"
+-.;t"
+/
+0
+"'
+/
+-.;t"
+I
+I.()
+\
+I
+C")
+/
+'
+0
+"
+.,.,
+/
+C")
+/
+I
+I.()
+-'i
+I
+N
+........
+co
+;
+0
+a..
+I:::;::
+I \
+i
+N
+.........
+-
+._
+'cf?.
+b
+I.()
+._,.
+'cf?.
+..--
+-
+._.._.,.,c,
+,
+c,
+'cf?.
+0)c
+l{)
+·-
+[)Ill'
+0
+c
+II /
+'$. "
+..-- c
+II
+-e-
+N
+N
+Q)
+c:
+9
+II
+l!! ,,,,
+,R
+0..
+c:
+ro
+it,
+'cf?.
+'-
+w
+.l!!
+II
+st
+C/)
+0:::
+u
+'cf?.
+fo
+;,/
+\
+I.() -
+I-
+-
+w
+co
+Q)
+:E
+' $ .
+;
+·-
+0
+i\.
+"CJ
+<C
+0
+co
+Cl..
+§
+c:
+""
+L..
+w
+c:
+·'{f,
+0
+"vi
+>
+a,
+0:::
+.<::
+:;::::;
+:.E ro .£
+en
+I.()
+Q)
+I
+ti::
+C!) - -
+w
+z
+-
+0
+z l.z z, >
+U)
+U)
+u5
+..--
+...J gg,
+g
+I
+0
+ro ro ro
+I-
+>>
+>
+I.()..--
+I
+0
+N
+0
+I.()
+0
+I.()
+0
+I.()
+0
+I.()
+0
+I.()
+0
+I
+I.()
+-.;t"
+-.;t"
+C")
+C")
+N
+N
+..--
+..--
+Maks. skjærspenning, 1max = ( a ' a - a'r)/2 [kPa]
+Konsolideringsspenning, aksial:
+a ' a c (kPa):
+45,6 I 56,38
+Konsolideringsspenning, radial:
+a'rc (kPa):
+32,75 I 42,39
+Volumtøyning i konsolideringsfase:
+8vol (%)=b.V/Vo:
+7,57/6,17
+Baktrykk ub (kPa):
+500
+B - verdi= 1'!,.u/1'!,.ac (-):
+0,94 I 0,96
+Vanninnhold wi (%):
+45,59 I 46,64
+Densitet Pi (g/emj):
+1,76 / 2,04
+Kræmer AS
+Tegningensfilnavn:
+Prøvekvalitet
+416746-RIG-TEG-091-h21,d7,20m.xlsx
+Ettervolumtøyning:
+Utfylling Kræmer
+Multi
+Etterporetallsendring:
+Treaksialforsøk. Tolkning av parametre. NTNU-plott.
+consult
+Multiconsult
+Forsøksdato:
+Dybde, z (m)
+Borpunktnr.:
+09.09.2014
+6,45 I 7,20
+21
+Sluppenvegen23,
+Forsøknr..
+Tegnet:
+Kontrollert:
+Godkjent:
+7486 TRONDHEIM
+Tlf.:
+73 10 62 00
+2
+BJG
+TONES
+TONES
+Faks:
+73 10 62 30
+Oppdragnr.:
+Tegningnr.:
+Prosedyre:
+Programrevisjon:
+711607
+RIG-TEG-092
+CAUa
+05.01.2014
+711607-RIG-TEG-090.4.xlsx / Tolkning av parametre NTNU
+-5.0
+-10.0
+-15.0
+-20.0
+60
+14,4
+6,6
+MOTFYLLING
+ALFON B
+ALFON C
+FYLLINGSSKRÅNING
+FRIKSJONSBJELKE
+FRIKSJONSPLATE
+FRIKSJONSPLATE
+12
+15
+INNVUNNET LANDAREAL KOTE +3,0
+MIN. KOTE -5,0
+18,5
+23,4
+8,4
+15,1
+3,9
+17,4
+9,4
+-7
+-6
+-4
+-3
+-2
+-5
+STAG
+DEL A
+DEL A
+DEL B
+B
+B
+A
+A
+54,2
+10,3
+3,3
+8,1
+Z:\O10240\10240087-01\10240087-01-03 ARBEIDSOMRAADE\10240087-01 RIG\10240087-01-05 MODELLER\10240087-01-RIG-TEG-900-901_rev01.dwg, - Layout: (900); - Plottet av: ide,  Dato:  2022.02.25  kl 16:02
+Godkj.
+Tegn.
+Kontr.
+Dato
+Rev.
+Beskrivelse
+00
+Original
+2022-02-11
+IDE
+TONES
+IDE
+01
+Bredde friksjonsbjelke
+2022-02-25
+IDE
+TONES
+IDE
+TEGNFORKLARING:
+KARTGRUNNLAG:
+KOORDINATSYSTEM:
+HØYDEREFERANSE:
+EUREF89, sone 33
+NN2000
+SCAN GEONORD NOV 2021
+Tegningsnr.
+Oppdragsnr.
+Kontrollert
+Dato
+Målestokk
+Rev.
+Status
+Fag
+Originalt format
+Godkjent
+Konstr./Tegnet
+www.multiconsult.no
+ECONOR AS
+KRÆMER, ALFON B OG C
+SITUASJONSPLAN
+10240087
+RIG-TEG-900
+1:500
+2022-02-11
+MHM
+TONES
+IDE
+01
+-
+RIG
+A3
+DIMENSJON U-SPUNT:
+HENVISER TIL TEGN 10240087-RIG-TEG-901
+DEL A - Spunt Wx = 2200 cm3/m
+DEL B - Spunt Wx = 2840 cm3/m
+N
+0
+u,
+N"'
+0"'
+N
+0
+N
+.f
+ro
+ai
+:!c!
+;,;
+ro
+FRIKSJONSPLATE
+0
+0
+ei,
+3:
+""Cl
+>cu
+'-1
+0
+"'I
+0
+0"'I
+l.CJ
+UJ
+I-
+I
+l.CJ
+c::
+I
+0
+I....
+0:,
+0
+0_,.
+N
+.,,.
+0::
+UJ
+-'-'UJ
+D
+:E
+u,
+0
+I
+0
+I....
+0:,
+0
+0_,.
+N
+0:::;:
+l.CJ
+c::
+ALFON S--------
+fRIKSJON5PLATE
+ALFON C
+INNVUNNET LANDAREAL KOTE +3,0
+I
+\
+MOTFYLLING
+(
+I
+)
+f
+\ 0\ \
+I
+I
+0
+I....
+0:,
+0
+0_,.
+N
+.,,.
+UJ
+<C
+<C
+0::
+:E
+D
+VJ
+u:;
+CD
+0::
+<C,.,
+0
+I
+0
+I....
+0:,
+0
+0_,.
+N
+;:::::
+0
+I....
+0:,
+0
+0_,.
+N
+0:::;:
+0_,.
+N
+0
+0.,,.
+N
+C)
+0
+TEGNFORKLARING:
+KARTGRUNNLAG:
+KOORDINATSYSTEM:
+HØYDEREFERANSE:
+SCAN GEONORD NOV 2021
+EUREF89, sone 33
+NN2000
+.
+0
+I
+0·o
+DIMENSJON U-SPUNT:
+-
+DEL A - Spunt W, = 2200 cm3/m
+-
+DEL B - Spunt W, = 2840 cm3/m
+HENVISER TIL TEGN 10240087-RIG- TEG-901
+01
+Bredde friksjonsbjelke
+2022-02-25
+iDE
+TONES
+iDE
+00
+Original
+2022-02-11
+iDE
+TONES
+iDE
+Rev.
+Beskrivelse
+Dato
+Tegn.
+Kontr.
+Godkj.
+Multiconsult
+www.multiconsult.no
+ECONOR AS
+Status
+Fag
+RIG
+Originalt format
+A3
+Dato
+2022-02-11
+KRÆMER, ALFON B OGC
+SITUASJONSPLAN
+Konstr./Tegnet
+MHM
+Kontrollert
+TONES
+Godkjent
+iDE
+Målestokk
+1:500
+Oppdragsnr.
+10240087
+Tegningsnr.
+RIG- TEG-900
+Rev.
+01
+NVE har også merknader som må håndteres:
+NVE ber Multiconsult bekrefte at beliggenhet og egenskapene til sprøbruddmaterialet gjør at det ikke er
+relevant å avgrense og utrede en kvikkleiresone iht. NVE1/2019 i forbindelse med reguleringsplan.
+Rapporten beskriver at det er nødvendig med oppstøttingstiltak og at det skal gjøres mudring og fylling i sjø i
+et område hvor det tidligere har vært lokale grunnbrudd under utfylling. Kommunen bør vurdere å plassere
+byggesaken i Tiltaksklasse 3, slik at det blir gjort en utvidet faglig kontroll av den geotekniske
+prosjekteringen og at det blir gjort nødvendig oppfølging i anleggsfasen.
+Minner om at eventuelle fareområder skal avmerkes som hensynssone (pbl § 12-6) med tilhørende
+bestemmelser (pbl § 12-7) i plankartet. Eventuelle nødvendige risikoreduserende tiltak (sikringstiltak) skal
+være beskrevet.
+1
+Skogholt, Tone
+From:
+Anne Mestvedt Olaussen <anmo@nve.no>
+Sent:
+tirsdag 6. juni 2023 13:23
+To:
+Skogholt, Tone
+Cc:
+Eva Forsgren; petter.daae@kramer.no
+Subject:
+SV: Detaljregulering Kræmer Tromsø kommune-merknader fra NVE 
+Hei, 
+ 
+Notatet bekrefter at sprøbruddmaterialet i sjøen ikke berører et større område på land. Det er ikke relevant å melde 
+inn en faresone og lokalstabilitet kan løses i forbindelse med prosjektering.  
+ 
+Ettersom prosjektet er plassert i tiltaksklasse 3, vil det bli gjort utvidet kontroll i forbindelse med prosjektering. 
+Vi mener derfor at det ikke er nødvendig med uavhengig kvalitetssikring av områdestabilitet i dette tilfellet. 
+ 
+Mvh 
+Anne Mestvedt Olaussen 
+Geotekniker 
+Skred- og vassdragsavdelingen 
+Seksjon for Skred 
+Norges vassdrags- og energidirektorat (NVE) 
+Telefon: 22 95 99 34 eller mobil: 997 86 067 
+E-post: nve@nve.no eller direkte: anmo@nve.no 
+Web: www.nve.no  
+NVE behandler dine personopplysninger i samsvar med personvernregelverket. Se hvordan her 
+ 
+Fra: Skogholt, Tone <tone.skogholt@multiconsult.no>  
+Sendt: mandag 5. juni 2023 14:39 
+Til: Eva Forsgren <efor@nve.no> 
+Kopi: Petter Daae <petter.daae@kramer.no> 
+Emne: Detaljregulering Kræmer Tromsø kommune‐merknader fra NVE  
+ 
+Hei Eva! 
+ 
+Kræmer Eiendom holder på med detaljregulering for boligblokkene Alfon DEF som kommer nedenfor 
+Stakkevollveien på Tromsøya. 
+NVE har kommet med merknader til planen da det er sprøbruddsmateriale på området. Merknadene er vedlagt. 
+ 
+Det er utarbeidet et notat angående områdeskredfare hvor konklusjonene er at beliggenhet og egenskapene til 
+sprøbruddmaterialet gjør at det ikke er 
+relevant å avgrense og utrede en kvikkleiresone iht. NVE 1/2019 i forbindelse med reguleringsplan. 
+ 
+Notatet er vedlagt. Ønsker dere at notatet skal kvalitetssikres av uavhengig foretak iht krav for tiltakskategori K4? 
+ 
+ 
+Mvh 
+ 
+TONE SKOGHOLT 
+Siv.ing geoteknikk 
+ 
+(+47) 99 64 44 92 | 776 06 946 
+Skogholt, Tone
+From:
+Sent:
+To:
+Cc:
+Subject:
+Anne Mestvedt Olaussen <anmo@nve.no>
+tirsdag 6. juni 2023 13:23
+Skogholt, Tone
+Eva Forsgren; petter.daae@kramer.no
+SV: Detaljregulering Kræmer Tromsø kommune-merknader fra NVE
+Hei,
+Notatet bekrefter at sprøbruddmaterialet i sjøen ikke berører et større område på land. Det er ikke relevant å melde
+inn en faresone og lokalstabilitet kan løses i forbindelse med prosjektering.
+Ettersom prosjektet er plassert i tiltaksklasse 3, vil det bli gjort utvidet kontroll i forbindelse med prosjektering.
+Vi mener derfor at det ikke er nødvendig med uavhengig kvalitetssikring av områdestabilitet i dette tilfellet.
+Mvh
+Anne Mestvedt Olaussen
+Geotekniker
+Skred- og vassdragsavdelingen
+Seksjon for Skred
+Norges vassdrags- og energidirektorat (NVE)
+Telefon: 22 95 99 34 eller mobil: 997 86 067
+E-post: nve@nve.no eller direkte: anmo@nve.no
+Web: www.nve.no
+NVE behandler dine personopplysninger i samsvar med personvernregelverket. Se hvordan her
+Fra: Skogholt, Tone <tone.skogholt@multiconsult.no>
+Sendt: mandag 5. juni 2023 14:39
+Til: Eva Forsgren <efor@nve.no>
+Kopi: Petter Daae <petter.daae@kramer.no>
+Emne: Detaljregulering Kræmer Tromsø kommune-merknader fra NVE
+Hei Eva!
+Kræmer Eiendom holder på med detaljregulering for boligblokkene Alfan DEF som kommer nedenfor
+Stakkevollveien på Tromsøya.
+NVE har kommet med merknader til planen da det er sprøbruddsmateriale på området. Merknadene er vedlagt.
+Det er utarbeidet et notat angående områdeskredfare hvor konklusjonene er at beliggenhet og egenskapene til
+sprøbruddmaterialet gjør at det ikke er
+relevant å avgrense og utrede en kvikkleiresone iht. NVE1/2019 i forbindelse med reguleringsplan.
+Notatet er vedlagt. Ønsker dere at notatet skal kvalitetssikres av uavhengig foretak iht krav for tiltakskategori K4?
+Mvh
+TONESKOGHOLT
+Siv.ing geoteknikk
+(+47) 99 64 44 92 I 776 06 946

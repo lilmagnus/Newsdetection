@@ -1,0 +1,631 @@
+From:                                 "Sigrid Rasmussen" <Sigrid.Rasmussen@asplanviak.no>
+Sent:                                  Tue, 18 Oct 2022 14:51:57 +0200
+To:                                      "Heidi Bjøru" <heidi.bjoru@tromso.kommune.no>
+Cc:                                      "Rigmor Tonstad" <Rigmor.Tonstad@tromso.kommune.no>; "Jacqueline 
+Randles" <Jacqueline.Randles@tromso.kommune.no>; "Erik Eidesen" 
+<erik.eidesen@tromso.kommune.no>; "Petter Daae" <petter.daae@kramer.no>
+Subject:                             SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til 
+KDP i tillegg til fjernvirkning og sol
+Attachments:                   Notat fjernvirkning, solforhold og utnyttelse Kræmer Nord tre alternativer.pdf, 
+626251-01 Kræmer regulering_Alt 3.ifc
+Hei!
+ 
+Viser til deres mail under angående administrasjonens ønske om å få tilsendt et revidert alternativ for 
+Kræmer Brygge Nordøst, basert på tolkning av siste vedtak i KOBY. 
+ 
+Nytt tredje alternativ 
+Vi har utarbeidet et tredje alternativ, som i likhet med alternativ 2,  er i tråd med KOBY sitt vedtak. 
+Alternativ 3 viser lavere høyde innen byggeområde BBB6 i nordøst, mens volum innen BBB6 er beholdt. 
+Utforming av bygget er noe justert med mindre innsnevring i de øverste etasjene i tillegg til at 
+grunnflaten er utvidet 1 m mot vest. Ingen andre byggeområder er berørt av denne justeringen. 
+ 
+Vedlegg: Revidert notat fjernvirkning, sol og utnyttelse 
+Vedlagt følger revidert notat for fjernvirkning, solforhold og utnyttelse hvor alle de tre alternativene 
+vurderes. I notatet har vi også kommentert at vi mener administrasjonen ikke har anledning til å spørre 
+enkeltmedlemmer/ leder av KOBY mellom møtene for å få en presisering av hva hun egentlig mente, 
+ettersom temaet redusert utnyttelse faktisk ikke var et tema hverken i planprosessen, saksframlegg, 
+diskusjon i KOBY møte eller vedtak i KOBY møte. 
+Vi finner det også svært rart at administrasjonen i mail under begrunnet det plutselige kravet om 
+redusert utnyttelse med at «volumet er økt betydelig fra gjeldende plan til det nye planforslaget». Det er 
+kommunedelplan for Stakkevollvegen som setter premisser for utnyttelse for denne planen, og her 
+defineres Kræmer som en del av «Midtbyen». Den gamle reguleringsplanen overstyres av 
+kommunedelplanen, hvilket har vært avklart gjennom hele prosessen. Vi har tatt med et kapittel om 
+dette også i vedlagte notat, som vi regner med vil følge saken til neste KOBY møte.
+ 
+Vedlegg: 3D modell 
+Vedlagt følger også IFC fil/ 3D modell av alternativ 3. 
+ 
+Feil i kommunens versjon av bestemmelser: 
+Administrasjonen har i denne saken gjort en omfattende omstrukturering av planbestemmelsene, uten 
+bruk av «spor endringer». Dette gjør det svært krevende for oss å sjekke om det faglige innholdet faktisk 
+er det samme som i innlevert forslag. 
+ 
+Nærmest tilfeldigvis oppdaget vi imidlertid nå  at det er blitt en feil under bestemmelse punkt  III 
+Hensynssoner b) andre kulepunkt.  Her står det i kommunens versjon:  «Arealet i hensynssone H410_1 
+kan bebygges med utkraget bolig fra plan 3 og oppover.» 
+From:
+Sent:
+To:
+Cc:
+"Sigrid Rasmussen" <Sigrid.Rasmussen@asplanviak.no>
+Tue, 18 Oct 2022 14:51:57 +0200
+"Heidi Bjøru" <heidi.bjoru@tromso.kommune.no>
+"Rigmor Tonstad" <Rigmor.Tonstad@tromso.kommune.no>; "Jacqueline
+Randles" <Jacqueline.Randles@tromso.kommune.no>; "Erik Eidesen"
+<erik.eidesen@tromso.kommune.no>; "Petter Daae" <petter.daae@kramer.no>
+Subject:
+SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til
+KOP i tillegg til fjernvirkning og sol
+Attachments:
+Notat fjernvirkning, solforhold og utnyttelse Kræmer Nord tre alternativer.pdf,
+626251-01 Kræmer regulering_Alt 3.ifc
+Hei!
+Viser til deres mail under angående administrasjonens ønske om å få tilsendt et revidert alternativ for
+Kræmer Brygge Nordøst, basert på tolkning av siste vedtak i KOBY.
+Nytt tredje alternativ
+Vi har utarbeidet et tredje alternativ, som i likhet med alternativ 2, er i tråd med KOBY sitt vedtak.
+Alternativ 3 viser lavere høyde innen byggeområde B8B6 i nordøst, mens volum innen B8B6 er beholdt.
+Utforming av bygget er noe justert med mindre innsnevring i de øverste etasjene i tillegg til at
+grunnflaten er utvidet l m mot vest. Ingen andre byggeområder er berørt av denne justeringen.
+Vedlegg: Revidert notat fjernvirkning, sol ogutnyttelse
+Vedlagt følger revidert notat for fjernvirkning, solforhold og utnyttelse hvor alle de tre alternativene
+vurderes. I notatet har vi også kommentert at vi mener administrasjonen ikke har anledning til å spørre
+enkeltmedlemmer/ leder av KOBY mellom møtene for å få en presisering av hva hun egentlig mente,
+ettersom temaet redusert utnyttelse faktisk ikke var et tema hverken i planprosessen, saksframlegg,
+diskusjon i KOBY møte eller vedtak i KOBY møte.
+Vi finner det også svært rart at administrasjonen i mail under begrunnet det plutselige kravet om
+redusert utnyttelse med at «volumet er økt betydelig fra gjeldende plan til det nye planforslaget». Det er
+kommunedelplan for Stakkevollvegen som setter premisser for utnyttelse for denne planen, og her
+defineres Kræmer som en del av «Midtbyen». Den gamle reguleringsplanen overstyres av
+kommunedelplanen, hvilket har vært avklart gjennom hele prosessen. Vi har tatt med et kapittel om
+dette også i vedlagte notat, som vi regner med vil følge saken til neste KOBYmøte.
+Vedlegg: 3D modell
+Vedlagt følger også IFC fil/ 3D modell av alternativ 3.
+Feil i kommunensversjon av bestemmelser:
+Administrasjonen har i denne saken gjort en omfattende omstrukturering av planbestemmelsene, uten
+bruk av «spor endringer». Dette gjør det svært krevende for oss å sjekke om det faglige innholdet faktisk
+er det samme som i innlevert forslag.
+Nærmest tilfeldigvis oppdaget vi imidlertid nå at det er blitt en feil under bestemmelse punkt Ill
+Hensynssoner b) andre kulepunkt. Her står det i kommunens versjon: «Arealet i hensynssone H410_1
+kan bebygges med utkraget bolig fra plan 3 og oppover.»
+I vårt innleverte forslag til bestemmelser og plan stod det under punkt 1.6 kombinert bebyggelse og 
+anleggsformål, bolig/ næring/ parkering (BKB) b) utkraget areal «Det tillates utkraging av boligformålet 
+på nivå 3. Areal under utkraging inngår i angitt
+BRA for BKB og blir en privat del av kaipromenaden». Vi kan se at dette var litt utydelig, men her var 
+intensjonen å henvise til vertikalnivå 3, som da omfattet alt boligareal innen BBB1-6 (dere har jo nå 
+fjernet ett vertikalnivå). Intensjonen var dermed at det tillates boliger fra plan 2, ikke plan 3 over 
+hensynssone. Fint hvis dere kan rette opp dette før planen legges fram for politisk behandling. 
+ 
+ 
+ 
+Med vennlig hilsen
+  
+Sigrid Rasmussen
+Sivilarkitekt/ arealplanlegger
+Analyse, plan og landskap
+Prostneset
+Kirkegata 4 3etg
+9008 Tromsø
+ 
+M: 915 74 205
+T:  417 99 417
+asplanviak.no
+Abonner på vårt nyhetsbrev 
+ 
+ 
+Fra: Heidi Bjøru <heidi.bjoru@tromso.kommune.no> 
+Sendt: fredag 14. oktober 2022 14:44
+Til: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles 
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter 
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KDP i tillegg til 
+fjernvirkning og sol
+ 
+Hei,
+ 
+Status på saksbehandling:  
+ 
+Administrasjonen vurderer at forslagsstiller ikke har svart på vedtaket slik det er presisert fra oss i e-post 
+av 04.11.22: 
+ 
+Forslagsstiller må levere iht vedtak i KOBY:  Vurderinger tilknytta høyder og endring av 
+prosjektet/planforslaget: 
+ 
+A. 3D-modell og tilhørende vurderinger av fjernvirkning (notat) 
+         KOBY ønsker fremvisning av en digital 3D-modell av den foreslåtte detaljreguleringsplan 
+1929, slik at fjernvirkninger av prosjektet kan vurderes bedre. Modellen skal vises i neste 
+KOBY møte. 
+I vårt innleverte forslag til bestemmelser og plan stod det under punkt 1.6 kombinert bebyggelse og
+anleggsformål, bolig/ næring/ parkering (8KB) b) utkraget areal «Det tillates utkraging av boligformålet
+på nivå 3. Areal under utkraging inngår i angitt
+BRAfor 8KB og blir en privat del av kaipromenaden». Vi kan se at dette var litt utydelig, men her var
+intensjonen å henvise til vertikalnivå 3, som da omfattet alt boligareal innen BBBl-6 (dere har jo nå
+fjernet ett vertikalnivå). Intensjonen var dermed at det tillates boliger fra plan 2, ikke plan 3 over
+hensynssone. Fint hvis dere kan rette opp dette før planen legges fram for politisk behandling.
+Med vennlig hilsen
+asplan '· .\··...•.I
+viak
+,,
+·
+Sigrid Rasmussen
+SivilarkitekU arealplanlegger
+Analyse, plan og landskap
+Prostneset
+Kirkegata 4 3etg
+9008 Tromsø
+M: 915 74 205
+T: 417 99 417
+asplanviak.no
+Abonner på vårt nyhetsbrev
+Fra: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Sendt: fredag 14. oktober 2022 14:44
+Til: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KOP i tillegg til
+fjernvirkning og sol
+Hei,
+Status på saksbehandling:
+Administrasjonen vurderer at forslagsstiller ikke har svart på vedtaket slik det er presisert fra oss i e-post
+av 04.11.22:
+Forslagsstiller må levere iht vedtak i KOBY: Vurderinger tilknytta høyder og endringav
+prosjektet/planfors/aget:
+A. 30-modell og tilhørende vurderinger av fjernvirkning (notat)
+•
+KOBYønsker fremvisning av en digital 30-modell av den foreslåtte detaljreguleringsplan
+1929, slik at fjernvirkninger av prosjektet kan vurderes bedre. Modellen skal vises i neste
+KOBY møte.
+         Notat med vurderinger av fjernvirkninger vedlegges (alternativer, se under) 
+ 
+B. Endring av høyde BBB6 
+         Forflytting av volum eller endringer av høyder av andre bygg var ikke tiltenkt som en del 
+av dette vedtaket. Det ikke er noen forutsetning for at volum skal beholdes ved en 
+nedskalering av høyde på BBB6, da volumet er økt betydelig fra gjeldende plan til det 
+nye planforslaget.
+         Vi anbefaler derfor at prosjektet legges frem i to varianter: 
+ 1) slik det opprinnelig ble behandlet, 
+ 2) med en redusert høyde av BBB6. Den reduserte høyden i BBB6 bør være 2-3 
+etasjer.
+ 
+ 
+Fullføring av saksbehandlingen:  
+ 
+Det er to muligheter for fullføring av saken til ny behandling i KOBY:   
+ 
+1. Vi kan legge frem for KOBY at forslagsstiller ikke ønsker å legge frem et alternativ i tråd med det 
+presisering av vedtaket som vist over, siste linje. Vi legger da frem saken med det motatte 
+notatet, med de to alternativene. Og evt mottatt begrunnelse fra dere for hvorfor dere ikke vil 
+legge frem et alternativ i tråd med presisering av vedtaket.
+ 
+2. Eller forslagsstiller kan levere et oppdatert notat med et tredje alternativ, i tillegg til de to 
+leverte, som er i tråd med presisering av vedtaket vist over. Da kan forslagsstiller gi sin vurdering 
+av dette tredje alternativet og evt få tydelig frem sin begrunnelse for hvorfor dette ikke anses 
+som et aktuelt alternativ fra forslagsstillers side. 
+ 
+ 
+Vi imøteser rask tilbakemelding på de to valgene over.
+ 
+ 
+Mvh Heidi 
+ 
+ 
+Med vennlig hilsen
+Heidi Bjøru
+Byplanlegger
+Seksjon for byutvikling, Byplan
+Tlf: 41514365 | 
+heidi.bjoru@tromso.kommune.no
+ 
+All e-post til Tromsø kommune behandles i samsvar med offentlighetsloven, hvilket medfører at innholdet kan bli offentliggjort. 
+•
+Notat med vurderinger av fjernvirkninger vedlegges (alternativer, se under)
+8. Endring av høyde 8886
+•
+Forflytting av volum eller endringer av høyder av andre bygg var ikke tiltenkt som en del
+av dette vedtaket. Det ikke er noenforutsetning for at volum skal beholdes ved en
+nedskalering av høyde på 8886, da volumet er økt betydelig fra gjeldende plan til det
+nye planfors/aget.
+•
+Vi anbefaler derfor at prosjektet leggesfrem i to varianter:
+• l} slik det opprinnelig ble behandlet,
+• 2} med en redusert høyde av 8886. Den reduserte høyden i 8886 bør være 2-3
+etasjer.
+Fullføring av saksbehandlingen:
+Det er to muligheter for fullføring av saken til ny behandling i KOBY:
+l.
+Vi kan legge frem for KOBY at forslagsstiller ikke ønsker å legge frem et alternativ i tråd med det
+presisering av vedtaket som vist over, siste linje. Vi legger da frem saken med det motatte
+notatet, med de to alternativene. Og evt mottatt begrunnelse fra dere for hvorfor dere ikke vil
+legge frem et alternativ i tråd med presisering av vedtaket.
+2. Eller forslagsstiller kan levere et oppdatert notat med et tredje alternativ, i tillegg til de to
+leverte, som er i tråd med presisering av vedtaket vist over. Da kan forslagsstiller gi sin vurdering
+av dette tredje alternativet og evt få tydelig frem sin begrunnelse for hvorfor dette ikke anses
+som et aktuelt alternativ fra forslagsstillers side.
+Vi imøteser rask tilbakemelding på de to valgene over.
+Mvh Heidi
+Med vennlig hilsen
+Heidi Bjøru
+Byplanlegger
+Seksjon for byutvikling, Byplan
+Tlf: 415143651
+heidi.bjoru@tromso.kommune.no
+- T r o m s ø
+lmlJ
+kommune
+All e-post til Tromsø kommune behandles i samsvar med offentlighets/oven, hvilket medfører at innholdet kan bli offentliggjort.
+Fra: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no> 
+Sendt: mandag 10. oktober 2022 10:58
+Til: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles 
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter 
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KDP i tillegg til 
+fjernvirkning og sol
+ 
+OK. 
+  
+Gi beskjed hvis dere trenger noe mer fra oss. 
+  
+Sigrid
+  
+Fra: Heidi Bjøru <heidi.bjoru@tromso.kommune.no> 
+Sendt: mandag 10. oktober 2022 10:45
+Til: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles 
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter 
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KDP i tillegg til 
+fjernvirkning og sol
+  
+Hei igjen! 
+  
+Administrasjonen må kontrollere innholdet i notatet fra Asplan Viak (saksbehandling), på lik linje som vi 
+saksbehandler alle komplette planforslag. Dette gjør vi innen skrivefristen til KOBY i november. 
+Det legges frem begge forslag i KOBY-novembermøtet, dvs forslag som KOBY fikk sist (alt 1 i notatet), 
+samt det nye (alt 2) som dere presenterer i notatet.
+  
+Dere har helt rett i at dersom KOBY legger ut det opprinnelige forslaget (alt 1) så er det bare vanlig 
+saksbehandling av utlegging til offentlig ettersyn, uten oppdatering av plandokumentene. 
+Men: Dersom KOBY vil legge ut et annet forslag (alt 2 eller annet) så må planmaterialet oppdateres før 
+utlegging. Da er det et poeng at KOBY evt delegerer utlegging av oppdatert materiale, eller bestemmer 
+at de skal ha det komplette materialet og legge det ut i eget vedtak. 
+  
+Mvh Heidi 
+  
+  
+Med vennlig hilsen
+Heidi Bjøru
+Byplanlegger
+Seksjon for byutvikling, Byplan
+Tlf: 41514365 | 
+heidi.bjoru@tromso.kommune.no
+Fra: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Sendt: mandag 10. oktober 2022 10:58
+Til: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KOP i tillegg til
+fjernvirkning og sol
+OK.
+Gi beskjed hvis dere trenger noe mer fra oss.
+Sigrid
+Fra: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Sendt: mandag 10. oktober 2022 10:45
+Til: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KOP i tillegg til
+fjernvirkning og sol
+Hei igjen!
+Administrasjonen må kontrollere innholdet i notatet fra Asplan Viak (saksbehandling), på lik linje som vi
+saksbehandler alle komplette planforslag. Dette gjør vi innen skrivefristen til KOBY i november.
+Det legges frem begge forslag i KOBY-novembermøtet, dvs forslag som KOBY fikk sist (alt l i notatet),
+samt det nye (alt 2) som dere presenterer i notatet.
+Dere har helt rett i at dersom KOBY legger ut det opprinnelige forslaget (alt l) så er det bare vanlig
+saksbehandling av utlegging til offentlig ettersyn, uten oppdatering av plandokumentene.
+Men: Dersom KOBY vil legge ut et annet forslag (alt 2 eller annet) så må planmaterialet oppdateres før
+utlegging. Da er det et poeng at KOBY evt delegerer utlegging av oppdatert materiale, eller bestemmer
+at de skal ha det komplette materialet og legge det ut i eget vedtak.
+Mvh Heidi
+Med vennlig hilsen
+Heidi Bjøru
+Byplanlegger
+Seksjon for byutvikling, Byplan
+Tlf: 415143651
+heidi.bjoru@tromso.kommune.no
+ 
+All e-post til Tromsø kommune behandles i samsvar med offentlighetsloven, hvilket medfører at innholdet kan bli offentliggjort. 
+Fra: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no> 
+Sendt: fredag 7. oktober 2022 15:20
+Til: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles 
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter 
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KDP i tillegg til 
+fjernvirkning og sol
+  
+Hei!
+  
+Takk for tilbakemelding.
+  
+Saksbehandling
+  
+Jeg forstår imidlertid ikke dette helt hva du mener når det gjelder saksbehandling. Jeg mener at 
+administrasjonen uansett måtte ha saksbehandlet et nytt alternativ, selv om det innebar å fjerne volum 
+og etasjer. Nå er jo ikke dette aktuelt, siden det ikke foreligger noe politisk vedtak eller diskusjon i KOBY 
+om å redusere volum.  Vårt innleverte alternativ, hvor vi har flyttet volum, må dere selvsagt se 
+på.  Administrasjonen må ta stilling til hvilket alternativ som fungerer best, og som i størst grad er i tråd 
+med overordna føringer.
+  
+For oss er det entydig at opprinnelig innlevert forslag i størst grad svarer på målsetningene i gjeldende 
+KDP og KPA om å bygge tett og urbant med høy kvalitet på uterom og arkitektur. Våre studier av 
+fjernvirkning, sol og utnyttelse viser entydig at det opprinnelige forslaget fungere best totalt sett. Dette 
+henger også sammen med at vi har jobbet med dette i mange år, og at det er gjort detaljerte studier av 
+volumer, sol/ skygge, dagslys, forhold til uterom, leilighetstyper osv.
+  
+Innstilling
+De to alternative forslagene til innstilling forstod jeg dessverre heller ikke. 
+  
+ Dersom dere er enige i vår vurdering i siste notat tenker jeg at innstillinga fra administrasjonen 
+bør være som sist: at dere anbefaler KOBY å legge ut opprinnelig innlevert plan til offentlig 
+ettersyn. Hvis KOBY vedtar en slik innstiling vil det ikke være behov for å oppdatere dokumenter 
+før utlegging til offentlig ettersyn. 
+  
+ Dersom KOBY vedtar at de vil gå videre med det nye alternativet vi har vist i modell, hvor volum 
+er flyttet fra nordøst til sørøst, kan de vedta at plandokumenter oppdateres i tråd med dette 
+alternativet før planen legges ut til offentlig ettersyn av administrasjonen på delegert myndighet. 
+  
+Tromsø
+kommune
+All e-post til Tromsø kommune behandles i samsvar med offentlighets/oven, hvilket medfører at innholdet kan bli offentliggjort.
+Fra: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Sendt: fredag 7. oktober 2022 15:20
+Til: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KOP i tillegg til
+fjernvirkning og sol
+Hei!
+Takk for tilbakemelding.
+Saksbehandling
+Jeg forstår imidlertid ikke dette helt hva du mener når det gjelder saksbehandling. Jeg mener at
+administrasjonen uansett måtte ha saksbehandlet et nytt alternativ, selv om det innebar å fjerne volum
+og etasjer. Nå er jo ikke dette aktuelt, siden det ikke foreligger noe politisk vedtak eller diskusjon i KOBY
+om å redusere volum. Vårt innleverte alternativ, hvor vi har flyttet volum, må dere selvsagt se
+på. Administrasjonen må ta stilling til hvilket alternativ som fungerer best, og som i størst grad er i tråd
+med overordna føringer.
+For oss er det entydig at opprinnelig innlevert forslag i størst grad svarer på målsetningene i gjeldende
+KOP og KPA om å bygge tett og urbant med høy kvalitet på uterom og arkitektur. Våre studier av
+fjernvirkning, sol og utnyttelse viser entydig at det opprinnelige forslaget fungere best totalt sett. Dette
+henger også sammen med at vi har jobbet med dette i mange år, og at det er gjort detaljerte studier av
+volumer, sol/ skygge, dagslys, forhold til uterom, leilighetstyper osv.
+Innstilling
+De to alternative forslagene til innstilling forstod jeg dessverre heller ikke.
+• Dersom dere er enige i vår vurdering i siste notat tenker jeg at innstillinga fra administrasjonen
+bør være som sist: at dere anbefaler KOBY å legge ut opprinnelig innlevert plan til offentlig
+ettersyn. Hvis KOBY vedtar en slik innstiling vil det ikke være behov for å oppdatere dokumenter
+før utlegging til offentlig ettersyn.
+• Dersom KOBY vedtar at de vil gå videre med det nye alternativet vi har vist i modell, hvor volum
+er flyttet fra nordøst til sørøst, kan de vedta at plandokumenter oppdateres i tråd med dette
+alternativet før planen legges ut til offentlig ettersyn av administrasjonen på delegert myndighet.
+ Her finnes jo også en mulighet for at de vedtar at volum skal reduseres. I så fall må 
+plandokumentene oppdateres i tråd med dette, dersom dette er en aktuell løsning for 
+tiltakshaver.
+ 
+Fint med respons på dette. Ha en finfin helg!
+  
+  
+Med vennlig hilsen
+ 
+Sigrid Rasmussen
+Sivilarkitekt/ arealplanlegger
+Analyse, plan og landskap
+Prostneset
+Kirkegata 4 3etg
+9008 Tromsø
+ 
+M: 915 74 205
+T:  417 99 417
+asplanviak.no
+Abonner på vårt nyhetsbrev 
+ 
+  
+  
+  
+Fra: Heidi Bjøru <heidi.bjoru@tromso.kommune.no> 
+Sendt: fredag 7. oktober 2022 14:43
+Til: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles 
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter 
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KDP i tillegg til 
+fjernvirkning og sol
+  
+Hei,
+Takk for notatet. 
+Vi legger det frem for KOBY.  
+  
+Vi har to tilbakemeldinger vedr videre arbeide: 
+  
+1. Saksbehandling av revidert forslag, jfr notat av 06.10.22 – alternativ 2 
+Forslaget om å gå ned på BBB6 og tilsvarende opp på BBB4 krever saksbehandling. 
+Administrasjonen må gjøre sine vurderinger av konsekvenser basert på notatet vedr:
+ Fjernvirkning 
+ Sol og skygge 
+I tillegg må vi opplyse om volum opp mot vedtatt KDP, ikke bare opp mot vedtatt reg-plan som det ble 
+spurt om i forrige møte. 
+Dette krever noe tid til saksbehandling før fremlegging til KOBY. 
+  
+2. Fremdrift 
+• Her finnes jo også en mulighet for at de vedtar at volum skal reduseres. I så fall må
+plandokumentene oppdateres i tråd med dette, dersom dette er en aktuell løsning for
+tiltakshaver.
+Fint med respons på dette. Ha en finfin helg!
+Med vennlig hilsen
+as.pl.an I.·.\···...I
+viak
+I\
+·
+Sigrid Rasmussen
+SivilarkitekUarealplanlegger
+Analyse, plan og landskap
+Prostneset
+Kirkegata 4 3etg
+9008 Tromsø
+M: 915 74 205
+T: 417 99 417
+asplanviak.no
+Abonner på vårt nyhetsbrev
+Fra: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Sendt: fredag 7. oktober 2022 14:43
+Til: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter
+Daae <petter.daae@kramer.no>
+Emne: SV: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KOP i tillegg til
+fjernvirkning og sol
+Hei,
+Takk for notatet.
+Vi legger det frem for KOBY.
+Vi har to tilbakemeldinger vedr videre arbeide:
+l. Saksbehandling av revidert forslag, jfr notat av06.10.22 - alternativ 2
+Forslaget om å gå ned på B8B6 og tilsvarende opp på B8B4 krever saksbehandling.
+Administrasjonen må gjøre sine vurderinger av konsekvenser basert på notatet vedr:
+• Fjernvirkning
+• Sol og skygge
+I tillegg må vi opplyse om volum opp mot vedtatt KOP, ikke bare opp mot vedtatt reg-plan som det ble
+spurt om i forrige møte.
+Dette krever noe tid til saksbehandling før fremlegging til KOBY.
+2. Fremdrift
+En intensjon bak vedtaket i KOBY, om å bare redusere BBB6, var å åpne for en raskere prosess, uten 
+vesentlig saksbehandling. 
+Med foreliggende forslag må det settes av tid til saksbehandling som skissert over. 
+Behandling i novembermøtet i KOBY er realistisk å få til. 
+Innstillinga kan være at 
+ saken sendes tilbake med vedtak om delegert myndighet for utleggelse til offentlig ettersyn fra 
+administrasjonen, 
+ eller at KOBY ber om komplett planforslag til utleggelse i eget vedtak i KOBY
+I begge tilfelle må forslagsstiller oppdatere det komplette planmaterialet i tråd med det vedtaket KOBY 
+fatter, i etterkant av møtet. 
+  
+  
+Mvh Heidi 
+  
+  
+  
+  
+Med vennlig hilsen
+Heidi Bjøru
+Byplanlegger
+Seksjon for byutvikling, Byplan
+Tlf: 41514365 | 
+heidi.bjoru@tromso.kommune.no
+ 
+All e-post til Tromsø kommune behandles i samsvar med offentlighetsloven, hvilket medfører at innholdet kan bli offentliggjort. 
+Fra: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no> 
+Sendt: torsdag 6. oktober 2022 14:13
+Til: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles 
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter 
+Daae <petter.daae@kramer.no>
+Emne: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KDP i tillegg til 
+fjernvirkning og sol
+  
+Hei!
+  
+  
+Både i den politiske diskusjonen i siste KOBY møte og i administrasjonens håndtering av saken i ettertid 
+virker det som at det er uklarheter når det gjelder hvilke rammer som gir føringer for ny detaljregulering 
+for Kræmer Brygge. Det er derfor viktig for oss å understreke at det er politisk vedtatt kommunedelplan 
+for Stakkevollvegen, med tilhørende Storyboard, samt kommuneplanens arealdel som setter premisser 
+for ny detaljregulering. Denne har som mål at «Midtbyen» skal bli et urbant og attraktivt tyngdepunkt 
+En intensjon bak vedtaket i KOBY, om å bare redusere BBB6, var å åpne for en raskere prosess, uten
+vesentlig saksbehandling.
+Med foreliggende forslag må det settes av tid til saksbehandling som skissert over.
+Behandling i novembermøtet i KOBY er realistisk å få til.
+Innstillinga kan være at
+• saken sendes tilbake med vedtak om delegert myndighet for utleggelse til offentlig ettersyn fra
+administrasjonen,
+• eller at KOBY ber om komplett planforslag til utleggelse i eget vedtak i KOBY
+I begge tilfelle må forslagsstiller oppdatere det komplette planmaterialet i tråd med det vedtaket KOBY
+fatter, i etterkant av møtet.
+Mvh Heidi
+Med vennlig hilsen
+Heidi Bjøru
+Byplanlegger
+Seksjon for byutvikling, Byplan
+Tlf: 415143651
+heidi.bjoru@tromso.kommune.no
+Ci
+Tromsø
+. kommune
+All e-post til Tromsø kommune behandles i samsvar med offentlighets/oven, hvilket medfører at innholdet kan bli offentliggjort.
+Fra: Sigrid Rasmussen <Sigrid.Rasmussen@asplanviak.no>
+Sendt: torsdag 6. oktober 2022 14:13
+Til: Heidi Bjøru <heidi.bjoru@tromso.kommune.no>
+Kopi: Rigmor Tonstad <Rigmor.Tonstad@tromso.kommune.no>; Jacqueline Randles
+<Jacqueline.Randles@tromso.kommune.no>; Erik Eidesen <erik.eidesen@tromso.kommune.no>; Petter
+Daae <petter.daae@kramer.no>
+Emne: Detaljregulering Kræmer- revidert notat med fokus på utnyttelse i forhold til KOP i tillegg til
+fjernvirkning og sol
+Hei!
+Både i den politiske diskusjonen i siste KOBY møte og i administrasjonens håndtering av saken i ettertid
+virker det som at det er uklarheter når det gjelder hvilke rammer som gir føringer for ny detaljregulering
+for Kræmer Brygge. Det er derfor viktig for oss å understreke at det er politisk vedtatt kommunedelplan
+for Stakkevollvegen, med tilhørende Storyboard, samt kommuneplanens arealdel som setter premisser
+for ny detaljregulering. Denne har som mål at «Midtbyen» skal bli et urbant og attraktivt tyngdepunkt
+langs Stakkevollveien. Den gamle reguleringsplanen (vedtatt før KDP)  er ikke lenger aktuell når det 
+gjelder struktur, utnyttelse og høyde. Innlevert forslag til plan er i tråd med rammene i KDP på alle disse 
+punktene. 
+  
+Som avtalt oversendes her revidert notat for detaljregulering Kræmer Brygge Nordøst, hvor jeg har 
+inkludert et nytt kapittel vedrørende utnyttelse og høyder i forhold til overordnet plan.
+  
+Vi håper at detaljreguleringen med tilhørende notat samt 3D modeller vil bli framlagt på nytt  i 
+førstkommende KOBY møte, og at administrasjonen er tydelige på hvilke premisser som gjelder fra 
+overordna  vedtatte planer. 
+  
+  
+Med vennlig hilsen
+ 
+Sigrid Rasmussen
+Sivilarkitekt/ arealplanlegger
+Analyse, plan og landskap
+Prostneset
+Kirkegata 4 3etg
+9008 Tromsø
+ 
+M: 915 74 205
+T:  417 99 417
+asplanviak.no
+Abonner på vårt nyhetsbrev 
+ 
+  
+langs Stakkevollveien. Den gamle reguleringsplanen (vedtatt før KOP) er ikke lenger aktuell når det
+gjelder struktur, utnyttelse og høyde. Innlevert forslag til plan er i tråd med rammene i KOP på alle disse
+punktene.
+Som avtalt oversendes her revidert notat for detaljregulering Kræmer Brygge Nordøst, hvor jeg har
+inkludert et nytt kapittel vedrørende utnyttelse og høyder i forhold til overordnet plan.
+Vi håper at detaljreguleringen med tilhørende notat samt 3D modeller vil bli framlagt på nytt i
+førstkommende KOBY møte, og at administrasjonen er tydelige på hvilke premisser som gjelder fra
+overordna vedtatte planer.
+Med vennlig hilsen
+asplan '· .\··...•.I
+viak
+,,
+·
+Sigrid Rasmussen
+SivilarkitekUarealplanlegger
+Analyse, plan og landskap
+Prostneset
+Kirkegata 4 3etg
+9008 Tromsø
+M: 915 74 205
+T: 417 99 417
+asplanviak.no
+Abonner på vårt nyhetsbrev

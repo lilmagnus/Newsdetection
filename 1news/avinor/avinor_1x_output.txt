@@ -1,0 +1,529 @@
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+  
+ 
+ 
+ 
+ 
+Tromsø kommune 
+Postboks 6900 
+9299 TROMSØ 
+ 
+   
+Vår ref. 
+Vår dato: 
+19/00460-57 
+26.05.2020 
+ 
+ 
+Deres ref. 
+Deres dato: 
+BYGG-20/01238-4 
+13.05.2020 
+ 
+ 
+Vår saksbehandler: 
+ 
+ 
+Einar K Merli  -  976 51 687 
+ 
+ 
+ 
+Tromsø lufthavn - Gbnr 118/1016 - Huldervegen 2 - Oppføring av 
+hotellbygg Workinntunet - Vedtak rammetillatelse - Klage fra Avinor 
+ 
+Vi viser til Deres brev av 13.05.2020 vedrørende vedtak om rammetillatelse for oppføring av 
+hotellbygg på Workinntunet, gbnr 118/1016, Huldervegen 2, i Tromsø kommune. 
+ 
+ 
+1. Innledning 
+ 
+Luftfartstilsynet har den 20.12.2017 med hjemmel i § 1 i Forskrift om sertifisering av flyplasser mv. 
+datert 25.08.2015, jf. artikkel 6 i EU-forordning nr. 139/2014, sertifisert Tromsø lufthavn Langnes. 
+ 
+Det planlagte bygget vil bli liggende ca. 443 – 473 meter sørøst for landingsterskel til bane 01 (fra 
+sør) ved Tromsø lufthavn, basert på mottatt situasjonsplan, datert 28.02.2020. 
+ 
+ 
+2. Hinderflater/høyderestriksjonsflater i restriksjonsplanen for Tromsø lufthavn  
+ 
+Det planlagte hotellet vil bli liggende i sin helhet innenfor sideflaten, som er en 
+høyderestriksjonsflate/ hinderflate i restriksjonsplanen for lufthavnen, hjemlet i EASA-krav CS 
+ADR-DSN.H.430 og CS ADR-DSN.J.480, gjeldende fra 08.12.2017. 
+ 
+Restriksjonshøyden (sideflaten) der hotellet er plassert ligger på ca. kote 46,6 meter over havet 
+(moh) ved vestre fasade på bygget, og stigende lineært med 14,3% til ca. 48,8 moh ved østre 
+fasade på bygget. Ifølge mottatt fasadetegning, revidert 28.02.2020, har det planlagte bygget en 
+maksimalhøyde på kote 46,0 moh (inklusiv tekniske installasjoner), og vil følgelig ikke komme i 
+konflikt med sideflaten (hinderflate) i restriksjonsplanen for lufthavnen. 
+ 
+Tiltakshaver har tidligere ønsket å ha en tårnkran stående på østsiden av hotellet. En tårnkran som 
+skal benyttes ved oppføring av bygget, vil måtte gjennomtrenge sideflaten (hinderflate) i 
+restriksjonsplanen for lufthavnen, og det er ikke gitt at bygget kan oppføres med tårnkran. Se også 
+punkt 3. Tiltakshaver må i den forbindelse utarbeide en risikoanalyse etter anerkjent standard for å 
+fastslå om kranbruken er akseptabel med hensyn til flysikkerheten. Tiltakshaver må sende søknad 
+om bruk av tårnkran med tilhørende risikoanalyse til Avinor (post@avinor.no) som grunnlag for 
+søknad om godkjennelse til Luftfartstilsynet. Utarbeidelse av risikoanalyse utføres av 
+konsulentfirma med luftfartskompetanse, eksempelvis Safetec eller DNV GL. Det vises i den 
+forbindelse til mer utfyllende opplysninger i vedlagt brev av 02.05.2019 til AT Plan & Arkitektur AS. 
+ 
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+Dersom det skal benyttes mobilkran, må tiltakshaver på forhånd søke Tromsø lufthavn om 
+godkjennelse av kranbruken. Mobilkran må kunne senkes i forbindelse med flyginger til/fra Tromsø 
+lufthavn. Tiltakshaver skal før mobilkran kan tas i bruk, ha på plass nødvendig prosedyre med 
+varslingsrutiner for direkte kontakt mellom kontrolltårnet ved Tromsø lufthavn og ansvarlig 
+kranfører. Tiltakshaver er ansvarlig for å gjennomføre en risikoanalyse i samråd med Tromsø 
+lufthavn for å sjekke ut om kranbruken er akseptabel med hensyn til flysikkerheten. 
+ 
+Avinors kontaktperson ved Tromsø lufthavn i forbindelse med risikoanalyse for bruk av mobilkran 
+er:  
+Per-Erik Nordsveen,  tlf.  67 03 45 22 / 913 32 842  
+eller e-post: Per-Erik.Nordsveen@avinor.no  
+ 
+For begge krantyper gjelder også følgende: 
+ 
+Prosedyredesign må sjekke at byggekranene ikke vil påvirke minima1. 
+ 
+Det stilles krav om at byggekraner har påmontert faste røde hinderlys i samsvar med 
+følgende regelverk:  
+https://luftfartstilsynet.no/aktorer/flysikkerhet/luftfartshinder-oppstilling-og-bruk-av-kraner/ 
+ 
+Når det gjelder oppstilling og bruk av mobilkran, vises også til følgende regelverk for 
+rapportering og registrering av luftfartshinder:  
+https://luftfartstilsynet.no/aktorer/flysikkerhet/luftfartshinder-oppstilling-og-bruk-av-kraner/ 
+ 
+ 
+3. Byggerestriksjoner for flynavigasjonsanlegg  
+ 
+Bygget er vurdert nedenfor med hensyn til byggerestriksjonskrav (BRA-krav) for 
+flynavigasjonsanleggene ved lufthavnen, jf. § 6 i Forskrift om kommunikasjons-, navigasjons- og 
+overvåkingstjeneste, BSL G 6-1 av 27.06.2011. 
+ 
+Indra har den 03.06.2019 gjennomført en radioteknisk analyse av hotellbygget. Resultatet av 
+analysen viser at hotellbygget ikke vil påvirke flynavigasjonsanleggene ved Tromsø lufthavn 
+radioteknisk uheldig. 
+ 
+Avinor vil gjenta som presisert i vårt brev av 02.05.2019 at bruk av tårnkran til oppføring av bygget 
+anses problematisk og kranen må vurderes radioteknisk, muligens også kontrolleres med testfly for 
+utbyggers regning. Det er ikke gitt at bygget kan oppføres med tårnkran. 
+Bruk av mobilkran til oppføring av bygget må også vurderes radioteknisk avhengig av størrelsen på 
+de elementene som skal heises opp. 
+ 
+Radiotekniske vurderinger av kraner bestilles og bekostes av tiltakshaver (utbygger). 
+Bestilling sendes til: 
+Avinor Flysikring AS på følgende e-post: post@avinor.no  
+ 
+ 
+4. Farlig eller villedende belysning  
+ 
+Siden det aktuelle bygget ligger inntil innflygingen til bane 01 er det vurdert med hensyn til farlig 
+eller villedende belysning i forbindelse med innflyging til lufthavnen fra sør, jf. EASA-krav AMC1 
+ADR.OPS.B.075 Safeguarding of aerodromes (a) og (d) og EU-regulativ nr. 139/2014, artikkel 9(c). 
+ 
+Av hensyn til sikkerheten for lufttrafikken ved Tromsø lufthavn må tiltakshaver få utarbeidet en 
+belysningsplan for bebyggelsen og uteområdene som oversendes Avinor for vurdering og 
+                                                
+1 Minima angir hvor langt ned mot banen et fly kan gå i dårlig sikt før piloten skal se banen/innflygingslysene. 
+Hvis piloten i denne høyden ikke kan se banen/innflygingslysene, skal landingen avbrytes.  
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+godkjenning. Belysningsplanen må også omhandle anleggsperioden. Det vises i den forbindelse til 
+mer utfyllende opplysninger i vedlagt brev av 02.05.2019 til AT Plan & Arkitektur AS. 
+ 
+ 
+5. Vindskjær og turbulens 
+ 
+Erfaring fra tilsvarende problemstillinger, og de vurderinger som er gjort, tilsier at hindre (bygg) bør 
+ha en høyde over eksisterende terreng der hinderet (bygget) ønskes lokalisert som er mindre enn 
+1/35 av avstanden til rullebanens senterlinje eller dennes forlengelse. Dersom denne høyden 
+overskrides må bebyggelsen vurderes mht. turbulenseffekter, eventuelt ved hjelp av en 
+vindstrømsanalyse (turbulensanalyse). En slik vurdering vil ta hensyn til bygningsgeometri, lokale 
+vindforhold (vindretning og styrke, samt turbulensintensitet) vanlig banebruk, hvor på rullebanen 
+turbulens kan inntreffe, hvilke flytyper som kan bli påvirket, hvilken fase i avgang / landing blir 
+påvirket, hvor ofte problemet kan oppstå, risiko for personell og materiell etc. Avinor vil ikke tillatte 
+byggeprosjekter som forverrer turbulenssituasjonen ved Tromsø lufthavn, jf. EASA-krav CS ADR-
+DSN.B.015 med tilhørende veiledning GM1 ADR-DSN.B.015 (b) samt AMC1 ADR.OPS.B.075. 
+ 
+Tiltaket har et høyde-/lengdeforhold til forlenget senterlinje på rullebanen som er 36 meter / 409 
+meter ~ 11,4. Det planlagte hotellet ligger svært nærme innflygingen med hensyn til høyden, jf. 
+betydelig overskridelse av høyde-/lengdeforholdet for tiltaket. Selv med svake østlige vinder må 
+Avinor ha god kontroll på det som skjer på kort finale her, dvs. den siste kritiske delen av 
+innflygingen til bane 01 (fra sør). 
+ 
+Det er derfor nødvendig at tiltakshaver besørger og bekoster en slik 
+strømningsanalyse/turbulensanalyse fra anerkjent leverandør.  
+ 
+Avinor har tidligere påpekt behovet for strømningsanalyse for det nye hotellet i vedlagt brev av 
+02.05.2019 til AT Plan & Arkitektur AS og vedlagt e-post av 06.06.2019 AT Plan & Arkitektur AS 
+v/Torstein Piltingsrud. Begge forsendelsene er gjort med kopi til Tromsø kommune. 
+ 
+Kontaktperson hos Avinor med hensyn til strømningsanalyse (turbulensanalyse) er Olai R. 
+Hjetland, tlf. 994 60 045 eller e-post Olai.Rune.Hjetland@avinor.no  
+ 
+ 
+6. Klage 
+ 
+Med bakgrunn i overnevnte redegjørelse ber Avinor om at følgende punkter tas inn under punkt 4 i 
+vedtaket om krav som skal være oppfylt før igangsettingstillatelse kan gis: 
+ 
+Nytt underpunkt: Tiltakshaver må besørge utarbeidet strømningsanalyse/turbulensanalyse 
+fra anerkjent leverandør som dokumenterer at byggeprosjektet ikke forverrer 
+turbulenssituasjonen ved Tromsø lufthavn. Strømningsanalysen skal være godkjent av 
+Avinor. 
+ 
+Tillegg til underpunkt 4d: ……. Bruk av byggekraner skal være godkjent av 
+Luftfartstilsynet/Avinor/Avinor Flysikring. Tiltakshaver må fremlegge nødvendig 
+risikoanalyse etter anerkjent standard og radioteknisk vurdering. 
+ 
+Nytt underpunkt: Tiltakshaver må få utarbeidet belysningsplan for bebyggelsen og 
+uteområdene. Belysningsplanen må også omhandle anleggsperioden. Belysningsplanen 
+skal være godkjent av Avinor. 
+ 
+For å kunne ivareta flysikkerheten og ivaretakelse av sertifiseringen av Tromsø lufthavn påklager 
+Avinor kommunens rammetillatelse av 13.05.2020 for hotellet i Huldervegen 2 til Fylkesmannen i 
+Troms og Finnmark dersom overnevnte kulepunkter ikke innarbeides i rammetillatelsen. 
+ 
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+Avinor vil avslutningsvis bemerke at Tromsø lufthavn er et svært viktig knutepunkt for flytrafikken i 
+Nord-Norge. En forverring av turbulenssituasjonen ved lufthavnen vil kunne gi begrensninger for 
+bruken av lufthavnen ved spesielle vindretninger, som igjen vil gi en dårligere regularitet for 
+Tromsø lufthavn. 
+ 
+ 
+ 
+Med vennlig hilsen 
+Avinor AS  
+ 
+Einar K Merli 
+Arealplanlegger 
+Masterplaner og arealdisponering 
+ 
+Dokumentet er godkjent elektronisk. 
+ 
+Kopi: Luftfartstilsynet, Fylkesmannen i Troms og Finnmark 
+    
+2 vedlegg. 
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+  
+ 
+ 
+ 
+ 
+AT Plan & Arkitektur AS 
+pb 1232 
+9262 Tromsø 
+ 
+Att.: Torstein Piltingsrud 
+Vår ref. 
+Vår dato: 
+19/00460-8 
+02.05.2019 
+ 
+ 
+Deres ref. 
+Deres dato: 
+   
+18.02.2019 
+ 
+ 
+Vår saksbehandler: 
+ 
+ 
+Einar K Merli  -  976 51 687 
+ 
+ 
+ 
+ 
+ 
+Tromsø lufthavn - Byggesak - Nytt hotell - Huldrevegen 2 - Gbnr 
+118/1016 i Tromsø kommune - Foreløpig uttalelse fra Avinor 
+ 
+Vi viser til Deres e-poster datert 18.02.2019 og 17.04.2019 vedrørende byggesak for nytt hotell på 
+Huldrevegen 2, gbnr 118/1016 i Tromsø kommune. 
+ 
+ 
+1. Innledning 
+ 
+Luftfartstilsynet har den 20.12.2017 med hjemmel i § 1 i Forskrift om sertifisering av flyplasser mv. 
+datert 25.08.2015, jf. artikkel 6 i EU-forordning nr. 139/2014, sertifisert Tromsø lufthavn Langnes. 
+ 
+Det aktuelle bygget vil bli liggende ca. 446 – 473 meter sørøst for landingsterskel til bane 01 (fra 
+sør) ved Tromsø lufthavn, basert på mottatt utomhusplan, revidert 16.04.2019. 
+ 
+ 
+2. Hinderflater/høyderestriksjonsflater i restriksjonsplanen for Tromsø lufthavn  
+ 
+Det planlagte hotellet ligger i sin helhet innenfor sideflaten, som er en høyderestriksjonsflate/ 
+hinderflate i restriksjonsplanen (ENTC-P-08) for lufthavnen, hjemlet i EASA-krav CS ADR-
+DSN.H.430 og CS ADR-DSN.J.480, gjeldende fra 01.09.2015. 
+Restriksjonshøyden (sideflaten) der hotellet er plassert ligger på ca. kote 46,8 meter over havet 
+(moh) ved vestre fasade på bygget, og stigende lineært med 14,3% til ca. 48,8 moh ved østre 
+fasade på bygget. Ifølge mottatt fasadetegning, revidert 16.04.2019, har det planlagte bygget en 
+maksimalhøyde på kote 46,3 moh (inklusiv tekniske installasjoner), og vil følgelig ikke komme i 
+konflikt med sideflaten (hinderflate) i restriksjonsplanen for lufthavnen. 
+ 
+Tiltakshaver ønsker å ha en tårnkran stående på østsiden av hotellet.  
+En tårnkran som skal benyttes ved oppføring av bygget, vil måtte gjennomtrenge sideflaten 
+(hinderflate) i restriksjonsplanen for lufthavnen. Tiltakshaver må i den forbindelse utarbeide en 
+risikoanalyse etter anerkjent standard for å fastslå om kranbruken er akseptabel med hensyn til 
+flysikkerheten. Tiltakshaver må sende søknad om bruk av kran med tilhørende risikoanalyse til 
+Avinor (post@avinor.no) som grunnlag for søknad om godkjennelse til Luftfartstilsynet. 
+Utarbeidelse av risikoanalyse utføres av konsulentfirma med luftfartskompetanse, eksempelvis 
+Safetec eller DNV GL. 
+ 
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+I forbindelse med søknad om tårnkran må det angis følgende opplysninger:  
+ 
+Navn og spesifikasjoner (løftediagram) på tårnkranen.  
+ 
+Nøyaktig oppstillingsplass for tårnkranen med angivelse av koordinater.  
+ 
+Kotehøyde på oppstillingsplass.  
+ 
+Tårnkranens maksimalhøyde over terreng.  
+ 
+Kotehøyde på tårnkranens høyeste punkt samt kotehøyde på bommen.  
+ 
+Maksimal lengde på tårnkranens bom (ut fra oppstillingspunkt).  
+ 
+Tidsrom for opprigget tårnkran.  
+ 
+Tilsvarende opplysninger vil også gjelde for bruk av eventuell mobilkran. 
+ 
+All bruk av byggekraner skal koordineres med kontrolltårnet på Tromsø lufthavn.  
+ 
+Det stilles krav om at byggekraner er utstyrt med faste røde hinderlys:  
+ 
+For tårnkran skal det være tre hinderlys, fordelt på kongetopp, utliggerspiss og enden av 
+bakbro.  
+ 
+For mobilkran skal det være hinderlys i bomspissen.  
+ 
+Kraner må meldes inn til Nasjonalt register over luftfartshindre (NRL) hos Statens kartverk. 
+ 
+Når det gjelder oppstilling og bruk av kraner, vises til følgende regelverk for rapportering, 
+registrering og merking av luftfartshinder:  
+https://luftfartstilsynet.no/aktorer/flysikkerhet/luftfartshinder-oppstilling-og-bruk-av-kraner/  
+ 
+Ved spørsmål om bruk av kraner og søknad om godkjenning til Luftfartstilsynet er Avinors 
+kontaktperson Mette Krokstrand, tlf. 930 37 977 eller e-post: Mette.Krokstrand@avinor.no  
+ 
+ 
+3. Byggerestriksjoner for flynavigasjonsanlegg 
+ 
+Bygget er vurdert nedenfor med hensyn til byggerestriksjonskrav (BRA-krav) for 
+flynavigasjonsanleggene ved lufthavnen, jf. § 6 i Forskrift om kommunikasjons-, navigasjons- og 
+overvåkingstjeneste, BSL G 6-1 av 27.06.2011. 
+ 
+BRA-kravet er gitt av flynavigasjonsanlegget LOC01 med 6 moh. 
+ 
+Det omsøkte bygget har fått endret høyde og fasadevinkel i forhold til rullebanens senterlinje og 
+den radiotekniske vurderingen fra 2015 er således ikke gyldig.  
+ 
+Det må presiseres at bygget er en utfordring for navigasjonsinstallasjonene på Tromsø lufthavn og 
+det bør ikke legges for mye arbeid i detaljering før det bestilles ny radioteknisk vurdering. Det kan 
+være at byggets utforming og retning i terrenget må endres. 
+ 
+Bruk av tårnkran til oppføring av bygget anses problematisk og kranen må vurderes radioteknisk, 
+muligens også kontrolleres med testfly for utbyggers regning. Det er ikke gitt at bygget kan 
+oppføres med tårnkran. 
+ 
+Bruk av mobilkran til oppføring av bygget må også vurderes radioteknisk avhengig av størrelsen på 
+de elementene som skal heises opp.  
+ 
+Radiotekniske vurderinger av bygg og kraner bestilles og bekostes av tiltakshaver (utbygger).  
+Bestilling sendes til:  
+Avinor Flysikring AS på følgende e-post: post@avinor.no  
+ 
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+Eventuelle spørsmål vedrørende radiotekniske vurderinger kan rettes til Avinor Flysikring ved 
+Nicolai Dons, tlf. 67 03 01 20 eller 941 91 251, eller e-post: Nicolai.Dons@avinor.no  
+ 
+ 
+4. Farlig eller villedende belysning 
+ 
+Siden det aktuelle bygget ligger inntil innflygingen til bane 01 er det vurdert med hensyn til farlig 
+eller villedende belysning i forbindelse med innflyging til lufthavnen fra sør, jf. EASA-krav AMC1 
+ADR.OPS.B.015(a) og EU-regulativ nr. 139/2014, artikkel 9(c). Det er særlig lys som på grunn av 
+intensitet, utforming eller farge, som kan medføre en fare for flysikkerheten eller være villedende 
+ved at de forhindrer eller vanskeliggjør riktig tolkning av flyplassbelysningen. Reklameskilt bør 
+prosjekteres med dempere. Det er avgjørende at belysningen rettes mest mulig ned mot bakken. 
+Dette gjelder også for anleggsmaskiner/lastebiler, kraner og bruk av flomlys på tomten i 
+anleggsperioden. Dersom det kommer inn klager fra piloter i forbindelse med innflyging, vil Avinor 
+kunne kreve at lysbruken endres. 
+ 
+Av hensyn til sikkerheten for lufttrafikken ved Tromsø lufthavn må tiltakshaver få utarbeidet en 
+belysningsplan for bebyggelsen og uteområdene som oversendes Avinor for vurdering og 
+godkjenning. Belysningsplanen må også omhandle anleggsperioden. 
+ 
+ 
+5. Vindskjær og turbulens 
+ 
+Vindskjær er definert som endring i vindstyrke og vindretning (vindhastighet) over en avstand i en 
+hvilken som helst retning. Turbulens er kastevinder. Både vindskjær og turbulens kan forårsakes 
+av at fysiske hindre forstyrrer en fri luftstrøm. Når avstanden er kort og endringen i vindhastighet er 
+stor, kan dette medføre et alvorlig problem for fly som beveger seg med stor hastighet gjennom 
+slikt luftrom. Vindskjær og turbulens skyldes ofte formasjoner i terrenget. Vindskjær og turbulens 
+på en rullebane kan også skyldes bygninger i nærheten eller vegetasjon. Eiendommen som 
+ønskes bebygd, ligger innenfor siste del av innflygingen til bane 01 (fra sør) og uønsket turbulens i 
+dette området vil være uheldig i forhold til flysikkerheten. 
+ 
+Erfaring fra tilsvarende problemstillinger, og de vurderinger som er gjort, tilsier at hindre (bygg) bør 
+ha en høyde over eksisterende terreng der hinderet (bygget) ønskes lokalisert som er mindre enn 
+1/35 av avstanden til rullebanens senterlinje. Dersom denne høyden overskrides må bebyggelsen 
+vurderes mht. turbulenseffekter, eventuelt ved hjelp av en vindstrømsanalyse (turbulensanalyse). 
+En slik vurdering vil ta hensyn til bygningsgeometri, lokale vindforhold (vindretning og styrke, samt 
+turbulensintensitet) vanlig banebruk, hvor på rullebanen turbulens kan inntreffe, hvilke flytyper som 
+kan bli påvirket, hvilken fase i avgang / landing blir påvirket, hvor ofte problemet kan oppstå, risiko 
+for personell og materiell etc. Avinor vil ikke tillatte byggeprosjekter som forverrer 
+turbulenssituasjonen ved Tromsø lufthavn, jf. EASA-krav CS ADR-DSN.B.015 med tilhørende 
+veiledning GM1 ADR-DSN.B.015 (b) samt AMC1 ADR.OPS.B.075. 
+ 
+Det omsøkte bygget ligger ca. 410 meter fra forlenget senterlinje på rullebanen. Det gir en 
+avstandsbrøk til rullebanens senterlinje på 34,8 meter / 410 meter ~ 1/12. Dette er langt høyere 
+enn 1/35-kravet som er nevnt ovenfor, og det kreves utarbeidet en vindstrømsanalyse 
+(turbulensanalyse) for bygget. I utgangspunktet må strømningsanalysen omhandle vind fra 
+øst/nordøst (60 grader), øst (90 grader) og øst/sørøst (120 grader).  
+ 
+Det vil være tiltakshaver som besørger og bekoster en slik turbulensanalyse fra anerkjent 
+leverandør, eksempelvis Kjeller Vindteknikk.  
+ 
+Kontaktperson hos Avinor med hensyn til strømningsanalyse (turbulensanalyse) er Olai R. 
+Hjetland, tlf. 994 60 045 eller e-post Olai.Rune.Hjetland@avinor.no  
+ 
+ 
+    
+Postboks 150 NO-2061 Gardermoen 
+Tlf: +47 67 03 00 00 / Fax: +47 64 81 20 01 
+post@avinor.no / avinor.no 
+NO 985 198 292 MVA 
+ 
+ 
+6. Flystøy 
+ 
+Gjeldende flystøysonekart for Tromsø lufthavn er for perioden 2014 - 2025, og er beregnet av 
+SINTEF, rapport A27269, datert 02.11.2015. 
+Det aktuelle hotellbygget vil bli liggende i rød flystøysone, i nedre del av støysonen. 
+Avinor forutsetter at lydkravene etter TEK 17 legges til grunn for et nytt hotellbygg. 
+ 
+ 
+7. Avsluttende merknader 
+ 
+Avinor vil ikke kunne gi en endelig uttalelse til byggeprosjektet før overnevnte punkter er vurdert og 
+godkjent av Avinor eller Avinor Flysikring. Vi vil anbefale at tiltakshaver starter med bestilling av ny 
+radioteknisk vurdering av hotellbygget hos Avinor Flysikring (punkt 3) og får denne vurdert først. 
+Når det eventuelt foreligger en godkjent radioteknisk vurdering av bygget eventuelt omprosjektert 
+bygg, kan man gå videre med de øvrige punktene: 
+ 
+Bruk av byggekraner: Godkjenning fra Avinor og Luftfartstilsynet med hensyn til 
+gjennomtreng av hinderflatene (sideflaten) i restriksjonsplanen (punkt 2) og radioteknisk 
+vurdering og godkjenning fra Avinor Flysikring (punkt 3). 
+ 
+Belysningsplan: Godkjenning fra Avinor (punkt 4). 
+ 
+Strømningsanalyse (turbulensanalyse): Godkjenning fra Avinor (punkt 5). 
+ 
+Tromsø kommune kan ikke gi rammetillatelse/igangsettingstillatelse for byggeprosjektet og bruk av 
+byggekraner før overnevnte punkter er vurdert og godkjent av Avinor eller Avinor Flysikring. 
+ 
+ 
+ 
+ 
+Med vennlig hilsen 
+Avinor AS  
+ 
+Einar K Merli 
+Arealplanlegger 
+Masterplaner og arealdisponering 
+ 
+Dokumentet er godkjent elektronisk. 
+ 
+Kopi: Tromsø kommune 
+    
+Fra:
+Sendt:
+Til:
+Kopi:
+Emne:
+Vedlegg:
+Merli, Einar
+6. j uni 2019 13:49
+torstein.piltingsrud@atpa.no
+'post mottak@t romso.kommune.no'; Schrøen, Ivar Helsing;
+Øvervold, Bjørn Harald; Henriksen, Svein-Idar; Nybak, Elin;
+Krokst rand, Mette; Hjet land, Olai Rune; Dons, Nicolai
+Tromsø lufthavn - G bnr 118/ 1016 i Tromsø kommune - Byggesak -
+Nytt hotell - Huldervegen 2 - Krav til st rømningsanalyse - Uttalelse
+fra Avinor
+19_00460-8 Tromsø lufthavn - Gbnr 118_1016 i Tromsø kommune -
+Byggesak - Nytt hotell - Huldrev 1861080_6_1.pdf
+AT Plan&Arkit ekt ur AS
+v/Torstein Pilting srud
+Vi viser t il Deres e-poster nedenfor av 04.05.2019 og 28.05.2019 vedrørende krav til
+st rømningsanalyse i forbindelse med etablering av nytt hotell på Huldrevegen 2, gbnr 118/ 1016 i
+Tromsø kommune.
+Avinor er innforstått med at hotellet planlegges oppført i samsvar med vilkår i gjeldende
+reguleringsplan.
+Avinor har siden høring av reguleringsplanen for Huldreveien 2 erfart at t ilsvarende enkeltstående
+bygg nær luft havner kan skape uønsket t urbulens. Vi har nå innskjerpet krav om st rømningsanalyser
+i tilsvarende saker med bakgrunn blant annet i det felleseuropeiske regelverket som luft havnen er
+godkjent etter. (Regelverke t: EASA-krav CS ADR-DSN.B.015 med tilhørende veiledning GM l ADR-
+DSN.B.015 (b) samt AM C1 ADR.OPS.B.075)
+Det er ikke ønskelig fra Avinor sin side at det etableres et byggverk innt il Tromsø luft havn uten at vi
+er t rygge på at hotellet ikke medfører risiko for t urbulens ved visse vindret ninger. Tiltak som skaper
+eller forsterker t urbulens nær innflyging medvirker til begrensninger i flyoperasjoner som igjen går ut
+over luft havnens regularitet .
+Vi mener derfor at det må gjennomføres en st rømningsanalyse {t urbulensanalyse) av det planlagte
+hotellet i t råd med punkt 5 i vårt brev av 02.05.2019 til AT Plan & Arki tekt ur AS {følger vedlagt).
+Avinor vil henst ille Tromsø kommune, som bygningsmyndighet, å ivareta Tromsø luft havn ved å st ille
+krav om st rømningsanalyse {turbulensanalyse) i rammet illatelsen for det oms kte hotellet .
+Med vennlig hilsen
+Einar K. M erli
+Arealplanlegger, seksjon Masterplaner og arealdisponering
+DRIFT OG INFRASTRUKTUR
+einar.merli@avinor.no
+Mob: +47 976 51 687
+Tlf: 
++47 67 03 00 00
+Dronning Eufemias gate 6
+Post boks 150, 2061 Gardermoen
