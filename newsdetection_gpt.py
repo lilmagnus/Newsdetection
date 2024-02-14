@@ -320,7 +320,7 @@ if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
     folder_path = input('Enter the folder path for text documents:')
     news_detector = NewsDetector(api_key)
-    all_summaries = news_detector.summarise_individual_documents(folder_path)
+    all_summaries = news_detector.summarise_individual_documents('Newsdetection/'+folder_path)
     # Først sende "all_summaries" til en egen funksjon
     # Fjerne documentId.txt, andre unødvendige forekomster av ting
     print("\nCompiled Summaries:\n", all_summaries, "\n")
