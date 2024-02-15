@@ -6,7 +6,6 @@ import fitz
 import hashlib
 import json
 import random
-import spacy
 from spacy.lang.nb.stop_words import STOP_WORDS
 
 HASH_ALGORITHM = 'sha256'
@@ -242,6 +241,7 @@ class NewsDetector:
                 break  # Exit the loop if there's no response
         
         return summary.strip()
+    
     # FIX
     def categorize(self, summaries):
         # Gå mer inn i detalj på hvert punkt hvis det vurderes som TRUE.
@@ -270,6 +270,7 @@ class NewsDetector:
     def assess_newsworthiness(self, summaries):
         max_chunk_size = 10000
         
+        # Kanskje unødvendig
         newsworthiness_criteria = """NEIGHBOR DISPUTE,
             PUBLIC SAFETY CONCERNS,
             QUESTION OF LEGALITY,
