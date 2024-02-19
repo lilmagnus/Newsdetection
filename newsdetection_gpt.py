@@ -46,14 +46,15 @@ class CacheManager:
 
 
 class NewsDetector:
-    # DELVIS NYTT /// EGEN KLASSE ??
-    def __init__(self, api_key, lambda_=LAMBDA, model=MODEL, base_delay=BASE_DELAY):
+    def __init__(self, api_key, lambda_=LAMBDA, model=MODEL, base_delay=BASE_DELAY, hash_algorithm=HASH_ALGORITHM, cache_folder=CACHE_FOLDER):
         self.api_key = api_key
         self.model=model
+        self.hash_algorithm = hash_algorithm
+        self.cache_folder = cache_folder
         self.base_delay=base_delay
         self.lambda_=lambda_
         self._handicap=1
-        self.cache_manager = CacheManager()
+        self.cache_manager = CacheManager(hash_algorithm=hash_algorithm, cache_folder=cache_folder)
         openai.api_key = self.api_key
     
     def estimate_token_count(self, text):
@@ -66,9 +67,9 @@ class NewsDetector:
         max_tokens = min(max_response_length, 4096)
 
         while retry_count < max_retries:
-            response = self.get_cached_response(messages)
-            if response is not None:
-                return response # ?????
+            #response = self.get_response(messages)
+            #if response is not None:
+            #    return response # ?????
             try:
                 response = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo-0125", 
@@ -137,6 +138,7 @@ class NewsDetector:
         #summ_summ = self.make_api_request([{"role": "user", "content": f"Reduce the length of this summary: {all_summaries}"}])
         print("="*20, "FINISHED", "="*20)
         #print(len(all_summaries))
+        self.cache_manager.cache_response(summary, all_summaries)
         # Legg inn kall til categorize metode her, 
         # for å få med vurdering om hvilke kategorier det er snakk om
         if len(all_summaries) > 20000:
@@ -234,12 +236,24 @@ class NewsDetector:
         detail_assessed = "DETAILS SURROUNDING SUBJECTS:"+'\n'
         detail_digging = self.make_api_request([{"role": "user", "content": f"If any categories are assessed to be TRUE, give an explanation as to why they are TRUE. If no categories are TRUE, don't change the summary. {summaries}"}])
         detail_assessed += detail_digging
-        self.cache_response(summaries, detail_digging)
+        #self.cache_manager.cache_response(summaries, detail_digging)
         return detail_assessed
+
+    def get_response(self, summaries, max_response_length=1000):
+        # Sjekk cache
+        cached_response = self.cache_manager.get_cached_response(summaries)
+        if cached_response is not None:
+            return cached_response
+        
+        # Hvis ikke i cache
+        response = self.make_api_request(summaries, max_response_length)
+        return response
 
     def assess_newsworthiness(self, summaries):
         max_chunk_size = 10000
-        
+
+        #self.get_response(summaries)
+
         # Kanskje unødvendig
         newsworthiness_criteria = """NEIGHBOR DISPUTE,
             PUBLIC SAFETY CONCERNS,
@@ -291,7 +305,7 @@ if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
     folder_path = input('Enter the folder path for text documents:')
     news_detector = NewsDetector(api_key)
-    all_summaries = news_detector.summarise_individual_documents('Newsdetection/'+folder_path)
+    all_summaries = news_detector.summarise_individual_documents(folder_path)
     # Først sende "all_summaries" til en egen funksjon
     # Fjerne documentId.txt, andre unødvendige forekomster av ting
     print("\nCompiled Summaries:\n", all_summaries, "\n")
