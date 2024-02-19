@@ -14,25 +14,19 @@ MODEL = "gpt-3.5-turbo-0125"
 BASE_DELAY = 3
 LAMBDA = 0.5
 
-class NewsDetector:
-    # DELVIS NYTT /// EGEN KLASSE ??
-    def __init__(self, api_key, lambda_=LAMBDA, hash_algorithm=HASH_ALGORITHM, cache_folder=CACHE_FOLDER, model=MODEL, base_delay=BASE_DELAY):
-        self.api_key = api_key
+class CacheManager:
+    def __init__(self, hash_algorithm='sha256', cache_folder='gpt_cache/'):
         self._hash_object = hashlib.new(hash_algorithm)
-        self.cache_folder=cache_folder
-        self.model=model
-        self.base_delay=base_delay
-        self.lambda_=lambda_
-        self._handicap=1
+        self.cache_folder = cache_folder
         if not os.path.exists(cache_folder):
             os.makedirs(cache_folder)
-        openai.api_key = self.api_key
-    # NY /// EGEN KLASSE
+
     def get_hash(self, messages):
-        self._hash_object.update(json.dumps(messages).encode('utf-8'))
-        hash_ = self._hash_object.hexdigest()
+        hash_object = self._hash_object.copy()
+        hash_object.update(json.dumps(messages).encode('utf-8'))
+        hash_ = hash_object.hexdigest()
         return hash_
-    # NY /// EGEN KLASSE ??
+
     def get_cached_response(self, messages):
         hash_ = self.get_hash(messages)
         cache_filename = f'{self.cache_folder}/{hash_}.json'
@@ -43,48 +37,24 @@ class NewsDetector:
             return response
         else:
             return None
-    # NY /// EGEN KLASSE ??
+
     def cache_response(self, messages, response):
         hash_ = self.get_hash(messages)
         cache_filename = f'{self.cache_folder}/{hash_}.json'
         with open(cache_filename, 'w') as file:
             json.dump(response, file, indent=4)
-    # NY /// EGEN KLASSE ??
-    def get_response(self, messages, max_response_length=1000):
-        # return cached response if it exists
-        response = self.get_cached_response(messages)
-        if response is not None:
-            return response
-            # not in cache, so request from OpenAI
-        max_tokens = min(max_response_length, 4096)
-        delay = self.base_delay+random.expovariate(lambd=self.lambda_)
-        response = None
-        while response is None:
-            try:
-                time.sleep(delay*self._handicap)
-                response = openai.ChatCompletion.create(
-                model=self.model,
-                messages=messages,
-                max_tokens=max_tokens
-                )
-                print(f'+{self._handicap}', end='')
-            except openai.error.Timeout:
-                print('-', end='')
-                self._handicap *= 2
-            except (openai.error.APIError, openai.error.APIConnectionError):
-                print('=', end='')
-                self._handicap *= 4
-            except openai.error.RateLimitError:
-                print('!', end='')
-                # wait an hour
-                time.sleep(3600)
-            # except openai.error.InvalidRequestError:
-                # print('/', end='')
-                # response = 'context length exceeded'
-                self._handicap = max(1, self._handicap//2)
-                # cache response for later
-            #self.cache_response(messages, response)
-        return response
+
+
+class NewsDetector:
+    # DELVIS NYTT /// EGEN KLASSE ??
+    def __init__(self, api_key, lambda_=LAMBDA, model=MODEL, base_delay=BASE_DELAY):
+        self.api_key = api_key
+        self.model=model
+        self.base_delay=base_delay
+        self.lambda_=lambda_
+        self._handicap=1
+        self.cache_manager = CacheManager()
+        openai.api_key = self.api_key
     
     def estimate_token_count(self, text):
         return len(text.split())
