@@ -214,7 +214,7 @@ class NewsDetector:
         
         return summary.strip()
     
-    # FIX
+    # FIX ???
     def categorize(self, summaries):
         # Gå mer inn i detalj på hvert punkt hvis det vurderes som TRUE.
         # Få frem hvor omfattende det egentlig er, for å få en bedre
@@ -230,7 +230,11 @@ class NewsDetector:
             assessed += assessment_prompt + '\n'
         print("-"*10, "Assessment complete!", "-"*10)
         assessed_summaries = assessed + summaries
-        return self.detailed_categories(assessed_summaries)
+        if len(assessed_summaries) > 20000:
+            chunk_categories = self.chunk_summary(assessed_summaries)
+            return self.detailed_categories(chunk_categories)
+        else:
+            return self.detailed_categories(assessed_summaries)
 
     def detailed_categories(self, summaries):
         detail_assessed = "DETAILS SURROUNDING SUBJECTS:"+'\n'
@@ -305,17 +309,20 @@ if __name__ == "__main__":
     folder_path = input('Enter the folder path for text documents:')
     news_detector = NewsDetector(api_key)
     cache_collect = CacheManager()
-    check_cache = cache_collect.get_cached_response(folder_path)
-    if check_cache != None:
-        cache_categorize = news_detector.categorize(check_cache)
-        assess_cache = news_detector.assess_newsworthiness(cache_categorize)
-        time.sleep(2)
-        print("\nNewsworthiness Assessment on cached file:\n", assess_cache)
-    else:
-        all_summaries = news_detector.summarise_individual_documents(folder_path)
-        # Først sende "all_summaries" til en egen funksjon
-        # Fjerne documentId.txt, andre unødvendige forekomster av ting
-        print("\nCompiled Summaries:\n", all_summaries, "\n")
-        time.sleep(2)
-        newsworthiness = news_detector.assess_newsworthiness(all_summaries)
-        print("\nNewsworthiness Assessment:\n", newsworthiness)
+    for foldername in os.listdir(folder_path): # BYTT FOLDERNAME TIL FILENAME
+        print("="*20, foldername.upper(), "="*20)
+        check_cache = cache_collect.get_cached_response(folder_path+"/"+foldername)
+        if check_cache is not None:
+            cache_categorize = news_detector.categorize(check_cache)
+            asses_cache = news_detector.assess_newsworthiness(cache_categorize)
+            time.sleep(2)
+            print("\nNewsworthiness assessment on cached file:\n", asses_cache, "\n\n")
+            time.sleep(5)
+        else:
+            all_summaries = news_detector.summarise_individual_documents(folder_path+"/"+foldername)
+            # Først sende "all_summaries" til en egen funksjon
+            # Fjerne documentId.txt, andre unødvendige forekomster av ting
+            print("\nCompiled Summaries:\n", all_summaries, "\n")
+            time.sleep(2)
+            newsworthiness = news_detector.assess_newsworthiness(all_summaries)
+            print("\nNewsworthiness Assessment:\n", newsworthiness)
