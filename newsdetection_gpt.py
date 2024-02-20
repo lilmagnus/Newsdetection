@@ -138,7 +138,7 @@ class NewsDetector:
         #summ_summ = self.make_api_request([{"role": "user", "content": f"Reduce the length of this summary: {all_summaries}"}])
         print("="*20, "FINISHED", "="*20)
         #print(len(all_summaries))
-        self.cache_manager.cache_response(summary, all_summaries)
+        self.cache_manager.cache_response(folder_path, all_summaries)
         # Legg inn kall til categorize metode her, 
         # for å få med vurdering om hvilke kategorier det er snakk om
         if len(all_summaries) > 20000:
@@ -221,7 +221,7 @@ class NewsDetector:
         # vurdering om det faktisk er dramatisk nok til å lage en nyhetssak på
         assess_list = ['PUBLIC SAFETY', 'LARGE PROJECT', 'NEIGHBOR DISPUTE', 'IMPACT ON CITIZENS']
         #assess_list = ['NEIGHBOR DISPUTE']
-        assessed = "THEMES IN THE TEXT:"+'\n'
+        assessed = "THEMES IN SUMMARY:"+'\n'
         print("-"*10, "Assessing categories...")
         for i in assess_list:
             #assessment_prompt = self.make_api_request([{"role": "user", "content": f"Check for: {i}, {fewshot_train}"}])
@@ -236,7 +236,6 @@ class NewsDetector:
         detail_assessed = "DETAILS SURROUNDING SUBJECTS:"+'\n'
         detail_digging = self.make_api_request([{"role": "user", "content": f"If any categories are assessed to be TRUE, give an explanation as to why they are TRUE. If no categories are TRUE, don't change the summary. {summaries}"}])
         detail_assessed += detail_digging
-        #self.cache_manager.cache_response(summaries, detail_digging)
         return detail_assessed
 
     def get_response(self, summaries, max_response_length=1000):
@@ -305,10 +304,18 @@ if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
     folder_path = input('Enter the folder path for text documents:')
     news_detector = NewsDetector(api_key)
-    all_summaries = news_detector.summarise_individual_documents(folder_path)
-    # Først sende "all_summaries" til en egen funksjon
-    # Fjerne documentId.txt, andre unødvendige forekomster av ting
-    print("\nCompiled Summaries:\n", all_summaries, "\n")
-    time.sleep(2)
-    newsworthiness = news_detector.assess_newsworthiness(all_summaries)
-    print("\nNewsworthiness Assessment:\n", newsworthiness)
+    cache_collect = CacheManager()
+    check_cache = cache_collect.get_cached_response(folder_path)
+    if check_cache != None:
+        cache_categorize = news_detector.categorize(check_cache)
+        assess_cache = news_detector.assess_newsworthiness(cache_categorize)
+        time.sleep(2)
+        print("\nNewsworthiness Assessment on cached file:\n", assess_cache)
+    else:
+        all_summaries = news_detector.summarise_individual_documents(folder_path)
+        # Først sende "all_summaries" til en egen funksjon
+        # Fjerne documentId.txt, andre unødvendige forekomster av ting
+        print("\nCompiled Summaries:\n", all_summaries, "\n")
+        time.sleep(2)
+        newsworthiness = news_detector.assess_newsworthiness(all_summaries)
+        print("\nNewsworthiness Assessment:\n", newsworthiness)
