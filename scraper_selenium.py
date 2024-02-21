@@ -116,8 +116,11 @@ def main():
         #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-01-03' # Trudvanvegen 19
         #link_to_click_xpath = "//a[text()='23/11346-14']"
 
-        url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-09-01' # Conrad Holmboes veg 17
+        url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-02-16' # Heilovegen 23, Hotell til bolig
         link_to_click_xpath = "//a[text()='23/13964-1']"
+
+        url = '' # Conrad Holmboes veg 17
+        link_to_click_xpath = "//a[text()='23/19795-4']"
 
         document_links_xpath = "//a[contains(@href, 'dokumentbestilling/getDocument?dokid=')]"
         load_more_button_xpath = "//a[text()='Flere resultater']"
