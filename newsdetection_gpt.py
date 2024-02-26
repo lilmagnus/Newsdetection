@@ -338,7 +338,7 @@ class NewsDetector:
         
         #newsworthiness_query = self.make_api_request([{"role": "system", "content": f"Examples of newsworthy, not newsworthy, and partly newsworthy cases:  {few_shots}"},
         #                                              {"role": "user", "content": f"{newsworthiness_prompt}\n\n{summaries}"}], max_chunk_size)
-        newsworthiness_query = self.make_api_request([{"role": "system", "content": "Work out your own solution to whether the summary you are given is newsworthy or not"},
+        newsworthiness_query = self.make_api_request([{"role": "system", "content": "Work out your own solution to whether the summary you are given is newsworthy or not. Give a clear LABEL of your decision, as the examples show."},
                                                       {"role": "user", "content": few_shots}], max_chunk_size)
         #newsworthiness_query = self.get_response([{"role": "user", "content": few_shots}], max_chunk_size)
 
@@ -388,7 +388,7 @@ if __name__ == "__main__":
                                                                        {"role": "user", "content": f"Was this assessed as newsworthy or not newsworthy? {asses_cache}. Count 'potentially newsworthy' as NEWSWORTHY."}])
                     newsworth_counter += count_assessment+'\n'
                     time.sleep(2)
-                nummer += 1
+            nummer += 1
     print(newsworth_counter)
     calculate_assessments = news_detector.make_api_request([{"role": "user", "content": f"Calculate the accuracy in percentage. Where it says '0news' the correct prediction would be NOT NEWSWORTHY, where it says '1news' the correct prediction would be NEWSWORTHY. Calculate on this collection: {newsworth_counter}"}])
     print(calculate_assessments)
