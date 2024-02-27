@@ -279,6 +279,17 @@ class NewsDetector:
         response = self.make_api_request(summaries, max_response_length)
         return response
 
+    def get_next_prompt(self, current_prompt_key, answer):
+        current_prompt = prompts.get(current_prompt_key, {})
+        responses = current_prompt.get("responses", {})
+
+        next_prompt_key = next((key for key in responses if answer.lower() in key.lower()), None)
+
+        if next_prompt_key:
+            return responses[next_prompt_key["prompt"]]
+        else:
+            return None
+
     def assess_newsworthiness(self, summaries):
         max_chunk_size = 10000
 
@@ -346,12 +357,22 @@ class NewsDetector:
 
 if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
-    #folder_path = input('Enter the folder path for text documents:')
+    folder_path = input('Enter the folder path for text documents:')
     news_detector = NewsDetector(api_key)
     cache_collect = CacheManager()
     nummer = 0
     newsworth_counter = ""
     folder = ['0news', '1news']
+
+    ## NYTT, FIX
+    with open('prompts/generelle_prompts.json', 'r') as prompt_fil:
+        prompts = json.load(prompt_fil)
+    current_prompt_key = "identify_subjects"
+    answer = "identified"
+    category_check = news_detector.summarise_individual_documents()
+    # ^^^GJØR FERDIG
+
+    '''
     while nummer < 5:
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
@@ -391,4 +412,4 @@ if __name__ == "__main__":
             nummer += 1
     print(newsworth_counter)
     calculate_assessments = news_detector.make_api_request([{"role": "user", "content": f"Calculate the accuracy in percentage. Where it says '0news' the correct prediction would be NOT NEWSWORTHY, where it says '1news' the correct prediction would be NEWSWORTHY. Calculate on this collection: {newsworth_counter}"}])
-    print(calculate_assessments)
+    print(calculate_assessments)'''
