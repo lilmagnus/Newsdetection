@@ -56,6 +56,9 @@ class NewsDetector:
         self._handicap=1
         self.cache_manager = CacheManager(hash_algorithm=hash_algorithm, cache_folder=cache_folder)
         openai.api_key = self.api_key
+
+        with open('prompts/generelle_prompts.json', 'r') as prompt_fil:
+            self.prompts = json.load(prompt_fil)
     
     def estimate_token_count(self, text):
         return len(text.split())
@@ -151,6 +154,7 @@ class NewsDetector:
         if len(all_summaries) > 20000:
             chunked_summaries = self.chunk_summary(all_summaries)
             return self.categorize(chunked_summaries)
+            #return self.handle_interaction(chunked_summaries)
         else:
             return self.categorize(all_summaries)
 
@@ -241,6 +245,7 @@ class NewsDetector:
         if len(definitions+summaries) > 13000:
             summaries = self.chunk_summary(summaries)
         print("-"*10, "Assessing categories...")
+        '''
         for i in assess_list:
             #assessment_prompt = self.make_api_request([{"role": "user", "content": f"Check if the following text contains elements of: {i}, return a simple '{i} - (TRUE or FALSE, depending on your assessment)': {summaries}"}])
             #assessment_prompt = self.make_api_request([{"role": "user", "content": f"Check the text for talk about {i}. Explain in 50 words how relevant {i} is in the text: {summaries}"}])
@@ -254,6 +259,10 @@ class NewsDetector:
             #print(checking_prompt)
             #assessed += assessment_prompt + checking_prompt + '\n'
             assessed += checking_prompt + '\n'
+            '''
+        checking_prompt = self.handle_interaction(summaries)
+        print(checking_prompt)
+        assessed += checking_prompt
         print("-"*10, "Assessment complete!", "-"*10)
         assessed_summaries = assessed + summaries
         if len(assessed_summaries) > 20000:
@@ -278,17 +287,28 @@ class NewsDetector:
         # Hvis ikke i cache
         response = self.make_api_request(summaries, max_response_length)
         return response
-
+    # ORDNE HER
     def get_next_prompt(self, current_prompt_key, answer):
-        current_prompt = prompts.get(current_prompt_key, {})
-        responses = current_prompt.get("responses", {})
-
-        next_prompt_key = next((key for key in responses if answer.lower() in key.lower()), None)
-
+        current_prompt_info = self.prompts.get(current_prompt_key, {})
+        next_prompt_key = current_prompt_info.get("responses", {}).get(answer)
+        
         if next_prompt_key:
-            return responses[next_prompt_key["prompt"]]
+            return self.prompts.get(next_prompt_key, {}).get("prompt")
         else:
             return None
+    # ORDNE HER
+    def handle_interaction(self, text):
+        current_prompt_key = "identify_subjects"  # Starting point
+        while current_prompt_key:
+            prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
+            response = self.make_api_request([{"role": "user", "content": f"{prompt_text}, {text}"}])
+            
+            # Here, add your logic to analyze the response and decide on the next key
+            # For simplicity, let's assume the response somehow includes the next key directly
+            answer = response  # Placeholder for actual response processing logic
+            
+            next_prompt_key = self.get_next_prompt(current_prompt_key, answer)
+            current_prompt_key = next_prompt_key if next_prompt_key in self.prompts else None
 
     def assess_newsworthiness(self, summaries):
         max_chunk_size = 10000
@@ -363,13 +383,12 @@ if __name__ == "__main__":
     nummer = 0
     newsworth_counter = ""
     folder = ['0news', '1news']
-
-    ## NYTT, FIX
-    with open('prompts/generelle_prompts.json', 'r') as prompt_fil:
-        prompts = json.load(prompt_fil)
-    current_prompt_key = "identify_subjects"
-    answer = "identified"
-    category_check = news_detector.summarise_individual_documents()
+    cache_fetch = cache_collect.get_cached_response(folder_path)
+    if cache_fetch is not None:
+        categorize_json = news_detector.categorize(cache_fetch)
+        print(categorize_json)
+        assess_json = news_detector.assess_newsworthiness(categorize_json)
+        print(assess_json)
     # ^^^GJØR FERDIG
 
     '''
