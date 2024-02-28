@@ -383,6 +383,7 @@ if __name__ == "__main__":
     nummer = 0
     newsworth_counter = ""
     folder = ['0news', '1news']
+    # JSON prompting below :)
     cache_fetch = cache_collect.get_cached_response(folder_path)
     if cache_fetch is not None:
         categorize_json = news_detector.categorize(cache_fetch)
