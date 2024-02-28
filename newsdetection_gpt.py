@@ -262,7 +262,7 @@ class NewsDetector:
             '''
         checking_prompt = self.handle_interaction(summaries)
         print(checking_prompt)
-        assessed += checking_prompt
+        #assessed += checking_prompt # <-- Kødder seg her...
         print("-"*10, "Assessment complete!", "-"*10)
         assessed_summaries = assessed + summaries
         if len(assessed_summaries) > 20000:
@@ -302,11 +302,11 @@ class NewsDetector:
         while current_prompt_key:
             prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
             response = self.make_api_request([{"role": "user", "content": f"{prompt_text}, {text}"}])
-            
-            # Here, add your logic to analyze the response and decide on the next key
-            # For simplicity, let's assume the response somehow includes the next key directly
-            answer = response  # Placeholder for actual response processing logic
-            
+            print(response)
+            # Kanskje fyre inn en prompt for å hente ut mer konkrete svar.
+            # Til bruk for å bestemme hva som skal spørres om next.
+            answer = response
+            # API request her for å hente ut enkelt svar fra response her?
             next_prompt_key = self.get_next_prompt(current_prompt_key, answer)
             current_prompt_key = next_prompt_key if next_prompt_key in self.prompts else None
 
