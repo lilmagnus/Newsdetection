@@ -261,7 +261,7 @@ class NewsDetector:
             assessed += checking_prompt + '\n'
             '''
         checking_prompt = self.handle_interaction(summaries)
-        print(checking_prompt)
+        #print(checking_prompt)
         #assessed += checking_prompt # <-- Kødder seg her...
         print("-"*10, "Assessment complete!", "-"*10)
         assessed_summaries = assessed + summaries
@@ -302,7 +302,9 @@ class NewsDetector:
         while current_prompt_key:
             prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
             response = self.make_api_request([{"role": "user", "content": f"{prompt_text}, {text}"}])
-            print(response)
+            print("HALLAAAAAAAAA", response)
+            # Formatter riktig
+            detailed_response = self.make_api_request([{"role": "user", "content": f""}])
             # Kanskje fyre inn en prompt for å hente ut mer konkrete svar.
             # Til bruk for å bestemme hva som skal spørres om next.
             answer = response
