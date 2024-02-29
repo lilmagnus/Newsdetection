@@ -1,22 +1,19 @@
 {
     "identify_subjects": {
-        "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS",
-        "responses": {
-            "identified": {
-                "prompt": "Okay, lets look more closely at the subject you deem most relevant of the three"
-            },
-            "not_identified": {
-                "prompt": "Okay, lets move on then."
-            }
-        }
+      "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS",
+      "responses": {
+        "LARGE PROJECTS": "large_project",
+        "PUBLIC SAFETY": "public_safety",
+        "IMPACT ON CITIZENS": "citizen_impact"
+      }
     },
     "large_project": {
-        "prompt": "Lets go more into detail on what makes it a large project. Are we talking hotel construction? Apartment complex construction? Mall construction? Is it more about the administrative work related to starting up the project? Are there any discoveries mentioned that have been made while constructing which can cause issues?"
+      "prompt": "Let's go more into detail on what makes it a large project..."
     },
     "public_safety": {
-        "prompt": "Lets go more into detail on what makes it fall under the public safety category. Are there presented concerns about the safety of citizens due to the integrity of the actual construction? Are there any consequences related to the project which could present problems surrounding safety, such as nearby areas becoming unsafe?"
+      "prompt": "Let's go more into detail on what makes it fall under the public safety category..."
     },
     "citizen_impact": {
-        "prompt": "Lets go more into detail on what makes it impactful on citizens. Does the construction project present an inconvenience to citizens, such as blocking off a large area, forcing citizens to navigate around the area. Could it cause citizens to have to move or stay away from the area for an extended period of time?"
+      "prompt": "Let's go more into detail on what makes it impactful on citizens..."
     }
 }

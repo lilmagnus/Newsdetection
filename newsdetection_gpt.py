@@ -5,6 +5,7 @@ import requests
 import fitz
 import hashlib
 import json
+import ast
 import random
 from spacy.lang.nb.stop_words import STOP_WORDS
 
@@ -56,7 +57,6 @@ class NewsDetector:
         self._handicap=1
         self.cache_manager = CacheManager(hash_algorithm=hash_algorithm, cache_folder=cache_folder)
         openai.api_key = self.api_key
-
         with open('prompts/generelle_prompts.json', 'r') as prompt_fil:
             self.prompts = json.load(prompt_fil)
     
@@ -242,8 +242,8 @@ class NewsDetector:
         IMPACT ON CITIZENS: Determine whether the construction project will impact citizens in a more significant way than just noise from construction. Such impacts would be: Construction requiring roads to be closed for an extended period of time, projects opening up for tourism or a general increase in visitors which would impact local businesses positively, a larger project in a very populated area such as a mall in the city centre, or changes to multiple properties impacting many citizens such as address change or demolition of building, mountain or other natural terrain which would force citizens to take extra precautions. 
         ADMINISTRATIVE: Identify whether the texts are meant to be more behind-the-scenes, with general requests, documentation, approval or denials. This alone will not mean much, which means it must be tied to another category, such as 'administrative work related to a large project'."""
         assessed = "SUBJECTS:\n"
-        if len(definitions+summaries) > 13000:
-            summaries = self.chunk_summary(summaries)
+        #if len(definitions+summaries) > 13000:
+        #    summaries = self.chunk_summary(summaries)
         print("-"*10, "Assessing categories...")
         '''
         for i in assess_list:
@@ -261,8 +261,7 @@ class NewsDetector:
             assessed += checking_prompt + '\n'
             '''
         checking_prompt = self.handle_interaction(summaries)
-        #print(checking_prompt)
-        #assessed += checking_prompt # <-- Kødder seg her...
+        assessed += str(checking_prompt) 
         print("-"*10, "Assessment complete!", "-"*10)
         assessed_summaries = assessed + summaries
         if len(assessed_summaries) > 20000:
@@ -287,30 +286,64 @@ class NewsDetector:
         # Hvis ikke i cache
         response = self.make_api_request(summaries, max_response_length)
         return response
-    # ORDNE HER
-    def get_next_prompt(self, current_prompt_key, answer):
-        current_prompt_info = self.prompts.get(current_prompt_key, {})
-        next_prompt_key = current_prompt_info.get("responses", {}).get(answer)
+    
+    # Knytt de tre neste metodene sammen med categorize++
+    # For det meste fikset, mangler å få current_prompt_key oppdatert
+    def extract_subjects(self, response):
+        # Formatter riktig
+        subject_response = self.make_api_request([{"role": "user", "content": f"Extract only the subjects identified in the text given, format the response into a Python list. {response}"}])
+        print(subject_response)
+        try:
+            subjects_list = ast.literal_eval(subject_response)
+            if isinstance(subjects_list, list):
+                return subjects_list
+            else:
+                print("The response is not in the expected list format.")
+                return []
+        except (ValueError, SyntaxError):
+            print("Failed to parse the response into a list.")
+            return []
         
-        if next_prompt_key:
-            return self.prompts.get(next_prompt_key, {}).get("prompt")
-        else:
-            return None
+    
+    # ORDNE HER
+    def get_next_prompt(self, current_prompt_key, subjects):
+        for subject in subjects:
+            next_prompt_key = self.prompts.get(current_prompt_key, {}).get("responses", {}).get(subject.lower())
+            if next_prompt_key:
+                return next_prompt_key, self.prompts.get(next_prompt_key, {}).get("prompt")
+        return None, None
+
     # ORDNE HER
     def handle_interaction(self, text):
         current_prompt_key = "identify_subjects"  # Starting point
+        prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
+        response = self.make_api_request([{"role": "user", "content": f"{prompt_text} {text}"}])
+
+        subjects = self.extract_subjects(response)
+
+        next_prompt_key, next_prompt_text = self.get_next_prompt(current_prompt_key, subjects)
+        if next_prompt_key:
+            further_response = self.make_api_request([{"role": "user", "content": next_prompt_text}])
+            print(further_response)
+        else:
+            print("No further details required based on the subjects identified.")
+            
+        '''
         while current_prompt_key:
-            prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
-            response = self.make_api_request([{"role": "user", "content": f"{prompt_text}, {text}"}])
-            print("HALLAAAAAAAAA", response)
-            # Formatter riktig
-            detailed_response = self.make_api_request([{"role": "user", "content": f""}])
-            # Kanskje fyre inn en prompt for å hente ut mer konkrete svar.
-            # Til bruk for å bestemme hva som skal spørres om next.
-            answer = response
-            # API request her for å hente ut enkelt svar fra response her?
-            next_prompt_key = self.get_next_prompt(current_prompt_key, answer)
-            current_prompt_key = next_prompt_key if next_prompt_key in self.prompts else None
+            prompt_info = self.prompts.get(current_prompt_key, {})
+            prompt_text = prompt_info.get("prompt", "")
+            response = self.make_api_request([{"role": "user", "content": f"{prompt_text} {text}"}])
+            print(response)
+
+            subjects = self.extract_subjects(response)
+
+            next_prompt_key = self.get_next_prompt(current_prompt_key, subjects)
+            if next_prompt_key:
+                current_prompt_key = next_prompt_key
+                print(current_prompt_key)
+            else:
+                # Ingen flere prompts, eller ikke mulig å avgjøre neste steg
+                break'''
 
     def assess_newsworthiness(self, summaries):
         max_chunk_size = 10000
@@ -394,7 +427,7 @@ if __name__ == "__main__":
         print(assess_json)
     # ^^^GJØR FERDIG
 
-    '''
+    ''' 
     while nummer < 5:
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
