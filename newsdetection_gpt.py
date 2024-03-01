@@ -261,7 +261,8 @@ class NewsDetector:
             assessed += checking_prompt + '\n'
             '''
         checking_prompt = self.handle_interaction(summaries)
-        assessed += str(checking_prompt) 
+        assessed += str(checking_prompt)
+        print(assessed) 
         print("-"*10, "Assessment complete!", "-"*10)
         assessed_summaries = assessed + summaries
         if len(assessed_summaries) > 20000:
@@ -291,7 +292,7 @@ class NewsDetector:
     # For det meste fikset, mangler å få current_prompt_key oppdatert
     def extract_subjects(self, response):
         # Formatter riktig
-        subject_response = self.make_api_request([{"role": "user", "content": f"Extract only the subjects identified in the text given, format the response into a Python list. {response}"}])
+        subject_response = self.make_api_request([{"role": "user", "content": f"Extract only the subjects identified in the text given, format the response into a Python list, all capital letters. {response}"}])
         print(subject_response)
         try:
             subjects_list = ast.literal_eval(subject_response)
@@ -304,30 +305,44 @@ class NewsDetector:
             print("Failed to parse the response into a list.")
             return []
         
-    
     # ORDNE HER
     def get_next_prompt(self, current_prompt_key, subjects):
+        matched_prompts = []
+        response_keys = self.prompts.get(current_prompt_key, {}).get("responses", {})
+
         for subject in subjects:
-            next_prompt_key = self.prompts.get(current_prompt_key, {}).get("responses", {}).get(subject.lower())
-            if next_prompt_key:
-                return next_prompt_key, self.prompts.get(next_prompt_key, {}).get("prompt")
-        return None, None
+            subject_normalized = subject.lower()
+            for response_key, next_prompt_key in response_keys.items():
+                if subject_normalized == response_key.lower():
+                    next_prompt_text = self.prompts.get(next_prompt_key, {}).get("prompt")
+                    matched_prompts.append((next_prompt_key, next_prompt_text))
+                    break
+
+        return matched_prompts
 
     # ORDNE HER
     def handle_interaction(self, text):
-        current_prompt_key = "identify_subjects"  # Starting point
-        prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
-        response = self.make_api_request([{"role": "user", "content": f"{prompt_text} {text}"}])
+        current_prompt_key = "identify_subjects"
+        initial_prompt_text = self.prompts.get(current_prompt_key, {}).get("prompt", "")
+        initial_response = self.make_api_request([{"role": "user", "content": f"{initial_prompt_text} {text}"}])
 
-        subjects = self.extract_subjects(response)
-
-        next_prompt_key, next_prompt_text = self.get_next_prompt(current_prompt_key, subjects)
-        if next_prompt_key:
-            further_response = self.make_api_request([{"role": "user", "content": next_prompt_text}])
-            print(further_response)
+        subjects = self.extract_subjects(initial_response)
+        matched_prompts = self.get_next_prompt(current_prompt_key, subjects)
+        assessed_text = ""
+        if matched_prompts:
+            for next_prompt_key, next_prompt_text in matched_prompts:
+                # Handle each matched prompt. Here you could ask the user which one to explore or just explore each sequentially.
+                print(f"Exploring subject: {next_prompt_text}")
+                further_response = self.make_api_request([{"role": "user", "content": next_prompt_text}])
+                print(f"Response for {next_prompt_key}: {further_response}")
+                # Add logic here if you want to do something with the responses, like asking for user input on which to explore further.
+                #key_answer = next_prompt_key + further_response
+                assessed_text += '\n'+next_prompt_key.upper()+'\n' + further_response
         else:
             print("No further details required based on the subjects identified.")
-            
+        return assessed_text
+
+
         '''
         while current_prompt_key:
             prompt_info = self.prompts.get(current_prompt_key, {})

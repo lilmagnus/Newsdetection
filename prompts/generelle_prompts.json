@@ -8,7 +8,7 @@
       }
     },
     "large_project": {
-      "prompt": "Let's go more into detail on what makes it a large project..."
+      "prompt": "Go into more details about why this can be considered a large project, and whether it would enhance the newsvalue."
     },
     "public_safety": {
       "prompt": "Let's go more into detail on what makes it fall under the public safety category..."
