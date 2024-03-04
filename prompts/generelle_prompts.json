@@ -1,6 +1,6 @@
 {
     "identify_subjects": {
-      "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS",
+      "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS. Remember, a LARGE PROJECT refers to any development or construction endeavor that significantly impacts the local infrastructure, economy, or environment. PUBLIC SAFETY concerns any situation or event that could pose a risk to the health, safety, or well-being of the public. IMPACT ON CITIZENS covers any changes to the daily lives of citizens, including but not limited to disruptions, benefits, or changes in access to services.",
       "responses": {
         "LARGE PROJECTS": "large_project",
         "PUBLIC SAFETY": "public_safety",
@@ -8,12 +8,13 @@
       }
     },
     "large_project": {
-      "prompt": "Go into more details about why this can be considered a large project, and whether it would enhance the newsvalue."
+      "prompt": "Go into more details about why this can be considered a large project. A LARGE PROJECT typically involves significant investment, has a major footprint or scale, may take several years to complete, and has a substantial impact on the local community, economy, or environment. Consider whether the project introduces new infrastructure, significantly alters the landscape, creates a large number of jobs, or involves major stakeholders. Does it enhance the news value by its scale, investment, or potential controversy?"
     },
     "public_safety": {
-      "prompt": "Let's go more into detail on what makes it fall under the public safety category..."
+      "prompt": "Let's go more into detail on what makes it fall under the public safety category. PUBLIC SAFETY issues may include, but are not limited to, concerns about crime, disaster response (natural or man-made), public health emergencies, traffic safety, and environmental hazards. How does the subject at hand pose a risk to the health, safety, or well-being of the public? Are there preventive measures, responses, or controversies surrounding how safety is being managed or compromised?"
     },
     "citizen_impact": {
-      "prompt": "Let's go more into detail on what makes it impactful on citizens..."
+      "prompt": "Let's go more into detail on what makes it impactful on citizens. IMPACT ON CITIZENS refers to any significant change or effect on the lives of the general population. This could include disruptions to daily life, benefits such as improved services or infrastructure, challenges such as displacement or increased living costs, or changes in the community dynamic. How does the project or situation affect the everyday lives of people? Are there long-term implications for the community?"
     }
-}
+  }
+  

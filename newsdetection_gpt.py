@@ -332,9 +332,9 @@ class NewsDetector:
         if matched_prompts:
             for next_prompt_key, next_prompt_text in matched_prompts:
                 # Handle each matched prompt. Here you could ask the user which one to explore or just explore each sequentially.
-                print(f"Exploring subject: {next_prompt_text}")
+                print(f"Exploring subject {next_prompt_key.upper()}: {next_prompt_text}")
                 further_response = self.make_api_request([{"role": "user", "content": next_prompt_text}])
-                print(f"Response for {next_prompt_key}: {further_response}")
+                print(f"Response for {next_prompt_key.upper()}: {further_response}")
                 # Add logic here if you want to do something with the responses, like asking for user input on which to explore further.
                 #key_answer = next_prompt_key + further_response
                 assessed_text += '\n'+next_prompt_key.upper()+'\n' + further_response
