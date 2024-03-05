@@ -1,22 +1,15 @@
 {
-    "identify_subjects": {
-        "prompt": "Based on the categories identified, and the details identified surrounding them, do you think the summary holds any newsvalue for a journalist?",
-        "responses": {
-            "identified": {
-                "prompt": "Give an explanation as to why it holds newsvalue please."
-            },
-            "not_identified": {
-                "prompt": "Give an explanation as to why it does not hold newsvalue please."
-            }
-        }
-    },// FIX UNDER HER
-    "large_project": {
-        "prompt": ""
+    "identification": {
+      "prompt": "Identify whether the text is NEWSWORTHY or NOT NEWSWORTHY. Return a simple NEWSWORTHY or NOT NEWSWORTHY.",
+      "responses": {
+        "NEWSWORTHY": "newsworthy",
+        "NOT NEWSWORTHY": "not_newsworthy"
+      }
     },
-    "public_safety": {
-        "prompt": "Lets go more into detail on what makes it fall under the public safety category. Are there presented concerns about the safety of citizens due to the integrity of the actual construction? Are there any consequences related to the project which could present problems surrounding safety, such as nearby areas becoming unsafe?"
+    "newsworthy": {
+      "prompt": "Give a simple highlight of the newsworthy parts of the summary."
     },
-    "citizen_impact": {
-        "prompt": "Lets go more into detail on what makes it impactful on citizens. Does the construction project present an inconvenience to citizens, such as blocking off a large area, forcing citizens to navigate around the area. Could it cause citizens to have to move or stay away from the area for an extended period of time?"
+    "not_newsworthy": {
+      "prompt": "Give a simple explanation on why it is not newsworthy."
     }
-}
+  }

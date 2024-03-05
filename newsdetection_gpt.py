@@ -306,7 +306,7 @@ class NewsDetector:
             return []
         
     # ORDNE HER
-    def get_next_prompt(self, current_prompt_key, subjects):
+    def get_next_prompt(self, file,  current_prompt_key, subjects):
         matched_prompts = []
         response_keys = self.prompts.get(current_prompt_key, {}).get("responses", {})
 
@@ -327,13 +327,13 @@ class NewsDetector:
         initial_response = self.make_api_request([{"role": "user", "content": f"{initial_prompt_text} {text}"}])
 
         subjects = self.extract_subjects(initial_response)
-        matched_prompts = self.get_next_prompt(current_prompt_key, subjects)
+        matched_prompts = self.get_next_prompt(self.prompts, current_prompt_key, subjects)
         assessed_text = ""
         if matched_prompts:
             for next_prompt_key, next_prompt_text in matched_prompts:
                 # Handle each matched prompt. Here you could ask the user which one to explore or just explore each sequentially.
                 print(f"Exploring subject {next_prompt_key.upper()}: {next_prompt_text}")
-                further_response = self.make_api_request([{"role": "user", "content": next_prompt_text}])
+                further_response = self.make_api_request([{"role": "user", "content": f"{next_prompt_text}\n {text}"}])
                 print(f"Response for {next_prompt_key.upper()}: {further_response}")
                 # Add logic here if you want to do something with the responses, like asking for user input on which to explore further.
                 #key_answer = next_prompt_key + further_response
@@ -362,9 +362,29 @@ class NewsDetector:
 
     def assess_newsworthiness(self, summaries):
         max_chunk_size = 10000
+            
+        with open('prompts/nyhets_prompts.json', 'r') as newsprompt_fil:
+            self.news_prompts = json.load(newsprompt_fil)
+
+        current_prompt_key = "identification"
+        start_prompt = self.news_prompts.get(current_prompt_key, {}).get("prompt", "")
+        initial_response = self.make_api_request([{"role": "user", "content": f"{start_prompt} {summaries}"}])
+
+        subjects = self.extract_subjects(initial_response)
+        matched_prompts = self.get_next_prompt(self.news_prompts, current_prompt_key, subjects)
+        newsworthiness_text = ""
+        if matched_prompts:
+            for next_prompt_key, next_prompt_text in matched_prompts:
+                print(f"Explanation of assessment {next_prompt_key}: {next_prompt_text}")
+                explanation_prompt = self.make_api_request([{"role": "user", "content": f"{next_prompt_text} {summaries}"}])
+                newsworthiness_text += explanation_prompt
+        else:
+            print("YALLAYALLA")
+        
+        return newsworthiness_text
 
         #self.get_response(summaries)
-
+        '''
         # Hmmm
         points_category = """Ranking of categories, from most to least likely to make something newsworthy. 
             1. LARGE PROJECT
@@ -424,6 +444,7 @@ class NewsDetector:
         #newsworthiness_query = self.get_response([{"role": "user", "content": few_shots}], max_chunk_size)
 
         return newsworthiness_query
+        '''
 
 if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
@@ -444,7 +465,7 @@ if __name__ == "__main__":
     '''
 
 
-    while nummer < 5:
+    while nummer < 1:
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
                     Some of the texts youre given might not be clear immediately, some might look similar to this:
