@@ -427,22 +427,23 @@ class NewsDetector:
 
 if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
-    folder_path = input('Enter the folder path for text documents:')
+    #folder_path = input('Enter the folder path for text documents:')
     news_detector = NewsDetector(api_key)
     cache_collect = CacheManager()
     nummer = 0
     newsworth_counter = ""
     folder = ['0news', '1news']
     # JSON prompting below :)
+    '''
     cache_fetch = cache_collect.get_cached_response(folder_path)
     if cache_fetch is not None:
         categorize_json = news_detector.categorize(cache_fetch)
         print(categorize_json)
         assess_json = news_detector.assess_newsworthiness(categorize_json)
         print(assess_json)
-    # ^^^GJØR FERDIG
+    '''
 
-    ''' 
+
     while nummer < 5:
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
@@ -482,4 +483,4 @@ if __name__ == "__main__":
             nummer += 1
     print(newsworth_counter)
     calculate_assessments = news_detector.make_api_request([{"role": "user", "content": f"Calculate the accuracy in percentage. Where it says '0news' the correct prediction would be NOT NEWSWORTHY, where it says '1news' the correct prediction would be NEWSWORTHY. Calculate on this collection: {newsworth_counter}"}])
-    print(calculate_assessments)'''
+    print(calculate_assessments)
