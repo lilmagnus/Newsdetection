@@ -1,0 +1,45 @@
+{
+    "subject_identification": {
+      "identify_subjects": {
+        "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS, CHILDREN, DRUG CARTEL. Remember, a LARGE PROJECT refers to any development or construction endeavor that significantly impacts the local infrastructure, economy, or environment. PUBLIC SAFETY concerns any situation or event that could pose a risk to the health, safety, or well-being of the public. IMPACT ON CITIZENS covers any changes to the daily lives of citizens, including but not limited to disruptions, benefits, or changes in access to services. The CHILDREN subject can only be true if it directly involves children in the documents, meaning child workers. For DRUG CARTEL to be an identified category, there has to be direct involvement with drug cartels.",
+        "responses": {
+          "LARGE PROJECTS": "large_project",
+          "PUBLIC SAFETY": "public_safety",
+          "IMPACT ON CITIZENS": "citizen_impact",
+          "CHILDREN": "children",
+          "DRUG CARTEL": "drug_cartel"
+        }
+      },
+      "large_project": {
+        "prompt": "Go into more details about why this can be considered a large project..."
+      },
+      "public_safety": {
+        "prompt": "Let's go more into detail on what makes it fall under the public safety category..."
+      },
+      "citizen_impact": {
+        "prompt": "Let's go more into detail on what makes it impactful on citizens..."
+      },
+      "children": {
+        "prompt": "Go more into detail, explain what the children's involvement is."
+      },
+      "drug_cartel": {
+        "prompt": "Explain the involvement of one or more drug cartels in these construction application documents"
+      }
+    },
+    "newsworthiness_assessment": {
+      "identification": {
+        "prompt": "Based on the information provided about the identified subjects, would it qualify as newsworthy?",
+        "responses": {
+          "NEWSWORTHY": "newsworthy",
+          "NOT NEWSWORTHY": "not_newsworthy"
+        }
+      },
+      "newsworthy": {
+        "prompt": "Give a simple highlight of the newsworthy parts of the summary. Start with HIGHLIGHT: "
+      },
+      "not_newsworthy": {
+        "prompt": "Give a simple explanation on why it is not newsworthy. Start with EXPLANATION: "
+      }
+    }
+  }
+  

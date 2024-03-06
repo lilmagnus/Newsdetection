@@ -1,15 +1,15 @@
 {
     "identification": {
-      "prompt": "Identify whether the text is NEWSWORTHY or NOT NEWSWORTHY. Return a simple NEWSWORTHY or NOT NEWSWORTHY.",
+      "prompt": "Based on the information provided about the identified subjects, would it qualify as newsworthy?",
       "responses": {
         "NEWSWORTHY": "newsworthy",
         "NOT NEWSWORTHY": "not_newsworthy"
       }
     },
     "newsworthy": {
-      "prompt": "Give a simple highlight of the newsworthy parts of the summary."
+      "prompt": "Give a simple highlight of the newsworthy parts of the summary. Start with HIGHLIGHT: "
     },
     "not_newsworthy": {
-      "prompt": "Give a simple explanation on why it is not newsworthy."
+      "prompt": "Give a simple explanation on why it is not newsworthy. Start with EXPLANATION: "
     }
   }
