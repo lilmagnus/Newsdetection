@@ -28,7 +28,7 @@
     },
     "newsworthiness_assessment": {
       "identification": {
-        "prompt": "Based on the information provided about the identified subjects, would it qualify as newsworthy?",
+        "prompt": "Assess the newsworth of the given text, consider the context and details given. Return a simple NOT NEWSWORTHY or NEWSWORTHY based on your assessment.",
         "responses": {
           "NEWSWORTHY": "newsworthy",
           "NOT NEWSWORTHY": "not_newsworthy"

@@ -20,8 +20,8 @@ class InteractionHandler:
         response = self.api_client.make_api_request([{"role": "system", "content": prompt}])
         try:
             subjects_list = ast.literal_eval(response)
-            if isinstance(subjects_list, list):
-                #print(subjects_list)
+            if isinstance(subjects_list, list) and all(isinstance(item, str) for item in subjects_list):
+                print(subjects_list)
                 return subjects_list
             else:
                 print("The response is not in the expected list format.")
@@ -37,36 +37,37 @@ class InteractionHandler:
         # Step 1: Identify subjects
         identification_prompt = self.combined_prompts['subject_identification']['identify_subjects']['prompt']
         subjects = self.extract_subjects(identification_prompt + " " + original_text)
-        print(subjects)
+
         
         # Detailed analysis based on identified subjects
         combined_details = ""
-        for subject in identified_subjects:
+        for subject in subjects:
             response_key = self.combined_prompts['subject_identification']['identify_subjects']['responses'].get(subject, '')
-            print(response_key)
             if response_key:
                 prompt_details = self.combined_prompts['subject_identification'][response_key]['prompt']
                 # Include the original text in the prompt for detailed analysis
                 detailed_response = self.api_client.make_api_request([{"role": "system", "content": f"{prompt_details}\n\n{original_text}"}])
                 combined_details += " " + detailed_response  # Concatenating all detailed responses
+                print(combined_details)
         
         # Ensure the original text is considered in the newsworthiness assessment
-        if identified_subjects:
+        if subjects:
             newsworthiness_prompt = self.combined_prompts['newsworthiness_assessment']['identification']['prompt']
             # Combine both the detailed responses and the original text for a comprehensive context
             full_context = combined_details + " " + original_text
             newsworthiness_response = self.api_client.make_api_request([{"role": "system", "content": f"{newsworthiness_prompt}\n\n{full_context}"}])
+            print(newsworthiness_response)
             
 
             # Further detailing based on newsworthiness
-            if ['NEWSWORTHY'] in newsworthiness_response:
+            if 'NEWSWORTHY' in newsworthiness_response:
                 highlight_prompt = self.combined_prompts['newsworthiness_assessment']['newsworthy']['prompt']
                 highlight_response = self.api_client.make_api_request([{"role": "system", "content": highlight_prompt + " " + combined_details}])
                 return f"NEWSWORTHY: {highlight_response}"
-            elif ['NOT NEWSWORTHY'] in newsworthiness_response:
+            elif 'NOT NEWSWORTHY' in newsworthiness_response:
                 explanation_prompt = self.combined_prompts['newsworthiness_assessment']['not_newsworthy']['prompt']
                 explanation_response = self.api_client.make_api_request([{"role": "system", "content": explanation_prompt + " " + combined_details}])
                 return f"NOT NEWSWORTHY: {explanation_response}"
         
-        #return "Unable to determine newsworthiness due to lack of identified subjects."
+        return "Unable to determine newsworthiness due to lack of identified subjects."
 
