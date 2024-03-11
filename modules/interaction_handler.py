@@ -44,20 +44,25 @@ class InteractionHandler:
         # Step 1: Identify subjects
         identification_prompt = self.combined_prompts['subject_identification']['identify_subjects']['prompt']
         subjects = self.extract_subjects(identification_prompt + " " + original_text)
+        print(subjects)
 
         # Detailed analysis based on identified subjects
+        # Gjør mer for å unngå å parse dokumenter med ingen subjects identified.
         combined_details = ""
-        for subject in subjects:
-            response_key = self.combined_prompts['subject_identification']['identify_subjects']['responses'].get(subject, '')
-            if response_key:
-                prompt_details = self.combined_prompts['subject_identification'][response_key]['prompt']
-                # Include the original text in the prompt for detailed analysis
-                detailed_response = self.api_client.make_api_request([{"role": "system", "content": f"{prompt_details}\n\n{original_text}"}])
-                combined_details += " " + detailed_response  # Concatenating all detailed responses
-                print(combined_details)
+        if "No subjects identified." in subjects:
+            print("No subjects to analyze.")
+        else:
+            for subject in subjects:
+                response_key = self.combined_prompts['subject_identification']['identify_subjects']['responses'].get(subject, '')
+                if response_key:
+                    prompt_details = self.combined_prompts['subject_identification'][response_key]['prompt']
+                    # Include the original text in the prompt for detailed analysis
+                    detailed_response = self.api_client.make_api_request([{"role": "system", "content": f"{prompt_details}\n\n{original_text}"}])
+                    combined_details += " " + detailed_response  # Concatenating all detailed responses
+                    print(combined_details)
         
         # Ensure the original text is considered in the newsworthiness assessment
-        if subjects:
+        if subjects and 'No subjects identified.' not in subjects:
             newsworthiness_prompt = self.combined_prompts['newsworthiness_assessment']['identification']['prompt']
             # Combine both the detailed responses and the original text for a comprehensive context
             full_context = combined_details + " " + original_text
@@ -66,19 +71,19 @@ class InteractionHandler:
             
 
             # Further detailing based on newsworthiness
-            if 'NEWSWORTHY' in newsworthiness_response:
+            if 'NEWSWORTHY' == newsworthiness_response.strip():
                 highlight_prompt = self.combined_prompts['newsworthiness_assessment']['newsworthy']['prompt']
                 highlight_response = self.api_client.make_api_request([{"role": "system", "content": highlight_prompt + " " + combined_details}])
                 return f"NEWSWORTHY: {highlight_response}"
-            elif 'NOT NEWSWORTHY' in newsworthiness_response:
+            else: # Alt annet er antatt dårlig nytt
                 explanation_prompt = self.combined_prompts['newsworthiness_assessment']['not_newsworthy']['prompt']
                 explanation_response = self.api_client.make_api_request([{"role": "system", "content": explanation_prompt + " " + combined_details}])
                 return f"NOT NEWSWORTHY: {explanation_response}"
-            else:
-                explanain_prompt2 = self.combined_prompts['assesser']['prompt']
-                explanain_response2 = self.api_client.make_api_request([{"role": "system", "content": explanain_prompt2 + " " + original_text}])
-                return f"GENERAL ASSESSMENT: {explanain_response2}"
+        else:
+            explanation_prompt2 = self.combined_prompts['newsworthiness_assessment']['not_newsworthy']['prompt']
+            explanation_response2 = self.api_client.make_api_request([{"role": "system", "content": explanation_prompt2 + " " + original_text}])
+            return f"NO SUBJECTS IDENTIFIED, NOT NEWSWORTHY: {explanation_response2}"
 
         
-        return "Unable to determine newsworthiness due to lack of identified subjects."
+        #return "Unable to determine newsworthiness due to lack of identified subjects."
 

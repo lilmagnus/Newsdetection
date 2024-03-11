@@ -31,7 +31,7 @@ def main():
         for filename in os.listdir(j):
             print("="*20, filename.upper(), "="*20)
             check_cache = cache_manager.get_cached_response(j+"/"+filename)
-            print(check_cache)
+            print(check_cache) # Printer original tekst før behandling
             time.sleep(2)
             if check_cache is not None:
                 cache_categorize = general_interaction.handle_interaction(check_cache)
