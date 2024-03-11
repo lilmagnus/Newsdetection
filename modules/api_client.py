@@ -38,7 +38,7 @@ class APIClient:
                     print(responses)
                     return "\n".join(responses)
                 else:
-                    print(f"API request error: {error_message}. Retrying after {BACKOFF_TIME} seconds...")
+                    print(f"API request error: {error_message}. \nRetrying after {BACKOFF_TIME} seconds...")
                     time.sleep(BACKOFF_TIME)
                 retry_count += 1
         print("API request failed after maximum retries.")
