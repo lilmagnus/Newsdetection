@@ -1,7 +1,7 @@
 {
     "subject_identification": {
       "identify_subjects": {
-        "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS, CHILDREN, DRUG CARTEL. Base your decision off of the given definitions. Return the identified subjects formatted as a simple python list, with all capital letters. If there are no subjects present, return ['NO SUBJECTS PRESENT.']",
+        "prompt": "Identify the presence of the following subjects: LARGE PROJECTS, PUBLIC SAFETY, IMPACT ON CITIZENS, CHILDREN, DRUG CARTEL. Return the identified subjects formatted as a simple python list, with all capital letters.",
         "responses": {
           "LARGE PROJECTS": "large_project",
           "PUBLIC SAFETY": "public_safety",
@@ -11,20 +11,26 @@
         }
       },
       "large_project": {
-        "prompt": "Go into more details about why this can be considered a large project..."
+        "prompt": "What elements in this text makes it a large project? Give a simple explanation."
       },
       "public_safety": {
-        "prompt": "Let's go more into detail on what makes it fall under the public safety category..."
+        "prompt": "What are the elements in this text that makes this a matter of public safety? Give a simple explanation."
       },
       "citizen_impact": {
-        "prompt": "Let's go more into detail on what makes it impactful on citizens..."
+        "prompt": "What are the elements which makes this impactful on regular citizens? Give a simple explanation."
       },
       "children": {
-        "prompt": "Go more into detail, explain what the children's involvement is."
+        "prompt": "What involvement does children have in this text? Give a simple explanation."
       },
       "drug_cartel": {
-        "prompt": "Explain the involvement of one or more drug cartels in these construction application documents"
+        "prompt": "Explain the involvement of one or more drug cartels in these construction application documents."
       }
+    },
+    "assess_all": {
+        "question": {
+            "prompt1": "If the text is only talking about construction of a house, it does not meet the threshold for newsworthy. If there is alot of problems identified in the text it would meet the threshold for newsworthy.",
+            "prompt2": "Based on the GIVEN SUBJECTS, compare them to the rules you've been given. If one subject no longer meet the threshold for being included, dismiss it and move on. Return a simple and short list of new identified subjects, with a very simple explanation as to why the subjects meet the threshold criteria."
+        }
     },
     "newsworthiness_assessment": {
       "identification": {

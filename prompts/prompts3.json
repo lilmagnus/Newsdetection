@@ -1,0 +1,52 @@
+{
+    "large_project": {
+        "identifisering": {
+            "prompt": "Er dette et stort prosjekt? Gi et enkelt og kort svar.",
+            "responses": {
+                "ja": "ja",
+                "nei": "nei"
+            }
+        },
+        "ja": {
+            "prompt1": "Er det hotell? Svar enkelt på om det er eller ikke er det. (EKSEMPEL: 'HOTELL: NEI')",
+            "prompt2": "Er det fabrikk eller annet næringsdrivende bygg? Svar enkelt (som for eksempel 'FABRIKK/NÆRINGSBYGG: JA/NEI')",
+            "prompt3": "Er det leilighetskompleks med mer enn 5 leiligheter? Svar enkelt på om det er eller ikke er det. (EKSEMPEL: 'STØRRE LEILIGHETSKOMPLEKS: NEI')",
+            "prompt4": "Er det enebolig? Svar enkelt på om det er eller ikke er det. (EKSEMPEL: 'ENEBOLIG: JA')"
+        },
+        "nei": {
+            "prompt": "Okei, da går vi videre. IKKE SVAR!"
+        }
+    },
+    "public_safety": {
+        "identifisering": {
+            "prompt": "Nevnes det bekymring for offentlig sikkerhet? Gi et kort og enkelt svar",
+            "responses": {
+                "ja": "ja",
+                "nei": "nei"
+            }
+        },
+        "ja": {
+            "prompt1": "Er det snakk om generell Helse Miljø Sikkerhet for arbeidere? Svar enkelt på om det er eller ikke er det.",
+            "prompt2": "Er det fare for at sivile liv går tapt? Svar enkelt på om det er eller ikke er det.",
+            "prompt3": "Er det høy risiko for steinras, snøskred eller annen skadelig rasfare? Svar enkelt på om det er eller ikke er det."
+        },
+        "nei": {
+            "prompt": "Okei, da går vi videre. IKKE SVAR!"
+        }
+    },
+    "assessment": {
+        "identifisering": {
+            "prompt": "Kan den relevante uthentede informasjonen rundt byggesaken gjøre at dette kan bli flagget som mulig nyhetsverdig?",
+            "responses": {
+                "ja": "ja",
+                "nei": "nei"
+            }
+        },
+        "ja": {
+            "prompt": "Gi litt info om hvorfor de identifiserte temaene kan vøre nyhetsverdig."
+        },
+        "nei": {
+            "prompt": "Gi litt kort info om hvorfor denne teksten ikke er nyhetsverdig"
+        }
+    }
+}
