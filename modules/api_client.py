@@ -28,7 +28,7 @@ class APIClient:
                 )
                 return response['choices'][0]['message']['content']
             except Exception as e:
-                error_message = str(e)
+                error_message = str(e) # Gjør bedre v
                 if "maximum context length" in error_message:
                     # Handle token limit error with chunking if the specific error message is detected.
                     print("Handling token limit error by chunking...")

@@ -2,6 +2,7 @@
 import ast
 import json
 from api_client import APIClient
+import time
 
 class InteractionHandler:
     def __init__(self, prompts_file):
@@ -20,6 +21,7 @@ class InteractionHandler:
         ident_prompt = section["identifisering"]["prompt"]
         first_response = self.api_client.make_api_request([{"role": "user", "content": f"{ident_prompt} {text}"}])
         print(first_response, "FØRSTE")
+        time.sleep(2)
         f_resp = self.api_client.make_api_request([{"role": "system", "content": first_response},
                                                    {"role": "user", "content": "Gi et enkelt Ja eller Nei basert på sentimentet i teksten gitt. Ikke inkluder punktum eller andre tegn i svaret."}])
         print(f_resp, "ANDRE")
@@ -59,12 +61,13 @@ class InteractionHandler:
 
         # Step 3: Send siste spørring for å hente ut nyhetsverdi
         news_assessment = self.process_section(self.combined_prompts["assessment"], hel_kontekst)
-        return news_assessment
+        print(news_assessment)
+
+        assessed_kontekst = hel_kontekst + str(news_assessment)
+        revised_assessment = self.process_section(self.combined_prompts["reassess"], assessed_kontekst)
+        return revised_assessment
     
     def reduce_text(self, text):
-        """
-        Reduces the size of the text by splitting it and removing 'fluff' from each part.
-        """
         parts = self.split_text(text, 2)  # Splitting the text into 2 parts for this example, adjust as needed
         reduced_text_parts = []
 
@@ -76,9 +79,6 @@ class InteractionHandler:
         return "".join(reduced_text_parts)
 
     def split_text(self, text, num_parts):
-        """
-        Splits the text into the specified number of parts without splitting words.
-        """
         if num_parts < 2:
             return [text]  # No need to split
 
