@@ -36,19 +36,21 @@ def main():
                 time.sleep(2)
                 if check_cache is not None:
                     cache_categorize = general_interaction.handle_interaction(check_cache)
-                    print(cache_categorize, '\nheihei') 
+                    try:
+                        print(cache_categorize[1], '\nhalloien')
+                    except IndexError:
+                        print(cache_categorize, '\nheihei') 
                     # FIKS RESTEN UNDER SÅ PIPELINEN KAN BEGYNNE Å KJØRE OG TESTE
                     #time.sleep(2)
-                    count_assessment = api_client.make_api_request([{"role": "system", "content": f"{instructions_calculation}"},
-                                                                    {"role": "user", "content": f"Was this assessed as newsworthy or not newsworthy? {cache_categorize}. Count 'potentially newsworthy' as NEWSWORTHY."}])
-                    newsworth_counter += count_assessment+'\n'
+                    #count_assessment = api_client.make_api_request([{"role": "user", "content": f""}])
+                    newsworth_counter += j+str(cache_categorize)
                     time.sleep(2)
             nummer += 1
 
     #extracted_text = news_detector.process_document(folder)
     #print(f"Extracted Text: {extracted_text}")
     print(newsworth_counter)
-    calculate_assessments = api_client.make_api_request([{"role": "user", "content": f"Calculate the accuracy in percentage. Where it says '0news' the correct prediction would be NOT NEWSWORTHY, where it says '1news' the correct prediction would be NEWSWORTHY. Calculate on this collection: {newsworth_counter}"}])
+    calculate_assessments = api_client.make_api_request([{"role": "user", "content": f"Calculate the accuracy of the given list. The text after '0news' should indicate no newsvalue, and the text after '1news' should indicate newsvalue. {newsworth_counter}. Also make a confusion matrix, where True positives are '1news' assessed as newsworthy, True negatives are '0news' assessed as not newsworthy, and so on."}])
     print(calculate_assessments)
 
     # Initialize TextAnalysis for further analysis on the extracted text

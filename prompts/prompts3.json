@@ -58,7 +58,7 @@
             }
         },
         "ja": {
-            "prompt": "Skriv et lite utkast til en nyhetssak, trekk frem høydepunkt som gjør dette nyhetsverdig."
+            "prompt": "Skriv et lite utkast til en nyhetssak, trekk frem høydepunkt som gjør dette nyhetsverdig. Start teksten med å skrive om det er nyhetsverdig eller ikke."
         },
         "nei": {
             "prompt": "Forklar kort og enkelt hvorfor det ikke er nyhetsverdig."
