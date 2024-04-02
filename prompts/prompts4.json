@@ -1,7 +1,7 @@
 {
     "large_project": {
         "identifisering": {
-            "prompt": "Er dette et stort prosjekt? Svar på norsk",
+            "prompt": "Er dette et stort prosjekt? Gi et enkelt og kort svar.",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
@@ -19,7 +19,7 @@
     },
     "public_safety": {
         "identifisering": {
-            "prompt": "Nevnes det bekymring for offentlig sikkerhet? Svar på norsk",
+            "prompt": "Nevnes det bekymring for offentlig sikkerhet? Gi et kort og enkelt svar",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
@@ -43,7 +43,7 @@
             }
         },
         "ja": {
-            "prompt": "Gi litt info om hvorfor de identifiserte temaene kan være nyhetsverdig."
+            "prompt": "Gi litt info om hvorfor de identifiserte temaene kan vøre nyhetsverdig."
         },
         "nei": {
             "prompt": "Gi litt kort info om hvorfor denne teksten ikke er nyhetsverdig"

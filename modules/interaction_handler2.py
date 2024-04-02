@@ -3,11 +3,16 @@ import ast
 import json
 from api_client import APIClient
 import time
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+from nltk.sentiment import SentimentIntensityAnalyzer
 
 class InteractionHandler:
     def __init__(self, prompts_file):
         self.api_client = APIClient()
         self.combined_prompts = self._load_prompts(prompts_file)
+        self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
+        self.model = AutoModelForSequenceClassification.from_pretrained("bert-base-multilingual-cased")
+        self.sentiment_pipeline = pipeline("sentiment-analysis", model=self.model, tokenizer=self.tokenizer)
 
     def _load_prompts(self, file_path):
         try:
@@ -16,19 +21,68 @@ class InteractionHandler:
         except Exception as e:
             print(f"Failed to load prompts from {file_path}: {e}")
             return {}
+    
+    def sentiment_analysis(self, text):
+        sia = SentimentIntensityAnalyzer()
+        sentiment_scores = sia.polarity_scores(text)
+        
+        print(sentiment_scores)
+        
+        if sentiment_scores['compound'] > 0:
+            return "Ja."
+        else:
+            return "Nei."
+    
+    def map_to_binary(self, text):
+        positive_keywords = ['ja', 'yes', 'dette er et stort prosjekt', 'det er bekymring for offentlig sikkerhet', 'absolutt']
+        negative_keywords = ['nei', 'no', 'dette er ikke et stort prosjekt', 'relativt', 'ikke bekymring for offentlig sikkerhet']
+        
+        response_text = text.lower()
+        
+        if any(keyword in response_text for keyword in positive_keywords):
+            return "ja."
+        elif any(keyword in response_text for keyword in negative_keywords):
+            return "nei."
+        else:
+            return "nei."
+
 
     def process_section(self, section, text):
         ident_prompt = section["identifisering"]["prompt"]
+        
         first_response = self.api_client.make_api_request([{"role": "user", "content": f"{ident_prompt} {text}"}])
         print(first_response, "FØRSTE")
         time.sleep(2)
-        f_resp = self.api_client.make_api_request([{"role": "system", "content": first_response},
-                                                   {"role": "user", "content": "Gi et enkelt Ja eller Nei basert på sentimentet i teksten gitt. Ikke inkluder punktum eller andre tegn i svaret."}])
+
+        #f_resp = self.sentiment_analysis(first_response)
+        '''
+        eksempler = """EKSEMPLER PÅ SPØRSMÅL MED SVAR:
+        TEKST: Dette kan anses som et stort prosjekt.
+        Q: Svar med et enkelt 'Ja.' eller 'Nei.' basert på essensen i den gitte teksten.
+        A: 'Ja.'
+        
+        TEKST: Dette er ikke et stort prosjekt.
+        Q: Svar med et enkelt 'Ja.' eller 'Nei.' basert på essensen i den gitte teksten.
+        A: 'Nei.'
+        
+        TEKST: Dette er et middels stort prosjekt.
+        Q: Svar med et enkelt 'Ja.' eller 'Nei.' basert på essensen i den gitte teksten.
+        A: 'Nei.'
+        
+        TEKST: IKKE RELEVANT.
+        Q: Svar med et enkelt 'Ja.' eller 'Nei.' basert på essensen i den gitte teksten.
+        A: 'Nei.'
+        """
+        f_resp = self.api_client.make_api_request([{"role": "system", "content": f"{eksempler}"},
+                                                   {"role": "user", "content": f"Svar med et enkelt 'Ja.' eller 'Nei.' basert på essensen i den gitte teksten. {first_response}"}])
+        '''
+        f_resp = self.map_to_binary(first_response)
         print(f_resp, "ANDRE")
+        
         responses = [ident_prompt]
-    
-        if f_resp.lower() in section["identifisering"]["responses"]:
-            decision = section["identifisering"]["responses"][f_resp.lower()]
+
+        if f_resp.strip().lower() in section["identifisering"]["responses"][f_resp.strip().lower()]:
+            decision = section["identifisering"]["responses"][f_resp.strip().lower()]
             if "ja" in decision:
                 for prompt_key in section["ja"]:
                     prompt = section["ja"][prompt_key]
@@ -50,9 +104,9 @@ class InteractionHandler:
         
         # Step 1: Identifiser kategorier, og spør mer detaljer rundt
         details_large_project = self.process_section(self.combined_prompts["large_project"], original_text)
-        print(str(details_large_project))
+        print(str(details_large_project), 'ADGENHEFGHDSGETNDF')
         details_public_safety = self.process_section(self.combined_prompts["public_safety"], original_text)
-        print(str(details_public_safety))
+        print(str(details_public_safety), 'ÅØÆÅØÆÅØÆÅØÆÅØÆÅØÆ')
 
         # Step 2: Kombiner kategoriene som er identifisert
         kategorier_funnet = details_large_project + details_public_safety
@@ -66,6 +120,11 @@ class InteractionHandler:
         assessed_kontekst = hel_kontekst + str(news_assessment)
         revised_assessment = self.process_section(self.combined_prompts["reassess"], assessed_kontekst)
         return revised_assessment
+    
+    def assess_newsworth(self, section, text):
+        first_prompt = section["identifisering"]["prompt"]
+        response = self.api_client.make_api_request([{"role": "user", "content": f"{first_prompt} {text}"}])
+        
     
     def reduce_text(self, text):
         parts = self.split_text(text, 2)  # Splitting the text into 2 parts for this example, adjust as needed

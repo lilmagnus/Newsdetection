@@ -14,7 +14,7 @@ def main():
     cache_manager = news_detector.cache_manager
     api_client = APIClient()
 
-    prompts = '../prompts/prompts3.json'
+    prompts = '../prompts/prompts4.json'
 
     general_interaction = InteractionHandler(prompts)
     newsworth_counter = ""
