@@ -37,20 +37,20 @@ def main():
                 if check_cache is not None:
                     cache_categorize = general_interaction.handle_interaction(check_cache)
                     try:
-                        print(cache_categorize[1], '\nhalloien')
+                        print(cache_categorize, '\nhalloien')
                     except IndexError:
                         print(cache_categorize, '\nheihei') 
                     # FIKS RESTEN UNDER SÅ PIPELINEN KAN BEGYNNE Å KJØRE OG TESTE
                     #time.sleep(2)
                     #count_assessment = api_client.make_api_request([{"role": "user", "content": f""}])
-                    newsworth_counter += j+str(cache_categorize)
+                    newsworth_counter += j+' '+filename+' '+str(cache_categorize)+'\n'
                     time.sleep(2)
             nummer += 1
 
     #extracted_text = news_detector.process_document(folder)
     #print(f"Extracted Text: {extracted_text}")
     print(newsworth_counter)
-    calculate_assessments = api_client.make_api_request([{"role": "user", "content": f"Calculate the accuracy of the given list. The text after '0news' should indicate no newsvalue, and the text after '1news' should indicate newsvalue. {newsworth_counter}. Also make a confusion matrix, where True positives are '1news' assessed as newsworthy, True negatives are '0news' assessed as not newsworthy, and so on."}])
+    calculate_assessments = api_client.make_api_request([{"role": "user", "content": f"Calculate the accuracy of the given assessments. There is a total of 24 assessments, all starting with either '0news' or '1news'. The text after '0news' should indicate no newsvalue, and the text after '1news' should indicate newsvalue. {newsworth_counter}. Also make a confusion matrix, where True positives are '1news' assessed as newsworthy, True negatives are '0news' assessed as not newsworthy, and so on."}])
     print(calculate_assessments)
 
     # Initialize TextAnalysis for further analysis on the extracted text

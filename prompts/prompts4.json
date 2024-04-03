@@ -8,10 +8,10 @@
             }
         },
         "ja": {
-            "prompt1": "Er det hotell? Svar enkelt på om det er eller ikke er det. (EKSEMPEL: 'HOTELL: NEI')",
-            "prompt2": "Er det fabrikk eller annet næringsdrivende bygg? Svar enkelt (som for eksempel 'FABRIKK/NÆRINGSBYGG: JA/NEI')",
-            "prompt3": "Er det leilighetskompleks med mer enn 5 leiligheter? Svar enkelt på om det er eller ikke er det. Hvis denne kategorien vurderes som riktig og passende, kan ikke enebolig være sann. (EKSEMPEL: 'STØRRE LEILIGHETSKOMPLEKS: NEI')",
-            "prompt4": "Er det enebolig? Svar enkelt på om det er eller ikke er det. Hvis denne kategorien vurderes som riktig og passende kan ikke leilighetskompleks være sann. (EKSEMPEL: 'ENEBOLIG: JA')"
+            "prompt1": "Er det hotell? Svar enkelt på om det er eller ikke er det.",
+            "prompt2": "Er det fabrikk eller annet næringsdrivende bygg? Svar enkelt.",
+            "prompt3": "Er det leilighetskompleks med mer enn 5 leiligheter? Svar enkelt på om det er eller ikke er det. Hvis denne kategorien vurderes som riktig og passende, kan ikke enebolig være sann.",
+            "prompt4": "Er det enebolig? Svar enkelt på om det er eller ikke er det. Hvis denne kategorien vurderes som riktig og passende kan ikke leilighetskompleks være sann."
         },
         "nei": {
             "prompt": "Okei, da går vi videre. IKKE SVAR!"
@@ -36,22 +36,22 @@
     },
     "assessment": {
         "identifisering": {
-            "prompt": "Kan den relevante uthentede informasjonen rundt byggesaken gjøre at dette kan bli flagget som mulig nyhetsverdig?",
+            "prompt": "Kan den relevante uthentede informasjonen rundt byggesaken gjøre at dette kan bli flagget som mulig nyhetsverdig for en lokalavis i Tromsø?",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
             }
         },
         "ja": {
-            "prompt": "Gi litt info om hvorfor de identifiserte temaene kan vøre nyhetsverdig."
+            "prompt": "La oss tenke ut høyt. Hvorfor kom du frem til dette svaret?"
         },
         "nei": {
-            "prompt": "Gi litt kort info om hvorfor denne teksten ikke er nyhetsverdig"
+            "prompt": "La oss tenke ut høyt. Hvorfor kom du frem til dette svaret?"
         }
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Hvis det eneste som er vurdert som relevant tema er 'Helse Miljø Sikkerhet' eller 'Enebolig' eller begge, vil det automatisk ikke være nyhetsverdig. Hvis den eneste andre tanken med offentlig sikkerhet er at det kan forbedre sikkerheten med enkle tiltak (nytt gangfelt, nytt skilt eller liknende) vil det heller ikke være nyhetsverdig. Om det er litt småtrøbbel med å sette igang byggeprosessen i en enebolig er det heller ikke nyhetsverdig. På bakgrunn av disse nye restriksjonene, vil du fortsatt vurdere dette som nyhetsverdig? Svar med 'Ja' eller 'Nei'.",
+            "prompt": "Basert på den gitte vurderingen av teksten vil jeg at du skriver et endelig svar om det er nyhetsverdig eller ikke. Du får kun basere deg på informasjonen gitt, og skal skrive basert på den bakgrunnsinformasjonen du har. Husk det er for en lokalavis i Tromsø kommune.",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."

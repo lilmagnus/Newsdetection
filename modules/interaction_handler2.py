@@ -3,16 +3,14 @@ import ast
 import json
 from api_client import APIClient
 import time
-from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
-from nltk.sentiment import SentimentIntensityAnalyzer
 
 class InteractionHandler:
     def __init__(self, prompts_file):
         self.api_client = APIClient()
         self.combined_prompts = self._load_prompts(prompts_file)
-        self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
-        self.model = AutoModelForSequenceClassification.from_pretrained("bert-base-multilingual-cased")
-        self.sentiment_pipeline = pipeline("sentiment-analysis", model=self.model, tokenizer=self.tokenizer)
+        #self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
+        #self.model = AutoModelForSequenceClassification.from_pretrained("bert-base-multilingual-cased")
+        #self.sentiment_pipeline = pipeline("sentiment-analysis", model=self.model, tokenizer=self.tokenizer)
 
     def _load_prompts(self, file_path):
         try:
@@ -22,19 +20,9 @@ class InteractionHandler:
             print(f"Failed to load prompts from {file_path}: {e}")
             return {}
     
-    def sentiment_analysis(self, text):
-        sia = SentimentIntensityAnalyzer()
-        sentiment_scores = sia.polarity_scores(text)
-        
-        print(sentiment_scores)
-        
-        if sentiment_scores['compound'] > 0:
-            return "Ja."
-        else:
-            return "Nei."
     
     def map_to_binary(self, text):
-        positive_keywords = ['ja', 'yes', 'dette er et stort prosjekt', 'det er bekymring for offentlig sikkerhet', 'absolutt']
+        positive_keywords = ['ja', 'yes', 'dette er et stort', 'det er bekymring for offentlig sikkerhet', 'absolutt', 'virker å være', 'kan dette potensielt være', 'there is some concern']
         negative_keywords = ['nei', 'no', 'dette er ikke et stort prosjekt', 'relativt', 'ikke bekymring for offentlig sikkerhet']
         
         response_text = text.lower()
@@ -77,7 +65,7 @@ class InteractionHandler:
                                                    {"role": "user", "content": f"Svar med et enkelt 'Ja.' eller 'Nei.' basert på essensen i den gitte teksten. {first_response}"}])
         '''
         f_resp = self.map_to_binary(first_response)
-        print(f_resp, "ANDRE")
+        #print(f_resp, "ANDRE")
         
         responses = [ident_prompt]
 
@@ -114,16 +102,57 @@ class InteractionHandler:
         print(hel_kontekst)
 
         # Step 3: Send siste spørring for å hente ut nyhetsverdi
-        news_assessment = self.process_section(self.combined_prompts["assessment"], hel_kontekst)
-        print(news_assessment)
+        # Begge stegene her må til assess_newsworth
+        news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], hel_kontekst)
 
-        assessed_kontekst = hel_kontekst + str(news_assessment)
-        revised_assessment = self.process_section(self.combined_prompts["reassess"], assessed_kontekst)
+        ny_kontekst = original_text + '   ' + news_assessment
+        print('\n\n\n', ny_kontekst, '\n\n\n\n')
+
+        #assessed_kontekst = hel_kontekst + str(news_assessment)
+        #revised_assessment = self.assess_newsworth(self.combined_prompts["reassess"], news_assessment)
+        revised_assessment = self.reassess_newsworth(self.combined_prompts["reassess"], ny_kontekst)
         return revised_assessment
     
     def assess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "user", "content": f"{first_prompt} {text}"}])
+        response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
+                                                     {"role": "user", "content": f"{first_prompt} {text}"}])
+        print('FIRST RESPONSE ---------->   ',response)
+        # Send til map_to_binary
+        assess_response = self.map_to_binary(response)
+        print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
+        
+        if assess_response.strip().lower() in section["identifisering"]["responses"][assess_response.strip().lower()]:
+            decision = section["identifisering"]["responses"][assess_response.strip().lower()]
+            if "ja" in decision:
+                prompt = section["ja"]["prompt"]
+                final_response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
+                                                                   {"role": "user", "content": f"{prompt} {text}"}])
+            elif "nei" in decision:
+                prompt = section["nei"]["prompt"]
+                final_response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
+                                                                   {"role": "user", "content": f"{prompt} {text}"}])
+        print('FINAL RESPONSE ----------->   ', final_response)
+        return final_response
+    
+    def reassess_newsworth(self, section, text):
+        first_prompt = section["identifisering"]["prompt"]
+        response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
+                                                     {"role": "user", "content": f"{first_prompt} {text}"}])
+        # Send til map_to_binary
+        #assess_response = self.map_to_binary(response)
+        #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
+        '''
+        if assess_response.strip().lower() in section["identifisering"]["responses"][assess_response.strip().lower()]:
+            decision = section["identifisering"]["responses"][assess_response.strip().lower()]
+            if "ja" in decision:
+                prompt = section["ja"]["prompt"]
+                final_response = self.api_client.make_api_request([{"role": "user", "content": f"{prompt} {text}"}])
+            elif "nei" in decision:
+                prompt = section["nei"]["prompt"]
+                final_response = self.api_client.make_api_request([{"role": "user", "content": f"{prompt} {text}"}])
+        '''
+        return response
         
     
     def reduce_text(self, text):
