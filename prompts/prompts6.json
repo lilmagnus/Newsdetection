@@ -1,0 +1,91 @@
+{
+    "large_project": {
+        "identifisering": {
+            "prompt": "Er dette et stort prosjekt?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Er det snakk om konstruksjon av et hotell?",
+            "prompt2": "Er det fabrikk eller annet næringsdrivende bygg?",
+            "prompt3": "Er det leilighetskompleks med mer enn 5 leiligheter? Hvis denne kategorien vurderes som riktig og passende, kan ikke enebolig være sann.",
+            "prompt4": "Er det enebolig? Hvis denne kategorien vurderes som riktig og passende kan ikke leilighetskompleks være sann.",
+            "prompt5": "Er det korrespondanse frem og tilbake om et prosjekt som kan indikere at det er snakk om et større prosjekt?"
+        },
+        "nei": {
+            "prompt": "Okei, da går vi videre. IKKE SVAR!"
+        }
+    },
+    "public_safety": {
+        "identifisering": {
+            "prompt": "Nevnes det bekymring for offentlig sikkerhet?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Er det snakk om generell Helse Miljø Sikkerhet for arbeidere?",
+            "prompt2": "Er det fare for at sivile liv går tapt? ",
+            "prompt3": "Nevnes det risiko for naturlige katastrofer?"
+        },
+        "nei": {
+            "prompt": "Okei, da går vi videre. IKKE SVAR!"
+        }
+    },
+    "general_questions": {
+        "identifisering": {
+            "prompt": "Svar med 'Ja' på denne prompten. La oss se nærmere på noen generelle kategorier som kan anrike dokumentet og den endelige beslutningen om det er nyhetsverdig.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Berører dette flere mennesker enn bare de som er involvert i prosjektet? Nærmeste naboer vil bli ansett som involverte, da de er såpass nære til prosjektet. Lokale myndigheter vil også bli ansett som involverte, fordi de i bunn og grunn har ansvar for godkjenning eller avslag på søknader og dokumenter av denne natur.",
+            "prompt2": "Er det et element av overraskelse, eller kan det være noe uventet som nevnes, som ikke er naturlig å inkludere i et byggesaksdokument?",
+            "prompt3": "Er dokumentet veldig negativt til noe som burde være et positivt forslag?",
+            "prompt4": "Er det snakk om noe veldig positivt? Noe veldig positivt ville vært, for eksempel, å bygge en ny skole, konstruksjon av et helt nytt nabolag eller på noen som helst måte hjelpe mennesker i nød.",
+            "prompt5": "Er dokumentet fra Tromsø kommune? Om det ikke er fra Tromsø kommune vil det automatisk bli irrelevant, og skal ikke bli vurdert noe videre."
+        },
+        "nei": {
+            "prompt": "Berører dette flere mennesker enn bare de som er involvert i prosjektet? Nærmeste naboer vil bli ansett som involverte, da de er såpass nære til prosjektet. Lokale myndigheter vil også bli ansett som involverte, fordi de i bunn og grunn har ansvar for godkjenning eller avslag på søknader og dokumenter av denne natur.",
+            "prompt2": "Er det et element av overraskelse, eller kan det være noe uventet som nevnes, som ikke er naturlig å inkludere i et byggesaksdokument?",
+            "prompt3": "Er dokumentet veldig negativt til noe som burde være et positivt forslag?",
+            "prompt4": "Er det snakk om noe veldig positivt? Noe veldig positivt ville vært, for eksempel, å bygge en ny skole, konstruksjon av et helt nytt nabolag eller på noen som helst måte hjelpe mennesker i nød.",
+            "prompt5": "Er dokumentet fra Tromsø kommune? Om det ikke er fra Tromsø kommune vil det automatisk bli irrelevant, og skal ikke bli vurdert noe videre."
+        }
+    },
+    "assessment": {
+        "identifisering": {
+            "prompt": "Basert på kategorier identifisert i teksten, og kategorier som ikke er identifisert, ville det vært hensiktsmessig for en journalist i lokalavisa iTromsø å bruke sin dyrebare tid på dette?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "La oss tenke ut høyt. Hvorfor kom du frem til dette svaret?"
+        },
+        "nei": {
+            "prompt": "La oss tenke ut høyt. Hvorfor kom du frem til dette svaret?"
+        }
+    },
+    "reassess": {
+        "identifisering": {
+            "prompt": "Vær kritisk. Er dette virkelig noe som en journalist burde bruke sin dyrebare tid på?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Ut ifra dette dokumentet og de identifiserte kategoriene, kan det være interessant for innbyggerene av Tromsø kommune å vite om dette? Burde en journalist for lokalavisa iTromsø skrive om det?"
+        },
+        "nei": {
+            "prompt": "Ut ifra dette dokumentet og de identifiserte kategoriene, kan det være interessant for innbyggerene av Tromsø kommune å vite om dette? Burde en journalist for lokalavisa iTromsø skrive om det?"
+        }
+    }
+}

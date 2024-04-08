@@ -4,6 +4,7 @@ from text_analysis import TextAnalysis
 from cache_manager import CacheManager
 from interaction_handler2 import InteractionHandler
 from api_client import APIClient
+from document_processing import DocumentProcessing
 import time
 import os
 import json
@@ -13,13 +14,15 @@ def main():
     news_detector = NewsDetector()
     cache_manager = news_detector.cache_manager
     api_client = APIClient()
+    document_processing = DocumentProcessing()
 
-    prompts = '../prompts/prompts4.json'
+    prompts = '../prompts/prompts7.json'
 
     general_interaction = InteractionHandler(prompts)
     newsworth_counter = ""
     # Example PDF file path - replace with your actual file path
-    folder = ['0news', '1news']
+    #folder = ['0news', '1news', '2news']
+    folder = ['0news', '1news', '2news']
     nummer = 0
     # Process document to extract text
     while nummer < 2:
@@ -43,15 +46,28 @@ def main():
                     # FIKS RESTEN UNDER SÅ PIPELINEN KAN BEGYNNE Å KJØRE OG TESTE
                     #time.sleep(2)
                     #count_assessment = api_client.make_api_request([{"role": "user", "content": f""}])
-                    newsworth_counter += j+' '+filename+' '+str(cache_categorize)+'\n'
+                    newsworth_counter += j+': '+filename+' - '+str(cache_categorize)+'\n'
+                    time.sleep(2)
+                else:
+                    process_document = document_processing.summarise_individual_documents(j+"/"+filename)
+                    fresh_categorized = general_interaction.handle_interaction(process_document)
+                    try:
+                        print(fresh_categorized, '\nhalloien')
+                    except IndexError:
+                        print(fresh_categorized, '\nheihei') 
+                    # FIKS RESTEN UNDER SÅ PIPELINEN KAN BEGYNNE Å KJØRE OG TESTE
+                    #time.sleep(2)
+                    #count_assessment = api_client.make_api_request([{"role": "user", "content": f""}])
+                    newsworth_counter += j+': '+filename+' - '+str(fresh_categorized)+'\n'
                     time.sleep(2)
             nummer += 1
 
     #extracted_text = news_detector.process_document(folder)
     #print(f"Extracted Text: {extracted_text}")
-    print(newsworth_counter)
-    calculate_assessments = api_client.make_api_request([{"role": "user", "content": f"Calculate the accuracy of the given assessments. There is a total of 24 assessments, all starting with either '0news' or '1news'. The text after '0news' should indicate no newsvalue, and the text after '1news' should indicate newsvalue. {newsworth_counter}. Also make a confusion matrix, where True positives are '1news' assessed as newsworthy, True negatives are '0news' assessed as not newsworthy, and so on."}])
-    print(calculate_assessments)
+    #print(newsworth_counter)
+    #calculate_assessments = api_client.make_api_request([{"role": "system", "content": f"You will be given a collection of asessments. Each assessment starts with the folder the document belongs to, followed by the document-name, followed by the assessment. FOR EXAMPLE: '1news: musegaten - Basert på ......'. When it starts with '1news', the assessment should indicate newsworth, and if it starts with '0news', the assessment should indicate little or no newsworth. Read through the assessments, and score them as correct if they conclude with what I wrote, or incorrect if it is inconclusive or the opposite of what i wrote."},
+    #                                                     {"role": "user", "content": f"Calculate the accuracy of the given 24 assessments. {newsworth_counter}. Also make a confusion matrix, where True positives are '1news' assessed as newsworthy, True negatives are '0news' assessed as not newsworthy, and so on."}])
+    #print(calculate_assessments)
 
     # Initialize TextAnalysis for further analysis on the extracted text
     #text_analyzer = TextAnalysis()

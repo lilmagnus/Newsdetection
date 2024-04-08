@@ -66,7 +66,7 @@ def get_document_links(driver, url, link_to_click_xpath, document_links_xpath, l
     
     return document_hrefs
 
-def download_document(href, download_dir='conradholmboes'): # Definer mappe å lagre i
+def download_document(href, download_dir='modules/2news/njordsveg'): # Definer mappe å lagre i
     # Send a GET request to the URL
     response = requests.get(href)
     
@@ -116,11 +116,29 @@ def main():
         #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-01-03' # Trudvanvegen 19
         #link_to_click_xpath = "//a[text()='23/11346-14']"
 
-        url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-02-16' # Heilovegen 23, Hotell til bolig
-        link_to_click_xpath = "//a[text()='23/13964-1']"
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-02-16' # Heilovegen 23, Hotell til bolig
+        #link_to_click_xpath = "//a[text()='23/13964-1']"
 
-        url = '' # Conrad Holmboes veg 17
-        link_to_click_xpath = "//a[text()='23/19795-4']"
+        #url = '' # Conrad Holmboes veg 17
+        #link_to_click_xpath = "//a[text()='23/19795-4']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-20' # Ymse dritt / Morildvegen
+        #link_to_click_xpath = "//a[text()='24/5738-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-20' # Ymse dritt / Fagerlivegen
+        #link_to_click_xpath = "//a[text()='24/5732-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-20' # Ymse dritt / Hochlinvegen
+        #link_to_click_xpath = "//a[text()='23/15449-5']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-27' # Ymse dritt / Synnavinden
+        #link_to_click_xpath = "//a[text()='24/6165-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-27' # Ymse dritt / Klokkargårdsbakken
+        #link_to_click_xpath = "//a[text()='23/9857-5']"
+        
+        url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-27' # Ymse dritt / Njords veg
+        link_to_click_xpath = "//a[text()='22/8031-9']"
 
         document_links_xpath = "//a[contains(@href, 'dokumentbestilling/getDocument?dokid=')]"
         load_more_button_xpath = "//a[text()='Flere resultater']"
