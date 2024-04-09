@@ -75,17 +75,17 @@
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Vær kritisk. Er dette virkelig noe som en journalist burde bruke sin dyrebare tid på?",
+            "prompt": "Vær kritisk. Er dette virkelig noe som en journalist burde bruke sin dyrebare tid på? Er det virkelig ingen indikasjon på at dette foregår i et annet sted enn i Tromsø kommune eller en nabokommune?",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
             }
         },
         "ja": {
-            "prompt": "Ut ifra dette dokumentet og de identifiserte kategoriene, kan det være interessant for innbyggerene av Tromsø kommune å vite om dette? Burde en journalist for lokalavisa iTromsø skrive om det?"
+            "prompt": "Se kritisk på vurderingen en gang til. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
         },
         "nei": {
-            "prompt": "Ut ifra dette dokumentet og de identifiserte kategoriene, kan det være interessant for innbyggerene av Tromsø kommune å vite om dette? Burde en journalist for lokalavisa iTromsø skrive om det?"
+            "prompt": "Se kritisk på vurderingen en gang til. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
         }
     }
 }

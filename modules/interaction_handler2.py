@@ -25,6 +25,18 @@ class InteractionHandler:
         
         EKSEMPLER PÅ PROSJEKTER SOM BEKYMRER SEG FOR OFFENTLIG SIKKERHET: umiddelbar fare for at liv går tapt, naturlige katastrofer som kan sette liv i fare
         """
+        self.newsworth_definition = """NYHETSVERDI DEFINISJON: 
+        I denne konteksten ser vi på nyhetsverdi i et dokument som noe en journalist vil kunne trygt bruke tiden sin på.
+        Nyhetsverdi kan måles på en skala, fra 0 til 100: 
+        
+        0 er absolutt ingen nyhetsverdi, dokumenter som indikerer at de tilhører et annet geografisk område enn Tromsø kommune og de umiddelbare nabo-kommunene vil lande her, om det er et helt ordinært prosjekt, der det er snakk om å bygge en enebolig, landmåling, eller en form for kommunikasjon, som for eksempel forespørsel om å sende dokumentasjon, avslag på søknad om å bygge noe smått eller enkelt, dokumenter som snakker om at noe "potensielt" kan være farlig, eller lignende vil ikke være av interesse, fordi det ikke har noe håndfast å vise til.
+        Etterhvert som vi stiger oppover skalaen burde vi vurdere noe som potensielt nyhetsverdig, altså at det foreløpig ikke finnes nyhetsverdi i dokumentet og den identifiserte konteksten, men det kan bli nyhetsverdig hvis noe drastisk oppdages.
+        Til sist har vi toppen av skalaen, der noe er absolutt nyhetsverdig, altså en journalist burde undersøke saken så fort som mulig. Dette kan være om det er en sak som har gått over veldig lang tid, altså 5+ år, om det er snakk om livsfarlige oppdagelser som faktisk er oppdaget, veldig store prosjekter i form av hotell, næringsbygg, eller konstruksjon av et helt nytt nabolag, lovbrudd eller ulovligheter bør anses som nyhetsverdig med mindre annen informasjon overskygger dette, oppdagelser som kan sette mange menneskelige liv i fare er alltid nyhetsverdig.
+        
+        Dokumenter som kan bli til en nyhetssak med mer informasjon, men som i dette øyeblikk ikke har den informasjonen skal vurderes som IKKE nyhetsverdig. Det kan heller bli revurdert senere med den nye informasjonen.
+        
+        Dokumentet har blitt analysert, og relevante temaer har blitt identifisert. Om et tema ikke er relevant blir det sagt. Se kritisk på temaene identifisert i forhold til teksten, kan de temaene virkelig bidra noe som helst til å informere om noe fornuftig og faktisk relevant for byggesaken?
+        """
         #self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
         #self.model = AutoModelForSequenceClassification.from_pretrained("bert-base-multilingual-cased")
         #self.sentiment_pipeline = pipeline("sentiment-analysis", model=self.model, tokenizer=self.tokenizer)
@@ -59,7 +71,7 @@ class InteractionHandler:
             regler += self.large_project_definition
         elif ident_prompt == "Nevnes det bekymring for offentlig sikkerhet?":
             regler += self.public_safety_definition
-        print(regler)
+        #print(regler)
         
         first_response = self.api_client.make_api_request([{"role": "system", "content": f"Hold svaret ditt til maksimum 50 ord. Følg disse reglene når du vurderer dokumentet: {regler}"},
                                                            {"role": "user", "content": f"{ident_prompt} {text}"}], " ")
@@ -142,8 +154,8 @@ class InteractionHandler:
 
         # Step 3: Generelle spørsmål som kan hjelpe med anrikelse av dokumentet
         general_questions = self.general_questioning(self.combined_prompts["general_questions"], hel_kontekst)
-        general_questions.pop(0)
-        general_questions.pop(0)
+        #general_questions.pop(0)
+        #general_questions.pop(0)
         print(str(general_questions))
         all_tekst = hel_kontekst + str(general_questions)
         
@@ -172,7 +184,7 @@ class InteractionHandler:
         UTPUTT: Denne saken vil ikke være verdt tiden til en journalist i lokalavisa iTromsø, fordi det bare er snakk om standard prosedyrer for inndeling av eiendom og etablering av eneboliger.
         '''
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"Redaksjonen i lokalavisa iTromsø er interessert i å vite om dokumentet er verdt å bruke tid på å utforske videre, og de har disse veiledningene: {self.nyhetsverdige_eksempler}. Hold svaret til maksimum 50 ord. {few_shot_examples}"},
+        response = self.api_client.make_api_request([{"role": "system", "content": f"Redaksjonen i lokalavisa iTromsø er interessert i å vite om dokumentet er verdt å bruke tid på å utforske videre, og de har disse veiledningene: {self.nyhetsverdige_eksempler}. {self.newsworth_definition}. Hold svaret til maksimum 50 ord. {few_shot_examples}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}]," ")
         print('FIRST RESPONSE ---------->   ',response)
         # Send til map_to_binary
@@ -195,10 +207,10 @@ class InteractionHandler:
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"Gi meg et svar på maksimum 50 ord. Lokalavisa iTromsø er nødt til å prioritere hvilke saker de vil utforske, og vil ikke kaste bort den dyrebare tiden de har på helt normale prosedyre-saker. Dette er en veiledning for hva de vil klassifisere som verdt å se videre på: {self.nyhetsverdige_eksempler}"},
+        response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. Gi meg et svar på maksimum 50 ord. Lokalavisa iTromsø er nødt til å prioritere hvilke saker de vil utforske, og vil ikke kaste bort den dyrebare tiden de har på helt normale prosedyre-saker. Dette er en veiledning for hva de vil klassifisere som verdt å se videre på: {self.nyhetsverdige_eksempler}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}], " ")
         #print(response)
-        '''
+        
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
         print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
@@ -207,12 +219,16 @@ class InteractionHandler:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}."},
+                                                                   {"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
+                siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
-        '''
-        return response
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}."},
+                                                                   {"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
+                siste_utputt = response + '\n' + final_response
+        
+        return siste_utputt
         
     
     def reduce_text(self, text):
