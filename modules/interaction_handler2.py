@@ -8,10 +8,29 @@ class InteractionHandler:
     def __init__(self, prompts_file):
         self.api_client = APIClient()
         self.combined_prompts = self._load_prompts(prompts_file)
+        self.relevante_tema = """Dette er en oversikt over temaer som skal vurderes som nyhetsverdige, så lenge det er en allerede eksisterende vurdering om at dokumentet holder nyhetsverdi:
+        - Flere naboklager
+        - Ulovlig byggearbeid
+        - Husly for flyktninger
+        - Prosesser som virker å gå frem og tilbake med tillatelser og avslag over lengre tid
+        - Avvik fra godkjente tegninger
+        """
+        self.ikke_relevant = """Følgende er en oversikt over temaer som ikke utgjør noe nyhetsverdi:
+        - dispensasjonssøknader og søknader om dispensasjon for oppføring av enebolig
+        - diskusjon om byggegrenser
+        - forespørsel om ferdigattest
+        - administrative dokumenter som mangler direkte relevans til de identifiserte temaene
+        - søknad om byggetillatelse
+        - søknad om godkjennelse for tilbygg
+        - dokumenter som handler om inspeksjon av enebolig
+        - økonomiske konsekvenser
+        - avslag på søknad
+        """
         self.nyhetsverdige_eksempler = """
         IKKE NYHETSVERDIGE TEMAER: søknader om dispensasjon for oppføring av eneboliger, ferdigstillelsesattest for eiendom/bygg, søknad om byggetillatelse, involveringen av lokale myndigheter, korte og enkle administrative dokumenter, dokumenter som handler om andre kommuner enn Tromsø kommune vil automatisk bli irrelevante, 
         IKKE NYHETSVERDIGE TEMAER: oppdeling av eiendommer, avslag og endringer i søknader, krav til korrekt dokumentasjon, omfattende godkjennelsesprosess, inspeksjoner, små/insignifikante overskridelser av byggegrenser på 2 meter eller mindre, saker som krever nøye inspeksjon på grunn av potensielle problemer med strukturell integritet
         IKKE NYHETSVERDIGE TEMAER: byggeprosjekt i andre kommuner enn Tromsø kommune er ikke nyhetsverdige
+        IKKE NYHETSVERDIGE TEMAER: søknader om byggetillatelse, involveringen av lokale myndigheter, spørsmål om tillatelse
         
         NYHETSVERDIGE TEMAER: dokumenter med mye frem og tilbake korrespondanse over flere år, dokumenter som diskuterer ulovligheter som er gjort, dokumenter som omtaler livsfarlige eksisterende elementer, hvis oppsummeringen er på mer enn 30 000 ord burde det anses som svært sannsynlig nyhetsverdig
         """
@@ -29,18 +48,17 @@ class InteractionHandler:
         I denne konteksten ser vi på nyhetsverdi i et dokument som noe en journalist vil kunne trygt bruke tiden sin på.
         Nyhetsverdi kan måles på en skala, fra 0 til 100: 
         
-        0 er absolutt ingen nyhetsverdi, dokumenter som indikerer at de tilhører et annet geografisk område enn Tromsø kommune og de umiddelbare nabo-kommunene vil lande her, om det er et helt ordinært prosjekt, der det er snakk om å bygge en enebolig, landmåling, eller en form for kommunikasjon, som for eksempel forespørsel om å sende dokumentasjon, avslag på søknad om å bygge noe smått eller enkelt, dokumenter som snakker om at noe "potensielt" kan være farlig, eller lignende vil ikke være av interesse, fordi det ikke har noe håndfast å vise til.
-        Etterhvert som vi stiger oppover skalaen burde vi vurdere noe som potensielt nyhetsverdig, altså at det foreløpig ikke finnes nyhetsverdi i dokumentet og den identifiserte konteksten, men det kan bli nyhetsverdig hvis noe drastisk oppdages.
-        Til sist har vi toppen av skalaen, der noe er absolutt nyhetsverdig, altså en journalist burde undersøke saken så fort som mulig. Dette kan være om det er en sak som har gått over veldig lang tid, altså 5+ år, om det er snakk om livsfarlige oppdagelser som faktisk er oppdaget, veldig store prosjekter i form av hotell, næringsbygg, eller konstruksjon av et helt nytt nabolag, lovbrudd eller ulovligheter bør anses som nyhetsverdig med mindre annen informasjon overskygger dette, oppdagelser som kan sette mange menneskelige liv i fare er alltid nyhetsverdig.
+        0 er absolutt ingen nyhetsverdi, dokumenter som indikerer at de tilhører et annet geografisk område enn Tromsø kommune og de umiddelbare nabo-kommunene vil lande her, om det er en søknad om tillatelse eller dispensasjon, søknader eller dokumenter som omtaler konstruksjon av enebolig, landmåling, eller en form for kommunikasjon som for eksempel forespørsel om å sende dokumentasjon, avslag på søknad om å bygge noe smått eller enkelt, dokumenter som snakker om at noe "potensielt" kan være farlig, eller lignende vil ikke være av interesse fordi det ikke har noe håndfast å vise til.
+        
+        Etterhvert som vi stiger oppover skalaen burde vi vurdere noe som potensielt nyhetsverdig, altså at det foreløpig ikke finnes nyhetsverdi i dokumentet og den identifiserte konteksten, men det kan bli nyhetsverdig hvis noe drastisk oppdages, eller om det må sendes mer informasjon for å gjøre det nyhetsverdig. Dokumenter som faller under denne kategorien skal likevel vurderes som IKKE NYHETSVERDIG.
+        
+        Til sist har vi toppen av skalaen, der noe er absolutt nyhetsverdig, altså en journalist burde undersøke saken så fort som mulig. Dette kan være om det er en sak som har gått over veldig lang tid, altså 5+ år, om det er snakk om livsfarlige oppdagelser som faktisk er oppdaget, veldig store prosjekter i form av hotell, næringsbygg, eller konstruksjon av et helt nytt nabolag, lovbrudd eller ulovligheter bør anses som nyhetsverdig med mindre annen informasjon overskygger dette, oppdagelser som kan sette mange menneskelige liv i fare er alltid nyhetsverdig som å oppdage farlig gass veldig nært travle områder. Saker der det er snakk om å hjelpe flyktninger eller mennesker i nød vil automatisk være nyhetsverdige.
         
         Dokumenter som kan bli til en nyhetssak med mer informasjon, men som i dette øyeblikk ikke har den informasjonen skal vurderes som IKKE nyhetsverdig. Det kan heller bli revurdert senere med den nye informasjonen.
         
         Dokumentet har blitt analysert, og relevante temaer har blitt identifisert. Om et tema ikke er relevant blir det sagt. Se kritisk på temaene identifisert i forhold til teksten, kan de temaene virkelig bidra noe som helst til å informere om noe fornuftig og faktisk relevant for byggesaken?
         """
-        #self.tokenizer = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
-        #self.model = AutoModelForSequenceClassification.from_pretrained("bert-base-multilingual-cased")
-        #self.sentiment_pipeline = pipeline("sentiment-analysis", model=self.model, tokenizer=self.tokenizer)
-
+        
     def _load_prompts(self, file_path):
         try:
             with open(file_path, 'r') as file:
@@ -149,7 +167,7 @@ class InteractionHandler:
 
         # Step 2: Kombiner kategoriene som er identifisert
         kategorier_funnet = details_large_project + details_public_safety
-        hel_kontekst = original_text + 'KATEGORIER IDENTIFISERT I TEKSTEN: ' + str(kategorier_funnet) + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
+        hel_kontekst = original_text + '\nKATEGORIER IDENTIFISERT I TEKSTEN: ' + str(kategorier_funnet) + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
         print(hel_kontekst)
 
         # Step 3: Generelle spørsmål som kan hjelpe med anrikelse av dokumentet
@@ -157,18 +175,14 @@ class InteractionHandler:
         #general_questions.pop(0)
         #general_questions.pop(0)
         print(str(general_questions))
-        all_tekst = hel_kontekst + str(general_questions)
+        all_tekst = hel_kontekst + '\n' + 'SVAR PÅ GENERELLE SPØRSMÅL: ' + str(general_questions)
         
         # Step 4: Send siste spørring for å hente ut nyhetsverdi
         news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], all_tekst)
 
-        ny_kontekst = 'ORIGINALE DOKUMENT: ' + original_text + '\nKATEGORIER IDENTIFISERT: ' + str(kategorier_funnet) + '\nVURDERING FRA CHATGPT: ' + news_assessment + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
-        print('\n\n\n', ny_kontekst, '\n\n\n\n')
-
-        #assessed_kontekst = hel_kontekst + str(news_assessment)
-        #revised_assessment = self.assess_newsworth(self.combined_prompts["reassess"], news_assessment)
-        siste_spm = ny_kontekst + '\nSVAR PÅ GENERELLE SPØRSMÅL: ' + str(general_questions)
-        revised_assessment = self.reassess_newsworth(self.combined_prompts["reassess"], siste_spm)
+        assessed_kontekst = all_tekst + '\nFØRSTE VURDERING FRA CHATGPT' + str(news_assessment)
+        
+        revised_assessment = self.reassess_newsworth(self.combined_prompts["reassess"], assessed_kontekst)
         
         return revised_assessment
     
@@ -184,7 +198,7 @@ class InteractionHandler:
         UTPUTT: Denne saken vil ikke være verdt tiden til en journalist i lokalavisa iTromsø, fordi det bare er snakk om standard prosedyrer for inndeling av eiendom og etablering av eneboliger.
         '''
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"Redaksjonen i lokalavisa iTromsø er interessert i å vite om dokumentet er verdt å bruke tid på å utforske videre, og de har disse veiledningene: {self.nyhetsverdige_eksempler}. {self.newsworth_definition}. Hold svaret til maksimum 50 ord. {few_shot_examples}"},
+        response = self.api_client.make_api_request([{"role": "system", "content": f"Redaksjonen i lokalavisa iTromsø er interessert i å vite om dokumentet er verdt å bruke tid på å utforske videre, og de har disse veiledningene: {self.nyhetsverdige_eksempler}. {self.newsworth_definition}. Hold svaret til maksimum 50 ord. {few_shot_examples}. Her er en oversikt over absolutt ikke relevante temaer: {self.ikke_relevant}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}]," ")
         print('FIRST RESPONSE ---------->   ',response)
         # Send til map_to_binary
@@ -207,10 +221,9 @@ class InteractionHandler:
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. Gi meg et svar på maksimum 50 ord. Lokalavisa iTromsø er nødt til å prioritere hvilke saker de vil utforske, og vil ikke kaste bort den dyrebare tiden de har på helt normale prosedyre-saker. Dette er en veiledning for hva de vil klassifisere som verdt å se videre på: {self.nyhetsverdige_eksempler}"},
+        response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. Gi meg et svar på maksimum 50 ord. Lokalavisa iTromsø er nødt til å prioritere hvilke saker de vil utforske, og vil ikke kaste bort den dyrebare tiden de har på helt normale prosedyre-saker. Dette er en liten oversikt over noen temaer som ikke er relevante: {self.ikke_relevant}. Dette er en veiledning for hva de vil klassifisere som verdt å se videre på: {self.nyhetsverdige_eksempler}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}], " ")
-        #print(response)
-        
+
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
         print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
@@ -219,12 +232,12 @@ class InteractionHandler:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}."},
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}. {self.relevante_tema}. {self.ikke_relevant}"},
                                                                    {"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}."},
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}. {self.relevante_tema}. {self.ikke_relevant}"},
                                                                    {"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
                 siste_utputt = response + '\n' + final_response
         
