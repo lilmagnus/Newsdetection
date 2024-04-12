@@ -46,7 +46,6 @@ def main():
     # Process document to extract text
     while nummer < 2:
         for j in folder:
-            print(j)
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
                     Some of the texts youre given might not be clear immediately, some might look similar to this:
                     A text that is not newsworthy would write 'IKKE RELEVANT' at the end.
@@ -55,7 +54,7 @@ def main():
             for filename in os.listdir(j):
                 print("="*20, filename.upper(), "="*20)
                 check_cache = cache_manager.get_cached_response(j+"/"+filename)
-                print(check_cache) # Printer original tekst før behandling
+                print(check_cache,'\n') # Printer original tekst før behandling
                 time.sleep(2)
                 if check_cache is not None:
                     cache_categorize = general_interaction.handle_interaction(check_cache)

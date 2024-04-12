@@ -14,6 +14,11 @@ class InteractionHandler:
         - Husly for flyktninger
         - Prosesser som virker å gå frem og tilbake med tillatelser og avslag over lengre tid
         - Avvik fra godkjente tegninger
+        - Lang historie med søknader om tillatelser
+        - Endringer som vil påvirke flere husstander, addresser eller nabolag
+        - Administrative dokumenter som etterlyser mangler i søknader og forlengelser kan være relevant
+        - Store endringer i hvordan et bygg skal brukes
+        - Administrative prosesser kan være relevant om tidligere vurderinger indikerer det
         """
         self.ikke_relevant = """Følgende er en oversikt over temaer som ikke utgjør noe nyhetsverdi:
         - dispensasjonssøknader og søknader om dispensasjon for oppføring av enebolig
@@ -25,6 +30,7 @@ class InteractionHandler:
         - dokumenter som handler om inspeksjon av enebolig
         - økonomiske konsekvenser
         - avslag på søknad
+        - etablering av gangfelt eller ny fartsgrense eller nytt fortau
         """
         self.nyhetsverdige_eksempler = """
         IKKE NYHETSVERDIGE TEMAER: søknader om dispensasjon for oppføring av eneboliger, ferdigstillelsesattest for eiendom/bygg, søknad om byggetillatelse, involveringen av lokale myndigheter, korte og enkle administrative dokumenter, dokumenter som handler om andre kommuner enn Tromsø kommune vil automatisk bli irrelevante, 
@@ -128,7 +134,7 @@ class InteractionHandler:
         ident_prompt = section["identifisering"]["prompt"]
         first_response = self.api_client.make_api_request([{"role": "system", "content": f"Hold svaret ditt til maksimum 50 ord. Dette er en veiledning fra redaksjonen i lokalavisa iTromsø: {self.nyhetsverdige_eksempler}"},
                                                            {"role": "user", "content": f"{ident_prompt} {text}"}], " ")
-        print(first_response, "FØRSTE")
+        #print(first_response, "FØRSTE")
         time.sleep(2)
         f_resp = self.map_to_binary(first_response)
         
@@ -160,21 +166,19 @@ class InteractionHandler:
         
         # Step 1: Identifiser kategorier, og spør mer detaljer rundt
         details_large_project = self.process_section(self.combined_prompts["large_project"], original_text)
-        print(str(details_large_project))
+        print(str(details_large_project),'\n')
         time.sleep(5)
         details_public_safety = self.process_section(self.combined_prompts["public_safety"], original_text)
-        print(str(details_public_safety))
+        print(str(details_public_safety),'\n')
 
         # Step 2: Kombiner kategoriene som er identifisert
         kategorier_funnet = details_large_project + details_public_safety
         hel_kontekst = original_text + '\nKATEGORIER IDENTIFISERT I TEKSTEN: ' + str(kategorier_funnet) + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
-        print(hel_kontekst)
+        print(hel_kontekst,'\n')
 
         # Step 3: Generelle spørsmål som kan hjelpe med anrikelse av dokumentet
         general_questions = self.general_questioning(self.combined_prompts["general_questions"], hel_kontekst)
-        #general_questions.pop(0)
-        #general_questions.pop(0)
-        print(str(general_questions))
+        print(str(general_questions),'\n')
         all_tekst = hel_kontekst + '\n' + 'SVAR PÅ GENERELLE SPØRSMÅL: ' + str(general_questions)
         
         # Step 4: Send siste spørring for å hente ut nyhetsverdi
@@ -202,22 +206,23 @@ class InteractionHandler:
                                                      {"role": "user", "content": f"{first_prompt} {text}"}]," ")
         print('FIRST RESPONSE ---------->   ',response)
         # Send til map_to_binary
-        #assess_response = self.map_to_binary(response)
+        assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
-        '''
+
         if assess_response.strip().lower() in section["identifisering"]["responses"][assess_response.strip().lower()]:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
                 final_response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
-                                                                   {"role": "user", "content": f"{prompt} {text}"}])
+                                                                   {"role": "user", "content": f"{prompt} {text}"}], " ")
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
                 final_response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
-                                                                   {"role": "user", "content": f"{prompt} {text}"}])
-        print('FINAL RESPONSE ----------->   ', final_response)
-        '''
-        return response
+                                                                   {"role": "user", "content": f"{prompt} {text}"}], " ")
+        #print('FINAL RESPONSE ----------->   ', final_response)
+        last_response = response + '\n' + final_response
+        
+        return last_response
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
@@ -226,19 +231,20 @@ class InteractionHandler:
 
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
-        print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
+        #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
+        print('\n\n')
         
         if assess_response.strip().lower() in section["identifisering"]["responses"][assess_response.strip().lower()]:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}. {self.relevante_tema}. {self.ikke_relevant}"},
-                                                                   {"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Maks 50 ord svar. Se på veiledningene på hva som kan indikere relevans og hva som ikke indikerer relevans. {self.relevante_tema}. {self.ikke_relevant}"},
+                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons:{response}"}]," ")
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"{self.newsworth_definition}. {self.nyhetsverdige_eksempler}. {self.relevante_tema}. {self.ikke_relevant}"},
-                                                                   {"role": "user", "content": f"{prompt} {text} \n {response}"}]," ")
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Maks 50 ord svar. Se på veiledningene på hva som kan indikere relevans og hva som ikke indikerer relevans. {self.relevante_tema}. {self.ikke_relevant}"},
+                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons: {response}"}]," ")
                 siste_utputt = response + '\n' + final_response
         
         return siste_utputt

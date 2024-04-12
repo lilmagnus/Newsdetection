@@ -67,15 +67,15 @@
             }
         },
         "ja": {
-            "prompt": "La oss tenke ut høyt. Hvorfor kom du frem til dette svaret?"
+            "prompt": "Hvilke relevante temaer er identifisert? Gi meg en kort og grei oversikt."
         },
         "nei": {
-            "prompt": "La oss tenke ut høyt. Hvorfor kom du frem til dette svaret?"
+            "prompt": "Hvilke relevante temaer er identifisert? Gi meg en kort og grei oversikt."
         }
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Vær kritisk. Er dette virkelig noe som en journalist burde bruke sin dyrebare tid på? Er det virkelig ingen indikasjon på at dette foregår i et annet sted enn i Tromsø kommune eller en nabokommune?",
+            "prompt": "Vær kritisk. Er dette virkelig noe som en journalist burde bruke sin tid på? Er det virkelig ingen indikasjon på at dette foregår i et annet sted enn i Tromsø kommune eller en nabokommune?",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
