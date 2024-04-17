@@ -16,7 +16,7 @@ def main():
     api_client = APIClient()
     document_processing = DocumentProcessing()
 
-    prompts = '../prompts/prompts7.json'
+    prompts = '../prompts/prompts8.json'
     vurdering_fewshot = """DET SKAL KUN SVARES MED 'NYHETSVERDIG' ELLER 'IKKE NYHETSVERDIG', SOM EKSEMPLENE UNDER VISER.
     Prompt: Hva er denne teksten vurdert som? Basert på gjennomgangen av dokumentet og analysen av nyhetsverdien, er konklusjonen at dette ikke er nyhetsverdig.
     Response: Ikke nyhetsverdig
@@ -62,8 +62,9 @@ def main():
                         print(cache_categorize, '\nhalloien')
                     except IndexError:
                         print(cache_categorize, '\nheihei')
+                    last_assessment = cache_categorize.splitlines()[1]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
-                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {cache_categorize}"}], " ")
+                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}], " ")
                     newsworth_counter.append(str(j + ' - ' + count_assessment))
                     print(newsworth_counter)
                     time.sleep(2)
@@ -74,8 +75,10 @@ def main():
                         print(fresh_categorized, '\nhalloien')
                     except IndexError:
                         print(fresh_categorized, '\nheihei')
+                    
+                    last_assessment = fresh_categorized.splitlines()[1]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
-                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {cache_categorize}"}], " ")
+                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}], " ")
                     newsworth_counter.append(str(j+' - '+count_assessment))
                     print(newsworth_counter)
                     time.sleep(2)
