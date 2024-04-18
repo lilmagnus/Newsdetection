@@ -222,6 +222,8 @@ class InteractionHandler:
                                                      {"role": "user", "content": f"{first_prompt} {text}"}]," ")
         
         print('FIRST RESPONSE ---------->   ',response)
+        # For å bare se på nutgraf trengs ikke dette under.
+        # Kanskje verdt å se på om det kan inkluderes likevel.
         '''
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
