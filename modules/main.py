@@ -16,7 +16,7 @@ def main():
     api_client = APIClient()
     document_processing = DocumentProcessing()
 
-    prompts = '../prompts/prompts8.json'
+    prompts = '../prompts/prompts9.json'
     vurdering_fewshot = """DET SKAL KUN SVARES MED 'NYHETSVERDIG' ELLER 'IKKE NYHETSVERDIG', SOM EKSEMPLENE UNDER VISER.
     Prompt: Hva er denne teksten vurdert som? Basert på gjennomgangen av dokumentet og analysen av nyhetsverdien, er konklusjonen at dette ikke er nyhetsverdig.
     Response: Ikke nyhetsverdig
@@ -67,7 +67,7 @@ def main():
                         print(cache_categorize, '\nheihei')
                     last_assessment = cache_categorize.splitlines()[2]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
-                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}], " ")
+                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}])
                     newsworth_counter.append(str(j + ' - ' + count_assessment))
                     print(newsworth_counter)
                     time.sleep(2)
@@ -81,7 +81,7 @@ def main():
                     
                     last_assessment = fresh_categorized.splitlines()[2]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
-                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}], " ")
+                                                                    {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}])
                     newsworth_counter.append(str(j+' - '+count_assessment))
                     print(newsworth_counter)
                     time.sleep(2)
@@ -121,7 +121,7 @@ def main():
     Response: I listen er det 18 vurderinger totalt. 0news: 4 av 5 riktige. 1news: 5 av 7 riktige. 2news: 4 av 6 riktige. Totalt er 4+5+4 = 13 riktige, altså 13/18, eller 72.222%.
     """
     #request_vurdering = api_client.make_api_request([{"role": "system", "content": f"{vurdering_telling_fewshot}"},
-    #                                                 {"role": "user", "content": f"Det skal være 30 vurderinger i listen. 9 tilhørende 0news, 15 tilhørende 1news, og 6 tilhørende 2news. Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: {newsworth_counter}"}], " ")
+    #                                                 {"role": "user", "content": f"Det skal være 30 vurderinger i listen. 9 tilhørende 0news, 15 tilhørende 1news, og 6 tilhørende 2news. Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: {newsworth_counter}"}])
     #print("Accuracy score:\n", request_vurdering)
     
     # Initialize TextAnalysis for further analysis on the extracted text

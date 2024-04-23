@@ -1,0 +1,89 @@
+{
+    "large_project": {
+        "identifisering": {
+            "prompt": "Finnes det noen indikasjon om at denne teksten handler om et stort prosjekt?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Er det en indikasjon på konstruksjon av hotell? Maks 50 ord.",
+            "prompt2": "Er det en indikasjon på at det handler om fabrikk eller annet næringsdrivende bygg? Maks 50 ord.",
+            "prompt3": "Er det en indikasjon på at det er leilighetskompleks med mer enn 5 leiligheter? Maks 50 ord.",
+            "prompt4": "Er det en indikasjon om at dette er en enebolig? Maks 50 ord.",
+            "prompt5": "Er det indikasjoner på at det er korrespondanse frem og tilbake om et prosjekt som kan indikere at det er snakk om et større prosjekt? Maks 50 ord."
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
+        }
+    },
+    "public_safety": {
+        "identifisering": {
+            "prompt": "Kan det finnes indikasjoner i denne teksten på at det er bekymring for offentlig sikkerhet i denne teksten?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Er det snakk om generell Helse Miljø Sikkerhet for arbeidere?",
+            "prompt2": "Er det fare for at sivile liv går tapt? ",
+            "prompt3": "Nevnes det risiko for naturlige katastrofer?"
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
+        }
+    },
+    "administrative": {
+        "identifisering": {
+            "prompt": "Er det indikasjoner i denne teksten som sier at dette er et administrativt dokument?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Er det korrespondanse frem og tilbake som indikerer at det er søknad om dispensasjon, byggetillatelse, eiendomsutvikling eller forespørsel om ferdigattest? Maks 50 ord.",
+            "prompt2": "Er det korrespondanse som kan indikere lovbrudd, avvik fra godkjente planer, husly for flyktninger eller store endringer i hvordan et bygg skal brukes? Maks 50 ord."
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
+        }
+    },
+    "nutsgraf": {
+        "nutshell": {
+            "prompt": "Skriv et nutshell paragraf på teksten gitt. Maks 2 setninger."
+        }
+    },
+    "assessment": {
+        "identifisering": {
+            "prompt": "Se på de kategoriene som er identifisert i teksten. Informasjonen i disse vil være av stor betydning for å bestemme hvor relevant dokumentet er. Basert på de identifiserte kategoriene, er det virkelig verdt å vie tid til for lokalavisa iTromsø? Dokumenter som IKKE finner sted i Tromsø kommune eller omegn er IKKE RELEVANTE. Maksimum 50 ord.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Gi en kritisk begrunnelse for hvorfor du mener dette. Det er lov å ombestemme seg. Maks 50 ord."
+        },
+        "nei": {
+            "prompt": "Gi en kritisk begrunnelse for hvorfor du mener dette. Det er lov å ombestemme seg. Maks 50 ord."
+        }
+    },
+    "reassess": {
+        "identifisering": {
+            "prompt": "Vær kritisk, og se på den gitte oversikten over ikke relevante temaer og relevante temaer. Relaterer denne teksten mer til de ikke-relevante temaene, eller de relevante temaene.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Ta utgangspunkt i den initielle vurderingen. Se kritisk på all informasjonen tilgjengelig, og vurder om den initielle vurderingen er riktig. Begrunn svaret du kommer frem til med 2 setninger."
+        },
+        "nei": {
+            "prompt": "Ta utgangspunkt i den initielle vurderingen. Se kritisk på all informasjonen tilgjengelig, og vurder om den initielle vurderingen er riktig. Begrunn svaret du kommer frem til med 2 setninger."
+        }
+    }
+}

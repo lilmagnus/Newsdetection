@@ -8,10 +8,11 @@ class InteractionHandler:
     def __init__(self, prompts_file):
         self.api_client = APIClient()
         self.combined_prompts = self._load_prompts(prompts_file)
-        self.relevante_tema = """Dette er en oversikt over temaer som skal vurderes som nyhetsverdige, så lenge det er en allerede eksisterende vurdering om at dokumentet holder nyhetsverdi:
+        self.relevante_tema = """Dette er en oversikt over temaer som skal vurderes som nyhetsverdige:
         - Flere enn 5 naboklager
         - Ulovlig byggearbeid
         - Husly for flyktninger
+        - Flomfare
         - Prosesser som virker å gå frem og tilbake med tillatelser og avslag over lengre tid
         - Avvik fra godkjente tegninger
         - Lang historie med søknader om tillatelser
@@ -25,6 +26,7 @@ class InteractionHandler:
         - flere søknader om dispensasjon
         - oppmålingsprosedyre eller oppmålingsoperasjon
         - nabovarsel
+        - rutinemessig prosess
         - søknad om eiendomsutvikling
         - søknader sendt på grunn av minimal overskridelse av byggegrenser
         - diskusjon om byggegrenser
@@ -38,13 +40,47 @@ class InteractionHandler:
         - dispensasjon for gesimshøyde og byggegrense
         - LOKALE MYNDIGHETER BETYR INGENTING
         """
+        self.temaer = """
+        Følgende er en oversikt over temaer som IKKE utgjør noe nyhetsverdi:
+        - søknad om dispensasjon
+        - flere søknader om dispensasjon
+        - oppmålingsprosedyre eller oppmålingsoperasjon
+        - nabovarsel
+        - rutinemessig prosess
+        - søknad om eiendomsutvikling
+        - søknader sendt på grunn av minimal overskridelse av byggegrenser
+        - diskusjon om byggegrenser
+        - forespørsel om ferdigattest
+        - administrative dokumenter som mangler direkte relevans til de identifiserte temaene
+        - søknad om byggetillatelse
+        - søknad om godkjennelse for tilbygg
+        - dokumenter som handler om inspeksjon av enebolig
+        - avslag på søknad
+        - etablering av gangfelt eller ny fartsgrense eller nytt fortau
+        - dispensasjon for gesimshøyde og byggegrense
+        - LOKALE MYNDIGHETER BETYR INGENTING
+        
+        Dette er en oversikt over temaer som skal vurderes som nyhetsverdige:
+        - Flere enn 5 naboklager
+        - Ulovlig byggearbeid
+        - Husly for flyktninger
+        - Flomfare
+        - Prosesser som virker å gå frem og tilbake med tillatelser og avslag over lengre tid
+        - Avvik fra godkjente tegninger
+        - Lang historie med søknader om tillatelser
+        - Store prosjekt der det nevnes å gjøre justeringer og endringer basert på tilbakemeldinger
+        - Endringer som vil påvirke flere husstander, addresser eller nabolag
+        - Administrative dokumenter som etterlyser mangler i søknader og forlengelser kan være relevant
+        - Store endringer i hvordan et bygg skal brukes
+        - Administrative prosesser kan være relevant om tidligere vurderinger indikerer det
+        """
         self.nyhetsverdige_eksempler = """
         IKKE NYHETSVERDIGE TEMAER: søknader om dispensasjon for oppføring av eneboliger, ferdigstillelsesattest for eiendom/bygg, søknad om byggetillatelse, involveringen av lokale myndigheter, korte og enkle administrative dokumenter, dokumenter som handler om andre kommuner enn Tromsø kommune vil automatisk bli irrelevante, 
         IKKE NYHETSVERDIGE TEMAER: oppdeling av eiendommer, avslag og endringer i søknader, krav til korrekt dokumentasjon, omfattende godkjennelsesprosess, inspeksjoner, små/insignifikante overskridelser av byggegrenser på 2 meter eller mindre, saker som krever nøye inspeksjon på grunn av potensielle problemer med strukturell integritet
         IKKE NYHETSVERDIGE TEMAER: byggeprosjekt i andre kommuner enn Tromsø kommune er ikke nyhetsverdige
         IKKE NYHETSVERDIGE TEMAER: søknader om byggetillatelse, involveringen av lokale myndigheter, spørsmål om tillatelse
         
-        NYHETSVERDIGE TEMAER: dokumenter med mye frem og tilbake korrespondanse over flere år, dokumenter som diskuterer ulovligheter som er gjort, dokumenter som omtaler livsfarlige eksisterende elementer, hvis oppsummeringen er på mer enn 30 000 ord burde det anses som svært sannsynlig nyhetsverdig
+        NYHETSVERDIGE TEMAER: dokumenter med mye frem og tilbake korrespondanse over flere år, dokumenter som diskuterer ulovligheter som er gjort, dokumenter som omtaler livsfarlige eksisterende elementer som farlig gass eller flomfare, hvis oppsummeringen er på mer enn 30 000 ord burde det anses som svært sannsynlig nyhetsverdig, dokumenter som omtaler justeringer og viktige endringer basert på tilbakemeldinger, militær involvering
         """
         self.large_project_definition = """
         EKSEMPLER PÅ PROSJEKTER SOM IKKE ER STORE: generelle forespørsler, bygging av en eller to eneboliger, oppdeling av eiendom og tomt, søknader om dispensasjon, forespørsel om ferdigattest, to etasjes bygninger, landmåling, etablering av matrikkelenhet
@@ -55,6 +91,11 @@ class InteractionHandler:
         EKSEMPLER PÅ PROSJEKTER SOM IKKE BEKYMRER OFFENTLIG SIKKERHET: søknad om dispensasjon, generelle søknader, bygging av enebolig, oppdeling av eiendom, uten å vise til lovbrudd er bekymringer for bygningsforskifter og lignende ikke av bekymring for offentlig sikkerhet, etablering av gangoverfelt eller skilt og trafikklys
         
         EKSEMPLER PÅ PROSJEKTER SOM BEKYMRER SEG FOR OFFENTLIG SIKKERHET: umiddelbar fare for at liv går tapt, naturlige katastrofer som kan sette liv i fare
+        """
+        self.admin_definition = """For at et dokument skal være hovedsakelig administrativt må det inneholde søknader eller krav om noen av kategoriene gitt under.
+        ADMINISTRATIVE DOKUMENTER MED MINDRE BETYDNING: søknad om dispensasjon, korrespondanser om søknader, forespørsel om å ettersende dokumenter, innvilgede tillatelser
+        
+        ADMINISTRATIVE DOKUMENTER MED STØRRE BETYDNING: lovbrudd, avvik fra godkjente planer, varsling om funn av farlige gasser eller liknende som vil true sikkerheten til offentligheten
         """
         self.newsworth_definition = """NYHETSVERDI DEFINISJON: 
         I denne konteksten ser vi på nyhetsverdi i et dokument som noe en journalist vil kunne trygt bruke tiden sin på.
@@ -70,6 +111,10 @@ class InteractionHandler:
         
         Dokumentet har blitt analysert, og relevante temaer har blitt identifisert. Om et tema ikke er relevant blir det sagt. Se kritisk på temaene identifisert i forhold til teksten, kan de temaene virkelig bidra noe som helst til å informere om noe fornuftig og faktisk relevant for byggesaken?
         """
+        
+        self.newsworthy = """Se på de identifiserte kategoriene i teksten. Hvis de identifiserte temaene kan relateres til den gitte listen av relevante temaer, burde det vurderes som nyhetsverdig."""
+        self.not_newsworthy = """Om det mangler identifiserte temaer, og teksten enten: (1) Ikke inneholder elementer som kan knyttes til listen med relevante temaer, (2) Inneholder elementer som relaterer til listen over temaer som ikke er relevante."""
+        
         self.nutgraf_definisjon = """En 'nut graf', som står for nutshell paragraf, defineres som poenget i teksten 'i et nøtteskall'. Målet med en nut graf er å fortelle leseren hva teksten handler om. Den inneholder 'hvem', 'hva', 'hvor', 'når', 'hvorfor', og 'hvordan'. En nut graf er aldri mer enn 2 setninger lang. Til sammen er det aldri mer enn 50 ord."""
         
         
@@ -103,17 +148,19 @@ class InteractionHandler:
             regler += self.large_project_definition
         elif ident_prompt == "Nevnes det bekymring for offentlig sikkerhet?":
             regler += self.public_safety_definition
+        elif ident_prompt == "Er det mer enn 15 administrative korrespondanser i den gitte teksten?":
+            regler += self.admin_definition
         #print(regler)
         
         first_response = self.api_client.make_api_request([{"role": "system", "content": f"Hold svaret ditt til maksimum 50 ord. Følg disse reglene når du vurderer dokumentet: {regler}"},
-                                                           {"role": "user", "content": f"{ident_prompt} {text}"}], " ")
+                                                           {"role": "user", "content": f"Maks 50 ord. {ident_prompt} {text}"}])
         print(first_response, "FØRSTE")
         time.sleep(2)
 
         f_resp = self.map_to_binary(first_response)
         #print(f_resp, "ANDRE")
         
-        responses = [first_response, ident_prompt]
+        responses = [first_response]
 
         if f_resp.strip().lower() in section["identifisering"]["responses"][f_resp.strip().lower()]:
             decision = section["identifisering"]["responses"][f_resp.strip().lower()]
@@ -121,27 +168,30 @@ class InteractionHandler:
                 for prompt_key in section["ja"]:
                     prompt = section["ja"][prompt_key]
                     response = self.api_client.make_api_request([{"role": "system", "content": "Hold svaret ditt til maksimum 50 ord."},
-                                                                 {"role": "user", "content": f"{prompt} {text}"}]," ")
+                                                                 {"role": "user", "content": f"{prompt} {text}"}])
                     responses.append(response)
             elif "nei" in decision:
                 print("IKKE RELEVANT, MOVING ON...")
                 konkat_svar = str(ident_prompt) + " ...nei, ikke relevant..."
                 responses = [konkat_svar]
+                return responses
                 '''
                 for prompt_key in section["nei"]:
                     prompt = section["nei"][prompt_key]
                     response = self.api_client.make_api_request([{"role": "system", "content": "Hold svaret ditt til maksimum 50 ord."},
-                                                                 {"role": "user", "content": f"{prompt} {text}"}]," ")
+                                                                 {"role": "user", "content": f"{prompt} {text}"}])
                     responses.append(response)'''
                 #responses.append("IKKE RELEVANT.")
                 #response = self.api_client.make_api_request([{"role": "user", "content": prompt}])
                 #responses.append(response)
-        return responses
+        parsed_response = self.api_client.make_api_request([{"role": "user", "content": f"Maks 20 ord. Av de identifiserte temaene, hvilket er det sterkest indikasjon på at teksten handler om? TEMAER: {responses} \nTEKST: {text}"}])
+
+        return parsed_response
     
     def general_questioning(self, section, text):
         ident_prompt = section["identifisering"]["prompt"]
         first_response = self.api_client.make_api_request([{"role": "system", "content": f"Hold svaret ditt til maksimum 50 ord. Dette er en veiledning fra redaksjonen i lokalavisa iTromsø: {self.nyhetsverdige_eksempler}"},
-                                                           {"role": "user", "content": f"{ident_prompt} {text}"}], " ")
+                                                           {"role": "user", "content": f"{ident_prompt} {text}"}])
         #print(first_response, "FØRSTE")
         time.sleep(2)
         f_resp = self.map_to_binary(first_response)
@@ -153,7 +203,7 @@ class InteractionHandler:
                 for prompt_key in section["ja"]:
                     prompt = section["ja"][prompt_key]
                     response = self.api_client.make_api_request([{"role": "system", "content": "Hold svaret ditt til maksimum 50 ord."},
-                                                                 {"role": "user", "content": f"{prompt} {text}"}]," ")
+                                                                 {"role": "user", "content": f"{prompt} {text}"}])
                     responses.append(response)
             else:
                 for prompt_key in section["ja"]:
@@ -175,23 +225,27 @@ class InteractionHandler:
         # Step 1: Identifiser kategorier, og spør mer detaljer rundt
         details_large_project = self.process_section(self.combined_prompts["large_project"], original_text)
         print(str(details_large_project),'\n')
-        time.sleep(3)
+        time.sleep(2)
         details_public_safety = self.process_section(self.combined_prompts["public_safety"], original_text)
         print(str(details_public_safety),'\n')
+        time.sleep(2)
+        details_admin = self.process_section(self.combined_prompts["administrative"], original_text)
+        print(str(details_admin),'\n')
 
         # Step 2: Kombiner kategoriene som er identifisert
-        kategorier_funnet = details_large_project + details_public_safety
-        hel_kontekst = original_text + '\nKATEGORIER IDENTIFISERT I TEKSTEN: ' + str(kategorier_funnet) + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
+        kategorier_funnet = str(details_large_project) + '\n' + str(details_public_safety) + '\n' + str(details_admin)
+        hel_kontekst = original_text + '\nKATEGORIER IDENTIFISERT I TEKSTEN: ' + kategorier_funnet + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
         print(hel_kontekst,'\n')
 
         # Step 3: Generelle spørsmål som kan hjelpe med anrikelse av dokumentet
-        general_questions = self.general_questioning(self.combined_prompts["general_questions"], hel_kontekst)
-        print(str(general_questions),'\n')
-        all_tekst = hel_kontekst + '\nSVAR PÅ GENERELLE SPØRSMÅL: ' + str(general_questions)
+        #general_questions = self.general_questioning(self.combined_prompts["general_questions"], hel_kontekst)
+        #print(str(general_questions),'\n')
+        #all_tekst = hel_kontekst + '\nSVAR PÅ GENERELLE SPØRSMÅL: ' + str(general_questions)
         time.sleep(2)
         
         # Step 4: Lag et nutshell paragraph
-        nut_graf = self.nutgraf(self.combined_prompts["nutsgraf"], all_tekst)
+        #nut_graf = self.nutgraf(self.combined_prompts["nutsgraf"], all_tekst)
+        nut_graf = self.nutgraf(self.combined_prompts["nutsgraf"], hel_kontekst)
         nutshell_graf = "NUTSHELL PARAGRAF: " + nut_graf
         #print(all_tekst)
         time.sleep(2)
@@ -199,12 +253,14 @@ class InteractionHandler:
         # Step 5: Send siste spørring for å hente ut nyhetsverdi
         # Først se på nutgraf og original tekst
         #nut_og_ogt = original_text + '\n' + nutshell_graf
-        full_kontekst = all_tekst + '\n' + nutshell_graf
+        #full_kontekst = all_tekst + '\n' + nutshell_graf
         #news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], full_kontekst)
-        news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], all_tekst)
+        #news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], all_tekst)
+        news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], hel_kontekst)
         print('\n----------ASSESSED: ', news_assessment)
         #assessed_kontekst = all_tekst + '\nVURDERING AV NUTGRAF FRA CHATGPT : ' + str(news_assessment)
-        assessed_kontekst = all_tekst + '\nINITIELL VURDERING: ' + str(news_assessment)
+        #assessed_kontekst = all_tekst + '\nINITIELL VURDERING: ' + str(news_assessment)
+        assessed_kontekst = hel_kontekst + '\nINITIELL VURDERING: ' + str(news_assessment)
         
         # Til slutt kom med en helhetlig vurdering av nutgrafen og resten av teksten, med kritiske øyne.
         revised_assessment = self.reassess_newsworth(self.combined_prompts["reassess"], assessed_kontekst)
@@ -224,16 +280,16 @@ class InteractionHandler:
         '''
         first_prompt = section["identifisering"]["prompt"]
         #response = self.api_client.make_api_request([{"role": "system", "content": f"Redaksjonen i lokalavisa iTromsø er interessert i å vite om dokumentet er verdt å bruke tid på å utforske videre, og de har disse veiledningene: {self.nyhetsverdige_eksempler}. {self.newsworth_definition}. Hold svaret til maksimum 50 ord. {few_shot_examples}. Her er en oversikt over absolutt ikke relevante temaer: {self.ikke_relevant}."},
-        #                                             {"role": "user", "content": f"{first_prompt} {text}"}]," ")
+        #                                             {"role": "user", "content": f"{first_prompt} {text}"}])
         #response = self.api_client.make_api_request([{"role": "system", "content": f"Definisjon å følge: {self.newsworth_definition}. Dette er en oversikt over temaer som ikke er relevante for en journalist å rapportere om: {self.ikke_relevant}. Dette er en oversikt over temaer som er relevante for en journalist å rapportere om: {self.relevante_tema}. Kan det virkelig finnes temaer i teksten som kan gjøre dette til relevant for en journalist? Hold svaret til maksimum 50 ord."},
-        #                                             {"role": "user", "content": f"{first_prompt} {text}"}]," ")
-        response = self.api_client.make_api_request([{"role": "system", "content": f"{self.relevante_tema}. {self.ikke_relevant}. {self.newsworth_definition}."},
-                                                     {"role": "user", "content": f"{first_prompt} {text}"}]," ")
+        #                                             {"role": "user", "content": f"{first_prompt} {text}"}])
+        response = self.api_client.make_api_request([{"role": "system", "content": f"{self.temaer}. \n{self.nyhetsverdige_eksempler}"},
+                                                     {"role": "user", "content": f"{first_prompt} {text}"}])
         
         print('FIRST RESPONSE ---------->   ',response)
         # For å bare se på nutgraf trengs ikke dette under.
         # Kanskje verdt å se på om det kan inkluderes likevel.
-        '''
+        
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
@@ -243,25 +299,25 @@ class InteractionHandler:
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
                 #final_response = self.api_client.make_api_request([{"role": "system", "content": f"Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune. {self.newsworth_definition}"},
-                #                                                   {"role": "user", "content": f"{prompt} {text}"}], " ")
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Du er en kritisk journalistassistent. Du skal følge disse veiledningene for hva som ikke er relevant: {self.ikke_relevant}. Du skal også følge disse veiledningene for hva som er relevant: {self.relevante_tema}."},
-                                                                   {"role": "user", "content": f"{prompt} {text}"}], " ")
+                #                                                   {"role": "user", "content": f"{prompt} {text}"}])
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Maks 50 ord. \n{self.newsworthy} \n{self.not_newsworthy} \n{self.temaer}"},
+                                                                   {"role": "user", "content": f"{prompt} {text}"}])
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
                 #final_response = self.api_client.make_api_request([{"role": "system", "content": "Du er en journalistassistent for den norske lokale avisen iTromsø, som rapporterer om nyhetsverdige byggesaker i Tromsø kommune."},
-                #                                                   {"role": "user", "content": f"{prompt} {text}"}], " ")
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Du er en kritisk journalistassistent. Du skal følge disse veiledningene for hva som ikke er relevant: {self.ikke_relevant}. Du skal også følge disse veiledningene for hva som er relevant: {self.relevante_tema}."},
-                                                                   {"role": "user", "content": f"{prompt} {text}"}], " ")
+                #                                                   {"role": "user", "content": f"{prompt} {text}"}])
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Maks 50 ord. \n{self.newsworthy} \n{self.not_newsworthy} \n{self.temaer}"},
+                                                                   {"role": "user", "content": f"{prompt} {text}"}])
         #print('FINAL RESPONSE ----------->   ', final_response)
         last_response = response + '\n' + final_response
         
-        return last_response'''
-        return response
+        return last_response
+        #return response
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"Gi meg et svar på maksimum 50 ord. Lokalavisa iTromsø er nødt til å prioritere hvilke saker de vil utforske, og vil ikke kaste bort den dyrebare tiden de har på helt normale prosedyre-saker. Dette er en liten oversikt over noen temaer som ikke er relevante: {self.ikke_relevant}."},
-                                                     {"role": "user", "content": f"{first_prompt} {text}"}], " ")
+        response = self.api_client.make_api_request([{"role": "system", "content": f"Maksimum 50 ord. {self.nyhetsverdige_eksempler} \nVurder teksten opp mot denne listen med relevante og ikke relevante temaer. \n{self.temaer}"},
+                                                     {"role": "user", "content": f"{first_prompt} {text}"}])
 
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
@@ -273,12 +329,12 @@ class InteractionHandler:
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
                 final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
-                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons:{response}"}]," ")
+                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons:{response}"}])
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
                 final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
-                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons: {response}"}]," ")
+                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons: {response}"}])
                 siste_utputt = response + '\n' + final_response
         
         return siste_utputt
@@ -286,7 +342,7 @@ class InteractionHandler:
     def nutgraf(self, section, text):
         first_prompt = section["nutshell"]["prompt"]
         response = self.api_client.make_api_request([{"role": "system", "content": f"{self.nutgraf_definisjon}"},
-                                                     {"role": "user", "content": f"Alt som ikke er fra Tromsø kommune eller omegn er ikke relevant. {first_prompt} {text}"}], " ")
+                                                     {"role": "user", "content": f"Alt som ikke er fra Tromsø kommune eller omegn er ikke relevant. {first_prompt} {text}"}])
         return response
     
     def reduce_text(self, text):
@@ -295,7 +351,7 @@ class InteractionHandler:
 
         for part in parts:
             reduction_prompt = "Remove any fluff, meaning any unnecessary spaces, or repetition of sentences which does not add any additional value to the total context."
-            reduced_part = self.api_client.make_api_request([{"role": "user", "content": f"{reduction_prompt} {part}"}], " ")
+            reduced_part = self.api_client.make_api_request([{"role": "user", "content": f"{reduction_prompt} {part}"}])
             reduced_text_parts.append(reduced_part)
         
         return "".join(reduced_text_parts)

@@ -17,16 +17,12 @@ class APIClient:
             text = text[len(chunk):].lstrip()
         return chunks
 
-    def make_api_request(self, messages, modelno):
+    def make_api_request(self, messages):
         retry_count = 0
-        if modelno == "finetuned":
-            modelo = "ft:gpt-3.5-turbo-0125:personal:fine-tuned-fakegen:9B4Nmmpt"
-        else:
-            modelo = MODEL
         while retry_count < MAX_RETRIES:
             try:
                 response = openai.ChatCompletion.create(
-                    model=modelo, 
+                    model=MODEL, 
                     messages=messages, 
                     max_tokens=MAX_TOKENS
                 )
@@ -38,7 +34,7 @@ class APIClient:
                     print("Handling token limit error by chunking...")
                     text = "".join(msg.get("content", "") for msg in messages if msg["role"] == "user")
                     chunks = self.chunk_text(text)
-                    responses = [self.make_api_request([{"role": "user", "content": chunk}], " ") for chunk in chunks]
+                    responses = [self.make_api_request([{"role": "user", "content": chunk}]) for chunk in chunks]
                     print(responses)
                     return "\n".join(responses)
                 else:
