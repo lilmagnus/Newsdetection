@@ -65,7 +65,7 @@
     },
     "assessment": {
         "identifisering": {
-            "prompt": "Kan denne gitte nutgrafen egentlig være relevant for en journalist? Vær litt kritisk til vurderingen.",
+            "prompt": "Ut ifra teksten og de identifiserte temaene, kan dette være relevant for en journalist i lokalavisa iTromsø? Se på veiledningene for relevante og ikke relevante temaer når du bestemmer deg. Maksimum 50 ord.",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
@@ -75,22 +75,22 @@
             "prompt": "Hvilke relevante temaer er identifisert? Gi meg en kort og grei oversikt."
         },
         "nei": {
-            "prompt": "Hvilke relevante temaer er identifisert? Gi meg en kort og grei oversikt."
+            "prompt": "Skriv en nutgraf som er en bedre representasjon av oppsummeringen."
         }
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Vær kritisk. Er dette virkelig noe som en journalist burde bruke sin tid på? Er det virkelig ingen indikasjon på at dette foregår i et annet sted enn i Tromsø kommune eller en nabokommune?",
+            "prompt": "Vær kritisk, og se på den gitte oversikten over absolutt ikke relevante temaer. Dette skal ikke vurderes som nyhetsverdig om det involverer mange av disse elementene. Om det er indikasjon på at byggesaken skjer langt unna Tromsø kommune er det absolutt ikke nyhetsverdig.",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
             }
         },
         "ja": {
-            "prompt": "Se kritisk på vurderingen en gang til. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+            "prompt": "Se kritisk på vurderingen en gang til. Er det egentlig så viktig å bruke tid på å skrive nyhetssak om dette med tanke på temaene identifisert?"
         },
         "nei": {
-            "prompt": "Se kritisk på vurderingen en gang til. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+            "prompt": "Se kritisk på vurderingen en gang til. Er det egentlig så viktig å bruke tid på å skrive nyhetssak om dette med tanke på temaene identifisert?"
         }
     }
 }

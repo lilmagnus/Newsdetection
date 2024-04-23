@@ -36,6 +36,9 @@ def main():
 
     Selv om prosjektet kan ha en visse innvirkning på lokalsamfunnet, kan det hende at det ikke er av tilstrekkelig interesse for leserne til å rettferdiggjøre en nyhetsartikkel. Det er viktig å vurdere om saken er av tilstrekkelig interesse for målgruppen til iTromsø før man investerer tid og ressurser i å lage en nyhetssak. Det kan også være lurt å se på andre relevante nyhetssaker som har høyere nyhetsverdi før man prioriterer denne spesifikke saken. 
     Response: Ikke Nyhetsverdig
+    
+    Prompt: Denne informasjonen bør ikke anses som nyhetsverdig da den omhandler en vanlig prosess med deling av eiendom for boligformål i Tromsø. Det er ingen indikasjoner på avvik, uventede elementer eller bekymringer for offentlig sikkerhet. Dokumentet fokuserer hovedsakelig på administrative trinn og godkjenning av søknader. 
+    Response: Ikke nyhetsverdig
     """
     general_interaction = InteractionHandler(prompts)
     newsworth_counter = []
@@ -62,7 +65,7 @@ def main():
                         print(cache_categorize, '\nhalloien')
                     except IndexError:
                         print(cache_categorize, '\nheihei')
-                    last_assessment = cache_categorize.splitlines()[1]
+                    last_assessment = cache_categorize.splitlines()[2]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}], " ")
                     newsworth_counter.append(str(j + ' - ' + count_assessment))
@@ -76,7 +79,7 @@ def main():
                     except IndexError:
                         print(fresh_categorized, '\nheihei')
                     
-                    last_assessment = fresh_categorized.splitlines()[1]
+                    last_assessment = fresh_categorized.splitlines()[2]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}], " ")
                     newsworth_counter.append(str(j+' - '+count_assessment))
