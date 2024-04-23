@@ -73,7 +73,7 @@
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Vær kritisk, og se på den gitte oversikten over ikke relevante temaer og relevante temaer. Relaterer denne teksten mer til de ikke-relevante temaene, eller de relevante temaene.",
+            "prompt": "Se over den initielle vurderingen til teksten. Vær kritisk, og kom med en kort forklaring på om vurderingen er korrekt eller ikke, basert på oversiktene du får. Maks 50 ord. ",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."

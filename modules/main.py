@@ -65,7 +65,7 @@ def main():
                         print(cache_categorize, '\nhalloien')
                     except IndexError:
                         print(cache_categorize, '\nheihei')
-                    last_assessment = cache_categorize.splitlines()[2]
+                    last_assessment = cache_categorize.splitlines()[1]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}])
                     newsworth_counter.append(str(j + ' - ' + count_assessment))

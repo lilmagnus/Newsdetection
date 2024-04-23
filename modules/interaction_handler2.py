@@ -74,7 +74,7 @@ class InteractionHandler:
         - Store endringer i hvordan et bygg skal brukes
         - Administrative prosesser kan være relevant om tidligere vurderinger indikerer det
         """
-        self.nyhetsverdige_eksempler = """
+        self.nyhetsverdige_eksempler = """Oversikt over temaer som ikke er nyhetsverdige, og temaer som er nyhetsverdige.
         IKKE NYHETSVERDIGE TEMAER: søknader om dispensasjon for oppføring av eneboliger, ferdigstillelsesattest for eiendom/bygg, søknad om byggetillatelse, involveringen av lokale myndigheter, korte og enkle administrative dokumenter, dokumenter som handler om andre kommuner enn Tromsø kommune vil automatisk bli irrelevante, 
         IKKE NYHETSVERDIGE TEMAER: oppdeling av eiendommer, avslag og endringer i søknader, krav til korrekt dokumentasjon, omfattende godkjennelsesprosess, inspeksjoner, små/insignifikante overskridelser av byggegrenser på 2 meter eller mindre, saker som krever nøye inspeksjon på grunn av potensielle problemer med strukturell integritet
         IKKE NYHETSVERDIGE TEMAER: byggeprosjekt i andre kommuner enn Tromsø kommune er ikke nyhetsverdige
@@ -154,7 +154,7 @@ class InteractionHandler:
         
         first_response = self.api_client.make_api_request([{"role": "system", "content": f"Hold svaret ditt til maksimum 50 ord. Følg disse reglene når du vurderer dokumentet: {regler}"},
                                                            {"role": "user", "content": f"Maks 50 ord. {ident_prompt} {text}"}])
-        print(first_response, "FØRSTE")
+        #print(first_response, "FØRSTE")
         time.sleep(2)
 
         f_resp = self.map_to_binary(first_response)
@@ -184,9 +184,9 @@ class InteractionHandler:
                 #responses.append("IKKE RELEVANT.")
                 #response = self.api_client.make_api_request([{"role": "user", "content": prompt}])
                 #responses.append(response)
-        parsed_response = self.api_client.make_api_request([{"role": "user", "content": f"Maks 20 ord. Av de identifiserte temaene, hvilket er det sterkest indikasjon på at teksten handler om? TEMAER: {responses} \nTEKST: {text}"}])
+        parsed_response = self.api_client.make_api_request([{"role": "user", "content": f"Maks 20 ord. Av de identifiserte temaene, hvilket er det mest relevante i teksten? TEMAER: {responses} \nTEKST: {text}"}])
 
-        return parsed_response
+        return first_response + '\n' + parsed_response
     
     def general_questioning(self, section, text):
         ident_prompt = section["identifisering"]["prompt"]
@@ -320,6 +320,7 @@ class InteractionHandler:
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
 
         # Send til map_to_binary
+        '''
         assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
         print('\n\n')
@@ -336,7 +337,8 @@ class InteractionHandler:
                 final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
                                                                    {"role": "user", "content": f"{prompt} {text}. \nInitiell respons: {response}"}])
                 siste_utputt = response + '\n' + final_response
-        
+        '''
+        return response
         return siste_utputt
         
     def nutgraf(self, section, text):
