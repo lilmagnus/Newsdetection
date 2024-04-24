@@ -88,12 +88,25 @@ def main():
                     time.sleep(2)
             nummer += 1
 
-    #extracted_text = news_detector.process_document(folder)
-    #print(f"Extracted Text: {extracted_text}")
-    #print(newsworth_counter)
-    #calculate_assessments = api_client.make_api_request([{"role": "system", "content": f"You will be given a collection of asessments. Each assessment starts with the folder the document belongs to, followed by the document-name, followed by the assessment. FOR EXAMPLE: '1news: musegaten - Basert på ......'. When it starts with '1news', the assessment should indicate newsworth, and if it starts with '0news', the assessment should indicate little or no newsworth. Read through the assessments, and score them as correct if they conclude with what I wrote, or incorrect if it is inconclusive or the opposite of what i wrote."},
-    #                                                     {"role": "user", "content": f"Calculate the accuracy of the given 24 assessments. {newsworth_counter}. Also make a confusion matrix, where True positives are '1news' assessed as newsworthy, True negatives are '0news' assessed as not newsworthy, and so on."}])
-    #print(calculate_assessments)
+    calculate_fewshot = """Følgende prompt-og-respons par er hvordan dette skal evalueres.
+    Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke Nyhetsverdig', '2news - Ikke nyhetsverdig']
+    Respons: Det er totalt 30 vurderinger i listen. 22 riktig vurderte, og 8 feilvurderte. Accuracy blir da 22/30 = 73.3%
+    
+    Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Response: Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig']
+    Respons: Det er totalt 30 vurderinger i listen. 23 riktig vurderte, og 7 feilvurderte. Accuracy blir da 23/30 = 76.6%
+    
+    Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig']
+    Respons: Det er totalt 30 vurderinger i listen. 20 riktig vurderte, og 10 feilvurderte. Accuracy blir da 20/30 = 66.6%
+    """
+    guide_fewshot = """Guide for hva som er riktig vurdering:
+    0news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
+    0news er vurdert feil om det står 'Nyhetsverdig' eller liknende.
+    
+    1news er vurdert riktig om det står 'Nyhetsverdig' eller liknende
+    1news er vurdert feil om det står 'Ikke nyhetsverdig' eller liknende.
+    
+    2news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
+    2news er vurdert feil om det står 'Nyhetsverdig' eller liknende."""
     count_correct = 0
     count_incorrect = 0
     for j in newsworth_counter:
@@ -114,13 +127,9 @@ def main():
     total_count = count_incorrect + count_correct
     print('Riktige vurderte:', count_correct, 'Feilvurderte:', count_incorrect, '\n', 'ACCURACY SCORE = ', (count_correct/total_count)*100, '%')
             
-    vurdering_telling_fewshot = """EKESMPLER PÅ HVORDAN MAN TELLER VURDERINGENE:
-    Prompt: Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: [0news - Ikke nyhetsverdig, 0news - Ikke nyhetsverdig, 0news - Nyhetsverdig, 1news - Nyhetsverdig, 1news - Nyhetsverdig, 1news - Ikke nyhetsverdig, 1news - Nyhetsverdig, 2news - Ikke nyhetsverdig, 2news - Nyhetsverdig, 2news - Ikke nyhetsverdig]
-    Response: I listen er det 10 vurderinger totalt. 0news: 2 av 3 riktige. 1news: 3 av 4 riktige. 2news: 1 av 2 riktige. Totalt er 2+3+1 = 6 riktige, altså 6/10, eller 60%.
-    
-    Prompt: Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: [0news - Ikke nyhetsverdig, 0news - Ikke nyhetsverdig, 0news - Nyhetsverdig, 0news - Ikke nyhetsverdig, 0news - Ikke nyhetsverdig, 1news - Nyhetsverdig, 1news - Nyhetsverdig, 1news - Ikke nyhetsverdig, 1news - Nyhetsverdig, 1news - Nyhetsverdig, 1news - Ikke nyhetsverdig, 1news - Nyhetsverdig, 2news - Ikke nyhetsverdig, 2news - Nyhetsverdig, 2news - Ikke nyhetsverdig, 2news - Ikke nyhetsverdig, 2news - Nyhetsverdig, 2news - Ikke nyhetsverdig]
-    Response: I listen er det 18 vurderinger totalt. 0news: 4 av 5 riktige. 1news: 5 av 7 riktige. 2news: 4 av 6 riktige. Totalt er 4+5+4 = 13 riktige, altså 13/18, eller 72.222%.
-    """
+    calc_acc = api_client.make_api_request([{"role": "system", "content": f"{guide_fewshot}"},
+                                            {"role": "user", "content": f"{calculate_fewshot} \n{newsworth_counter}"}])
+    print(calc_acc)
     #request_vurdering = api_client.make_api_request([{"role": "system", "content": f"{vurdering_telling_fewshot}"},
     #                                                 {"role": "user", "content": f"Det skal være 30 vurderinger i listen. 9 tilhørende 0news, 15 tilhørende 1news, og 6 tilhørende 2news. Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: {newsworth_counter}"}])
     #print("Accuracy score:\n", request_vurdering)

@@ -61,6 +61,7 @@ class InteractionHandler:
         - etablering av gangfelt eller ny fartsgrense eller nytt fortau
         - dispensasjon for gesimshøyde og byggegrense
         - behov for tillatelse
+        - indikasjon på at det foregår andre steder enn Tromsø kommune og omegn
         - LOKALE MYNDIGHETER BETYR INGENTING
         
         Dette er en oversikt over temaer som skal vurderes som nyhetsverdige:
@@ -86,9 +87,9 @@ class InteractionHandler:
         NYHETSVERDIGE TEMAER: dokumenter med mye frem og tilbake korrespondanse over flere år, dokumenter som diskuterer ulovligheter som er gjort, dokumenter som omtaler livsfarlige eksisterende elementer som farlig gass eller flomfare, hvis oppsummeringen er på mer enn 30 000 ord burde det anses som svært sannsynlig nyhetsverdig, dokumenter som omtaler justeringer og viktige endringer basert på tilbakemeldinger, militær involvering
         """
         self.large_project_definition = """
-        EKSEMPLER PÅ PROSJEKTER SOM IKKE ER STORE: generelle forespørsler, bygging av en eller to eneboliger, oppdeling av eiendom og tomt, søknader om dispensasjon, forespørsel om ferdigattest, to etasjes bygninger, landmåling, etablering av matrikkelenhet
+        EKSEMPLER PÅ PROSJEKTER SOM IKKE ER STORE: generelle forespørsler, bygging av en eller to eneboliger, oppdeling av eiendom, søknader om dispensasjon, forespørsel om ferdigattest, to etasjes bygninger, landmåling, etablering av matrikkelenhet, landmålingsprosedyre, grenseavklaring, etablering av matrikkelenhet
         
-        EKSEMPLER PÅ PROSJEKTER SOM KAN KLASSIFISERES SOM STORE: konstruksjon av industribygg, konstruksjon av hotell, konstruksjon av større leilighetskompleks, prosjekter som har pågått i over 5 år med korrespondanse frem og tilbake
+        EKSEMPLER PÅ PROSJEKTER SOM KAN KLASSIFISERES SOM STORE: konstruksjon av industribygg, konstruksjon av hotell, konstruksjon av større leilighetskompleks, prosjekter som har pågått i over flere år med korrespondanse frem og tilbake, lengde på original oppsummering over 15000
         """
         self.public_safety_definition = """
         EKSEMPLER PÅ PROSJEKTER SOM IKKE BEKYMRER OFFENTLIG SIKKERHET: søknad om dispensasjon, generelle søknader, bygging av enebolig, oppdeling av eiendom, uten å vise til lovbrudd er bekymringer for bygningsforskifter og lignende ikke av bekymring for offentlig sikkerhet, etablering av gangoverfelt eller skilt og trafikklys
@@ -114,10 +115,7 @@ class InteractionHandler:
         
         Dokumentet har blitt analysert, og relevante temaer har blitt identifisert. Om et tema ikke er relevant blir det sagt. Se kritisk på temaene identifisert i forhold til teksten, kan de temaene virkelig bidra noe som helst til å informere om noe fornuftig og faktisk relevant for byggesaken?
         """
-        
-        self.newsworthy = """Se på de identifiserte kategoriene i teksten. Hvis de identifiserte temaene kan relateres til den gitte listen av relevante temaer, burde det vurderes som nyhetsverdig."""
-        self.not_newsworthy = """Om det mangler identifiserte temaer, og teksten enten: (1) Ikke inneholder elementer som kan knyttes til listen med relevante temaer, (2) Inneholder elementer som relaterer til listen over temaer som ikke er relevante."""
-        
+
         self.nutgraf_definisjon = """En 'nut graf', som står for nutshell paragraf, defineres som poenget i teksten 'i et nøtteskall'. Målet med en nut graf er å fortelle leseren hva teksten handler om. Den inneholder 'hvem', 'hva', 'hvor', 'når', 'hvorfor', og 'hvordan'. En nut graf er aldri mer enn 2 setninger lang. Til sammen er det aldri mer enn 50 ord."""
         
         
@@ -288,7 +286,7 @@ class InteractionHandler:
         #                                             {"role": "user", "content": f"{first_prompt} {text}"}])
         response = self.api_client.make_api_request([{"role": "system", "content": f"{self.temaer}. \n{self.nyhetsverdige_eksempler}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
-        
+        time.sleep(1)
         #print('FIRST RESPONSE ---------->   ',response)
         # For å bare se på nutgraf trengs ikke dette under.
         # Kanskje verdt å se på om det kan inkluderes likevel.
@@ -321,23 +319,22 @@ class InteractionHandler:
         first_prompt = section["identifisering"]["prompt"]
         response = self.api_client.make_api_request([{"role": "system", "content": f"Maksimum 50 ord. {self.nyhetsverdige_eksempler} \nVurder teksten opp mot denne listen med relevante og ikke relevante temaer. \n{self.temaer}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
-
+        time.sleep(1)
         # Send til map_to_binary
-        
         assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
         print('\n\n')
-        
+        time.sleep(1)
         if assess_response.strip().lower() in section["identifisering"]["responses"][assess_response.strip().lower()]:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
                                                                    {"role": "user", "content": f"{prompt} {text}. \nSvar gitt: {response}"}])
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
                                                                    {"role": "user", "content": f"{prompt} {text}. \nSvar gitt: {response}"}])
                 siste_utputt = response + '\n' + final_response
         
