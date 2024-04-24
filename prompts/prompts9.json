@@ -73,17 +73,17 @@
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Se over den initielle vurderingen til teksten. Vær kritisk, og kom med en kort forklaring på om vurderingen er korrekt eller ikke, basert på oversiktene du får. Maks 50 ord. ",
+            "prompt": "Se over den initielle vurderingen til teksten. Vær kritisk, og revurder om vurderingen er korrekt eller ikke, basert på oversiktene du får. Maks 50 ord. ",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
             }
         },
         "ja": {
-            "prompt": "Ta utgangspunkt i den initielle vurderingen. Se kritisk på all informasjonen tilgjengelig, og vurder om den initielle vurderingen er riktig. Begrunn svaret du kommer frem til med 2 setninger."
+            "prompt": "Se kritisk på all informasjonen tilgjengelig, og revurder svaret som er gitt med et kritisk øye. Begrunn svaret du kommer frem til med 2 setninger."
         },
         "nei": {
-            "prompt": "Ta utgangspunkt i den initielle vurderingen. Se kritisk på all informasjonen tilgjengelig, og vurder om den initielle vurderingen er riktig. Begrunn svaret du kommer frem til med 2 setninger."
+            "prompt": "Se kritisk på all informasjonen tilgjengelig, og revurder svaret som er gitt med et kritisk øye. Begrunn svaret du kommer frem til med 2 setninger."
         }
     }
 }

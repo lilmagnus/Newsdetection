@@ -48,9 +48,11 @@ class InteractionHandler:
         - nabovarsel
         - rutinemessig prosess
         - søknad om eiendomsutvikling
+        - eiendomsutviklingsprosess
         - søknader sendt på grunn av minimal overskridelse av byggegrenser
         - diskusjon om byggegrenser
         - forespørsel om ferdigattest
+        - etablering av gangfelt
         - administrative dokumenter som mangler direkte relevans til de identifiserte temaene
         - søknad om byggetillatelse
         - søknad om godkjennelse for tilbygg
@@ -58,6 +60,7 @@ class InteractionHandler:
         - avslag på søknad
         - etablering av gangfelt eller ny fartsgrense eller nytt fortau
         - dispensasjon for gesimshøyde og byggegrense
+        - behov for tillatelse
         - LOKALE MYNDIGHETER BETYR INGENTING
         
         Dette er en oversikt over temaer som skal vurderes som nyhetsverdige:
@@ -286,10 +289,10 @@ class InteractionHandler:
         response = self.api_client.make_api_request([{"role": "system", "content": f"{self.temaer}. \n{self.nyhetsverdige_eksempler}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
         
-        print('FIRST RESPONSE ---------->   ',response)
+        #print('FIRST RESPONSE ---------->   ',response)
         # For å bare se på nutgraf trengs ikke dette under.
         # Kanskje verdt å se på om det kan inkluderes likevel.
-        
+        '''
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
@@ -311,8 +314,8 @@ class InteractionHandler:
         #print('FINAL RESPONSE ----------->   ', final_response)
         last_response = response + '\n' + final_response
         
-        return last_response
-        #return response
+        return last_response'''
+        return 'Initiell vurdering: ' + response
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
@@ -320,7 +323,7 @@ class InteractionHandler:
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
 
         # Send til map_to_binary
-        '''
+        
         assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
         print('\n\n')
@@ -330,15 +333,15 @@ class InteractionHandler:
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
                 final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
-                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons:{response}"}])
+                                                                   {"role": "user", "content": f"{prompt} {text}. \nSvar gitt: {response}"}])
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
                 final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og nabokommunene er helt irrelevant. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
-                                                                   {"role": "user", "content": f"{prompt} {text}. \nInitiell respons: {response}"}])
+                                                                   {"role": "user", "content": f"{prompt} {text}. \nSvar gitt: {response}"}])
                 siste_utputt = response + '\n' + final_response
-        '''
-        return response
+        
+        #return response
         return siste_utputt
         
     def nutgraf(self, section, text):
