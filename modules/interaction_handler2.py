@@ -40,8 +40,8 @@ class InteractionHandler:
         - dispensasjon for gesimshøyde og byggegrense
         - LOKALE MYNDIGHETER BETYR INGENTING
         """
-        self.temaer = """
-        Følgende er en oversikt over temaer som IKKE utgjør noe nyhetsverdi:
+        self.temaer = """VEILEDNING FOR HVA SOM GJØR NOE RELEVANT OG HVA SOM GJØR NOE IRRELEVANT
+        Følgende er en oversikt over temaer som IKKE utgjør noe relevanse eller nyhetsverdi:
         - søknad om dispensasjon
         - flere søknader om dispensasjon
         - oppmålingsprosedyre eller oppmålingsoperasjon
@@ -52,25 +52,28 @@ class InteractionHandler:
         - søknader sendt på grunn av minimal overskridelse av byggegrenser
         - diskusjon om byggegrenser
         - forespørsel om ferdigattest
+        - behov for uavhengig inspeksjon
         - etablering av gangfelt
-        - administrative dokumenter som mangler direkte relevans til de identifiserte temaene
         - søknad om byggetillatelse
         - søknad om godkjennelse for tilbygg
         - dokumenter som handler om inspeksjon av enebolig
+        - administrative dokumenter som peker til flere temaer på denne listen
         - avslag på søknad
+        - fradeling og dispensasjon for 1-2 eiendommer
         - etablering av gangfelt eller ny fartsgrense eller nytt fortau
         - dispensasjon for gesimshøyde og byggegrense
         - behov for tillatelse
         - indikasjon på at det foregår andre steder enn Tromsø kommune og omegn
         - LOKALE MYNDIGHETER BETYR INGENTING
         
-        Dette er en oversikt over temaer som skal vurderes som nyhetsverdige:
+        Følgende er en oversikt over temaer som utgjør relevanse og nyhetsverdi:
         - Flere enn 5 naboklager
         - Ulovlig byggearbeid
         - Husly for flyktninger
         - Flomfare
         - Prosesser som virker å gå frem og tilbake med tillatelser og avslag over lengre tid
         - Avvik fra godkjente tegninger
+        - Lovovertredelser
         - Lang historie med søknader om tillatelser
         - Store prosjekt der det nevnes å gjøre justeringer og endringer basert på tilbakemeldinger
         - Endringer som vil påvirke flere husstander, addresser eller nabolag
@@ -115,7 +118,37 @@ class InteractionHandler:
         
         Dokumentet har blitt analysert, og relevante temaer har blitt identifisert. Om et tema ikke er relevant blir det sagt. Se kritisk på temaene identifisert i forhold til teksten, kan de temaene virkelig bidra noe som helst til å informere om noe fornuftig og faktisk relevant for byggesaken?
         """
+        self.resonnering = """
+        PROMPT: Kan den følgende teksten virkelig vurderes som relevant for en journalist i lokalavisa iTromsø? Gå steg for steg gjennom teksten, tenk ut høyt og forklar mens du leser gjennom.
+        The document is a request for a pre-conference meeting regarding a new water treatment facility in Tromvik, Tromsø municipality, dated 2023-10-10. Norconsult, engaged by Tromsø municipality, recommends building a new facility at a higher location in the area due to technical reasons and the suitability of a former gravel pit. There is an urgent need for the new facility, and the stakeholders seek to discuss the further steps towards obtaining building permission during the pre-conference meeting.A pre-conference meeting was held on December 15, 2023 between Norconsult AS and Tromsø kommune regarding the Tromvik waterworks project, discussing the need for a new water treatment plant due to poor conditions of the existing facility. The project may require dispensation from the land-use plan and must adhere to regulations regarding proximity to waterways and roads. The municipality emphasized that the project's location may fall within a flood hazard area and that further approvals are needed from various authorities.On December 1, 2023, Marit Kure sent an email to Marianne Melbye and Trond Vestjord regarding a pre-conference meeting for the Tromvik vannverk project. The email included specific questions and requested possible meeting times for week 50. The message also emphasized confidentiality and disclaimer notice regarding the information shared.
+        KATEGORIER IDENTIFISERT I TEKSTEN: Ja, det er tydelige indikasjoner i teksten på at dette dokumentet omhandler et stort prosjekt. Det nevnes at det er behov for en ny vannbehandlingsanlegg, tekniske årsaker for å plassere det høyere, dispensasjon fra reguleringsplanen og behov for godkjenninger fra ulike myndigheter.
+        Det mest relevante temaet er at dokumentet omhandler bygging av en ny vannbehandlingsanlegg i Tromvik, Tromsø kommune, som krever godkjenninger og dispensasjon fra reguleringsplanen.
+        ['Kan det finnes indikasjoner i denne teksten på at det er bekymring for offentlig sikkerhet i denne teksten? ...nei, ikke relevant...']
+        Ja, tegn på at dette er et administrativt dokument inkluderer bruk av formelle språk, adresse til spesifikke organisasjoner og nevning av møter for å diskutere prosjektgodkjenning og tekniske spesifikasjoner. Disse elementene indikerer at dokumentet er en del av en organisatorisk prosess og ikke bare informasjon.
+        Det mest relevante temaet i teksten er at dokumentet er en søknad om byggetillatelse for et nytt vannbehandlingsanlegg i Tromvik, Tromsø kommune.
+        LENGDE PÅ ORIGINAL OPPSUMMERING: 1370 
+        Initiell vurdering: Basert på de identifiserte kategoriene, spesielt behovet for et nytt vannbehandlingsanlegg i Tromvik, Tromsø kommune som krever godkjenninger og dispensasjon, er dokumentet verdt å vie tid til for lokalavisa iTromsø. Det adresserer viktige og relevante saker som berører lokalsamfunnet og har potensielle konsekvenser for offentlig sikkerhet.
+        
+        RESPONSE: Teksten handler om å bygge et nytt vannbehandlingsanlegg, fordi det nåværende anlegget kan være utsatt for flomfare. Det er identifisert at det er et stort prosjekt, og at det er en administrativ søknad om å bygge et nytt vannbehandlingsanlegg. 
+        Siden det er snakk om at det nåværende vannbehandlingsanlegget er i dårlig stand, og kan være utsatt for flomfare. Det kommer også frem at det er en hastesak, noe som kan støtte under seriøsiteten i saken. 
+        På bakgrunn av denne resonneringen vil jeg si at dette definitivt er relevant, og noe en journalist bør se nærmere på.
+        
+        PROMPT: Kan den følgende teksten virkelig vurderes som relevant for en journalist i lokalavisa iTromsø? Gå steg for steg gjennom teksten, tenk ut høyt og forklar mens du leser gjennom.
+        Marianne Melbye from Tromsø kommune apologizes for the delay in processing Øyvind Emaus' application to move a fire barrier at Universitetssykehuset Nord-Norge. She requests an updated completion plan with dates for compliance statements from the designers and responsible contractors.Dokumentet er en tilbakemelding på en søknad om flytting av brannskille på eiendommen 124/86 Klokkargårdsbakken 13. Søknaden ble mottatt 19.05.2023 av NORCONSULT AS på vegne av UNIVERSITETSSYKEHUSET NORD-NORGE HF. Det ble funnet at søknaden mangler nødvendig informasjon, inkludert samtykke fra Arbeidstilsynet. Manglende informasjon må sendes innen 09.09.2023, ellers kan søknaden avvises. Hvis dokumentasjonen etterlyses, må tiltakshaver betale et mangelgebyr på kr. 2 700,-. Henvendelser kan rettes til saksbehandler Marianne Melbye.This is an application for a building permit for internal fire separation in a hospital building located in Tromsø, Norway. The project is called UNN C2-7 Fire Door and is being carried out by Universitetssykehuset Nord-Norge HF. The responsible applicant is Norconsult AS. The application includes details about the property, the nature of the project, and compliance with various regulations and requirements. It also includes information about access, water supply, drainage, and other relevant aspects of the project. The application includes signed declarations of responsibility and commitment to compliance with building regulations. Several attachments, including site maps and plans, are included with the application.Arbeidstilsynet gir samtykke til Universitetssykehuset Nord-Norge HF sin søknad om endring av bygningstekniske installasjoner i sykehusbygningen. Kommunen kan gi igangsettingstillatelse når samtykket foreligger. Det kan bli gjennomført etterkontroll og tilsyn for å sikre samsvar med kravene. Tiltakshaver må betale et gebyr for saksbehandlingen. Det er mulig å klage på vedtaket. Arbeidsgiver må informere arbeidsmiljøutvalget, verneombudet eller ansattes representant om brevet. Mer informasjon finnes på Arbeidstilsynet's nettside.Tromsø kommune gir tillatelse til flytting av brannskille i korridor C2-7 ved Universitetssykehuset Nord-Norge. Tillatelsen er basert på søknaden fra NORCONSULT AS og Universitetssykehuset. Klagefristen er tre uker. Kommunen vurderer at varsel til naboer kan unnlates. Tiltaket anses å være i tråd med plan- og bygningsloven og det gjeldende planverket. Gebyrer for saksbehandling vil bli fakturert til tiltakshaver.
+        KATEGORIER IDENTIFISERT I TEKSTEN: Ja, teksten viser indikasjoner på at det dreier seg om et stort prosjekt knyttet til endring av bygningstekniske installasjoner, med involvering av ulike aktører som kommunen, Universitetssykehuset Nord-Norge HF og Norconsult AS. Det er også krav om dokumentasjon, samtykker og betaling av gebyrer knyttet til prosessen.
+        Det mest relevante temaet i teksten er knyttet til et stort prosjekt med endring av bygningstekniske installasjoner og involvering av ulike aktører.
+        ['Kan det finnes indikasjoner i denne teksten på at det er bekymring for offentlig sikkerhet i denne teksten? ...nei, ikke relevant...']
+        Ja, det er indikasjoner i teksten som støtter at dette er et administrativt dokument. Det refereres til prosesser som søknader, tillatelser, gebyrer, samtykker, vedtak og klagefrister. Videre nevnes aktører som saksbehandlere, tiltakshavere, og organisasjoner som Universitetssykehuset og Norconsult. Typisk for administrativt språk og prosedyrer.
+        Det mest relevante temaet er søknad om tillatelse for intern brannseparasjon på Universitetssykehuset Nord-Norge, som krever oppdatert plan og samtykke fra Arbeidstilsynet.
+        LENGDE PÅ ORIGINAL OPPSUMMERING: 2498
+        Initiell vurdering: Basert på de identifiserte kategoriene i teksten, spesielt med fokus på et stort prosjekt knyttet til endringer av bygningstekniske installasjoner med involvering av ulike aktører, er dette dokumentet av interesse for lokalavisa iTromsø. Det indikerer administrative prosesser, krav om samtykker, dokumentasjon og betalinger knyttet til et betydelig prosjekt ved Universitetssykehuset Nord-Norge HF.
 
+        RESPONSE: Denne teksten handler om å flytte en brannbarriere ved Universitetssykehuset Nord-Norge. Det står skrevet at det er identifisert som et stort prosjekt, men jeg synes det egentlig viser mer indikasjon på en rutinemessig søknad, og påfølgende kommunikasjon virker også veldig uinteressant og normal.
+        Den initielle vurderingen er veldig optimistisk, spesielt når det ikke er noe indikasjon på at noe faktisk har skjedd enda, det er fortsatt bare snakk om en søknad. 
+        På bakgrunn av denne gjennomgangen, og faktum at hele dokumentet indikerer en normal søknad med normal kommunikasjon frem og tilbake vil dette ikke være av interesse for en journalist i lokalavisa iTromsø.
+        
+        PROMPT:
+        """
         self.nutgraf_definisjon = """En 'nut graf', som står for nutshell paragraf, defineres som poenget i teksten 'i et nøtteskall'. Målet med en nut graf er å fortelle leseren hva teksten handler om. Den inneholder 'hvem', 'hva', 'hvor', 'når', 'hvorfor', og 'hvordan'. En nut graf er aldri mer enn 2 setninger lang. Til sammen er det aldri mer enn 50 ord."""
         
         
@@ -147,8 +180,8 @@ class InteractionHandler:
         regler = """"""
         if ident_prompt == "Er dette et stort prosjekt?":
             regler += self.large_project_definition
-        elif ident_prompt == "Nevnes det bekymring for offentlig sikkerhet?":
-            regler += self.public_safety_definition
+        #elif ident_prompt == "Nevnes det bekymring for offentlig sikkerhet?":
+        #    regler += self.public_safety_definition
         elif ident_prompt == "Er det mer enn 15 administrative korrespondanser i den gitte teksten?":
             regler += self.admin_definition
         #print(regler)
@@ -227,14 +260,15 @@ class InteractionHandler:
         details_large_project = self.process_section(self.combined_prompts["large_project"], original_text)
         print(str(details_large_project),'\n')
         time.sleep(2)
-        details_public_safety = self.process_section(self.combined_prompts["public_safety"], original_text)
-        print(str(details_public_safety),'\n')
+        #details_public_safety = self.process_section(self.combined_prompts["public_safety"], original_text)
+        #print(str(details_public_safety),'\n')
         time.sleep(2)
         details_admin = self.process_section(self.combined_prompts["administrative"], original_text)
         print(str(details_admin),'\n')
 
         # Step 2: Kombiner kategoriene som er identifisert
-        kategorier_funnet = str(details_large_project) + '\n' + str(details_public_safety) + '\n' + str(details_admin)
+        #kategorier_funnet = str(details_large_project) + '\n' + str(details_public_safety) + '\n' + str(details_admin)
+        kategorier_funnet = str(details_large_project) + '\n' + '\n' + str(details_admin)
         hel_kontekst = original_text + '\nKATEGORIER IDENTIFISERT I TEKSTEN: ' + kategorier_funnet + '\nLENGDE PÅ ORIGINAL OPPSUMMERING: ' + str(len(ogt))
         print(hel_kontekst,'\n')
 
@@ -317,9 +351,10 @@ class InteractionHandler:
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"Maksimum 50 ord. {self.nyhetsverdige_eksempler} \nVurder teksten opp mot denne listen med relevante og ikke relevante temaer. \n{self.temaer}"},
-                                                     {"role": "user", "content": f"{first_prompt} {text}"}])
+        response = self.api_client.make_api_request([{"role": "system", "content": f"Maksimum 50 ord. Alt som skjer utenfor Tromsø kommune og omegn er automatisk ikke relevant. {self.temaer}"},
+                                                     {"role": "user", "content": f"{self.resonnering} {first_prompt} \n{text}"}])
         time.sleep(1)
+        
         # Send til map_to_binary
         assess_response = self.map_to_binary(response)
         #print(assess_response, 'HHHHHHHHHHHHOOOOOOOOOOOOOOOOLAAAAA')
@@ -329,13 +364,13 @@ class InteractionHandler:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
-                                                                   {"role": "user", "content": f"{prompt} {text}. \nSvar gitt: {response}"}])
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord."},
+                                                                   {"role": "user", "content": f"{self.temaer} \n{prompt} ###{response}###"}])
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord. \n{self.ikke_relevant} \n{self.relevante_tema}"},
-                                                                   {"role": "user", "content": f"{prompt} {text}. \nSvar gitt: {response}"}])
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord."},
+                                                                   {"role": "user", "content": f"{self.temaer} \n{prompt} ###{response}###"}])
                 siste_utputt = response + '\n' + final_response
         
         #return response

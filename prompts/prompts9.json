@@ -73,17 +73,17 @@
     },
     "reassess": {
         "identifisering": {
-            "prompt": "Se over den initielle vurderingen til teksten. Vær kritisk, og revurder om vurderingen er korrekt eller ikke, basert på oversiktene du får. Hvis det indikeres at det skjer andre steder enn i Tromsø kommune eller umiddelbare nabokommuner er det ikke verdt å se nærmere på. Maks 50 ord. ",
+            "prompt": "Kan den følgende teksten virkelig vurderes som relevant for en journalist i lokalavisa iTromsø? Gå steg for steg gjennom teksten, tenk ut høyt og forklar mens du leser gjennom.",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
             }
         },
         "ja": {
-            "prompt": "Se kritisk på all informasjonen tilgjengelig, og revurder svaret som er gitt med et kritisk øye. Er dette virkelig nyhetsverdig? Begrunn svaret du kommer frem til med 2 setninger."
+            "prompt": "Vær kritisk. Hadde denne begrunnelsen, som er inkapslet i ###, vært god nok for en journalist til å bruke tid på å skrive en nyhetsartikkel basert på saken som begrunnelsen tilhører? Kom med en resonnering for svaret ditt."
         },
         "nei": {
-            "prompt": "Se kritisk på all informasjonen tilgjengelig, og revurder svaret som er gitt med et kritisk øye. Er dette virkelig nyhetsverdig? Begrunn svaret du kommer frem til med 2 setninger."
+            "prompt": "Vær kritisk. Hadde denne begrunnelsen, som er inkapslet i ###, vært god nok for en journalist til å bruke tid på å skrive en nyhetsartikkel basert på saken som begrunnelsen tilhører? Kom med en resonnering for svaret ditt."
         }
     }
 }

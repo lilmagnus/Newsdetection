@@ -66,7 +66,8 @@ def main():
                     except IndexError:
                         print(cache_categorize, '\nheihei')
                     #last_assessment = cache_categorize.splitlines()[1]
-                    last_assessment = cache_categorize.splitlines()
+                    #last_assessment = cache_categorize.splitlines()
+                    last_assessment = cache_categorize
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? Se på vurderingen på siste linje. {last_assessment}"}])
                     newsworth_counter.append(str(j + ' - ' + count_assessment))
@@ -127,9 +128,9 @@ def main():
     total_count = count_incorrect + count_correct
     print('Riktige vurderte:', count_correct, 'Feilvurderte:', count_incorrect, '\n', 'ACCURACY SCORE = ', (count_correct/total_count)*100, '%')
             
-    calc_acc = api_client.make_api_request([{"role": "system", "content": f"{guide_fewshot}"},
-                                            {"role": "user", "content": f"{calculate_fewshot} \n{newsworth_counter}"}])
-    print(calc_acc)
+    #calc_acc = api_client.make_api_request([{"role": "system", "content": f"{guide_fewshot}"},
+    #                                        {"role": "user", "content": f"{calculate_fewshot} \n{newsworth_counter}"}])
+    #print(calc_acc)
     #request_vurdering = api_client.make_api_request([{"role": "system", "content": f"{vurdering_telling_fewshot}"},
     #                                                 {"role": "user", "content": f"Det skal være 30 vurderinger i listen. 9 tilhørende 0news, 15 tilhørende 1news, og 6 tilhørende 2news. Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: {newsworth_counter}"}])
     #print("Accuracy score:\n", request_vurdering)
