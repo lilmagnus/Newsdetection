@@ -16,7 +16,7 @@ def main():
     api_client = APIClient()
     document_processing = DocumentProcessing()
 
-    prompts = '../prompts/prompts9.json'
+    prompts = '../prompts/prompts10.json'
     vurdering_fewshot = """DET SKAL KUN SVARES MED 'NYHETSVERDIG' ELLER 'IKKE NYHETSVERDIG', SOM EKSEMPLENE UNDER VISER.
     Prompt: Hva er denne teksten vurdert som? Basert på gjennomgangen av dokumentet og analysen av nyhetsverdien, er konklusjonen at dette ikke er nyhetsverdig.
     Response: Ikke nyhetsverdig
@@ -39,15 +39,20 @@ def main():
     
     Prompt: Denne informasjonen bør ikke anses som nyhetsverdig da den omhandler en vanlig prosess med deling av eiendom for boligformål i Tromsø. Det er ingen indikasjoner på avvik, uventede elementer eller bekymringer for offentlig sikkerhet. Dokumentet fokuserer hovedsakelig på administrative trinn og godkjenning av søknader. 
     Response: Ikke nyhetsverdig
+    
+    Prompt: Den gitte teksten basert på utviklingen av boliger og næringslokaler langs Stakkevollvegen og Rektor Horst gate i Tromsø er relevant og nyhetsverdig for lokalavisa iTromsø. Den inneholder informasjon om et stort prosjekt med flere bygninger, fokus på utemiljø, støyhensyn og boligkvalitet, som er av interesse for lokalsamfunnet. 
+    Response: Nyhetsverdig
     """
     general_interaction = InteractionHandler(prompts)
     newsworth_counter = []
+    accuracy_list = []
+    total_acc_list = []
     # Example PDF file path - replace with your actual file path
     #folder = ['0news', '1news', '2news']
     folder = ['0news', '1news', '2news']
     nummer = 0
     # Process document to extract text
-    while nummer < 2:
+    while nummer < 3:
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
                     Some of the texts youre given might not be clear immediately, some might look similar to this:
@@ -65,9 +70,10 @@ def main():
                         print(cache_categorize, '\nhalloien')
                     except IndexError:
                         print(cache_categorize, '\nheihei')
-                    #last_assessment = cache_categorize.splitlines()[1]
+                    #last_assessment = cache_categorize.splitlines()[-1]
                     #last_assessment = cache_categorize.splitlines()
                     last_assessment = cache_categorize
+                    #print(last_assessment)
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? Se på vurderingen på siste linje. {last_assessment}"}])
                     newsworth_counter.append(str(j + ' - ' + count_assessment))
@@ -81,15 +87,14 @@ def main():
                     except IndexError:
                         print(fresh_categorized, '\nheihei')
                     
-                    last_assessment = fresh_categorized.splitlines()[2]
+                    last_assessment = fresh_categorized.splitlines()[-1]
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}])
                     newsworth_counter.append(str(j+' - '+count_assessment))
                     print(newsworth_counter)
                     time.sleep(2)
-            nummer += 1
 
-    calculate_fewshot = """Følgende prompt-og-respons par er hvordan dette skal evalueres.
+        calculate_fewshot = """Følgende prompt-og-respons par er hvordan dette skal evalueres.
     Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke Nyhetsverdig', '2news - Ikke nyhetsverdig']
     Respons: Det er totalt 30 vurderinger i listen. 22 riktig vurderte, og 8 feilvurderte. Accuracy blir da 22/30 = 73.3%
     
@@ -99,35 +104,65 @@ def main():
     Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig']
     Respons: Det er totalt 30 vurderinger i listen. 20 riktig vurderte, og 10 feilvurderte. Accuracy blir da 20/30 = 66.6%
     """
-    guide_fewshot = """Guide for hva som er riktig vurdering:
-    0news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
-    0news er vurdert feil om det står 'Nyhetsverdig' eller liknende.
+        guide_fewshot = """Guide for hva som er riktig vurdering:
+        0news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
+        0news er vurdert feil om det står 'Nyhetsverdig' eller liknende.
     
-    1news er vurdert riktig om det står 'Nyhetsverdig' eller liknende
-    1news er vurdert feil om det står 'Ikke nyhetsverdig' eller liknende.
+        1news er vurdert riktig om det står 'Nyhetsverdig' eller liknende
+        1news er vurdert feil om det står 'Ikke nyhetsverdig' eller liknende.
     
-    2news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
-    2news er vurdert feil om det står 'Nyhetsverdig' eller liknende."""
-    count_correct = 0
-    count_incorrect = 0
-    for j in newsworth_counter:
-        if j == '0news - Ikke nyhetsverdig':
-            count_correct += 1
-        elif j == '0news - Nyhetsverdig':
-            count_incorrect += 1
-        elif j == '1news - Nyhetsverdig':
-            count_correct += 1
-        elif j == '1news - Ikke Nyhetsverdig':
-            count_incorrect += 1
-        elif j == '2news - Ikke nyhetsverdig':
-            count_correct += 1
-        elif j == '2news - Nyhetsverdig':
-            count_incorrect += 1
-        else:
-            count_incorrect += 1
-    total_count = count_incorrect + count_correct
-    print('Riktige vurderte:', count_correct, 'Feilvurderte:', count_incorrect, '\n', 'ACCURACY SCORE = ', (count_correct/total_count)*100, '%')
-            
+        2news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
+        2news er vurdert feil om det står 'Nyhetsverdig' eller liknende."""
+        
+        count_correct = 0
+        count_incorrect = 0
+        for j in newsworth_counter:
+            if j == '0news - Ikke nyhetsverdig':
+                count_correct += 1
+            elif j == '0news - Nyhetsverdig':
+                count_incorrect += 1
+            elif j == '1news - Nyhetsverdig':
+                count_correct += 1
+            elif j == '1news - Ikke Nyhetsverdig':
+                count_incorrect += 1
+            elif j == '2news - Ikke nyhetsverdig':
+                count_correct += 1
+            elif j == '2news - Nyhetsverdig':
+                count_incorrect += 1
+            else:
+                count_incorrect += 1
+                
+        total_count = count_incorrect + count_correct
+        total_percent = str((count_correct/total_count)*100) + ' %'
+        
+        print('Riktige vurderte:', count_correct, 'Feilvurderte:', count_incorrect, '\n', 'ACCURACY SCORE = ', total_percent)
+        nummer += 1
+        total_acc_list.extend(newsworth_counter)
+        newsworth_counter.clear()
+        accuracy_list.append(str(nummer) + ' - ' + total_percent)
+        
+    print(accuracy_list)
+    
+    count_c1 = 0
+    count_ic1 = 0
+    for i in total_acc_list:
+            if i == '0news - Ikke nyhetsverdig':
+                count_c1 += 1
+            elif i == '0news - Nyhetsverdig':
+                count_ic1 += 1
+            elif i == '1news - Nyhetsverdig':
+                count_c1 += 1
+            elif i == '1news - Ikke Nyhetsverdig':
+                count_ic1 += 1
+            elif i == '2news - Ikke nyhetsverdig':
+                count_c1 += 1
+            elif i == '2news - Nyhetsverdig':
+                count_ic1 += 1
+            else:
+                count_ic1 += 1
+    last_total_count = count_c1 + count_ic1
+    print('TOTALE VURDERINGER: ', len(total_acc_list), '\nTOTALT ANTALL RIKTIGE VURDERTE: ', count_c1, '\nTOTALT ANTALL FEILVURDERTE: ', count_ic1, '\nTOTAL ACCURACY: ', (count_c1/last_total_count)*100, '%')
+    '''
     #calc_acc = api_client.make_api_request([{"role": "system", "content": f"{guide_fewshot}"},
     #                                        {"role": "user", "content": f"{calculate_fewshot} \n{newsworth_counter}"}])
     #print(calc_acc)
@@ -139,6 +174,8 @@ def main():
     #text_analyzer = TextAnalysis()
     #analysis_result = text_analyzer.analyze_text(extracted_text)
     #print(f"Analysis Result: {analysis_result}")
+    '''
 
 if __name__ == "__main__":
     main()
+    

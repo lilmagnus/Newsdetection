@@ -4,7 +4,8 @@
             "prompt": "Finnes det noen indikasjon om at denne teksten handler om et stort prosjekt?",
             "responses": {
                 "ja.": "ja.",
-                "nei.": "nei."
+                "nei.": "nei.",
+                "siste": "siste"
             }
         },
         "ja": {
@@ -51,6 +52,11 @@
             "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
         }
     },
+    "final_check": {
+        "resonnering": {
+            "prompt": "Tenk ut høyt, resonner og vær kritisk. Synes du virkelig at dette temaet som har blitt vurdert som det mest relevante til teksten er nevneverdig basert på de reglene du har fått? Maks 30 ord, og norsk svar."
+        }
+    },
     "nutsgraf": {
         "nutshell": {
             "prompt": "Skriv et nutshell paragraf på teksten gitt. Maks 2 setninger."
@@ -80,10 +86,10 @@
             }
         },
         "ja": {
-            "prompt": "Vær kritisk. Hadde denne begrunnelsen, som er inkapslet i ###, vært god nok for en journalist til å bruke tid på å skrive en nyhetsartikkel basert på saken som begrunnelsen tilhører? Kom med en resonnering for svaret ditt."
+            "prompt": "Vurder følgende analyse (innkapslet i ###) av teksten (innkapslet i ///) gitt kritisk i lys av de vedlagte retningslinjene for hva som anses som nyhetsverdig i byggesaker. Vurder gyldigheten og relevansen av denne analysen ved å bruke følgende kriterier fra retningslinjene: \n1.  Om temaet behandles som nyhetsverdig eller ikke nyhetsverdig. \n2.  Om analysen korrekt identifiserer og anvender kriteriene for nyhetsverdighet basert på de givne eksemplene på nyhetsverdige og ikke-nyhetsverdige temaer. \nVennligst gi detaljerte eksempler og forklaringer som støtter din vurdering, og kom med en siste, avgjørende vurdering."
         },
         "nei": {
-            "prompt": "Vær kritisk. Hadde denne begrunnelsen, som er inkapslet i ###, vært god nok for en journalist til å bruke tid på å skrive en nyhetsartikkel basert på saken som begrunnelsen tilhører? Kom med en resonnering for svaret ditt."
+            "prompt": "Vurder følgende analyse (innkapslet i ###) av teksten (innkapslet i ///) gitt kritisk i lys av de vedlagte retningslinjene for hva som anses som nyhetsverdig i byggesaker. Vurder gyldigheten og relevansen av denne analysen ved å bruke følgende kriterier fra retningslinjene: \n1.  Om temaet behandles som nyhetsverdig eller ikke nyhetsverdig. \n2.  Om analysen korrekt identifiserer og anvender kriteriene for nyhetsverdighet basert på de givne eksemplene på nyhetsverdige og ikke-nyhetsverdige temaer. \nVennligst gi detaljerte eksempler og forklaringer som støtter din vurdering, og kom med en siste, avgjørende vurdering."
         }
     }
 }

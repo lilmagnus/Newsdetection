@@ -41,6 +41,7 @@ class InteractionHandler:
         - LOKALE MYNDIGHETER BETYR INGENTING
         """
         self.temaer = """VEILEDNING FOR HVA SOM GJØR NOE RELEVANT OG HVA SOM GJØR NOE IRRELEVANT
+        
         Følgende er en oversikt over temaer som IKKE utgjør noe relevanse eller nyhetsverdi:
         - søknad om dispensasjon
         - flere søknader om dispensasjon
@@ -49,11 +50,14 @@ class InteractionHandler:
         - rutinemessig prosess
         - søknad om eiendomsutvikling
         - eiendomsutviklingsprosess
+        - adresseendringer på en hel gate
         - søknader sendt på grunn av minimal overskridelse av byggegrenser
         - diskusjon om byggegrenser
         - forespørsel om ferdigattest
         - behov for uavhengig inspeksjon
         - etablering av gangfelt
+        - etablering av fotgjengerfelt
+        - samarbeid mellom offentlige instanser
         - søknad om byggetillatelse
         - søknad om godkjennelse for tilbygg
         - dokumenter som handler om inspeksjon av enebolig
@@ -63,6 +67,7 @@ class InteractionHandler:
         - etablering av gangfelt eller ny fartsgrense eller nytt fortau
         - dispensasjon for gesimshøyde og byggegrense
         - behov for tillatelse
+        - potensielle feil eller mangler
         - indikasjon på at det foregår andre steder enn Tromsø kommune og omegn
         - LOKALE MYNDIGHETER BETYR INGENTING
         
@@ -81,6 +86,30 @@ class InteractionHandler:
         - Store endringer i hvordan et bygg skal brukes
         - Administrative prosesser kan være relevant om tidligere vurderinger indikerer det
         """
+        self.temaer2 = """**Veiledning for klassifisering av nyhetsverdighet i byggesaker**
+
+**Ikke nyhetsverdige temaer:**
+
+*   Rutinemessige søknader om dispensasjon, inkludert mindre overskridelser av byggegrenser.
+*   Standard oppmålingsoperasjoner og nabovarsler.
+*   Enkelte søknader om eiendomsutvikling uten større konflikter eller samfunnspåvirkning.
+*   Administrative prosesser som adresseendringer, enkle byggetillatelser, og ferdigattester.
+*   Søknader og dokumenter som håndterer fradeling av 1-2 eiendommer uten ytterligere komplikasjoner.
+*   Etablering av standard infrastruktur som gangfelt og fotgjengerfelt.
+
+**Nyhetsverdige temaer:**
+
+*   Saker med signifikant antall naboklager (flere enn fem) som indikerer bredere samfunnskonflikt.
+*   Ulovlig byggearbeid og andre klare lovovertredelser.
+*   Tiltak for å skaffe husly til flyktninger, gitt den humanitære og samfunnsmessige betydningen.
+*   Saker med flomfare som kan påvirke sikkerheten og livskvaliteten for innbyggere.
+*   Langvarige saker med hyppige tillatelser og avslag som indikerer systemiske problemer eller signifikant offentlig interesse.
+*   Prosesser som innebærer vesentlige avvik fra godkjente tegninger eller tidligere forventninger.
+*   Store prosjekter som inkluderer flere tilbakemeldingsrunder og endringer, spesielt de som påvirker flere nabolag eller husstander.
+*   Saker som indikerer alvorlige mangler i søknader eller behov for vesentlige forlengelser.
+*   Signifikante endringer i bygningens bruk som kan ha store konsekvenser for lokalsamfunnet.
+
+"""
         self.nyhetsverdige_eksempler = """Oversikt over temaer som ikke er nyhetsverdige, og temaer som er nyhetsverdige.
         IKKE NYHETSVERDIGE TEMAER: søknader om dispensasjon for oppføring av eneboliger, ferdigstillelsesattest for eiendom/bygg, søknad om byggetillatelse, involveringen av lokale myndigheter, korte og enkle administrative dokumenter, dokumenter som handler om andre kommuner enn Tromsø kommune vil automatisk bli irrelevante, 
         IKKE NYHETSVERDIGE TEMAER: oppdeling av eiendommer, avslag og endringer i søknader, krav til korrekt dokumentasjon, omfattende godkjennelsesprosess, inspeksjoner, små/insignifikante overskridelser av byggegrenser på 2 meter eller mindre, saker som krever nøye inspeksjon på grunn av potensielle problemer med strukturell integritet
@@ -90,9 +119,27 @@ class InteractionHandler:
         NYHETSVERDIGE TEMAER: dokumenter med mye frem og tilbake korrespondanse over flere år, dokumenter som diskuterer ulovligheter som er gjort, dokumenter som omtaler livsfarlige eksisterende elementer som farlig gass eller flomfare, hvis oppsummeringen er på mer enn 30 000 ord burde det anses som svært sannsynlig nyhetsverdig, dokumenter som omtaler justeringer og viktige endringer basert på tilbakemeldinger, militær involvering
         """
         self.large_project_definition = """
-        EKSEMPLER PÅ PROSJEKTER SOM IKKE ER STORE: generelle forespørsler, bygging av en eller to eneboliger, oppdeling av eiendom, søknader om dispensasjon, forespørsel om ferdigattest, to etasjes bygninger, landmåling, etablering av matrikkelenhet, landmålingsprosedyre, grenseavklaring, etablering av matrikkelenhet
+        EKSEMPLER PÅ PROSJEKTER SOM IKKE ER STORE: 
+        - generelle forespørsler, 
+        - bygging av en eller to eneboliger, 
+        - oppdeling av eiendom, 
+        - søknader om dispensasjon, 
+        - forespørsel om ferdigattest, 
+        - to etasjes bygninger, 
+        - landmåling, 
+        - landmålingsprosedyre, 
+        - etablering av matrikkelenhet,
+        - grenseavklaring, 
+        - etablering av matrikkelenhet,
+        - behov for byggetillatelse
         
-        EKSEMPLER PÅ PROSJEKTER SOM KAN KLASSIFISERES SOM STORE: konstruksjon av industribygg, konstruksjon av hotell, konstruksjon av større leilighetskompleks, prosjekter som har pågått i over flere år med korrespondanse frem og tilbake, lengde på original oppsummering over 15000
+        EKSEMPLER PÅ PROSJEKTER SOM KAN KLASSIFISERES SOM STORE: 
+        - konstruksjon av industribygg, 
+        - konstruksjon av hotell, 
+        - konstruksjon av større leilighetskompleks, 
+        - endringer i addresser for en hel gate eller mer, 
+        - prosjekter som har pågått i over flere år med korrespondanse frem og tilbake, 
+        - lengde på original oppsummering over 15000
         """
         self.public_safety_definition = """
         EKSEMPLER PÅ PROSJEKTER SOM IKKE BEKYMRER OFFENTLIG SIKKERHET: søknad om dispensasjon, generelle søknader, bygging av enebolig, oppdeling av eiendom, uten å vise til lovbrudd er bekymringer for bygningsforskifter og lignende ikke av bekymring for offentlig sikkerhet, etablering av gangoverfelt eller skilt og trafikklys
@@ -100,9 +147,16 @@ class InteractionHandler:
         EKSEMPLER PÅ PROSJEKTER SOM BEKYMRER SEG FOR OFFENTLIG SIKKERHET: umiddelbar fare for at liv går tapt, naturlige katastrofer som kan sette liv i fare
         """
         self.admin_definition = """For at et dokument skal være hovedsakelig administrativt må det inneholde søknader eller krav om noen av kategoriene gitt under.
-        ADMINISTRATIVE DOKUMENTER MED MINDRE BETYDNING: søknad om dispensasjon, korrespondanser om søknader, forespørsel om å ettersende dokumenter, innvilgede tillatelser
+        ADMINISTRATIVE DOKUMENTER MED MINDRE BETYDNING: 
+        - søknad om dispensasjon, 
+        - korrespondanser om søknader, 
+        - forespørsel om å ettersende dokumenter, 
+        - innvilgede tillatelser
         
-        ADMINISTRATIVE DOKUMENTER MED STØRRE BETYDNING: lovbrudd, avvik fra godkjente planer, varsling om funn av farlige gasser eller liknende som vil true sikkerheten til offentligheten
+        ADMINISTRATIVE DOKUMENTER MED STØRRE BETYDNING: 
+        - lovbrudd, 
+        - avvik fra godkjente planer, 
+        - varsling om funn av farlige gasser eller liknende som vil true sikkerheten til offentligheten
         """
         self.newsworth_definition = """NYHETSVERDI DEFINISJON: 
         I denne konteksten ser vi på nyhetsverdi i et dokument som noe en journalist vil kunne trygt bruke tiden sin på.
@@ -162,7 +216,7 @@ class InteractionHandler:
     
     
     def map_to_binary(self, text):
-        positive_keywords = ['ja', 'yes', 'dette er et stort', 'det er bekymring for offentlig sikkerhet', 'absolutt', 'virker å være', 'kan dette potensielt være', 'there is some concern', 'dette klassifiseres som', 'diskuterer bekymringer knyttet til offentlig sikkerhet', 'kan klassifiseres som stort']
+        positive_keywords = ['ja', 'yes', 'dette er et stort', 'det er bekymring for offentlig sikkerhet', 'absolutt', 'virker å være', 'kan dette potensielt være', 'there is some concern', 'dette klassifiseres som', 'diskuterer bekymringer knyttet til offentlig sikkerhet', 'kan klassifiseres som stort', 'temaet virker å være relevant', 'temaet er relevant']
         negative_keywords = ['nei', 'no', 'dette er ikke et stort prosjekt', 'relativt', 'ikke bekymring for offentlig sikkerhet', 'middels', 'ikke en god nutgraf', 'er ikke en']
         
         response_text = text.lower()
@@ -218,9 +272,28 @@ class InteractionHandler:
                 #responses.append("IKKE RELEVANT.")
                 #response = self.api_client.make_api_request([{"role": "user", "content": prompt}])
                 #responses.append(response)
-        parsed_response = self.api_client.make_api_request([{"role": "user", "content": f"Maks 20 ord. Av de identifiserte temaene, hvilket er det mest relevante i teksten? TEMAER: {responses} \nTEKST: {text}"}])
-
-        return first_response + '\n' + parsed_response
+        
+        # En siste gjennomgang og sjekk av temaer
+        mest_relevant_tema = self.api_client.make_api_request([{"role": "user", "content": f"Maks 20 ord. Av de identifiserte temaene, hvilket er det mest relevante i teksten? TEMAER: {responses} \nTEKST: {text}"}])
+        return ident_prompt + '\n' + mest_relevant_tema
+        # Siste sjekk med resonnering
+        #final = self.combined_prompts["final_check"]
+        #final_prompt = final["resonnering"]["prompt"]
+        #parsed_response = self.api_client.make_api_request([{"role": "user", "content": f"###{regler}### {final_prompt} ///{text}\n{mest_relevant_tema}///"}])
+        '''
+        # Sjekk om det egentlig er relevant
+        binary_last = self.map_to_binary(parsed_response)
+        
+        if "ja" in binary_last.strip().lower():
+            return first_response + '\n' + mest_relevant_tema
+            #responses.append(response)
+            
+        elif "nei" in binary_last.strip().lower():
+            print("IKKE RELEVANT, MOVING ON...")
+            konkat_svar2 = str(ident_prompt) + " ...nei, ikke relevant..."
+            responses = [konkat_svar2]
+            return responses'''
+        #return ident_prompt + '\n' + parsed_response
     
     def general_questioning(self, section, text):
         ident_prompt = section["identifisering"]["prompt"]
@@ -262,7 +335,7 @@ class InteractionHandler:
         time.sleep(2)
         #details_public_safety = self.process_section(self.combined_prompts["public_safety"], original_text)
         #print(str(details_public_safety),'\n')
-        time.sleep(2)
+        #time.sleep(2)
         details_admin = self.process_section(self.combined_prompts["administrative"], original_text)
         print(str(details_admin),'\n')
 
@@ -276,14 +349,14 @@ class InteractionHandler:
         #general_questions = self.general_questioning(self.combined_prompts["general_questions"], hel_kontekst)
         #print(str(general_questions),'\n')
         #all_tekst = hel_kontekst + '\nSVAR PÅ GENERELLE SPØRSMÅL: ' + str(general_questions)
-        time.sleep(2)
+        #time.sleep(2)
         
         # Step 4: Lag et nutshell paragraph
         #nut_graf = self.nutgraf(self.combined_prompts["nutsgraf"], all_tekst)
         nut_graf = self.nutgraf(self.combined_prompts["nutsgraf"], hel_kontekst)
         nutshell_graf = "NUTSHELL PARAGRAF: " + nut_graf
         #print(all_tekst)
-        time.sleep(2)
+        time.sleep(1)
         
         # Step 5: Send siste spørring for å hente ut nyhetsverdi
         # Først se på nutgraf og original tekst
@@ -292,7 +365,7 @@ class InteractionHandler:
         #news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], full_kontekst)
         #news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], all_tekst)
         news_assessment = self.assess_newsworth(self.combined_prompts["assessment"], hel_kontekst)
-        print('\n----------ASSESSED: ', news_assessment)
+        print('\n', news_assessment)
         #assessed_kontekst = all_tekst + '\nVURDERING AV NUTGRAF FRA CHATGPT : ' + str(news_assessment)
         #assessed_kontekst = all_tekst + '\nINITIELL VURDERING: ' + str(news_assessment)
         assessed_kontekst = hel_kontekst + '\nINITIELL VURDERING: ' + str(news_assessment)
@@ -320,7 +393,7 @@ class InteractionHandler:
         #                                             {"role": "user", "content": f"{first_prompt} {text}"}])
         response = self.api_client.make_api_request([{"role": "system", "content": f"{self.temaer}. \n{self.nyhetsverdige_eksempler}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
-        time.sleep(1)
+        #time.sleep(1)
         #print('FIRST RESPONSE ---------->   ',response)
         # For å bare se på nutgraf trengs ikke dette under.
         # Kanskje verdt å se på om det kan inkluderes likevel.
@@ -351,8 +424,8 @@ class InteractionHandler:
     
     def reassess_newsworth(self, section, text):
         first_prompt = section["identifisering"]["prompt"]
-        response = self.api_client.make_api_request([{"role": "system", "content": f"Maksimum 50 ord. Alt som skjer utenfor Tromsø kommune og omegn er automatisk ikke relevant. {self.temaer}"},
-                                                     {"role": "user", "content": f"{self.resonnering} {first_prompt} \n{text}"}])
+        response = self.api_client.make_api_request([{"role": "system", "content": f"Maksimum 50 ord. Alt som skjer utenfor Tromsø kommune eller nærtliggende områder er automatisk ikke relevant."},
+                                                     {"role": "user", "content": f"{self.temaer} \n{first_prompt} \n{text}"}])
         time.sleep(1)
         
         # Send til map_to_binary
@@ -364,13 +437,13 @@ class InteractionHandler:
             decision = section["identifisering"]["responses"][assess_response.strip().lower()]
             if "ja" in decision:
                 prompt = section["ja"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord."},
-                                                                   {"role": "user", "content": f"{self.temaer} \n{prompt} ###{response}###"}])
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune eller nærtliggende områder er helt irrelevant og IKKE nyhetsverdig. Maks 50 ord."},
+                                                                   {"role": "user", "content": f"RETNINGSLINJER: {self.temaer} \n{prompt} ###{response}### \n///{text}///"}])
                 siste_utputt = response + '\n' + final_response
             elif "nei" in decision:
                 prompt = section["nei"]["prompt"]
-                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune og omegn er helt irrelevant og ikke nyhetsverdig. Maks 50 ord."},
-                                                                   {"role": "user", "content": f"{self.temaer} \n{prompt} ###{response}###"}])
+                final_response = self.api_client.make_api_request([{"role": "system", "content": f"Alt utenfor Tromsø kommune eller nærtliggende områder er helt irrelevant og IKKE nyhetsverdig. Maks 50 ord."},
+                                                                   {"role": "user", "content": f"RETNINGSLINJER: {self.temaer} \n{prompt} ###{response}### \n///{text}///"}])
                 siste_utputt = response + '\n' + final_response
         
         #return response

@@ -74,9 +74,19 @@
             "prompt5": "Finnes det noen indikasjon i dokumentet at det ikke hører til Tromsø kommune, eller nærliggende område? Hvis det ikke hører til Tromsø kommune vil det automatisk være irrelevant for iTromsø."
         }
     },
+    "final_check": {
+        "resonnering": {
+            "prompt": "Tenk ut høyt, resonner og vær kritisk. Synes du virkelig at dette temaet som har blitt vurdert som det mest relevante til teksten er nevneverdig basert på de reglene du har fått? Maks 30 ord, og norsk svar."
+        }
+    },
+    "nutsgraf": {
+        "nutshell": {
+            "prompt": "Skriv et nutshell paragraf på teksten gitt. Maks 2 setninger."
+        }
+    },
     "assessment": {
         "identifisering": {
-            "prompt": "Se på all informasjonen presentert med kritiske øyne. Tenk ut høyt og gi en resonnering for svaret ditt. Ville du brukt din dyrebare tid på å skrive utforske om det kan hentes ut nyhetsverdi? Om dokumentet kommer fra en annen kommune enn Tromsø er det automatisk irrelevant og ikke noe å se videre på.",
+            "prompt": "Se på all informasjonen presentert med kritiske øyne. Tenk ut høyt og gi en kritisk resonnering for svaret ditt. Ville du brukt din dyrebare tid på å skrive utforske om det kan hentes ut nyhetsverdi? Dokumenter som ikke kommer fra Tromsø kommune eller omegn er automatisk irrelevante.",
             "responses": {
                 "ja.": "ja.",
                 "nei.": "nei."
@@ -98,10 +108,10 @@
             }
         },
         "ja": {
-            "prompt": "Se kritisk på vurderingen en gang til. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+            "prompt": "Se kritisk på vurderingen og teksten i sin helhet en gang til og resonner. Se på retiningslinjene og vurder om teksten stemmer opp mot dem. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
         },
         "nei": {
-            "prompt": "Se kritisk på vurderingen en gang til. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+            "prompt": "Se kritisk på vurderingen og teksten i sin helhet en gang til og resonner. Se på retiningslinjene og vurder om teksten stemmer opp mot dem. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
         }
     }
 }
