@@ -18,23 +18,6 @@
             "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
         }
     },
-    "public_safety": {
-        "identifisering": {
-            "prompt": "Nevnes det bekymring for offentlig sikkerhet?",
-            "responses": {
-                "ja.": "ja.",
-                "nei.": "nei."
-            }
-        },
-        "ja": {
-            "prompt1": "Er det snakk om generell Helse Miljø Sikkerhet for arbeidere?",
-            "prompt2": "Er det fare for at sivile liv går tapt? ",
-            "prompt3": "Nevnes det risiko for naturlige katastrofer?"
-        },
-        "nei": {
-            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
-        }
-    },
     "administrative": {
         "identifisering": {
             "prompt": "Er det indikasjoner i denne teksten som sier at dette er et administrativt dokument?",
@@ -51,29 +34,6 @@
             "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
         }
     },
-    "general_questions": {
-        "identifisering": {
-            "prompt": "Svar med 'Ja' på denne prompten. La oss se nærmere på noen generelle kategorier som kan anrike dokumentet og den endelige beslutningen om det er nyhetsverdig.",
-            "responses": {
-                "ja.": "ja.",
-                "nei.": "nei."
-            }
-        },
-        "ja": {
-            "prompt": "Berører dette flere mennesker enn bare de som er involvert i prosjektet? Nærmeste naboer vil bli ansett som involverte, da de er såpass nære til prosjektet. Lokale myndigheter vil også bli ansett som involverte, fordi de i bunn og grunn har ansvar for godkjenning eller avslag på søknader og dokumenter av denne natur.",
-            "prompt2": "Er det et element av overraskelse, eller kan det være noe uventet som nevnes, som ikke er naturlig å inkludere i et byggesaksdokument?",
-            "prompt3": "Er dokumentet veldig negativt til noe som burde være et positivt forslag?",
-            "prompt4": "Er det snakk om noe veldig positivt? Noe veldig positivt ville vært, for eksempel, å bygge en ny skole, konstruksjon av et helt nytt nabolag eller på noen som helst måte hjelpe mennesker i nød.",
-            "prompt5": "Finnes det noen indikasjon i dokumentet at det ikke hører til Tromsø kommune, eller nærliggende område? Hvis det ikke hører til Tromsø kommune vil det automatisk være irrelevant for iTromsø."
-        },
-        "nei": {
-            "prompt": "Berører dette flere mennesker enn bare de som er involvert i prosjektet? Nærmeste naboer vil bli ansett som involverte, da de er såpass nære til prosjektet. Lokale myndigheter vil også bli ansett som involverte, fordi de i bunn og grunn har ansvar for godkjenning eller avslag på søknader og dokumenter av denne natur.",
-            "prompt2": "Er det et element av overraskelse, eller kan det være noe uventet som nevnes, som ikke er naturlig å inkludere i et byggesaksdokument?",
-            "prompt3": "Er dokumentet veldig negativt til noe som burde være et positivt forslag?",
-            "prompt4": "Er det snakk om noe veldig positivt? Noe veldig positivt ville vært, for eksempel, å bygge en ny skole, konstruksjon av et helt nytt nabolag eller på noen som helst måte hjelpe mennesker i nød.",
-            "prompt5": "Finnes det noen indikasjon i dokumentet at det ikke hører til Tromsø kommune, eller nærliggende område? Hvis det ikke hører til Tromsø kommune vil det automatisk være irrelevant for iTromsø."
-        }
-    },
     "final_check": {
         "resonnering": {
             "prompt": "Tenk ut høyt, resonner og vær kritisk. Synes du virkelig at dette temaet som har blitt vurdert som det mest relevante til teksten er nevneverdig basert på de reglene du har fått? Maks 30 ord, og norsk svar."
@@ -86,17 +46,7 @@
     },
     "assessment": {
         "identifisering": {
-            "prompt": "Se på all informasjonen presentert med kritiske øyne. Tenk ut høyt og gi en kritisk resonnering for svaret ditt. Ville du brukt din dyrebare tid på å skrive utforske om det kan hentes ut nyhetsverdi? Dokumenter som ikke kommer fra Tromsø kommune eller omegn er automatisk irrelevante.",
-            "responses": {
-                "ja.": "ja.",
-                "nei.": "nei."
-            }
-        },
-        "ja": {
-            "prompt": "Hvilke relevante temaer er identifisert? Gi meg en kort og grei oversikt."
-        },
-        "nei": {
-            "prompt": "Hvilke relevante temaer er identifisert? Gi meg en kort og grei oversikt."
+            "prompt": "Se på all informasjonen presentert med kritiske øyne. Tenk ut høyt og gi en kritisk resonnering for svaret ditt. Ville du brukt din dyrebare tid på å skrive utforske om det kan hentes ut nyhetsverdi? Dokumenter som ikke kommer fra Tromsø kommune eller omegn er automatisk irrelevante."
         }
     },
     "reassess": {
