@@ -52,7 +52,7 @@ def main():
     folder = ['0news', '1news', '2news']
     nummer = 0
     # Process document to extract text
-    while nummer < 2: # Endre nummer for flere/færre gjennomganger per kjøring
+    while nummer < 3: # Endre nummer for flere/færre gjennomganger per kjøring
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
                     Some of the texts youre given might not be clear immediately, some might look similar to this:
