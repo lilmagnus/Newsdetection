@@ -34,7 +34,7 @@ class APIClient:
                     print("Handling token limit error by chunking...")
                     text = "".join(msg.get("content", "") for msg in messages if msg["role"] == "user")
                     chunks = self.chunk_text(text)
-                    responses = [self.make_api_request([{"role": "user", "content": chunk}]) for chunk in chunks]
+                    responses = [self.make_api_request([{"role": "user", "content": f"Summarize this: {chunk}"}]) for chunk in chunks]
                     print(responses)
                     return "\n".join(responses)
                 else:

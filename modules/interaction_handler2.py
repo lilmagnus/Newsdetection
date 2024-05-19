@@ -456,7 +456,12 @@ class InteractionHandler:
         return response
     
     def reduce_text(self, text):
-        parts = self.split_text(text, 2)  # Splitting the text into 2 parts for this example, adjust as needed
+        if len(text) < 50000:
+            parts = self.split_text(text, 2)
+        elif len(text) > 50000 and (len(text) < 80000):
+            parts = self.split_text(text, 4)
+        elif len(text) > 80000:
+            parts = self.split_text(text, 6)
         reduced_text_parts = []
 
         for part in parts:

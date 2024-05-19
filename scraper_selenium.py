@@ -66,7 +66,7 @@ def get_document_links(driver, url, link_to_click_xpath, document_links_xpath, l
     
     return document_hrefs
 
-def download_document(href, download_dir='modules/2news/njordsveg'): # Definer mappe å lagre i
+def download_document(href, download_dir='modules/3news/borgåsvegen'): # Definer mappe å lagre i
     # Send a GET request to the URL
     response = requests.get(href)
     
@@ -137,9 +137,51 @@ def main():
         #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-27' # Ymse dritt / Klokkargårdsbakken
         #link_to_click_xpath = "//a[text()='23/9857-5']"
         
-        url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-27' # Ymse dritt / Njords veg
-        link_to_click_xpath = "//a[text()='22/8031-9']"
-
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-27' # Ymse dritt / Njords veg
+        #link_to_click_xpath = "//a[text()='22/8031-9']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-05-07' # Test dritt 3news / Oppmåling av tomt
+        #link_to_click_xpath = "//a[text()='24/8933-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-05-07' # Test dritt 3news / Ropnesvegen 41
+        #link_to_click_xpath = "//a[text()='23/18949-9']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-04-03' # Test dritt 3news / Straumsvegen 411
+        #link_to_click_xpath = "//a[text()='22/3237-83']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-08-14' # Test dritt 3news / Strandgata 5-7-9
+        #link_to_click_xpath = "//a[text()='23/13012-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2021-11-12' # Test dritt 3news / Strandgata 5-7-9
+        #link_to_click_xpath = "//a[text()='21/17958-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-06-23' # Test dritt 3news / Eidvegen 266
+        #link_to_click_xpath = "//a[text()='22/12076-12']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-09-22' # Test dritt 3news / Eidvegen 266
+        #link_to_click_xpath = "//a[text()='23/13375-1']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-04-03' # Test dritt 3news / Havnegata
+        #link_to_click_xpath = "//a[text()='22/19415-7']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-10-25' # Test dritt 3news / Grønnegata 72
+        #link_to_click_xpath = "//a[text()='23/14226-5']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-03-25' # Test dritt 3news / Fjellheisen
+        #link_to_click_xpath = "//a[text()='22/14125-70']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-10-04' # Test dritt 3news / Vågslettvegen 1
+        #link_to_click_xpath = "//a[text()='23/14443-2']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2024-03-04' # Test dritt 3news / Storgata 57
+        #link_to_click_xpath = "//a[text()='23/21341-3']"
+        
+        #url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2023-02-09' # Test dritt 3news / Krognessvegen
+        #link_to_click_xpath = "//a[text()='22/7628-13']"
+        
+        url = 'https://innsyn.tromso.kommune.no/byggsak/dato/2022-11-15' # Test dritt 3news / Borgåsvegen
+        link_to_click_xpath = "//a[text()='20/11977-20']"
+        
         document_links_xpath = "//a[contains(@href, 'dokumentbestilling/getDocument?dokid=')]"
         load_more_button_xpath = "//a[text()='Flere resultater']"
         

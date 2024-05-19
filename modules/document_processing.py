@@ -40,9 +40,14 @@ class DocumentProcessing:
             if filename.lower().endswith(".pdf"):
                 pdf_file_path = os.path.join(folder_path, filename)
                 text = self.extract_text_from_pdf(pdf_file_path)
-                if text:
-                    output_file_path = os.path.splitext(pdf_file_path)[0] + '_output.txt'
-                    self.save_text_to_file(text, output_file_path)
+                try:
+                    if text:
+                        output_file_path = os.path.splitext(pdf_file_path)[0] + '_output.txt'
+                        self.save_text_to_file(text, output_file_path)
+                except Exception as e:
+                    error_message = str(e)
+                    if "cannot open broken document" in error_message:
+                        continue
 
         all_summaries = ""
         sum_count = 1
@@ -91,7 +96,7 @@ class DocumentProcessing:
                 text = text[cut_off_index:].strip()  # Remaining text for next iteration
 
             #response = self.make_api_request([{"role": "user", "content": f"Summarize this in 3 sentences or less, mention the date of the document if it is mentioned: {chunk}"}], max_chunk_size)
-            response = self.api_client.make_api_request([{"role": "user", "content": f"Summarize this: {chunk}"}], max_chunk_size)
+            response = self.api_client.make_api_request([{"role": "user", "content": f"Summarize this: {chunk}"}])
 
             if response:
                 summary += response + "\n\n"

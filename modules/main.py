@@ -49,7 +49,7 @@ def main():
     total_acc_list = []
     # Example PDF file path - replace with your actual file path
     #folder = ['0news', '1news', '2news']
-    folder = ['0news', '1news', '2news']
+    folder = ['3news', '4news']
     nummer = 0
     # Process document to extract text
     while nummer < 3: # Endre nummer for flere/færre gjennomganger per kjøring
@@ -87,7 +87,7 @@ def main():
                     except IndexError:
                         print(fresh_categorized, '\nheihei')
                     
-                    last_assessment = fresh_categorized.splitlines()[-1]
+                    last_assessment = fresh_categorized
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? {last_assessment}"}])
                     newsworth_counter.append(str(j+' - '+count_assessment))
@@ -117,6 +117,21 @@ def main():
         count_correct = 0
         count_incorrect = 0
         for j in newsworth_counter:
+            if j == '3news - Ikke nyhetsverdig':
+                count_correct += 1
+            elif j == '3news - Nyhetsverdig':
+                count_incorrect += 1
+            elif j == '4news - Ikke nyhetsverdig':
+                count_incorrect += 1
+            elif j == '4news - Nyhetsverdig':
+                count_correct += 1
+            else:
+                count_incorrect += 1
+        
+        '''
+        count_correct = 0
+        count_incorrect = 0
+        for j in newsworth_counter:
             if j == '0news - Ikke nyhetsverdig':
                 count_correct += 1
             elif j == '0news - Nyhetsverdig':
@@ -131,7 +146,7 @@ def main():
                 count_incorrect += 1
             else:
                 count_incorrect += 1
-                
+                '''
         total_count = count_incorrect + count_correct
         total_percent = str((count_correct/total_count)*100) + ' %'
         
@@ -143,6 +158,21 @@ def main():
         
     print(accuracy_list)
     
+    count_c1 = 0
+    count_ic1 = 0
+    for i in total_acc_list:
+            if i == '3news - Ikke nyhetsverdig':
+                count_c1 += 1
+            elif i == '3news - Nyhetsverdig':
+                count_ic1 += 1
+            elif i == '4news - Ikke nyhetsverdig':
+                count_ic1 += 1
+            elif i == '4news - Nyhetsverdig':
+                count_c1 += 1
+            else:
+                count_ic1 += 1
+    
+    '''
     count_c1 = 0
     count_ic1 = 0
     for i in total_acc_list:
@@ -160,6 +190,7 @@ def main():
                 count_ic1 += 1
             else:
                 count_ic1 += 1
+                '''
     last_total_count = count_c1 + count_ic1
     print('TOTALE VURDERINGER: ', len(total_acc_list), '\nTOTALT ANTALL RIKTIGE VURDERTE: ', count_c1, '\nTOTALT ANTALL FEILVURDERTE: ', count_ic1, '\nTOTAL ACCURACY: ', (count_c1/last_total_count)*100, '%')
     '''

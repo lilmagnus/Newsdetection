@@ -1,0 +1,253 @@
+22105
+Fjellheisen Regulering
+Målestokk:
+Format:
+Rigg- og Marksikringsplan
+Byggherre:
+HAMRAN/JOHANSEN ARKITEKTER AS Fjellheisen AS
+Tittel:
+Prosjektnr.:
+1:500
+A2 Liggende enkel
+N
+Dato:
+01.09.2023
+H310_1
+H370_1
+Brakke
+2.etg.
+Brakke
+Brakke
+62,0
+62,0
+H
+Sikkerhetssone HSP
+1510
+0,1 daa
+1610
+0,5 daa
+Fritid/Turistformål
+1170
+13,1 daa
+Rigg- og Marksikring
+Brakker
+Helikopter-landingsplass
+Tårnkran-Fundament
+Byggegjerde
+Lagerplass
+Skredsikring
+Høyspentlinje m/ sikkerhetssone
+Sti og merking mellom Sherpatrappa og Storsteinen
+Brakke
+H
+Belysning som på grunn av intensitet, utforming eller farge, som kan medføre en fare for
+ﬂysikkerheten eller være villedende ved at de forhindrer eller vanskeliggjør riktig tolkning av
+ﬂyplassbelysningen skal unngås. Belysningen skal rettes mest mulig ned mot bakken.
+Dette gjelder også for anleggsmaskiner/lastebiler, kraner og bruk av ﬂomlys innenfor
+planområdet i anleggsperioden.
+/
+Rigg- og Marksikring
+[HH]Brakker
+@ Helikopter-landingsplass
+L0JTårnkran-Fundament
+/
+Byggegjerde
+Lagerplass
+/
+Skredsikring
+Høyspentlinje m/ sikkerhetssone
+Sti og merking mellom Sherpatrappa og Storsteinen
+Belysning som på grunn av intensitet, utforming eller farge, som kan medføre en fare for
+flysikkerheten eller være villedende ved at de forhindrer eller vanskeliggjør riktig tolkning av
+flyplassbelysningen skal unngås. Belysningen skal rettes mest mulig ned mot bakken.
+Dette gjelder også for anleggsmaskiner/lastebiler, kraner og bruk av flomlys innenfor
+planområdet i anleggsperioden.
+If
+I
+I
+/
+1
+j
+j
+i
+I
+I
+I
+,5daa
+I
+I
+I
+I
+I
+I
+I
+/
+I
+/
+/
+/
+// /
+/ /
+I
+I
+I I/
+i
+I
+f
+\
+'\
+r
+\
+II
+r
+I
+!
+A
+/ /'
+'
+/
+'
+/
+'
+Fritid/Turistformål
+1170
+13,1 daa
+I
+II/
+j
+/
+' / 1 I
+,
+I
+' \
+\
+\
+\
+\
+,
+\
+1 \ \
+I
+\\,,
+I
+I
+,
+I
+,
+/;
+I
+I
+I
+I
+I
+I
+l
+\
+I
+I
+1510
+0,1 daa
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+l
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+L' \
+I \\\
+\I \
+I
+l
+I
+I
+I
+\ I \
+\
+I
+' l
+I
+I
+I
+r
+f
+'I
+r
+r
+r
+\
+\
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+r
+I
+i
+r
+1
+!
+I
+i
+r
+i
+I
+I
+Ir
+r
+r
+r
+Ir
+r
+r
+II
+rrrr
+Byggherre:
+Fjellheisen AS
+Tittel:
+Fjellheisen Regulering
+Prosjektnr.:
+22105
+Målestokk:
+1:500
+Format:
+A2 Liggende enkel
+Dato:
+01.09.2023
+Rigg- og Marksikringsplan
+N(!)

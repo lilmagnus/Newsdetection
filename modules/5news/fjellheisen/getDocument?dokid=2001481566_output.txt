@@ -1,0 +1,441 @@
+Notat
+SKRED AS
+Oppdragsgiver
+Navn
+Kontaktperson
+Hamran/johansen Arkitekter AS
+Andre Johansen
+Oppdrag
+Nummer og navn
+Oppdragsleder
+23462 (22522) - Tromsø, Fjellheisen - (HP
+Pål Lohne
+22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Dokument
+Nummer
+Dato
+23462-01-1
+2023-09-27
+Utført av
+Kontrollert av
+Pål Lohne, Hallvard Skaare Nordbrøden
+Hallvard Skaare
+Nordbrøden, Sondre
+Lunde
+Versjon
+Dato
+Utført
+Kontroll
+Beskrivelse
+3
+2023-09-27
+HSN
+SL
+Oppdatert med presisering av sikringssone for
+skog som har betydning for skredfaren (kap.
+4).
+2
+2023-09-20
+PL
+HSN
+Inkludering av henvisning til NGU rapport for
+Storsteinen.
+1
+2023-09-19
+PL
+HSN
+Original
+Skredfaglig innspill til ROS-analyse
+1
+Innledning
+I forbindelse med at Skred ASdetaljprosjekterer skredsikring for ny bunnstasjon på vegne av
+Fjellheisen AS, er det kommet spørsmål rundt skredfaren mot øvre stasjon og Fjellstua ifm.
+ROS-analyse. Skred ASutalte seg skriftlig på epost 19. og 20. april, hvor dette notatet formelt
+oppsummerer de vurderingene/innspillene som da ble gitt.
+2
+Bakgrunn
+I ROS-analyse {Multiconsult Norge AS, 2023) for øvre stasjon for Fjellheisen ble trukket fram
+at planområdet ikke lå innenfor noen av NVE sine aktsomhetssoner for skred fra bratt
+terreng, men at både utløsningsområder og utløpsområder i aktsomhetskartene lå like
+nedenfor. Multiconsult vurderte risikoen for steinsprang, sørpe-, løsmasse- og fjellskred som
+for høy, og at det derfor burde utføres en detaljert skredfarevurdering for å avklare den
+reelle skredfaren ift. planområdet.
+Kommentarene vedrørende de ulike skredprosessene med forhøyet risiko {behov for videre
+vurdering), som Skred ASmottok 19. april og uttalte seg på er gjengitt under:
+Skred AS
+Foretaksregisteret:
+T: 45511222
+Torget 3
+NO 914 596 890 MVA
+E: post@skred.as
+3570 Ål
+Konto nr.: 2320 17 26158
+W: www.skred.as
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+o
+Løsmasseskred - «Planområdet ligger utenfor aktsomhetsområder i NVEs
+Aktsomhetskart for jord- og flomskred. Det vises på detaljreguleringsplanen at det er
+hensynssonefor ras- og skredfare innenfor planområdet. Skredsonen er ikke kartlagt
+[26].
+NGUs temakart Løsmasser viser at hoveddelen av planområdet er regnet som bart
+fjell, stedvis tynt løsmassedekke. Klimaprofilfor Troms tilsier at det vil være mer
+nedbør med tilhørende overvann- og flomhendelser som kan være utløsende årsaker
+for skred.
+Vurderinger for risiko for skred/grunnforhold bør gjennomføres av geotekniker eller
+andre tilsvarendefagkyndige. Grunnet høy usikkerhet kan ikke dette risiko- og
+sårbarhetsforholdet utelukkesfor planområdet. Det gjøres en generell vurderingfor
+dette og relaterte tema i kap. 5.1.1. Det understrekes at det er behovfor bedre
+underlag og vurderinger gjennomført av geotekniker eller tilsvarendefagkyndigfor å
+adekvat kunne vurdere dette temaet».
+o
+Steinsprang - «Planområdet ligger utenfor aktsomhetsområder i NVEs temakart for
+Aktsomhetskart for steinsprang. Utløsningsområder og utløpsområder ligger like
+utenfor planområdet. Uten vurderingerfra geotekniker eller andre tilsvarende
+fagkyndig kan det ikke vurderes hvorvidt dette er enfaktorfor steinsprang/ skred
+risiko for planområdet.
+Vurderinger for risiko for skred/grunnforhold bør gjennomføres av geotekniker eller
+andre tilsvarendefagkyndige. Grunnet høy usikkerhet kan ikke dette risiko- og
+sårbarhetsforholdet utelukkesfor planområdet. Det gjøres en generell vurderingfor
+dette og relaterte tema i kap. 5.1.1. Det understrekes at det er behovfor bedre
+underlag og vurderinger gjennomført av geotekniker eller tilsvarendefagkyndigfor å
+adekvat kunne vurdere dette temaet».
+o
+Sørpeskred - «Ifølgefaktaark om sørpeskred fra NVE [16] løses sørpeskred oftest ut i
+perioder med kraftig regn og/eller intens snøsmelting ved brå temperaturøkninger.
+Skredene utløses vanligvis i områder med snødybde på minst 0,5 m. Senorge sitt kart
+med årsmaksimum for snødybde viser at området planområdet ligger i har 50-200 cm
+med snø. Sørpeskred går hovedsakelig i skråninger brattere enn 30 grader. Partiet
+rett nedfor Fjellstua og langs skrenten er 35-90 % bratt. Sørpeskred er hurtige,
+flomlignende skred av vannmettet snø, som ofte også river med seg jord og annet
+materiale. Sørpeskred i dette området vil kunne ha innvirkning på områdestabilitet
+planområdet. Det kan ikke sies i hvilken grad uten innspill fra geotekniker eller annen
+tilsvarendefagkyndig.
+Det vises på detaljreguleringsplanen at det er hensynssonefor ras- og skredfare
+innenfor planområdet. Skredsonen er ikke kartlagt.
+Vurderinger for risiko for skred/grunnforhold bør gjennomføres av geotekniker eller
+Hamran/johansen Arkitekter AS
+2/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+andre tilsvarendefagkyndige. Grunnet høy usikkerhet kan ikke dette risiko- og
+sårbarhetsforholdet utelukkesfor planområdet. Det gjøres en generell vurderingfor
+dette og relaterte tema i kap. 5.1.1. Sørpeskred er inkludert i vurderingen av
+hendelsen Overvann i kap. 5.1.2. Det understrekes at det er behovfor bedre underlag
+og vurderinger gjennomført av geotekniker eller tilsvarendefagkyndigfor å adekvat
+kunne vurdere dette temaet».
+o
+Fjellskred - Planområdet er utenforfaresonenforfjel/skred, men Storsteinen er
+markert som et hovedpunkt for ustabilt fjellparti på NVEs kart Faresoner for store
+fjel/skred. Punktet er satt til <1/5000 årlig sannsynlighet. Dette er den laveste mulige
+rangeringen. Det vises på detaljreguleringsplanen at det er hensynssonefor ras- og
+skredfare innenfor planområdet. Skredsonen er ikke kartlagt.
+Vurderinger for risiko for skred/grunnforhold bør gjennomføres av geotekniker eller
+andre tilsvarendefagkyndige. Grunnet høy usikkerhet kan ikke dette risiko- og
+sårbarhetsforholdet utelukkesfor planområdet. Det gjøres en generell vurderingfor
+dette og relaterte tema i kap. 5.1.1. Det understrekes at det er behovfor bedre
+underlag og vurderinger gjennomført av geotekniker eller tilsvarendefagkyndigfor å
+adekvat kunne vurdere dette temaet».
+3
+Skredfaglig innspill til ROS-analysen
+Terrenget ovenfor toppstasjonen er slakt (Figur 6), og ved å følge NVEsin kartbaserte
+veileder (NVE, 2023) er det ikke behov for at skredfaren mot tooostasionen utredes etter
+TEK17 §7-3 (DiBK, 2023). Toppstasjonen ligger imidlertid ovenfor bratt terreng, hvor det
+bratte terrenget under har aktsomhetssoner {Figur 7 og Figur 8), faresoner for skred fra bratt
+terreng (Figur 9). I tillegg er det kartlagt for fjellskred (Figur 10), men det er ikke tegnet
+faresoner etter TEKl 7 §7-3.
+Faresone for skred i bratt terreng er kartlagt mtp. bebyggelsen i Tromsø kommune, og
+kartleggingsområdet er derfor ikke trukket opp til toppstasjonen, men toppstasjonen ligger
+innenfor påvirkningsområdet i rapporten (NGI, 2016). Rapporten ligger også til grunn for
+detaljprosjekteringen Skred AShar gjort for skredsikring av bunnstasjonen til fjellheisen.
+Storsteinen som trekkes frem er gitt en løsnesannsynlighet på mindre enn 1/5000, hvilket
+betyr at tiltak i sikkerhetsklasse S3 {DiBK, 2023) kan oppføres innenfor faresonen som er
+tegnet. Verken løsneområdet eller utløpsområdet er i berøring med toppstasjonen for
+Fjellheisen. Toppstasjonen ligger innenfor vurdert område, og er vurdert å ha
+tilfredsstillende sikkerhet mot fjellskred. Fjellskred skal ikke kartlages etter NVEs veileder for
+skred i bratt terreng (NVE, 2020), men fagpersoner skal melde inn partier som potensielt er
+ustabil og ikke under overvåking. Ustabile fjellpartier skal kartlegges av NGU/NVE.
+Storsteinen ble først kartlagt i 2006 og siste oppdatering av NGU ble gjort 25-06-2021 (NGU,
+2021). Vurderingene knyttet til stabiliteten på fjellpartiet anses derfor som oppdatert og
+godt faglig dokumentert.
+Hamran/johansen Arkitekter AS
+3/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+4
+Sikringsområde for skog av betydning for skredfaren
+NGls skredfarekartlegging for deler av Tromsø kommune (NGI, 2016) angir en grov
+avgrensning for skog som er viktig for skredfaren (Figur 1). Dette er tatt inn som en
+sikringssone i et utkast til reguleringsplanen datert 18.09.2023 (H190_1-2, Figur 2) og dekker
+deler av planområdet for øvre stasjon.
+I forbindelse med forprosjektering av sikringstiltak for ny bunnstasjon til Fjellheisen
+utarbeidet Skred ASet datasett for skog som påvirker og ikke påvirker fare for snøskred
+(Figur 3). Dette er basert på SR16-data fra NIBIO som er innhentet etter NGls
+skredfarekartlegging, og er mye mer detaljert enn grunnlaget NGI hadde i sin tid. Vi vurderer
+derfor basert på tilgjengelig data at skogen ikke har betydning for skredfaren innenfor den
+markerte sikringssonen i Figur 2, verken for ny topp- eller bunnstasjon.
+I forbindelse med utbygging av ny bunnstasjon for Fjellheisen {annen plansak enn den
+omtalte) er det et rekkefølgekrav om skredsikring fordi bunnstasjonen ligger innenfor
+faresone for skred i bratt terreng med nominell årlig sannsynlighet for skred større enn
+1/5000. Skredsikring for å hindre utløsning av snøskred {støtteforbygninger, se Figur 5) skal
+derfor bygges i deler av området rett nedenfor planområdet, og vil ha en vesentlig større
+effekt på hindring av snøskred enn skog. Tiltakene vil på sikt sannsynligvis føre til at skogen i
+området blir tettere, da tiltakene vil hindre at snøskred utløses og skader skogen. Skogen får
+dermed tid til å etableres.
+tpjhen
+487 ,
+Figur 1: Utsnitt fra NG/s skredfarekart/eggingfra 2016 som grovt angir skog som er viktigfor
+skredfaren.
+Hamran/johansen Arkitekter AS
+4/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen- (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+I,
+Figur 2: Utsnitt fra plankart med sikringssone H190
+Plan-ID 1956, utarbeidet 18.09.2023.
+1 oversendt til Skred AS 26.09.2023.
+Hamran/johansen Arkitekter AS
+5/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+Ny bunnstasjon
+Utlosning snoskred F smalest 2 og lengst
+Kronedekning
+Skog - hindrer ikke utløsning av snøskred
+D
+Skog - hindrer utløsning av snøskred
+Storaksla
+...··6qQ:fn.,
+•, .,
+Bakg
+Kartverket, w
+.kartverket/no.
+I
+Figur 3: Figurfra forprosjektering av støtteforbygninger i løsneområdefor snøskred som skal
+sikre ny bunnstasjon til Fjellheisen mot snøskred. Figuren viser hvor det er skog, og om denne
+har effekt på sannsynlighet for utløsning av snøskred eller ikke. Planområdet berører ikke
+steder hvor skogen har hindrende effekt på utløsning av snøskred. Figuren er hentet fra Skred
+ASrapport 22138-01-2.
+Figur 4: Bildefra deler av området nordfor toppstasjonen viser at det tilnærmet ikke er skog i
+øvre deler av sikringssonen angitt av NGI. Dette stemmer overens med data vist ifigur 3.
+Hamran/johansen Arkitekter AS
+6/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+Støtteforebygninger (stfb) og steinspranggjerde
+Stfb Dk 4
+Stfb Dk 5
+Steinspranggjerde 5 m
+Terrengheining
+10-200
+20-300
+30-39°
+39-45°
+45-55°
+0,12 km
+I
+Figur 5: Planlagt skredsikringfor å tilfredsstille sikkerhetskravenefor skred i bratt terrengfor
+ny bunnstasjon til Fjellheisen. Sikringen er omtalt i Skred ASrapport 22138-01-2.
+5
+Konklusjon
+Skred ASkan ikke se at det er behov for en detaljert skredfarevurdering for skred mot den
+nye toppstasjonen, da det ikke er løsneområder for noen skredprosesser oppstrøms for hvor
+toppstasjonen er planlagt plassert.
+Skred AShar også dokumentert med et mer detaljert datagrunnlag at det innenfor
+planområdet til øvre stasjon/fjellstua ikke er skog av betydning for skredfaren for
+bebyggelsen nedenfor.
+Det bemerkes imidlertid at bygg eller andre tiltak som plasseres inn mot det bratte terrenget
+må forankres på en slik måte at det nye lastbildet ikke medfører destabilisering av grunnen.
+Hamran/johansen Arkitekter AS
+7/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen- (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+Krav til konstruksjonssikkerhet er ivaretatt via TEK17 §10. Avhengig av om bygget forankres i
+berg eller løsmasser, vil dette være noe som ansvarsbelegges {SAKlO) av ingeniørgeolog
+{RIGberg) eller geotekniker {RIG) i detaljprosjektering av toppstasjonen. Kravet om at ingen
+må gjøre eller sette i verk noe som er til skade eller ulempe på naboeiendommer følge
+Grannelova §2 (Justis- og beredskapsdepartementet, 2023).
+6
+Referanser
+DiBK. (2023). Byggtekniskforskrift med veiledning (TEK17).
+Justis- og beredskapsdepartementet. (2023, 09 19). Lovdata. Hentet fra Lov om rettshøve
+mellom grannar {grannelova): https://lovdata.no/dokument/NL/lov/1961-06-16-15
+Multiconsult Norge AS. (2023). 10250415-01-RIS-RAP-001. ROS iht. PBLfor Fjellheisen
+Tromsø.
+NGI. (2016). Rapport nr. 17-2016. Skredfarekartlegging i Tromsø kommune. NVE.
+NGU. {2021, 06 25). NGU.no. Hentet 09 20, 2023 fra RAPPORT OM FARE- OG
+RISIKOKLASSIFISERING AV USTABILE FJELLPARTI - Storsteinen:
+https://geo.ngu.no/api/faktaark/ustabilefjell2/visRapport.php?globalid={7550116E-
+A78D-42B1-B68A-95BF5BA65DB3}
+NVE. (2020, 10 20). Sikkerhet mot skred i bratt terreng - utredning av skredfare i
+reguleringsplan og byggesak. Revidert 15.05.2023. Hentet 09 20, 2023 fra
+https://veileder-skredfareutredning-bratt-terreng.nve.no/
+NVE. (2023, 04 19). Kartbasert veilederfor reguleringsplan. Hentet fra Kartbasert veileder for
+reguleringsplan:
+https://nve.maps.arcgis.com/apps/MapSeries/index.html?appid=66271d2e94014aff
+80fc065a18adlf50
+Hamran/johansen Arkitekter AS
+8/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+7
+Figurer
+Tegnforklaring
+SKRED AS
+Planområde toppstasjon
+Ny toppstasjon
+Terrengheining
+•
+Storaksla
+10-20°
+20-27°
+27-37°
+37-45°
+45-55°
+55-90°
+I
+·
+, ·q75
+0
+100
+200
+300 {Tl
+I
+I
+Bakgrun.flskart ©Kartverket, www.kartverket.no.
+Figur 6: Terrengheining i området rundt den nye toppstasjonenfor Fjellheisen.
+Hamran/johansen Arkitekter AS
+9/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+•·•:•:•:•:•:•:-:-:·:•:•:•:•:•:-:•:-:•t..i]eal
+::::::::::::;;:::::::::::::-:.:::::::::....::::::::::::::·••........:•:•
+. ::::::::::ø.::::::::·:::··
+•:::::::::::;-".;,.:\::."·•:•.
+Tegnforklaring
+Planområde toppstasjon
+Ny toppstasjon
+Aktsomhetssone jord-
+og flomskred
+Utløsningsområde
+rote1151f!tt slT edf are
+Utløpsområde
+roterl!:r!!Il sl:red' .:ire
+.•:•:•:-:•:-:-:. . . .
+.....
+·,·._..
+........................
+..... •:•:•:•:·•:....:
+..............-·:.....
+.
+....:•:•::
+I
+orsteir.i:er(·.
+Bissoll'kti"..
+·I·t
+·.,•::::::::::::::::::::::·...............
+Figur 7: NVEs aktsomhetssonefor jord- og flomskred.
+Hamran/johansen Arkitekter AS
+10/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+Tegnforklaring
+Planområde toppstasjon
+Ny toppstasjon
+I
+Aktsomhetssone steinsprang
+Utløsningsområde
+Udo!.1111190mr
+Utløpsområde
+UtlopOm,
+0
+•
+inen
+I
+Sfor.aksla
+·I·t
+Figur 8: NVEs aktsomhetssonef o r steinsprang
+Hamran/johansen Arkitekter AS
+11/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+Tegnforklaring
+Planområde toppstasjon
+Ny toppstasjon
+Faresoner for skred fra bratt terreng
+Kartleggingsområde
+Skredanalyseomrade
+Skredsoner >1/100
+8
+SITcdf. - one 1(l,;)J,-s
+Skredsoner >1/1000
+E3Sl redfaresone 1000.irs
+Skredsoner >1/5000
+SLrcdfaresone 5(1(1().irs
+1/
+I
+m
+Bakgrunnskart © Kartverke{,Iww
+Figur 9: Faresoner for skred i bratt terreng, kartlagt av NGI i 2015 på oppdragfra NVE {NGI,
+2016}.
+Hamran/johansen Arkitekter AS
+12/13
+Oppdrag: 23462 (22522) - Tromsø, Fjellheisen - (HP 22522) Skredfaglig innspill til ROS-analyse for
+Fjellheisen øvre stasjon. Reguleringsplan
+Notat: Skredfaglig innspill til ROS-analyse
+Dokument nr.: 23462-01-1. Dato: 2023-09-27
+SKRED AS
+Tegnforklaring
+Planområde toppstasjon
+Lill
+Ny toppstasjon
+Faresone fjellskred
+Utløsningsområde
+liSOOOjrh9 s.:in111lqhct
+Utløpsområde
+1,5000 årh9 s.:mn.synliqh
+',:'/
+, ' ·
+I
+Sfor.aksla
+100
+200
+300 m
+Bakgrunnskart ©Kartverket,www.kartverket.no.}
+Figur 10: NVEsfaresoneforfjel/skred.
+Hamran/johansen Arkitekter AS
+13/13

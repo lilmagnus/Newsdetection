@@ -1,0 +1,315 @@
+Gjennomføringsplan
+<(
+N
+N
+00
+Kommunenssaksnummer (år, sekvensnummer):
+2023 1626
+Versjonsnr.:
+2
+EiendomfByggested
+Gnr
+Bnr
+Festenr
+Seksjonsnr
+200
+450
+Kommune
+Adresse
+Fredrik Langes gate 24, 9008 TROMSØ NO
+Gnr
+Bnr
+Festenr
+Seksjonsnr
+200
+364
+Kommune
+Adresse
+Vestregata 23B, 9008 TROMSØ NO
+1
+Gnr
+Bnr
+Festenr
+Seksjonsnr
+200
+448
+Kommune
+Adresse
+Grønnegata 74, 9008 TROMSØ NO
+<(
+N
+N
+00
+2
+Oversikt over ansvarsfordeling
+ANSVARLIG PROSJEKTERENDE
+Funksjon
+Beskrivelse av ansvarsområdet
+Tiltaks-
+klasse
+Foretakets org nummer og
+navn
+Planlagt samsvars/kontrollerklæring,
+dato (vises når erklæringen er avgitt)
+Ansvar
+avsluttet
+PRO
+Brannkonsept: Prosjekterende brannkonsept for
+2
+958249799
+Ettrinns-/igangsetti ngssøknad,
+innvendige arbeider i Sentrumsgården.
+FIRESAFE AS
+30.08.2023
+PRO
+Lydforhold og vibrasjoner: Prosjekterende lydforhold og
+3
+967032271
+Ettrinns-/igangsetti ngssøknad,
+D
+vibrasjoner for Sentrumsgården.
+SWECO NORGE AS
+30.08.2023
+PRO
+Løfteinnretninger: Prosjekterende løfteinnretninger.
+2
+919876522
+Ettrinns-/igangsetti ngssøknad,
+D
+SCHINDLERAS
+29.08.2023
+PRO
+Konstruksjonssikkerhet: Prosjekterende
+2
+962392687
+Ettrinns-/igangsetti ngssøknad,
+D
+konstruksjonssikkerhet for innvendige arbeider i
+NORCONSULT AS
+25.08.2023
+Sentrumsgården.
+PRO
+Sanitærinstallasjoner: Prosjektering av
+3
+967032271
+Ettrinns-/igangsetti ngssøknad,
+D
+sanitærinstallasjoner.
+SWECO NORGE AS
+28.08.2023
+PRO
+Ventilasjon- og klimainstallasjoner: Prosjektering av
+3
+967032271
+Ettrinns-/igangsetti ngssøknad,
+D
+ventilasjons- og klimainstallasjoner.
+SWECO NORGE AS
+28.08.2023
+PRO
+Ledesystem: Prosjektering av ledesystem.
+3
+967032271
+Ettrinns-/igangsetti ngssøknad,
+D
+SWECO NORGE AS
+29.08.2023
+<
+PRO
+Arkitektur: Prosjektering arkitektur, innvendige arbeider
+i Sentrumsgården.
+D
+N
+N
+PRO
+Annet: Utarbeidelse av avfallsplan, jf. TEKl 7 § 9-6.
+00 PRO
+Annet: Ansvar for sikkerhet i tiltaket, jf. pbl. § 28-2.
+D
+0)
+0)
+PRO
+Varme- og kuldeinstallasjoner: Prosjektering av varme-
+og kuldeinstallasjoner, utenom prosjektering av
+varmesentral.
+PRO
+Varme- og kuldeinstallasjoner: Prosjektering av
+2
+986676813
+Ettrinns-/igangsetti ngssøknad,
+AT PLAN & ARKITEKTUR AS
+30.08.2023
+1
+916486359
+Ettrinns-/igangsetti ngssøknad,
+CURO NORD AS
+30.08.2023
+1
+928034615
+Ettrinns-/igangsetti ngssøknad,
+NORDNORSK
+31.08.2023
+BYGGINNREDNING AS
+3
+967032271
+Ettrinns-/igangsetti ngssøknad,
+SWECO NORGE AS
+31.08.2023
+3
+986165460
+Ettrinns-/igangsetti ngssøknad,
+D
+D
+3
+PTG KULDETEKNISK AS
+PRO
+Miljøsanering: Prosjekterende miljøsanering for
+1
+997710371
+Ettrinns-/igangsetti ngssøknad,
+Sentrumsgården.
+NRC KEPT AS
+01.09.2023
+PRO
+Brannalarmanlegg: Prosjektering av brannalarmanlegg.
+3
+987582561
+Ettrinns-/igangsetti ngssøknad,
+ANSVARLIG UTFØRENDE
+BRAVIDA NORGE AS
+18.01.2024
+Funksjon
+Beskrivelse av ansvarsområdet
+Tiltaks-
+Foretakets org nummer og
+Planlagt samsvars/kontrollerklæring,
+Ansvar
+klasse
+navn
+dato (vises når erklæringen er avgitt)
+avsluttet
+UTF
+Tømrerarbeid og montering av trekonstruksjoner:
+1
+916486359
+Midlertidig brukstillatelse
+Innvendige tømrerarbeid for Sentrumsgården.
+CURO NORD AS
+UTF
+Installasjon av brannalarmanlegg: Installasjon av
+2
+987582561
+Midlertidig brukstillatelse
+brannalarmanlegg.
+BRAVIDA NORGE AS
+UTF
+Installasjon av ledesystem: Utførende installasjon av
+2
+987582561
+Midlertidig brukstillatelse
+ledesystem.
+BRAVIDA NORGE AS
+UTF
+Varme og kuldeinstallasjoner: Utførende varme- og
+3
+986165460
+Midlertidig brukstillatelse
+kuldeinstallasjoner.
+PTG KULDETEKNISK AS
+UTF
+Ventilasjon og klimainstallasjoner: Utførende ventilasjon
+3
+987582561
+Midlertidig brukstillatelse
+og klimainstallasjoner.
+BRAVIDA NORGE AS
+UTF
+Løfteinnretninger UTF: Utførende løfteinnretning.
+2
+919876522
+Midlertidig brukstillatelse
+SCHINDLERAS
+Sanitærinstallasjoner UTF: Utførende
+sanitærinstallasjoner.
+EINES RØR AS
+Riving og miljøsanering: Utførende riving og
+987087358
+miljøsanering innvendige arbeider.
+MAGNUS JOHANSEN AS
+Varme og kuldeinstallasjoner: Utførende varme- og
+923377166
+kuldeinstallasjoner, utenom varmesentralen som leveres
+EINES RØR AS
+varmesentral.
+31.08.2023
+00
+0)
+0)
+UTF
+UTF
+UTF
+3
+1
+3
+923377166
+Midlertidig brukstillatelse
+Midlertidig brukstillatelse
+Midlertidig brukstillatelse
+<
+av PTG.
+ANSVARLIG KONTROLLERENDE
+Funksjon
+Beskrivelse av ansvarsområdet
+Tiltaks-
+Foretakets org nummer og
+Planlagt samsvars/kontrollerklæring,
+Ansvar
+4
+klasse
+fli::IVfl
+dato (vises når erklæringen er avgitt)
+i::IV::ilUllt!l
+KONTROLL
+Brannsikkerhet (i tiltaksklasse 2 og 3): Kontrollerende
+2
+984548648
+Ettrinns-/igangsettingssøknad,
+brannsikkerhet for Sentrumsgården.
+A/STAB AS
+29.08.2023
+KONTROLL
+Konstruksjonssikkerhet (i tiltaksklasse 2 og 3): Kontroll
+2
+913037391
+Midlertidig brukstillatelse
+D
+konstruksjonssikkerhet for Sentrumsgården.
+BC BYGGENTREPRISE AS
+KONTROLL
+Konstruksjonssikkerhet (i tiltaksklasse 2 og 3): Kontroll
+2
+967032271
+Midlertidig brukstillatelse
+D
+av konstruksjonssikkerhet for innvendige og utvendige
+SWECO NORGE AS
+arbeider i Sentrumsgården.
+Ansvarlig søker
+Navn
+ATPLAN &amp; ARKITEKTUR AS
+Organisasjonsnummer
+986676813
+Tiltaksklasse
+3
+Signert av
+<(
+BERIT JOHANNEGUTTORM BALLARI på vegne av ATARKITEKTUR AS
+N
+N
+00
+0)
+0)
+Dette dokumentet er signert elektronisk og arkivert i Altinn
+5
+Filvedlegg:
+Ansvarserklæring PRO Brannalarmanlegg BRAVIDA.pdf

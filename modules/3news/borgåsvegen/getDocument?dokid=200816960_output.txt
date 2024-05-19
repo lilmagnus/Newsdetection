@@ -1,0 +1,88 @@
+Adresse
+Søknaden gjelder
+Søknad om midlertidig brukstillatelse
+Hvis det søkes for deler av tiltaket, beskriv hvilken del det søkes for nå
+Gnr. 
+Bnr. 
+Festenr. 
+Seksjonsnr.
+Kommunens saksnr.
+Eiendom/
+byggested
+Hele tiltaket
+Deler av tiltaket
+Postnr. 
+Poststed
+Midlertidig brukstillatelse søkes for
+Bygningsnr. 
+Bolignr. 
+Kommune
+Pbl § 21-10, SAK10 § 8-1
+Vedlegg
+Beskrivelse av vedlegg 
+Gruppe 
+Nr. fra – til
+Situasjonsplan, avkjøringsplan
+Tegninger, plan, snitt, fasade
+Redegjørelser/kart
+Gjennomføringsplan
+Boligspesifikasjon i matrikkelen
+Uttalelser fra andre offentlige myndigheter
+Andre vedlegg
+D
+E
+F
+G
+H
+I
+Q
+–
+–
+–
+–
+–
+–
+–
+Ikke
+relevant
+Foretak
+Underskrift og erklæring
+Ansvarlig søker for tiltaket  (for tiltak etter pbl § 20-3, § 21-2)
+Underskrift
+Dato
+Gjentas med blokkbokstaver
+Navn
+Tiltakshaver  (bare for tiltak uten ansvarlig søker pbl 20-4)
+Underskrift
+Dato
+Gjentas med blokkbokstaver
+Kontaktperson
+E-post
+Telefon 
+Mobiltelefon
+Dato for søknad
+om ferdigattest
+Gjenstående arbeider frem mot ferdigattest
+Angi resterende deler av tiltaket hvor det her ikke søkes om midlertidig brukstillatelse
+Angi gjenstående arbeider av mindre vesentlig betydning, innenfor den delen av tiltaket det søkes midlertidig brukstillatelse for
+E-post
+Kontaktperson 
+Telefon 
+Mobiltelefon
+Side 1 av 1
+Blankett 5169 Bokmål © Utgitt av Direktoratet for byggkvalitet
+ 01.10.2020
+Organisasjonsnummer 
+Organisasjonsnummer
+Sikkerhetsnivå og arbeider som vil bli utført innen 14 dager
+Bekreftelse på at disse arbeidene er utført vil være kommunen i hende innen:
+Dato
+Dato
+Følgende arbeider vil bli utført innen:
+Type arbeider
+Ja 
+Nei 
+Hvis nei, fyll ut informasjonen nedenfor
+Har tiltaket pr i dag tilstrekkelig sikkerhetsnivå til å tas i bruk?
+BYGG-20/01988-3
+18.09.2021

@@ -1,0 +1,169 @@
+Filnavn
+Tromsø Havn rev juni
+2023.pln
+Ringvegen 73
+9018 TROMSØ
+Tlf: +47 917 10 805
+trond@kreahvita.no
+Dato
+21.4.2022
+Kontroll prosjekt.
+Kontroll utførende
+Prosjektnr. for
+prosjekterende/lev.
+Sign.
+Sign.
+Godkjent
+Kontroll
+Kontroll
+Rev.: C
+15.6.2023
+Målestokk
+1:500, 1:1
+N
+Revisjon nr.
+Type tegning
+Formålsgrense
+Tegningsnr.
+A10-02
+Fase
+Byggemelding
+Prosjekteringsgruppen
+KreaHvita Interiør &
+Byggkonsult
+SØK :
+Ringvegen 73
+9018 TROMSØ
+Tlf.: +47 922 57 860
+hugo@kreahvita.no
+ARK :
+RIB :
+Ringvegen 73
+9018 TROMSØ
+Tlf: +47 917 10 805
+trond@kreahvita.no
+KreaHvita Interiør &
+Byggkonsult
+Lokalisering:
+Prosjektnr.:
+471/22
+Tiltakshaver
+Tromsø Havn
+Prosjekt
+Ny Flytebrygge
+Stortorget
+9008 TROMSØ
+Type tegning:
+Formålsgrense
+Tegningsnr.:
+A10-02
+Gnr./Bnr./Festenr.:
+200 / 1762
+KreaHvita Interiør &
+Byggkonsult
+22.04.2022
+Dato:
+Tromsø Havn
+Målestokk: 1:500
+Koordinatsystem: UTM 33N
+© 2022 Norkart AS/Geovekst og kommunene/NASA, Meti © Mapbox © OpenStreetMap
+44,0
+66,0
+20,0
+14,0
+4,0
+4,0
+20,0
+2
+15,0
+34,0
+4,0
+4,0
+2
+4,0
+4,0
+4,0
+08.06.2023
+2023
+Eksisterende flytebrygge blir fjernet
+Snitt B
+Snitt B
+Formålsgrense
+Tromsø Havn Formålsgrense
+Dato:
+08.06.2023
+Målestokk: 1:500
+Koordinatsystem: UTM 33N
+Tegningsnr.
+A10-02
+Revisjon nr.
+Type tegning
+Formålsgrense
+Lokalisering:
+N
+$
+7731950
+Prosjekteringsgruppen
+•
+KreaHvita Interiør &
+Ringvegen 73
+ARK:
+9018 TROMSØ
+Byggkonsult
+Tlf.: +47 922 57 860
+hugo@kreahvita.no
+•
+KreaHvita Interiør &
+Ringvegen 73
+RIB:
+9018 TROMSØ
+Byggkonsult
+Tlf: +47 917 10 805
+trond@kreahvita.no
+•
+SØK:
+KreaHvita Interiør &
+Ringvegen 73
+9018 TROMSØ
+Byggkonsult
+Tlf: +47 917 10 805
+trond@kreahvita.no
+Fase
+Byggemelding
+KreaHvita
+INTERIØR & BYGGKONSULT
+S k a p e r r o m f o r
+u t v i k l i n g og
+g o d e o p p l e v e l s e r
+Tiltakshaver
+Tromsø Havn
+Prosjekt
+Ny Flytebrygge
+Stortorget
+9008 TROMSØ
+Godkjent
+Kontroll prosekt.
+Sign.
+Kontroll
+Filnavn
+Tromsø Havn revjuni
+In
+Dato
+21.4.2022
+Målestokk
+1:500, 1:1
+Kontroll utførende
+Gnr./Bnr./Festenr.:
+200 / 1762
+Rev.: C
+15.6.2023
+Sign.
+Kontroll
+Prosjektnr.:
+471/22
+Tegningsnr.:
+A10-02
+Type tegning:
+Formålsgrense
+Prosjektnr. for
+prosjekterende/lev.
