@@ -393,6 +393,7 @@ class InteractionHandler:
         #                                             {"role": "user", "content": f"{first_prompt} {text}"}])
         response = self.api_client.make_api_request([{"role": "system", "content": f"{self.temaer}. \n{self.nyhetsverdige_eksempler}"},
                                                      {"role": "user", "content": f"{first_prompt} {text}"}])
+        
         #time.sleep(1)
         #print('FIRST RESPONSE ---------->   ',response)
         # For å bare se på nutgraf trengs ikke dette under.

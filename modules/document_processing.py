@@ -2,7 +2,7 @@
 import fitz  # PyMuPDF
 import os
 from cache_manager import CacheManager
-from text_analysis import TextAnalysis
+from Annet.text_analysis import TextAnalysis
 from interaction_handler2 import InteractionHandler
 from utils import estimate_token_count
 from api_client import APIClient
@@ -10,7 +10,6 @@ from api_client import APIClient
 class DocumentProcessing:
     def __init__(self):
         self.cache_manager = CacheManager()
-        self.text_analysis = TextAnalysis()
         #self.interaction_handler = InteractionHandler()
         #self.estimate_token_count = estimate_token_count()
         self.api_client = APIClient()
