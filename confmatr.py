@@ -20,6 +20,7 @@ for entry in data2:
         else:
             y_true.append(0)  # True label: Ikke nyhetsverdig
             y_pred.append(1)  # Predicted label: Nyhetsverdig (FP)
+    #elif parts[0] == '1news':
     elif parts[0] == '4news':
         if parts[1] == 'Ikke nyhetsverdig':
             y_true.append(1)  # True label: Nyhetsverdig
