@@ -1,12 +1,15 @@
 # main.py
-from Annet.news_detector import NewsDetector
-from Annet.text_analysis import TextAnalysis
+from news_detector import NewsDetector
 from cache_manager import CacheManager
 from interaction_handler2 import InteractionHandler
 from api_client import APIClient
 from document_processing import DocumentProcessing
 import time
 import os
+import numpy as np
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 import json
 
 def main():
@@ -48,8 +51,8 @@ def main():
     accuracy_list = []
     total_acc_list = []
     # Example PDF file path - replace with your actual file path
-    folder = ['0news', '1news', '2news']
-    #folder = ['0news', '1news', '2news', '3news', '4news']
+    #folder = ['0news', '1news', '2news']
+    folder = ['3news', '4news']
     nummer = 0
     # Process document to extract text
     while nummer < 3: # Endre nummer for flere/færre gjennomganger per kjøring
@@ -116,7 +119,7 @@ def main():
         
         count_correct = 0
         count_incorrect = 0
-        '''
+        
         for j in newsworth_counter:
             if j == '3news - Ikke nyhetsverdig':
                 count_correct += 1
@@ -147,7 +150,7 @@ def main():
                 count_incorrect += 1
             else:
                 count_incorrect += 1
-                
+        '''
         total_count = count_incorrect + count_correct
         total_percent = str((count_correct/total_count)*100) + ' %'
         
@@ -158,7 +161,7 @@ def main():
         accuracy_list.append(str(nummer) + ' - ' + total_percent)
         
     print(accuracy_list)
-    '''
+    
     count_c1 = 0
     count_ic1 = 0
     for i in total_acc_list:
@@ -173,7 +176,6 @@ def main():
             else:
                 count_ic1 += 1
     '''
-    
     count_c1 = 0
     count_ic1 = 0
     for i in total_acc_list:
@@ -191,7 +193,7 @@ def main():
                 count_ic1 += 1
             else:
                 count_ic1 += 1
-                
+    '''
     last_total_count = count_c1 + count_ic1
     print('TOTALE VURDERINGER: ', len(total_acc_list), '\nTOTALT ANTALL RIKTIGE VURDERTE: ', count_c1, '\nTOTALT ANTALL FEILVURDERTE: ', count_ic1, '\nTOTAL ACCURACY: ', (count_c1/last_total_count)*100, '%')
     '''
@@ -207,6 +209,38 @@ def main():
     #analysis_result = text_analyzer.analyze_text(extracted_text)
     #print(f"Analysis Result: {analysis_result}")
     '''
+    # Konverter de tekstuelle beskrivelsene til numeriske klasser
+    y_true = []
+    y_pred = []
+
+    for entry in total_acc_list:
+        parts = entry.split(' - ')
+        #if parts[0] in ['0news', '2news']:
+        if parts[0] in '3news':
+            if parts[1] == 'Ikke nyhetsverdig':
+                y_true.append(0)  # True label: Ikke nyhetsverdig
+                y_pred.append(0)  # Predicted label: Ikke nyhetsverdig (TN)
+            else:
+                y_true.append(0)  # True label: Ikke nyhetsverdig
+                y_pred.append(1)  # Predicted label: Nyhetsverdig (FP)
+        elif parts[0] == '4news':
+            if parts[1] == 'Ikke nyhetsverdig':
+                y_true.append(1)  # True label: Nyhetsverdig
+                y_pred.append(0)  # Predicted label: Ikke nyhetsverdig (FN)
+            else:
+                y_true.append(1)  # True label: Nyhetsverdig
+                y_pred.append(1)
+
+    # Opprett forvirringsmatrisen
+    cm = confusion_matrix(y_true, y_pred)
+
+    # Plot forvirringsmatrisen med matplotlib og seaborn
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['Ikke nyhetsverdig', 'Nyhetsverdig'], yticklabels=['Ikke nyhetsverdig', 'Nyhetsverdig'])
+    plt.xlabel('Predicted')
+    plt.ylabel('True')
+    plt.title('Confusion Matrix')
+    plt.show() 
 
 if __name__ == "__main__":
     main()
