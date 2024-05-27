@@ -2,16 +2,11 @@
 import fitz  # PyMuPDF
 import os
 from cache_manager import CacheManager
-#from Annet.text_analysis import TextAnalysis
-from interaction_handler2 import InteractionHandler
-from utils import estimate_token_count
 from api_client import APIClient
 
 class DocumentProcessing:
     def __init__(self):
         self.cache_manager = CacheManager()
-        #self.interaction_handler = InteractionHandler()
-        #self.estimate_token_count = estimate_token_count()
         self.api_client = APIClient()
     
     def estimate_token_count(self, text):
@@ -58,49 +53,39 @@ class DocumentProcessing:
 
                 print(sum_count, f"Summarizing: {filename}")
                 summary = self.summarise_text(text)
-                #all_summaries += f"\nDocument: {filename}\n{summary}" # Kanskje se om denne kan køddes med
                 all_summaries += summary
                 sum_count += 1
-        #summ_summ = self.make_api_request([{"role": "user", "content": f"Reduce the length of this summary: {all_summaries}"}])
         print("="*20, "FINISHED", "="*20)
-        #print(len(all_summaries))
         self.cache_manager.cache_response(folder_path, all_summaries)
-        # Legg inn kall til categorize metode her, 
-        # for å få med vurdering om hvilke kategorier det er snakk om
-        #if len(all_summaries) > 20000:
-        #    chunked_summaries = self.chunk_summary(all_summaries)
-        #    return self.categorize(chunked_summaries)
-            #return self.handle_interaction(chunked_summaries)
-        #else:
+        
         return all_summaries
     
     def summarise_text(self, text):
         summary = ""
-        max_chunk_size = 1500  # Max tokens per chunk -- MÅ VÆRE 2000(?)
+        max_chunk_size = 1500  # Max tokener per chunk
         chunk_count = 1
         while text:
             print("Summarizing chunk:", chunk_count)
             token_count = self.estimate_token_count(text)
             if token_count <= max_chunk_size:
                 chunk = text
-                text = ""  # Clear the text as we're processing it all in this chunk
+                text = ""  # Fjern teksten fordi vi prosesserer alt i denne chunken
             else:
-                # Find the largest possible substring within token limit
+                # Finn største mulige sub-string i chunken.
                 chunk = text[:max_chunk_size]
-                cut_off_index = chunk.rfind('.') + 1  # Try to cut off at the last full sentence
+                cut_off_index = chunk.rfind('.') + 1  # Prøv å stoppe ved siste fulle setning.
                 if cut_off_index == 0:
-                    cut_off_index = text.rfind(' ', 0, max_chunk_size)  # If no period, cut off at the last space
+                    cut_off_index = text.rfind(' ', 0, max_chunk_size)  # Hvis det ikke finnes punktum, stopp ved siste mellomrom.
 
                 chunk = text[:cut_off_index].strip()
-                text = text[cut_off_index:].strip()  # Remaining text for next iteration
+                text = text[cut_off_index:].strip()  # Gjenværende tekst for neste iterasjon
 
-            #response = self.make_api_request([{"role": "user", "content": f"Summarize this in 3 sentences or less, mention the date of the document if it is mentioned: {chunk}"}], max_chunk_size)
             response = self.api_client.make_api_request([{"role": "user", "content": f"Summarize this: {chunk}"}])
 
             if response:
                 summary += response + "\n\n"
                 chunk_count += 1
             else:
-                break  # Exit the loop if there's no response
+                break  # Exit loopen om det ikke er respons.
         
         return summary.strip()

@@ -1,5 +1,4 @@
 # main.py
-from news_detector import NewsDetector
 from cache_manager import CacheManager
 from interaction_handler2 import InteractionHandler
 from api_client import APIClient
@@ -10,11 +9,9 @@ import numpy as np
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-import json
 
 def main():
-    news_detector = NewsDetector()
-    cache_manager = news_detector.cache_manager
+    cache_manager = CacheManager()
     api_client = APIClient()
     document_processing = DocumentProcessing()
 
@@ -92,25 +89,6 @@ def main():
                     print(newsworth_counter)
                     time.sleep(2)
 
-        calculate_fewshot = """Følgende prompt-og-respons par er hvordan dette skal evalueres.
-    Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke Nyhetsverdig', '2news - Ikke nyhetsverdig']
-    Respons: Det er totalt 30 vurderinger i listen. 22 riktig vurderte, og 8 feilvurderte. Accuracy blir da 22/30 = 73.3%
-    
-    Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Response: Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig']
-    Respons: Det er totalt 30 vurderinger i listen. 23 riktig vurderte, og 7 feilvurderte. Accuracy blir da 23/30 = 76.6%
-    
-    Prompt: ['0news - Ikke nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '0news - Ikke nyhetsverdig', '0news - Nyhetsverdig', '0news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Ikke nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '1news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Nyhetsverdig', '2news - Nyhetsverdig', '2news - Ikke nyhetsverdig', '2news - Ikke nyhetsverdig']
-    Respons: Det er totalt 30 vurderinger i listen. 20 riktig vurderte, og 10 feilvurderte. Accuracy blir da 20/30 = 66.6%
-    """
-        guide_fewshot = """Guide for hva som er riktig vurdering:
-        0news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
-        0news er vurdert feil om det står 'Nyhetsverdig' eller liknende.
-    
-        1news er vurdert riktig om det står 'Nyhetsverdig' eller liknende
-        1news er vurdert feil om det står 'Ikke nyhetsverdig' eller liknende.
-    
-        2news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
-        2news er vurdert feil om det står 'Nyhetsverdig' eller liknende."""
         '''
         count_correct = 0
         count_incorrect = 0

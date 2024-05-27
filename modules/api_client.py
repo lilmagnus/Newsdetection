@@ -9,7 +9,6 @@ class APIClient:
         openai.api_key = API_KEY
     
     def chunk_text(self, text, max_length=1500):
-        """Utility method to chunk text into smaller parts."""
         chunks = []
         while text:
             chunk = text[:max_length].rsplit(' ', 1)[0]
@@ -28,18 +27,18 @@ class APIClient:
                 )
                 return response['choices'][0]['message']['content']
             except Exception as e:
-                error_message = str(e) # Gjør bedre v
+                error_message = str(e)
                 if "maximum context length" in error_message:
-                    # Handle token limit error with chunking if the specific error message is detected.
-                    print("Handling token limit error by chunking...")
+                    # Håndter error med chunking hvis denne errormeldingen kommer.
+                    print("Håndterer token grense error med chunking...")
                     text = "".join(msg.get("content", "") for msg in messages if msg["role"] == "user")
                     chunks = self.chunk_text(text)
                     responses = [self.make_api_request([{"role": "user", "content": f"Summarize this: {chunk}"}]) for chunk in chunks]
                     print(responses)
                     return "\n".join(responses)
                 else:
-                    print(f"API request error: {error_message}. \nRetrying after {BACKOFF_TIME} seconds...")
+                    print(f"API request error: {error_message}. \nPrøver igjen etter {BACKOFF_TIME} sekunder...")
                     time.sleep(BACKOFF_TIME)
                 retry_count += 1
-        print("API request failed after maximum retries.")
+        print("API request feilet etter maksimum forsøk.")
         return None
