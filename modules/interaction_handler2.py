@@ -50,7 +50,6 @@ class InteractionHandler:
         - rutinemessig prosess
         - søknad om eiendomsutvikling
         - eiendomsutviklingsprosess
-        - adresseendringer på en hel gate
         - søknader sendt på grunn av minimal overskridelse av byggegrenser
         - diskusjon om byggegrenser
         - forespørsel om ferdigattest
@@ -79,6 +78,7 @@ class InteractionHandler:
         - Prosesser som virker å gå frem og tilbake med tillatelser og avslag over lengre tid
         - Avvik fra godkjente tegninger
         - Lovovertredelser
+        - adresseendringer på en hel gate
         - Lang historie med søknader om tillatelser
         - Store prosjekt der det nevnes å gjøre justeringer og endringer basert på tilbakemeldinger
         - Endringer som vil påvirke flere husstander, addresser eller nabolag

@@ -13,7 +13,6 @@ import seaborn as sns
 import json
 
 def main():
-    # Initialize the NewsDetector - assuming it might process a PDF to get text
     news_detector = NewsDetector()
     cache_manager = news_detector.cache_manager
     api_client = APIClient()
@@ -50,18 +49,17 @@ def main():
     newsworth_counter = []
     accuracy_list = []
     total_acc_list = []
-    # Example PDF file path - replace with your actual file path
-    #folder = ['0news', '1news', '2news']
-    folder = ['3news', '4news']
+
+    folder = ['0news', '1news', '2news']
+    #folder = ['3news', '4news']
     nummer = 0
-    # Process document to extract text
+    
     while nummer < 3: # Endre nummer for flere/færre gjennomganger per kjøring
         for j in folder:
             instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
                     Some of the texts youre given might not be clear immediately, some might look similar to this:
                     A text that is not newsworthy would write 'IKKE RELEVANT' at the end.
                     Newsworthy texts will give an explanation as to why it could be newsworthy."""
-            #for filename in os.listdir(folder_path):
             for filename in os.listdir(j):
                 print("="*20, filename.upper(), "="*20)
                 check_cache = cache_manager.get_cached_response(j+"/"+filename)
@@ -73,10 +71,7 @@ def main():
                         print(cache_categorize, '\nhalloien')
                     except IndexError:
                         print(cache_categorize, '\nheihei')
-                    #last_assessment = cache_categorize.splitlines()[-1]
-                    #last_assessment = cache_categorize.splitlines()
                     last_assessment = cache_categorize
-                    #print(last_assessment)
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? Se på vurderingen på siste linje. {last_assessment}"}])
                     newsworth_counter.append(str(j + ' - ' + count_assessment))
@@ -116,10 +111,10 @@ def main():
     
         2news er vurdert riktig om det står 'Ikke nyhetsverdig' eller liknende
         2news er vurdert feil om det står 'Nyhetsverdig' eller liknende."""
-        
+        '''
         count_correct = 0
         count_incorrect = 0
-        
+        # 3news og 4news
         for j in newsworth_counter:
             if j == '3news - Ikke nyhetsverdig':
                 count_correct += 1
@@ -132,9 +127,9 @@ def main():
             else:
                 count_incorrect += 1
         '''
-        
         count_correct = 0
         count_incorrect = 0
+        # 0news, 1news og 2news
         for j in newsworth_counter:
             if j == '0news - Ikke nyhetsverdig':
                 count_correct += 1
@@ -150,7 +145,7 @@ def main():
                 count_incorrect += 1
             else:
                 count_incorrect += 1
-        '''
+        
         total_count = count_incorrect + count_correct
         total_percent = str((count_correct/total_count)*100) + ' %'
         
@@ -161,9 +156,10 @@ def main():
         accuracy_list.append(str(nummer) + ' - ' + total_percent)
         
     print(accuracy_list)
-    
+    '''
     count_c1 = 0
     count_ic1 = 0
+    # 3news og 4news
     for i in total_acc_list:
             if i == '3news - Ikke nyhetsverdig':
                 count_c1 += 1
@@ -178,6 +174,7 @@ def main():
     '''
     count_c1 = 0
     count_ic1 = 0
+    # 0news, 1news og 2news
     for i in total_acc_list:
             if i == '0news - Ikke nyhetsverdig':
                 count_c1 += 1
@@ -193,43 +190,32 @@ def main():
                 count_ic1 += 1
             else:
                 count_ic1 += 1
-    '''
+    
     last_total_count = count_c1 + count_ic1
     print('TOTALE VURDERINGER: ', len(total_acc_list), '\nTOTALT ANTALL RIKTIGE VURDERTE: ', count_c1, '\nTOTALT ANTALL FEILVURDERTE: ', count_ic1, '\nTOTAL ACCURACY: ', (count_c1/last_total_count)*100, '%')
-    '''
-    #calc_acc = api_client.make_api_request([{"role": "system", "content": f"{guide_fewshot}"},
-    #                                        {"role": "user", "content": f"{calculate_fewshot} \n{newsworth_counter}"}])
-    #print(calc_acc)
-    #request_vurdering = api_client.make_api_request([{"role": "system", "content": f"{vurdering_telling_fewshot}"},
-    #                                                 {"role": "user", "content": f"Det skal være 30 vurderinger i listen. 9 tilhørende 0news, 15 tilhørende 1news, og 6 tilhørende 2news. Regn ut accuracy i prosent på denne listen med vurderinger og tilhørende mappe. Alle vurderinger tilhørende 0news må være vurdert som 'Ikke nyhetsverdig' for å være riktig, alle vurderinger tilhørende 1news må være 'Nyhetsverdig' for å være riktig, og alle vurderinger tilhørende 2news må være 'Ikke nyhetsverdige' for å være riktige. Dette er lista: {newsworth_counter}"}])
-    #print("Accuracy score:\n", request_vurdering)
-    
-    # Initialize TextAnalysis for further analysis on the extracted text
-    #text_analyzer = TextAnalysis()
-    #analysis_result = text_analyzer.analyze_text(extracted_text)
-    #print(f"Analysis Result: {analysis_result}")
-    '''
+
     # Konverter de tekstuelle beskrivelsene til numeriske klasser
     y_true = []
     y_pred = []
 
     for entry in total_acc_list:
         parts = entry.split(' - ')
-        #if parts[0] in ['0news', '2news']:
-        if parts[0] in '3news':
+        if parts[0] in ['0news', '2news']:
+        #if parts[0] in '3news':
             if parts[1] == 'Ikke nyhetsverdig':
                 y_true.append(0)  # True label: Ikke nyhetsverdig
                 y_pred.append(0)  # Predicted label: Ikke nyhetsverdig (TN)
             else:
                 y_true.append(0)  # True label: Ikke nyhetsverdig
                 y_pred.append(1)  # Predicted label: Nyhetsverdig (FP)
-        elif parts[0] == '4news':
+        elif parts[0] == '1news':
+        #elif parts[0] == '4news':
             if parts[1] == 'Ikke nyhetsverdig':
                 y_true.append(1)  # True label: Nyhetsverdig
                 y_pred.append(0)  # Predicted label: Ikke nyhetsverdig (FN)
             else:
                 y_true.append(1)  # True label: Nyhetsverdig
-                y_pred.append(1)
+                y_pred.append(1)  # Predicted label: Nyhetsverdig (TP)
 
     # Opprett forvirringsmatrisen
     cm = confusion_matrix(y_true, y_pred)
