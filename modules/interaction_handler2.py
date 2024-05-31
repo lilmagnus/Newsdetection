@@ -126,37 +126,45 @@ class InteractionHandler:
     def process_section(self, section, text):
         ident_prompt = section["identifisering"]["prompt"]
         regler = """"""
-        if ident_prompt == "Er dette et stort prosjekt?":
+        if ident_prompt == "Tenk ut høyt steg for steg og resonner. Er dette et stort prosjekt?":
             regler += self.large_project_definition
-        elif ident_prompt == "Er det mer enn 15 administrative korrespondanser i den gitte teksten?":
+        elif ident_prompt == "Tenk ut høyt steg for steg og resonner. Er det indikasjoner i denne teksten som sier at dette er et administrativt dokument?":
             regler += self.admin_definition
         
         first_response = self.api_client.make_api_request([{"role": "system", "content": f"Hold svaret ditt til maksimum 50 ord. Følg disse reglene når du vurderer dokumentet: {regler}"},
                                                            {"role": "user", "content": f"Maks 50 ord. {ident_prompt} {text}"}])
 
-        time.sleep(2)
-
-        f_resp = self.map_to_binary(first_response)
+        summert_first = self.api_client.make_api_request([{"role": "user", "content": f"Gi et kort og klart svar. Sier teksten 'ja' eller 'nei' i bunn og grunn?"}])
+        time.sleep(1)
+        f_resp = self.map_to_binary(summert_first)
+        #f_resp = self.map_to_binary(first_response)
         
         responses = [first_response]
+        forrige_prompt = ""
 
         if f_resp.strip().lower() in section["identifisering"]["responses"][f_resp.strip().lower()]:
             decision = section["identifisering"]["responses"][f_resp.strip().lower()]
             if "ja" in decision:
                 for prompt_key in section["ja"]:
                     prompt = section["ja"][prompt_key]
-                    response = self.api_client.make_api_request([{"role": "system", "content": "Hold svaret ditt til maksimum 50 ord."},
-                                                                 {"role": "user", "content": f"{prompt} {text}"}])
+                    #response = self.api_client.make_api_request([{"role": "system", "content": "Hold svaret ditt til maksimum 50 ord."},
+                    #                                             {"role": "user", "content": f"{prompt} {text}"}])
+                    response = self.api_client.make_api_request([{"role": "user", "content": f"{prompt} {forrige_prompt} \n{text}"}])
+                    
+                    forrige_prompt += response
                     responses.append(response)
             elif "nei" in decision:
-                print("IKKE RELEVANT, MOVING ON...")
-                konkat_svar = str(ident_prompt) + " ...nei, ikke relevant..."
-                responses = [konkat_svar]
-                return responses
+                for prompt_key in section["nei"]:
+                    prompt = section["nei"][prompt_key]
+                    #response = self.api_client.make_api_request([{"role": "system", "content": "Hold svaret ditt til maksimum 50 ord."},
+                    #                                             {"role": "user", "content": f"{prompt} {text}"}])
+                    response = self.api_client.make_api_request([{"role": "user", "content": f"{prompt} {text}"}])
+                    
+                    responses.append(response)
         
         # En siste gjennomgang og sjekk av temaer
-        mest_relevant_tema = self.api_client.make_api_request([{"role": "user", "content": f"Maks 20 ord. Av de identifiserte temaene, hvilket er det mest relevante i teksten? TEMAER: {responses} \nTEKST: {text}"}])
-        return ident_prompt + '\n' + mest_relevant_tema
+        tema_oppsummering = self.api_client.make_api_request([{"role": "user", "content": f"Maks 50 ord. Oppsummer det som blir sagt her: {responses}"}]) #  \nTEKST: {text}
+        return ident_prompt + '\n' + tema_oppsummering
 
     def handle_interaction(self, original_text):
 
@@ -170,7 +178,7 @@ class InteractionHandler:
         # Step 1: Identifiser kategorier, og spør mer detaljer rundt
         details_large_project = self.process_section(self.combined_prompts["large_project"], original_text)
         print(str(details_large_project),'\n')
-        time.sleep(2)
+        time.sleep(1)
         
         details_admin = self.process_section(self.combined_prompts["administrative"], original_text)
         print(str(details_admin),'\n')

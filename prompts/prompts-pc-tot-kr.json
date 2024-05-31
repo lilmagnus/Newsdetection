@@ -1,0 +1,66 @@
+{
+    "large_project": {
+        "identifisering": {
+            "prompt": "Tenk ut høyt steg for steg og resonner. Er dette et stort prosjekt?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Tenk ut høyt steg for steg og resonner. Hva er de mulige årsakene til at dette kan være et stort prosjekt? Vurder økonomiske, logistiske og tidsmessige aspekter.",
+            "prompt2": "Vurder alle mulige årsaker og risikoer du identifiserte i forrige prompt. Hva er de mest sannsynlige scenariene?",
+            "prompt3": "Tenk ut høyt steg for steg og resonner. Er det konstruksjon av et hotell, fabrikk, annet næringsdrivende bygg, leilighetskompleks, eller enebolig? Vurder alle alternativer og se om noen utelukker de andre.",
+            "prompt4": "Samle alle mulige resonnementer og vurder deres sannsynlighet. Hvilke alternativer er mest sannsynlige basert på tilgjengelig informasjon?"
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant.",
+            "prompt1": "Kan det være at prosjektet ikke passer inn i noen av de forhåndsdefinerte kategoriene? Vurder alternative forklaringer.",
+            "prompt2": "Er det noen skjulte aspekter som kan gjøre prosjektet større enn først antatt? Tenk ut høyt steg for steg."
+        }
+    },
+    "administrative": {
+        "identifisering": {
+            "prompt": "Tenk ut høyt steg for steg og resonner. Er det indikasjoner i denne teksten som sier at dette er et administrativt dokument?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Tenk ut høyt steg for steg og resonner. Hvilke indikasjoner finnes det på at dette er korrespondanse om dispensasjon, byggetillatelse, eiendomsutvikling eller forespørsel om ferdigattest? Vurder alle muligheter samtidig og sammenlign deres sannsynlighet.",
+            "prompt2": "Tenk ut høyt steg for steg og resonner. Hvilke indikasjoner finnes det på at dette er korrespondanse som kan indikere lovbrudd, avvik fra godkjente planer, husly for flyktninger eller store endringer i hvordan et bygg skal brukes? Vurder alle muligheter samtidig og sammenlign deres sannsynlighet. Maks 50 ord.",
+            "prompt3": "Samle alle mulige resonnementer og vurder deres sannsynlighet. Hvilke alternativer er mest sannsynlige basert på tilgjengelig informasjon? Maks 50 ord."
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant.",
+            "prompt1": "Kan det være at dokumentet ikke passer inn i noen av de forhåndsdefinerte kategoriene? Vurder alternative forklaringer.",
+            "prompt2": "Er det noen skjulte aspekter som kan gjøre dokumentet administrativt viktigere enn først antatt? Tenk ut høyt steg for steg."
+        }
+    },
+    "nutsgraf": {
+        "nutshell": {
+            "prompt": "Skriv et nutshell paragraf på teksten gitt på maks 2 setninger. En nutshell paragraf skal fange hovedtemaet i en tekst."
+        }
+    },
+    "assessment": {
+        "identifisering": {
+            "prompt": "Se på all informasjonen presentert med kritiske øyne. Tenk ut høyt og gi en kritisk resonnering for svaret ditt. Ville du brukt din dyrebare tid på å skrive utforske om det kan hentes ut nyhetsverdi? Dokumenter som ikke kommer fra Tromsø kommune eller omegn er automatisk irrelevante."
+        }
+    },
+    "reassess": {
+        "identifisering": {
+            "prompt": "Vær kritisk og resonner steg for steg. Er dette virkelig noe som en journalist burde bruke sin tid på? Foregår dette virkelig i Tromsø kommune eller omegn?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Se kritisk på vurderingen og teksten i sin helhet en gang til og resonner. Se på retiningslinjene og vurder om teksten stemmer opp mot dem. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+        },
+        "nei": {
+            "prompt": "Se kritisk på vurderingen og teksten i sin helhet en gang til og resonner. Se på retiningslinjene og vurder om teksten stemmer opp mot dem. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+        }
+    }
+}

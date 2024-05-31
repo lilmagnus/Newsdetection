@@ -1,0 +1,95 @@
+{
+    "large_project": {
+        "identifisering": {
+            "prompt": "Tenk høyt og vurder om det er noen indikasjon i denne teksten på at det handler om et stort prosjekt. Forklar hvorfor eller hvorfor ikke.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei.",
+                "siste": "siste"
+            }
+        },
+        "ja": {
+            "prompt1": "Hva i teksten indikerer at det kan være konstruksjon av et hotell? Gi en kort begrunnelse.",
+            "prompt2": "Hva i teksten tyder på at det handler om en fabrikk eller et annet næringsdrivende bygg? Gi en kort begrunnelse.",
+            "prompt3": "Er det noe som indikerer at det er et leilighetskompleks med mer enn 5 leiligheter? Gi en kort begrunnelse.",
+            "prompt4": "Er det indikasjoner på at dette er en enebolig? Gi en kort begrunnelse.",
+            "prompt5": "Er det korrespondanse frem og tilbake som kan indikere at det er snakk om et større prosjekt? Forklar kort."
+        },
+        "nei": {
+            "prompt": "Tenk høyt og forklar hvorfor du mener teksten ikke indikerer et stort prosjekt."
+        }
+    },
+    "public_safety": {
+        "identifisering": {
+            "prompt": "Er det noen indikasjoner i denne teksten på bekymring for offentlig sikkerhet? Tenk høyt og vurder nøye.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Beskriv kort om det er snakk om generell Helse Miljø Sikkerhet (HMS) for arbeidere.",
+            "prompt2": "Beskriv kort om det er fare for at sivile liv kan gå tapt.",
+            "prompt3": "Beskriv kort om det nevnes risiko for naturlige katastrofer."
+        },
+        "nei": {
+            "prompt": "Tenk høyt og forklar hvorfor du mener teksten ikke indikerer bekymring for offentlig sikkerhet."
+        }
+    },
+    "administrative": {
+        "identifisering": {
+            "prompt": "Er det noe i denne teksten som indikerer at det er et administrativt dokument? Tenk høyt og vurder nøye.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt1": "Er det korrespondanse som indikerer søknad om dispensasjon, byggetillatelse, eiendomsutvikling eller forespørsel om ferdigattest? Gi en kort begrunnelse.",
+            "prompt2": "Er det korrespondanse som kan indikere lovbrudd, avvik fra godkjente planer, husly for flyktninger eller store endringer i hvordan et bygg skal brukes? Gi en kort begrunnelse."
+        },
+        "nei": {
+            "prompt": "Tenk høyt og forklar hvorfor du mener teksten ikke indikerer et administrativt dokument."
+        }
+    },
+    "final_check": {
+        "resonnering": {
+            "prompt": "Tenk høyt og kritisk. Synes du virkelig at temaet som er vurdert som mest relevant for teksten er nevneverdig basert på de reglene du har fått? Gi en kort begrunnelse på maks 30 ord."
+        }
+    },
+    "nutsgraf": {
+        "nutshell": {
+            "prompt": "Skriv en kort oppsummering av teksten. Maks 2 setninger."
+        }
+    },
+    "assessment": {
+        "identifisering": {
+            "prompt": "Se på de identifiserte kategoriene i teksten. Vurder om informasjonen er av stor betydning for å bestemme relevansen av dokumentet. Basert på disse kategoriene, er det verdt å vie tid til for lokalavisa iTromsø? Maks 50 ord.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Gi en kritisk begrunnelse for hvorfor du mener dette. Husk at det er lov å ombestemme seg. Maks 50 ord."
+        },
+        "nei": {
+            "prompt": "Gi en kritisk begrunnelse for hvorfor du mener dette. Husk at det er lov å ombestemme seg. Maks 50 ord."
+        }
+    },
+    "reassess": {
+        "identifisering": {
+            "prompt": "Vurder om teksten virkelig er relevant for en journalist i lokalavisa iTromsø. Gå gjennom teksten steg for steg, tenk høyt og forklar vurderingene dine.",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Vurder følgende analyse (innkapslet i ###) av teksten (innkapslet i ///) kritisk i lys av retningslinjene for nyhetsverdige byggesaker. Bruk kriteriene fra retningslinjene til å vurdere gyldigheten og relevansen av analysen. Gi detaljerte eksempler og forklaringer som støtter vurderingen, og gi en siste avgjørende vurdering."
+        },
+        "nei": {
+            "prompt": "Vurder følgende analyse (innkapslet i ###) av teksten (innkapslet i ///) kritisk i lys av retningslinjene for nyhetsverdige byggesaker. Bruk kriteriene fra retningslinjene til å vurdere gyldigheten og relevansen av analysen. Gi detaljerte eksempler og forklaringer som støtter vurderingen, og gi en siste avgjørende vurdering."
+        }
+    }
+}

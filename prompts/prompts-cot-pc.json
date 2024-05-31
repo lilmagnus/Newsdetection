@@ -1,0 +1,108 @@
+{
+    "large_project": {
+        "identifisering": {
+            "prompt": "Tenk ut høyt steg for steg og resonner. Er dette et stort prosjekt?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt_chain": [
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det snakk om konstruksjon av et hotell?",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                },
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det fabrikk eller annet næringsdrivende bygg?",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                },
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det leilighetskompleks med mer enn 5 leiligheter? Hvis denne kategorien vurderes som riktig og passende, kan ikke enebolig være sann.",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                },
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det enebolig? Hvis denne kategorien vurderes som riktig og passende, kan ikke leilighetskompleks være sann.",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                },
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det korrespondanse frem og tilbake om et prosjekt som kan indikere at det er snakk om et større prosjekt?",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                }
+            ]
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
+        }
+    },
+    "administrative": {
+        "identifisering": {
+            "prompt": "Tenk ut høyt steg for steg og resonner. Er det indikasjoner i denne teksten som sier at dette er et administrativt dokument?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt_chain": [
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det korrespondanse frem og tilbake som indikerer at det er søknad om dispensasjon, byggetillatelse, eiendomsutvikling eller forespørsel om ferdigattest? Maks 50 ord.",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                },
+                {
+                    "prompt": "Tenk ut høyt steg for steg og resonner. Er det korrespondanse som kan indikere lovbrudd, avvik fra godkjente planer, husly for flyktninger eller store endringer i hvordan et bygg skal brukes? Maks 50 ord.",
+                    "responses": {
+                        "ja.": "ja.",
+                        "nei.": "nei."
+                    }
+                }
+            ]
+        },
+        "nei": {
+            "prompt": "Bruk 50 ord på å forklare hvorfor det ikke er relevant."
+        }
+    },
+    "nutsgraf": {
+        "nutshell": {
+            "prompt": "Skriv et nutshell-paragraf på teksten gitt på maks 2 setninger. En nutshell-paragraf skal fange hovedtemaet i en tekst."
+        }
+    },
+    "assessment": {
+        "identifisering": {
+            "prompt": "Se på all informasjonen presentert med kritiske øyne. Tenk ut høyt og gi en kritisk resonnering for svaret ditt. Ville du brukt din dyrebare tid på å utforske om det kan hentes ut nyhetsverdi? Dokumenter som ikke kommer fra Tromsø kommune eller omegn er automatisk irrelevante."
+        }
+    },
+    "reassess": {
+        "identifisering": {
+            "prompt": "Vær kritisk og resonner steg for steg. Er dette virkelig noe som en journalist burde bruke sin tid på? Foregår dette virkelig i Tromsø kommune eller omegn?",
+            "responses": {
+                "ja.": "ja.",
+                "nei.": "nei."
+            }
+        },
+        "ja": {
+            "prompt": "Se kritisk på vurderingen og teksten i sin helhet en gang til og resonner. Se på retningslinjene og vurder om teksten stemmer opp mot dem. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+        },
+        "nei": {
+            "prompt": "Se kritisk på vurderingen og teksten i sin helhet en gang til og resonner. Se på retningslinjene og vurder om teksten stemmer opp mot dem. Bare fordi dokumentet finner sted i Tromsø kommune betyr det ikke at det er lurt å vie tid til å skrive en nyhetssak om."
+        }
+    }
+}

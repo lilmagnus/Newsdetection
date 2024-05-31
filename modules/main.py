@@ -15,7 +15,7 @@ def main():
     api_client = APIClient()
     document_processing = DocumentProcessing()
 
-    prompts = '../prompts/prompts10.json'
+    prompts = '../prompts/prompts-cot.json'
     vurdering_fewshot = """DET SKAL KUN SVARES MED 'NYHETSVERDIG' ELLER 'IKKE NYHETSVERDIG', SOM EKSEMPLENE UNDER VISER.
     Prompt: Hva er denne teksten vurdert som? Basert på gjennomgangen av dokumentet og analysen av nyhetsverdien, er konklusjonen at dette ikke er nyhetsverdig.
     Response: Ikke nyhetsverdig
@@ -47,16 +47,12 @@ def main():
     accuracy_list = []
     total_acc_list = []
 
-    folder = ['0news', '1news', '2news']
-    #folder = ['3news', '4news']
+    #folder = ['0news', '1news', '2news']
+    folder = ['3news', '4news']
     nummer = 0
     
     while nummer < 3: # Endre nummer for flere/færre gjennomganger per kjøring
         for j in folder:
-            instructions_calculation = f"""The proper way of answering this is: "{j} - NOT NEWSWORTHY" OR "{j} - NEWSWORTHY". 
-                    Some of the texts youre given might not be clear immediately, some might look similar to this:
-                    A text that is not newsworthy would write 'IKKE RELEVANT' at the end.
-                    Newsworthy texts will give an explanation as to why it could be newsworthy."""
             for filename in os.listdir(j):
                 print("="*20, filename.upper(), "="*20)
                 check_cache = cache_manager.get_cached_response(j+"/"+filename)
@@ -65,9 +61,9 @@ def main():
                 if check_cache is not None:
                     cache_categorize = general_interaction.handle_interaction(check_cache)
                     try:
-                        print(cache_categorize, '\nhalloien')
+                        print(cache_categorize)
                     except IndexError:
-                        print(cache_categorize, '\nheihei')
+                        print(cache_categorize, '\nERROR')
                     last_assessment = cache_categorize
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
                                                                     {"role": "user", "content": f"Hva er denne teksten vurdert som? Se på vurderingen på siste linje. {last_assessment}"}])
@@ -78,9 +74,9 @@ def main():
                     process_document = document_processing.summarise_individual_documents(j+"/"+filename)
                     fresh_categorized = general_interaction.handle_interaction(process_document)
                     try:
-                        print(fresh_categorized, '\nhalloien')
+                        print(fresh_categorized)
                     except IndexError:
-                        print(fresh_categorized, '\nheihei')
+                        print(fresh_categorized, '\nERROR')
                     
                     last_assessment = fresh_categorized
                     count_assessment = api_client.make_api_request([{"role": "system", "content": f"{vurdering_fewshot}"},
@@ -89,7 +85,7 @@ def main():
                     print(newsworth_counter)
                     time.sleep(2)
 
-        '''
+        
         count_correct = 0
         count_incorrect = 0
         # 3news og 4news
@@ -123,7 +119,7 @@ def main():
                 count_incorrect += 1
             else:
                 count_incorrect += 1
-        
+        '''
         total_count = count_incorrect + count_correct
         total_percent = str((count_correct/total_count)*100) + ' %'
         
@@ -134,7 +130,7 @@ def main():
         accuracy_list.append(str(nummer) + ' - ' + total_percent)
         
     print(accuracy_list)
-    '''
+    
     count_c1 = 0
     count_ic1 = 0
     # 3news og 4news
@@ -168,7 +164,7 @@ def main():
                 count_ic1 += 1
             else:
                 count_ic1 += 1
-    
+    '''
     last_total_count = count_c1 + count_ic1
     print('TOTALE VURDERINGER: ', len(total_acc_list), '\nTOTALT ANTALL RIKTIGE VURDERTE: ', count_c1, '\nTOTALT ANTALL FEILVURDERTE: ', count_ic1, '\nTOTAL ACCURACY: ', (count_c1/last_total_count)*100, '%')
 
@@ -178,16 +174,16 @@ def main():
 
     for entry in total_acc_list:
         parts = entry.split(' - ')
-        if parts[0] in ['0news', '2news']:
-        #if parts[0] in '3news':
+        #if parts[0] in ['0news', '2news']:
+        if parts[0] in '3news':
             if parts[1] == 'Ikke nyhetsverdig':
                 y_true.append(0)  # True label: Ikke nyhetsverdig
                 y_pred.append(0)  # Predicted label: Ikke nyhetsverdig (TN)
             else:
                 y_true.append(0)  # True label: Ikke nyhetsverdig
                 y_pred.append(1)  # Predicted label: Nyhetsverdig (FP)
-        elif parts[0] == '1news':
-        #elif parts[0] == '4news':
+        #elif parts[0] == '1news':
+        elif parts[0] == '4news':
             if parts[1] == 'Ikke nyhetsverdig':
                 y_true.append(1)  # True label: Nyhetsverdig
                 y_pred.append(0)  # Predicted label: Ikke nyhetsverdig (FN)
